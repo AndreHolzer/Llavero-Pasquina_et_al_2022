@@ -1,0 +1,739 @@
+---
+title: "Bioinformatic analysis supporting Liavero-Pasquina et al. 2021"
+author: "by [Andre Holzer](http://orcid.org/0000-0003-2439-6364), Univeristy of Cambridge, United Kingdom"
+date: "20.04.2021"
+output: FALSE
+---
+
+# Initiation
+## Installation & loading of required R packages
+```{r}
+list.of.packages = c("tidyverse","knitr","Biostrings","rhmmer")
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages) > 0) {install.packages(new.packages)}
+lapply(list.of.packages, require, character.only=T) 
+
+# set working directory
+setwd("./TPP_aptamer_search")
+
+# define genomes 
+# small set
+#genomes <- c("Cyclotella_cryptica_Cyccr1","Fistulifera_solaris_Fsol_1.0","Fragilariopsis_cylindrus_Fracy1","Phaeodactylum_tricornutum_ASM15095v2","Pseudo-nitzschia_multiseries_Psemu1","Pseudo-nitzschia_multistriata_ASM90066040v1","Seminavis_robusta_version1.2", "Synedra_acus_sac1", "Thalassiosira_oceanica_ThaOc_1.0", "Thalassiosira_pseudonana_ASM14940v2")
+
+# full set
+genomes <- c("Fragilariopsis_cylindrus_Fracy1","Nitzschia_putrida_Nputr_1.0","Nitzschia_sp_Nitz4","Pseudo-nitzschia_multiseries_Psemu1","Pseudo-nitzschia_multistriata_ASM90066040v1","Halamphora_sp_MG8b","Halamphora_sp_AAB","Fistulifera_solaris_Fsol_1.0","Seminavis_robusta_version1.2","Phaeodactylum_tricornutum_ASM15095v2","Cyclotella_cryptica_Cyccr1","Cyclotella_cryptica_ASM1318728v1","Thalassiosira_oceanica_ThaOc_1.0", "Thalassiosira_pseudonana_ASM14940v2","Asterionella_formosa_ASM225602v1","Asterionellopsis_glacialis_ASM1488511v2","Synedra_acus_sac1","Licmophora_abbreviata_CCMP470","Psammoneis_japonica_ASM863298v1","Bacillariophyta_sp_ASM1036716v1","Bacillariophyta_sp_ASM1036717v1","Bacillariophyta_sp_ASM1329908v1")
+
+## gene set (full)
+geneset <- c("iscS","thiF","thiI","dxs","thiH","thiO","thiG","tenI","thiM","THI6","THI4","thi4","THI20","thiD","thiDE","thiDN","thiC","THI5","thiE","thiN","thiL","NTPCR","rsgA","adk","THTPA","phoA","PHO","PHO5_11_12","ACP1","TH2","thiK","TPK1","TENA_E","ylmB","tenA","E2.5.1.2")
+
+# gene set (short)
+geneset <- c("ThiC","Thi5","Thi5-like","SSSP","TH1","THIO","THIS","THIF","DXS","THIG","TPK1","FOLR","Thi4","ThiM","TENA")
+
+## for 2021-02-02_thiamine_biosynthesis_peptide_queries (old)
+# geneset <- c("PtTHIC","PtNMT1","PtTH1","PtDXS","PtTHIS","PtTHIF","PtTHIO","PtTHIG","PtTPK","PtSSSP","FsFOLR","CrTHI4"))) 
+
+
+```
+
+## Install/update or activate conda envirnoment
+```{bash}
+# install
+conda env create -f conda_env.yaml
+# or
+conda env create -f conda_env_busco.yaml
+
+# update 
+conda env update -f conda_env.yaml
+# or
+conda env update -f conda_env_busco.yaml
+
+# activate
+conda activate Liavero-Pasquina_2021
+# or 
+conda activate Liavero-Pasquina_2021_2
+```
+
+## Adjust fasta and gff3 headers of if needed
+```{bash}
+# adjust fasta headers of genome files if needed
+awk 'NR==1{$0=$0"| ASSEMBLYNAME"}1' file.fasta > file.fna
+
+# delete all lines beginning with a # from gff files and save as gff3
+sed '/^#/d' file.gff > file.gff3
+rm file.gff
+
+## combine fasta files to Diatom_database fasta
+#cat *.fna > Diatom-database.fasta.tmp
+
+# correct fasta headers by replacing dots
+sed 's/\./_/g' file.fasta > file.fna
+rm file.fasta.tmp
+```
+
+## Calculate genome completness (BUSCOs)
+```{bash}
+GENOMES=('Fragilariopsis_cylindrus_Fracy1' 'Nitzschia_sp_Nitz4' 'Pseudo-nitzschia_multiseries_Psemu1' 'Pseudo-nitzschia_multistriata_ASM90066040v1' 'Halamphora_sp_MG8b' 'Halamphora_sp_AAB' 'Fistulifera_solaris_Fsol_1.0' 'Seminavis_robusta_version1.2' 'Phaeodactylum_tricornutum_ASM15095v2' 'Cyclotella_cryptica_Cyccr1' 'Cyclotella_cryptica_ASM1318728v1' 'Thalassiosira_oceanica_ThaOc_1.0'  'Thalassiosira_pseudonana_ASM14940v2' 'Asterionella_formosa_ASM225602v1' 'Asterionellopsis_glacialis_ASM1488511v2' 'Synedra_acus_sac1' 'Licmophora_abbreviata_CCMP470' 'Psammoneis_japonica_ASM863298v1' 'Bacillariophyta_sp_ASM1036716v1' 'Bacillariophyta_sp_ASM1036717v1' 'Bacillariophyta_sp_ASM1329908v1')
+ 
+# calculate genome completness 
+for genome in "${GENOMES[@]}"
+do
+busco -m geno -i genomes/${genome}/*.fna -o ${genome} --out_path genomes/BUSCO_eukaryota_obd10 -l eukaryota_odb10
+done
+#stramenopiles_odb10 
+
+## plot BUSCO summary
+# python3 tools/busco-master/scripts/generate_plot.py -wd /home/ah830/PhD-thesis/Analysis/Chapter4/BUSCO_analysis/BUSCO_summary/
+
+```
+# Identification of thiamine biosynthesis genes
+## Generate BLAST database for diatom genomes
+```{bash}
+#GENOMES=('Cyclotella_cryptica_Cyccr1' 'Fistulifera_solaris_Fsol_1.0' 'Fragilariopsis_cylindrus_Fracy1' 'Phaeodactylum_tricornutum_ASM15095v2' 'Pseudo-nitzschia_multiseries_Psemu1' 'Pseudo-nitzschia_multistriata_ASM90066040v1' 'Seminavis_robusta_version1.2' 'Synedra_acus_sac1' 'Thalassiosira_oceanica_ThaOc_1.0' 'Thalassiosira_pseudonana_ASM14940v2')
+
+GENOMES=('Fragilariopsis_cylindrus_Fracy1' 'Nitzschia_putrida_Nputr_1.0' 'Nitzschia_sp_Nitz4' 'Pseudo-nitzschia_multiseries_Psemu1' 'Pseudo-nitzschia_multistriata_ASM90066040v1' 'Halamphora_sp_MG8b' 'Halamphora_sp_AAB' 'Fistulifera_solaris_Fsol_1.0' 'Seminavis_robusta_version1.2' 'Phaeodactylum_tricornutum_ASM15095v2' 'Cyclotella_cryptica_Cyccr1' 'Cyclotella_cryptica_ASM1318728v1' 'Thalassiosira_oceanica_ThaOc_1.0'  'Thalassiosira_pseudonana_ASM14940v2' 'Asterionella_formosa_ASM225602v1' 'Asterionellopsis_glacialis_ASM1488511v2' 'Synedra_acus_sac1' 'Licmophora_abbreviata_CCMP470' 'Psammoneis_japonica_ASM863298v1' 'Bacillariophyta_sp_ASM1036716v1' 'Bacillariophyta_sp_ASM1036717v1' 'Bacillariophyta_sp_ASM1329908v1')
+ 
+# build BLAST databases 
+for genome in "${GENOMES[@]}"
+do
+  makeblastdb -in genomes/${genome}/*.fna -parse_seqids -title ${genome}-database -dbtype nucl 2> logs/generate-blast-database_${genome}.log
+done
+```
+
+## tBLASTN analysis
+```{bash}
+#GENOMES=('Cyclotella_cryptica_Cyccr1' 'Fistulifera_solaris_Fsol_1.0' 'Fragilariopsis_cylindrus_Fracy1' 'Phaeodactylum_tricornutum_ASM15095v2' 'Pseudo-nitzschia_multiseries_Psemu1' 'Pseudo-nitzschia_multistriata_ASM90066040v1' 'Seminavis_robusta_version1.2' 'Synedra_acus_sac1' 'Thalassiosira_oceanica_ThaOc_1.0' 'Thalassiosira_pseudonana_ASM14940v2')
+
+GENOMES=('Fragilariopsis_cylindrus_Fracy1' 'Nitzschia_putrida_Nputr_1.0' 'Nitzschia_sp_Nitz4' 'Pseudo-nitzschia_multiseries_Psemu1' 'Pseudo-nitzschia_multistriata_ASM90066040v1' 'Halamphora_sp_MG8b' 'Halamphora_sp_AAB' 'Fistulifera_solaris_Fsol_1.0' 'Seminavis_robusta_version1.2' 'Phaeodactylum_tricornutum_ASM15095v2' 'Cyclotella_cryptica_Cyccr1' 'Cyclotella_cryptica_ASM1318728v1' 'Thalassiosira_oceanica_ThaOc_1.0'  'Thalassiosira_pseudonana_ASM14940v2' 'Asterionella_formosa_ASM225602v1' 'Asterionellopsis_glacialis_ASM1488511v2' 'Synedra_acus_sac1' 'Licmophora_abbreviata_CCMP470' 'Psammoneis_japonica_ASM863298v1' 'Bacillariophyta_sp_ASM1036716v1' 'Bacillariophyta_sp_ASM1036717v1' 'Bacillariophyta_sp_ASM1329908v1')
+
+for genome in "${GENOMES[@]}"
+do
+  tblastn -db genomes/${genome}/*.fna -query queries/2021-04-13_thiamine_biosynthesis_peptide_queries_short-list.fsa -out BLAST_results/tBLASTn_thiamine-biosynthesis_vs_${genome}_short.out -outfmt '6' -max_hsps 1 -max_target_seqs 1
+done
+```
+
+## summarise tBLASTN results
+```{r}
+# select gene set
+set <- "full" # "full"
+
+# initialise dataframe
+all_tBLASTN <- data_frame()
+
+# loop over all genomes
+for (genome in genomes) {
+  # Load BLAST data 
+  tBLASTN <- read_tsv(str_c("TPP_aptamer_search/BLAST_results/tBLASTn_thiamine-biosynthesis_vs_",genome,"_",set,".out"), col_names = c("QueryId","SubjectId", "Identity(%)", "Length", "Mismatches", "Gap_opens", "Q_Start", "Q_End", "S_Start", "S_End", "Evalue", "BitScore"))%>%
+  mutate(Genome = genome) %>%
+  mutate(Strand = "+") %>%
+  #mutate(Var = 0) %>%
+  mutate(Gene = "") %>%
+  mutate(G_Start = "") %>%  
+  mutate(G_End = "") %>% 
+  mutate(G_Strand = "") %>% 
+  mutate(S_Center = S_Start+(S_End-S_Start)/2) 
+  
+  # Load gene annotation data    
+  files <- list.files(str_c("TPP_aptamer_search/genomes/",genome,"/"), all.files = TRUE)
+  file <- str_subset(files, "\\.gff3$")
+  if (!identical(file, character(0))) {
+    genes_raw <- read_tsv(str_c("TPP_aptamer_search/genomes/",genome,"/",file), col_names = c("seqid", "source", "type", "start", "end", "score", "strand", "phase", "attributes")) 
+    
+    if (genome != "Pseudo-nitzschia_multiseries_Psemu1"){
+      genes <- genes_raw %>%
+      filter(type == "gene") %>%
+      mutate(seqid = str_replace(seqid, pattern = "\\.", "_"))  %>%
+      separate(attributes, c("ID", "Name"), ";", remove = FALSE) %>%
+      mutate(ID = str_replace(ID, pattern = "ID=", "")) %>%
+      mutate(Name = str_replace(Name, pattern = "Name=", ""))
+    } else {
+      genes <- genes_raw %>%
+      mutate(seqid = str_replace(seqid, pattern = "\\.", "_"))  %>%
+      separate(attributes, c("ID", "Name"), ";", remove = FALSE) %>%
+      mutate(ID = str_replace(ID, pattern = "name ", ""))
+    }
+    
+    # if annotated genes exist and BLAST hits exists
+    if (nrow(genes) != 0 & nrow(tBLASTN) != 0 ){
+      # loop over all blast results
+      for (i in 1:nrow(tBLASTN)){
+        # loop over all annotated genes
+        for (j in 1:nrow(genes)){
+          # if seqid matches
+          if (tBLASTN$SubjectId[i] == genes$seqid[j]){
+            # if hit is overlapping with gene region
+            if (tBLASTN$S_Center[i] >= genes$start[j] & tBLASTN$S_Center[i] <= genes$end[j]){
+              tBLASTN$Gene[i] <- genes$ID[j]
+              tBLASTN$G_Start[i] <- genes$start[j]
+              tBLASTN$G_End[i] <- genes$end[j]
+              tBLASTN$G_Strand[i] <- genes$strand[j]
+            }
+          }
+        }
+      }
+    }
+  }
+
+  
+  all_tBLASTN <- rbind(all_tBLASTN, tBLASTN)
+      
+  ## save data in .bed file format 
+  #write_tsv(BLASTN, file.path(str_c(outfolder,"GullivR/",genome,"_",search,".bed")), col_names = FALSE)
+  #write_tsv(filter(BLASTN, Evalue < 10^-10), file.path(str_c(outfolder,"GullivR/",genome,"_",search,"_selected.bed")), col_names = FALSE)
+}
+
+# arrange data and add strand information 
+all_tBLASTN <- arrange(all_tBLASTN,SubjectId, S_Start, Evalue) %>%
+    mutate(Strand = ifelse(S_End < S_Start,"-","+")) %>%
+    mutate(Gene = ifelse(Gene == "",str_c(SubjectId,":",S_Start,"-",S_End),Gene)) #%>%
+    # convert format to .bed standard
+    #mutate(Var = ifelse(Strand == "-",S_Start,0)) %>%
+    #mutate(S_Start = ifelse(Strand == "-",S_End,S_Start)) %>%
+    #mutate(S_End = ifelse(Strand == "-",Var,S_End)) %>%
+    #mutate(S_Start = S_Start-1) #%>%
+    #select(SubjectId, S_Start, S_End, Name, Evalue, Strand) %>%
+    #arrange(SubjectId, S_Start)
+  
+# save 
+write_tsv(all_tBLASTN, str_c("TPP_aptamer_search/BLAST_results/tBLASTN_results_all_",set,"-list.tsv"))
+  
+# select hits with Evalue <= 10^-3
+significant <- filter(all_tBLASTN, Evalue <= 10^-3) %>%
+  transform(Genome = factor(Genome, levels = genomes)) %>%
+transform(QueryId = factor(QueryId, levels = geneset))
+
+# rorder significant hits to table containg E-values
+significant1 <- significant %>%
+  select(QueryId, Genome, Evalue) %>%
+  spread(QueryId, Evalue)
+
+# rorder significant hits to table containg gene names
+significant2 <- significant %>%
+  select(QueryId, Genome, Gene) %>%
+  spread(QueryId, Gene)
+
+# save B1 gene annotation 
+B1genes <- significant %>%
+  select(QueryId, Genome, Gene) %>%
+  rename(Query = "QueryId") %>%
+  mutate(Gene = ifelse(Gene == "","-",Gene))
+
+# save 
+write_tsv(significant, str_c("TPP_aptamer_search/BLAST_results/tBLASTN_results_Evalue<=10^-3_",set,"-list.tsv"))
+write_tsv(significant1, str_c("TPP_aptamer_search/BLAST_results/tBLASTN_results_Evalue<=10^-3_sig1_",set,"-list.tsv"))
+write_tsv(significant2, str_c("TPP_aptamer_search/BLAST_results/tBLASTN_results_Evalue<=10^-3_sig2_",set,"-list.tsv"))
+write_tsv(B1genes, str_c("TPP_aptamer_search/BLAST_results/B1genes_",set,"-list.tsv"))
+```
+## Load and curate B1 gene lists 
+```{r}
+B1gene_list <- read_tsv(str_c("TPP_aptamer_search/BLAST_results/B1gene_list.tsv")) 
+B1genes <-gather(B1gene_list, key = "Type", value = "Gene_name", 2:ncol(B1gene_list)) %>%
+  filter(Gene_name != "x") %>%
+  group_by(Genome, Gene_name)
+```
+
+
+# Identification of putative TPP aptamers
+## BLAST search
+### Perform BLASTN searches
+```{bash}
+GENOMES=('Fragilariopsis_cylindrus_Fracy1' 'Nitzschia_putrida_Nputr_1.0' 'Nitzschia_sp_Nitz4' 'Pseudo-nitzschia_multiseries_Psemu1' 'Pseudo-nitzschia_multistriata_ASM90066040v1' 'Halamphora_sp_MG8b' 'Halamphora_sp_AAB' 'Fistulifera_solaris_Fsol_1.0' 'Seminavis_robusta_version1.2' 'Phaeodactylum_tricornutum_ASM15095v2' 'Cyclotella_cryptica_Cyccr1' 'Cyclotella_cryptica_ASM1318728v1' 'Thalassiosira_oceanica_ThaOc_1.0'  'Thalassiosira_pseudonana_ASM14940v2' 'Asterionella_formosa_ASM225602v1' 'Asterionellopsis_glacialis_ASM1488511v2' 'Synedra_acus_sac1' 'Licmophora_abbreviata_CCMP470' 'Psammoneis_japonica_ASM863298v1' 'Bacillariophyta_sp_ASM1036716v1' 'Bacillariophyta_sp_ASM1036717v1' 'Bacillariophyta_sp_ASM1329908v1')
+
+for genome in "${GENOMES[@]}"
+do
+  blastn -task "blastn-short" -db genomes/${genome}/*.fna -query queries/2021-01-26_BLASTN_queries_P2-P4.fsa -out BLAST_results/BLASTN_queries_P2-P4_vs_${genome}.out -outfmt '6'
+
+  blastn -db genomes/${genome}/*.fna -query queries/2021-01-26_BLASTN_queries_full-length.fsa -out BLAST_results/BLASTN_queries_full-length_vs_${genome}.out -outfmt '6'
+done
+```
+
+### Analyse BLAST results
+```{r}
+# initilise dataframe
+all_BLAST <- data_frame()
+
+# loop over all genomes
+for (genome in genomes) {
+  # Load BLAST data 
+  BLASTN <- read_tsv(str_c("TPP_aptamer_search/BLAST_results/BLASTN_queries_P2-P4_vs_",genome,".out"), col_names = c("QueryId","SubjectId", "Identity(%)", "Length", "Mismatches", "Gap_opens", "Q_Start", "Q_End", "S_Start", "S_End", "Evalue", "BitScore"))%>%
+  mutate(Genome = genome) %>%
+  mutate(Strand = "+") %>%
+  #mutate(Var = 0) %>%
+  mutate(Gene = "") %>%
+  mutate(G_upstream = "") %>%
+  mutate(G_downstream = "") %>%
+  mutate(S_Center =  S_Start+(S_End-S_Start)/2) #%>%
+  #filter(Evalue < 10^-3)
+  
+  # Load gene annotation data    
+  files <- list.files(str_c("TPP_aptamer_search/genomes/",genome,"/"), all.files = TRUE)
+  file <- str_subset(files, "\\.gff3")
+  if (!identical(file, character(0))) {
+    genes_raw <- read_tsv(str_c("TPP_aptamer_search/genomes/",genome,"/",file), col_names = c("seqid", "source", "type", "start", "end", "score", "strand", "phase", "attributes"))
+    
+    if (genome != "Pseudo-nitzschia_multiseries_Psemu1"){
+      genes <- genes_raw %>%
+      filter(type == "gene") %>%
+      mutate(seqid = str_replace(seqid, pattern = "\\.", "_"))  %>%
+      separate(attributes, c("ID", "Name"), ";", remove = FALSE) %>%
+      mutate(ID = str_replace(ID, pattern = "ID=", "")) %>%
+      mutate(Name = str_replace(Name, pattern = "Name=", ""))
+    } else {
+      genes <- genes_raw %>%
+      mutate(seqid = str_replace(seqid, pattern = "\\.", "_"))  %>%
+      separate(attributes, c("ID", "Name"), ";", remove = FALSE) %>%
+      mutate(ID = str_replace(ID, pattern = "name ", ""))
+    }
+  
+  
+    # find direct overlaps with genes
+    # if annoated genes exist and BLAST hits exists
+    if (nrow(genes) != 0 & nrow(BLASTN) != 0 ){
+      # loop over all blast results
+      for (i in 1:nrow(BLASTN)){
+        # loop over all annotated genes
+        for (j in 1:nrow(genes)){
+          # if seqid matches
+          if (BLASTN$SubjectId[i] == genes$seqid[j]){
+            # if hit is overlapping with gene region
+            if (BLASTN$S_Center[i] >= genes$start[j] & BLASTN$S_Center[i] <= genes$end[j]){
+              BLASTN$Gene[i] <- genes$ID[j]
+            }
+          }
+        } 
+      }
+    }
+  
+    # find nearby genes
+    # if annoated genes exist and BLAST hits exists
+    if (nrow(genes) != 0 & nrow(BLASTN) != 0 ){
+      # loop over all blast results
+      for (i in 1:nrow(BLASTN)){
+        # if no gene was associate so far
+        if (BLASTN$Gene[i]==""){
+          # loop over all annotated genes
+          for (j in 1:nrow(genes)){
+            # if seqid matches
+            if (BLASTN$SubjectId[i] == genes$seqid[j]){
+              # if hit is overlapping with gene region
+              if (BLASTN$S_Center[i] >= genes$end[j] & BLASTN$S_Center[i] <= genes$start[j+1]){
+                BLASTN$G_upstream[i] <- genes$ID[j]
+                BLASTN$G_downstream[i] <- genes$ID[j+1]
+              }
+            }
+          }  
+        }
+        # if a gene was associate, extract upstream and downstream gene
+        else {
+          for (j in 1:nrow(genes)){
+            # if geneIDs match
+            if (BLASTN$Gene[i] == genes$ID[j]){
+                # save upstream and downstream gene
+                BLASTN$G_upstream[i] <- genes$ID[j-1]
+                BLASTN$G_downstream[i] <- genes$ID[j+1]
+            }
+          }  
+        }
+      }
+    }
+  }
+
+  all_BLAST <- rbind(all_BLAST, BLASTN)
+      
+  ## save data in .bed file format 
+  #write_tsv(BLASTN, file.path(str_c(outfolder,"GullivR/",genome,"_",search,".bed")), col_names = FALSE)
+  #write_tsv(filter(BLASTN, Evalue < 10^-10), file.path(str_c(outfolder,"GullivR/",genome,"_",search,"_selected.bed")), col_names = FALSE)
+}
+
+# arrange data and add strand information 
+all_BLAST <- arrange(all_BLAST,SubjectId, S_Start, Evalue) %>%
+    mutate(Strand = ifelse(S_End < S_Start,"-","+")) %>%
+    mutate(Gene = ifelse(Gene == "",str_c(SubjectId,":",S_Start,"-",S_End),Gene)) #%>%
+    # convert format to .bed standard
+    #mutate(Var = ifelse(Strand == "-",S_Start,0)) %>%
+    #mutate(S_Start = ifelse(Strand == "-",S_End,S_Start)) %>%
+    #mutate(S_End = ifelse(Strand == "-",Var,S_End)) %>%
+    #mutate(S_Start = S_Start-1) #%>%
+    #select(SubjectId, S_Start, S_End, Name, Evalue, Strand) %>%
+    #arrange(SubjectId, S_Start)
+  
+write_tsv(all_BLAST, "TPP_aptamer_search/BLAST_results/BLAST_results_all.tsv")
+
+# condense dataframe (delete hit duplicates)
+all_BLAST <- mutate(all_BLAST, RM = "F")
+# loop over all blast results
+for (i in 2:nrow(all_BLAST)){
+  # if no gene was associate so far
+  if (all_BLAST$SubjectId[i] == all_BLAST$SubjectId[i-1] & all_BLAST$Gene[i] != "" & all_BLAST$Gene[i] == all_BLAST$Gene[i-1]){
+    all_BLAST$RM[i] <- "T"
+  }
+  if (all_BLAST$SubjectId[i] == all_BLAST$SubjectId[i-1] & all_BLAST$Gene[i] == "" & all_BLAST$G_upstream[i] == all_BLAST$G_upstream[i-1]){
+    all_BLAST$RM[i] <- "T"
+  }
+}
+all_BLAST_condensed <- subset(all_BLAST, RM == "F")
+all_BLAST_condensed$ID <- seq.int(nrow(all_BLAST_condensed))
+
+write_tsv(all_BLAST_condensed, "TPP_aptamer_search/BLAST_results/BLAST_results_all_condensed.tsv")
+
+# loop over all genomes
+for (genome in genomes) {
+  # save in bed file format
+  all_BLAST_condensed_bed <- all_BLAST_condensed %>%
+    #mutate(Gene = ifelse(Gene == "", G_upstream ,Gene)) #%>%
+    mutate(SS_Start = S_Start) %>%
+    mutate(S_Start = ifelse(Strand == "-", S_End ,S_Start)) %>%
+    mutate(S_End = ifelse(Strand == "-", SS_Start,S_End)) %>%
+    mutate(S_Start = S_Start-1) %>%
+    select(SubjectId,S_Start, S_End, ID, Evalue, Strand, Genome) %>%
+    filter(Genome == genome)
+  
+  # save in bed file format 
+  write_tsv(all_BLAST_condensed_bed, str_c("TPP_aptamer_search/BLAST_results/BLAST_results_",genome,"_condensed_P2-P4.bed"), col_names=FALSE)  
+  
+  # extend to get the whole fasta region (Start -100, End +50)
+  all_BLAST_condensed_bed_large <- all_BLAST_condensed_bed %>%
+    mutate(S_Start = S_Start -100) %>%
+    mutate(S_End = S_End +50) %>%
+    mutate(S_Start = ifelse(S_Start < 0, 0, S_Start)) 
+  
+   # save in bed file format 
+  write_tsv(all_BLAST_condensed_bed_large, str_c("TPP_aptamer_search/BLAST_results/BLAST_results_",genome,"_condensed_extended.bed"), col_names=FALSE)  
+}
+```
+
+### Extract fasta sequences of identified BLAST hits
+```{bash}
+GENOMES=('Fragilariopsis_cylindrus_Fracy1' 'Nitzschia_putrida_Nputr_1.0' 'Nitzschia_sp_Nitz4' 'Pseudo-nitzschia_multiseries_Psemu1' 'Pseudo-nitzschia_multistriata_ASM90066040v1' 'Halamphora_sp_MG8b' 'Halamphora_sp_AAB' 'Fistulifera_solaris_Fsol_1.0' 'Seminavis_robusta_version1.2' 'Phaeodactylum_tricornutum_ASM15095v2' 'Cyclotella_cryptica_Cyccr1' 'Cyclotella_cryptica_ASM1318728v1' 'Thalassiosira_oceanica_ThaOc_1.0'  'Thalassiosira_pseudonana_ASM14940v2' 'Asterionella_formosa_ASM225602v1' 'Asterionellopsis_glacialis_ASM1488511v2' 'Synedra_acus_sac1' 'Licmophora_abbreviata_CCMP470' 'Psammoneis_japonica_ASM863298v1' 'Bacillariophyta_sp_ASM1036716v1' 'Bacillariophyta_sp_ASM1036717v1' 'Bacillariophyta_sp_ASM1329908v1')
+ 
+# loop over all genomes and extract fasta sequence
+for genome in "${GENOMES[@]}"
+do
+# extract fasta sequence of exact hit
+bedtools getfasta -s -name+ -fi genomes/${genome}/*.fna -bed BLAST_results/BLAST_results_${genome}_condensed_P2-P4.bed -fo BLAST_results/BLAST_results_${genome}_condensed_P2-P4.fa
+# extract fasta sequence of extended hit
+bedtools getfasta -s -name+ -fi genomes/${genome}/*.fna -bed BLAST_results/BLAST_results_${genome}_condensed_extended.bed -fo BLAST_results/BLAST_results_${genome}_condensed_extended.fa
+done
+```
+
+### Add all information together
+```{r}
+# initialise dataframe
+all_FASTA <- data_frame()
+
+# loop over all genomes
+for (genome in genomes) {
+  
+  # read in P2-P4 fasta sequence
+  fastaFile1 = readDNAStringSet(str_c("TPP_aptamer_search/BLAST_results/BLAST_results_",genome,"_condensed_P2-P4.fa"))
+  seq_name = names(fastaFile1)
+  direct_hit_seq = paste(fastaFile1)
+  P2.4 <- data.frame(seq_name, direct_hit_seq) %>%
+    separate(seq_name, c("ID","trash","SubjectId","Position"), ":") %>%
+    select(-trash)
+  
+  # read in extended fasta sequence
+  fastaFile2 = readDNAStringSet(str_c("TPP_aptamer_search/BLAST_results/BLAST_results_",genome,"_condensed_extended.fa"))
+  seq_name = names(fastaFile2)
+  extended_hit_seq = paste(fastaFile2)
+  Pextended <- data.frame(seq_name, extended_hit_seq) %>%
+    separate(seq_name, c("ID","trash","SubjectId","Position"), ":") %>%
+    select(-trash,-SubjectId,-Position)
+  
+  # initilise dataframe
+  FASTA <- left_join(P2.4, Pextended)
+  
+  all_FASTA <- rbind(all_FASTA,FASTA)
+}
+
+all_FASTA$ID <- as.numeric(all_FASTA$ID)
+
+# add fasta information to hit list data
+all_BLAST_hits <- left_join(all_BLAST_condensed, all_FASTA) 
+
+all_BLAST_hits$Type <- ""
+
+# add gene information 
+# loop over all hits
+for (i in 1:nrow(all_BLAST_hits)) {
+  # loop over all potential B1 biosynthesis genes
+  for (j in 1:nrow(B1genes)) {
+    # if genomes match
+    if (all_BLAST_hits$Genome[i]==B1genes$Genome[j]) {
+      # if gene names match
+      if (all_BLAST_hits$Gene[i]==B1genes$Gene_name[j]) {
+        all_BLAST_hits$Type[i] <- B1genes$Type[j]
+      } 
+      if (all_BLAST_hits$G_upstream[i]==B1genes$Gene_name[j]) {
+        all_BLAST_hits$Type[i] <- B1genes$Type[j]
+      }
+      if (all_BLAST_hits$G_downstream[i]==B1genes$Gene_name[j]) {
+        all_BLAST_hits$Type[i] <- B1genes$Type[j]
+      }
+    }
+  }
+}
+
+# save hit list
+write_tsv(all_BLAST_hits, "TPP_aptamer_search/BLAST_results/BLAST_results_all_final.tsv")
+
+```
+
+
+## HMM search
+### Generate HMMs out of queries
+```{bash}
+# create reverse complement of quries to allow searching on - strand too!
+fastx_reverse_complement -i queries/2021-01-26_BLASTN_queries_full-length.fsa -o queries/2021-01-26_BLASTN_queries_full-length_rev-compl.fsa
+fastx_reverse_complement -i queries/2021-01-26_BLASTN_queries_P2-P4.fsa -o queries/2021-01-26_BLASTN_queries_P2-P4_rev-compl.fsa
+
+# create MAFFT mutiple seqeunce alignment (accurate option (L-INS-i)) for putative TPP aptamers based on known sequences in diatoms and save in aligned fasta format
+mafft-linsi queries/2021-01-26_BLASTN_queries_full-length.fsa > queries/2021-01-26_BLASTN_queries_full-length.aligned.fasta 2> logs/2021-01-26_generate-HMM-BLASTN_queries_full-length.log # L-INS-i option for local alignments (unequal lengths)
+mafft-linsi queries/2021-01-26_BLASTN_queries_full-length_rev-compl.fsa > queries/2021-01-26_BLASTN_queries_full-length_rev-compl.aligned.fasta 2> logs/2021-01-26_generate-HMM-BLASTN_queries_full-length_rev-compl.log # L-INS-i option for local alignments (unequal lengths)
+
+mafft-ginsi queries/2021-01-26_BLASTN_queries_P2-P4.fsa > queries/2021-01-26_BLASTN_queries_P2-P4.aligned.fasta 2> logs/2021-01-26_generate-HMM-BLASTN_queries_P2-P4.log # G-INS-i option for global alignments (similar lengths)
+mafft-ginsi queries/2021-01-26_BLASTN_queries_P2-P4_rev-compl.fsa > queries/2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned.fasta 2> logs/2021-01-26_generate-HMM-BLASTN_queries_P2-P4_rev-compl.log # G-INS-i option for global alignments (similar lengths)
+
+# build hmm profile from input multiple alignment 
+hmmbuild -o logs/2021-01-26_build-HMM_queries_full-length.log --dna queries/2021-01-26_Queries_full-length.hmm queries/2021-01-26_BLASTN_queries_full-length.aligned.fasta
+
+hmmbuild -o logs/2021-01-26_build-HMM_queries_full-length_rev-compl.log --dna queries/2021-01-26_Queries_full-length_rev-compl.hmm queries/2021-01-26_BLASTN_queries_full-length_rev-compl.aligned.fasta
+
+hmmbuild -o logs/2021-01-26_build-HMM_queries_P2-P4.log --dna queries/2021-01-26_Queries_P2-P4.hmm queries/2021-01-26_BLASTN_queries_P2-P4.aligned.fasta
+
+hmmbuild -o logs/2021-01-26_build-HMM_queries_P2-P4_rev-compl.log --dna queries/2021-01-26_Queries_P2-P4_rev-compl.hmm queries/2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned.fasta
+
+## show summary statistics for a profile file
+#hmmstat 2021-01-26_Queries_P2-P4.hmm
+
+## generate (sample) sequences from a profile
+#hmmemit 2021-01-26_Queries_P2-P4.hmm
+
+## produce a conservation logo graphic from a profile
+#hmmlogo 2021-01-26_Queries_P2-P4.hmm
+```
+
+### Run Hmmer search
+```{bash}
+GENOMES=('Fragilariopsis_cylindrus_Fracy1' 'Nitzschia_putrida_Nputr_1.0' 'Nitzschia_sp_Nitz4' 'Pseudo-nitzschia_multiseries_Psemu1' 'Pseudo-nitzschia_multistriata_ASM90066040v1' 'Halamphora_sp_MG8b' 'Halamphora_sp_AAB' 'Fistulifera_solaris_Fsol_1.0' 'Seminavis_robusta_version1.2' 'Phaeodactylum_tricornutum_ASM15095v2' 'Cyclotella_cryptica_Cyccr1' 'Cyclotella_cryptica_ASM1318728v1' 'Thalassiosira_oceanica_ThaOc_1.0'  'Thalassiosira_pseudonana_ASM14940v2' 'Asterionella_formosa_ASM225602v1' 'Asterionellopsis_glacialis_ASM1488511v2' 'Synedra_acus_sac1' 'Licmophora_abbreviata_CCMP470' 'Psammoneis_japonica_ASM863298v1' 'Bacillariophyta_sp_ASM1036716v1' 'Bacillariophyta_sp_ASM1036717v1' 'Bacillariophyta_sp_ASM1329908v1')
+ 
+# run hmmer search on each genome
+for genome in "${GENOMES[@]}"
+do
+  # search putative TPP apatmer profile against Diatom sequence database
+  hmmsearch --notextw --domtblout HMMER_results/Queries_full-length_vs_${genome}_plusStrand_tab.out queries/2021-01-26_Queries_full-length.hmm genomes/${genome}/*.fna 
+  hmmsearch --notextw --domtblout HMMER_results/Queries_full-length_vs_${genome}_minusStrand_tab.out queries/2021-01-26_Queries_full-length_rev-compl.hmm genomes/${genome}/*.fna 
+
+  # search putative TPP apatmer profile against Diatom sequence database
+  hmmsearch --notextw --domtblout HMMER_results/Queries_P2-P4_vs_${genome}_plusStrand_tab.out queries/2021-01-26_Queries_P2-P4.hmm genomes/${genome}/*.fna 
+  hmmsearch --notextw --domtblout HMMER_results/Queries_P2-P4_vs_${genome}_minusStrand_tab.out queries/2021-01-26_Queries_P2-P4_rev-compl.hmm genomes/${genome}/*.fna 
+done
+```
+
+### Summarise and analyse HMMER results
+```{r}
+# initilise dataframe
+all_domtblout <- data_frame()
+
+# loop over all genomes
+for (genome in genomes) {
+  
+  # load hmmer outputs
+  domtblout_minus <- read_domtblout(str_c("./TPP_aptamer_search/HMMER_results/Queries_P2-P4_vs_",genome,"_minusStrand_tab.out")) %>%
+    mutate(Strand = "-")
+  domtblout_plus <-  read_domtblout(str_c("./TPP_aptamer_search/HMMER_results/Queries_P2-P4_vs_",genome,"_plusStrand_tab.out")) %>%
+    mutate(Strand = "+")
+
+  # combine hits from plus and minus strand and add genome information
+  domtblout <- rbind(domtblout_plus, domtblout_minus) %>%
+    mutate(Genome = genome) %>%
+    mutate(Gene = "") %>%
+    mutate(G_upstream = "") %>%
+    mutate(G_downstream = "") %>%
+    mutate(Type = "")
+  
+  # add overlap with genes and flanking genes
+  # load gene annotation data    
+  files <- list.files(str_c("TPP_aptamer_search/genomes/",genome,"/"), all.files = TRUE)
+  file <- str_subset(files, "\\.gff3")
+  if (!identical(file, character(0))) {
+    genes_raw <- read_tsv(str_c("TPP_aptamer_search/genomes/",genome,"/",file), col_names = c("seqid", "source", "type", "start", "end", "score", "strand", "phase", "attributes"))
+    
+    if (genome != "Pseudo-nitzschia_multiseries_Psemu1"){
+      genes <- genes_raw %>%
+      filter(type == "gene") %>%
+      mutate(seqid = str_replace(seqid, pattern = "\\.", "_"))  %>%
+      separate(attributes, c("ID", "Name"), ";", remove = FALSE) %>%
+      mutate(ID = str_replace(ID, pattern = "ID=", "")) %>%
+      mutate(Name = str_replace(Name, pattern = "Name=", ""))
+    } else {
+      genes <- genes_raw %>%
+      mutate(seqid = str_replace(seqid, pattern = "\\.", "_"))  %>%
+      separate(attributes, c("ID", "Name"), ";", remove = FALSE) %>%
+      mutate(ID = str_replace(ID, pattern = "name ", ""))
+    }
+  
+    # find direct overlaps with genes
+    # if annoated genes exist and BLAST hits exists
+    if (nrow(genes) != 0 & nrow(domtblout) != 0 ){
+      # loop over all blast results
+      for (i in 1:nrow(domtblout)){
+        # loop over all annotated genes
+        for (j in 1:nrow(genes)){
+          # if seqid matches
+          if (domtblout$domain_name[i] == genes$seqid[j]){
+            # if hit is overlapping with gene region
+            if (domtblout$env_from[i] >= genes$start[j] & domtblout$env_from[i] <= genes$end[j]){
+              domtblout$Gene[i] <- genes$ID[j]
+            }
+          }
+        } 
+      }
+    }
+  
+    # find nearby genes
+    # if annoated genes exist and BLAST hits exists
+    if (nrow(genes) != 0 & nrow(domtblout) != 0 ){
+      # loop over all blast results
+      for (i in 1:nrow(domtblout)){
+        # if no gene was associate so far
+        if (domtblout$Gene[i]==""){
+          # loop over all annotated genes
+          for (j in 1:nrow(genes)){
+            # if seqid matches
+            if (domtblout$domain_name[i] == genes$seqid[j]){
+              # if hit is overlapping with gene region
+              if (domtblout$env_from[i] >= genes$end[j] & domtblout$env_from[i] <= genes$start[j+1]){
+                domtblout$G_upstream[i] <- genes$ID[j]
+                domtblout$G_downstream[i] <- genes$ID[j+1]
+              }
+            }
+          }  
+        }
+        # if a gene was associate, extract upstream and downstream gene
+        else {
+          for (j in 1:nrow(genes)){
+            # if geneIDs match
+            if (domtblout$Gene[i] == genes$ID[j]){
+                # save upstream and downstream gene
+                domtblout$G_upstream[i] <- genes$ID[j-1]
+                domtblout$G_downstream[i] <- genes$ID[j+1]
+            }
+          }  
+        }
+      }
+    }
+  }
+  
+  # combine hits from all genomes
+  all_domtblout <- rbind(all_domtblout, domtblout)
+}
+
+  
+# add gene information 
+# loop over all hits
+ for (i in 1:nrow(all_domtblout)) {
+   # loop over all potential B1 biosynthesis genes
+  for (j in 1:nrow(B1genes)) {
+    # if genomes match
+    if (all_domtblout$Genome[i]==B1genes$Genome[j]) {
+      # if gene names match
+      if (all_domtblout$Gene[i]==B1genes$Gene_name[j]) {
+        all_domtblout$Type[i] <- B1genes$Type[j]
+      } 
+      if (all_domtblout$G_upstream[i]==B1genes$Gene_name[j]) {
+        all_domtblout$Type[i] <- B1genes$Type[j]
+      }
+      if (all_domtblout$G_downstream[i]==B1genes$Gene_name[j]) {
+        all_domtblout$Type[i] <- B1genes$Type[j]
+      }
+    }
+  }
+}
+
+# generate ID column
+all_domtblout$ID <- seq.int(nrow(all_domtblout))
+
+# save dataframe
+write_tsv(all_domtblout, "TPP_aptamer_search/HMMER_results/HMMER_results_all_domtblout.tsv")
+
+# save position of hits in bed file format to extract fasta sequences
+# loop over all genomes
+for (genome in genomes) {
+  # save in bed file format
+  all_domtblout_bed <- all_domtblout %>%
+    mutate(env_from = ifelse(Strand == "+", env_from-1 ,env_from)) %>%
+    mutate(env_to = ifelse(Strand == "-", env_to+1,env_to)) %>%
+    select(domain_name,domain_len, env_from,env_to, ID, sequence_evalue, Strand, Genome) %>%
+    filter(Genome == genome)
+  
+  # save in bed file format 
+  write_tsv(select(all_domtblout_bed, -domain_len), str_c("TPP_aptamer_search/HMMER_results/HMMER_results_",genome,"_all_domtblout_hits.bed"), col_names=FALSE)  
+  
+  # extend to get the whole fasta region (Start -100, End +50)
+  all_domtblout_bed_large <- all_domtblout_bed %>%
+    mutate(env_from = ifelse(Strand == "+", env_from-100, env_from -50)) %>%
+    mutate(env_to = ifelse(Strand == "-", env_to+100,env_to+50)) %>%
+    mutate(env_from = ifelse(env_from < 0, 0, env_from)) %>%
+    mutate(env_to = ifelse(env_to > domain_len, domain_len,env_to))
+  
+   # save in bed file format 
+  write_tsv(select(all_domtblout_bed_large, -domain_len), str_c("TPP_aptamer_search/HMMER_results/HMMER_results_",genome,"_all_domtblout_hits_extended.bed"), col_names=FALSE)  
+}
+```
+### Extract fasta sequences of identified BLAST hits
+```{bash}
+GENOMES=('Fragilariopsis_cylindrus_Fracy1' 'Nitzschia_putrida_Nputr_1.0' 'Nitzschia_sp_Nitz4' 'Pseudo-nitzschia_multiseries_Psemu1' 'Pseudo-nitzschia_multistriata_ASM90066040v1' 'Halamphora_sp_MG8b' 'Halamphora_sp_AAB' 'Fistulifera_solaris_Fsol_1.0' 'Seminavis_robusta_version1.2' 'Phaeodactylum_tricornutum_ASM15095v2' 'Cyclotella_cryptica_Cyccr1' 'Cyclotella_cryptica_ASM1318728v1' 'Thalassiosira_oceanica_ThaOc_1.0'  'Thalassiosira_pseudonana_ASM14940v2' 'Asterionella_formosa_ASM225602v1' 'Asterionellopsis_glacialis_ASM1488511v2' 'Synedra_acus_sac1' 'Licmophora_abbreviata_CCMP470' 'Psammoneis_japonica_ASM863298v1' 'Bacillariophyta_sp_ASM1036716v1' 'Bacillariophyta_sp_ASM1036717v1' 'Bacillariophyta_sp_ASM1329908v1')
+ 
+# loop over all genomes and extract fasta sequence
+for genome in "${GENOMES[@]}"
+do
+# extract fasta sequence of exact hit
+bedtools getfasta -s -name+ -fi genomes/${genome}/*.fna -bed HMMER_results/HMMER_results_${genome}_all_domtblout_hits.bed -fo HMMER_results/HMMER_results_${genome}_all_domtblout_hits.fa
+# extract fasta sequence of extended hit
+bedtools getfasta -s -name+ -fi genomes/${genome}/*.fna -bed HMMER_results/HMMER_results_${genome}_all_domtblout_hits_extended.bed -fo HMMER_results/HMMER_results_${genome}__all_domtblout_hits_extended.fa
+done
+```
+
+### Add all information together
+```{r}
+# initialise dataframe
+all_FASTA <- data_frame()
+
+# loop over all genomes
+for (genome in genomes) {
+  
+  # read in P2-P4 fasta sequence
+  fastaFile1 = readDNAStringSet(str_c("TPP_aptamer_search/HMMER_results/HMMER_results_",genome,"_all_domtblout_hits.fa"))
+  seq_name = names(fastaFile1)
+  direct_hit_seq = paste(fastaFile1)
+  P2.4 <- data.frame(seq_name, direct_hit_seq) %>%
+    separate(seq_name, c("ID","trash","SubjectId","Position"), ":") %>%
+    select(-trash)
+  
+  # read in extended fasta sequence
+  fastaFile2 = readDNAStringSet(str_c("TPP_aptamer_search/HMMER_results/HMMER_results_",genome,"__all_domtblout_hits_extended.fa"))
+  seq_name = names(fastaFile2)
+  extended_hit_seq = paste(fastaFile2)
+  Pextended <- data.frame(seq_name, extended_hit_seq) %>%
+    separate(seq_name, c("ID","trash","SubjectId","Position"), ":") %>%
+    select(-trash,-SubjectId,-Position)
+  
+  # initilise dataframe
+  FASTA <- left_join(P2.4, Pextended)
+  
+  all_FASTA <- rbind(all_FASTA,FASTA)
+}
+
+all_FASTA$ID <- as.numeric(all_FASTA$ID)
+
+# add fasta information to hit list data
+all_HMMER_hits <- left_join(all_domtblout, all_FASTA) 
+
+# save hit list
+write_tsv(all_HMMER_hits, "TPP_aptamer_search/HMMER_results/HMMER_results_all_final.tsv")
+
+
+```
+
+
+

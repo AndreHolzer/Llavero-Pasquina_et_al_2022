@@ -1,0 +1,10 @@
+name: Liavero-Pasquina_2021
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - blast=2.6.0
+  - mafft=7.475
+  - hmmer=3.1b2
+  - fastx_toolkit=0.0.14
