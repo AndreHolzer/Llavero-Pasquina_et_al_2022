@@ -1,6 +1,4 @@
-# Llavero-Pasquina_et_al_2021
-
-![Scripting](https://img.shields.io/badge/Language-R-red.svg) [![Type: Supplementary Data](https://img.shields.io/badge/Type-Supplementary_data-blue.svg)](Type) ![DOI](https://img.shields.io/badge/DOI-...-green.svg)
+![Scripting](https://img.shields.io/badge/Language-R-red.svg) ![Type: Supplementary Data](https://img.shields.io/badge/Type-Supplementary_data-blue.svg) ![DOI](https://img.shields.io/badge/DOI-...-green.svg)
 
 This page contains supplementary material for the following paper:
 
