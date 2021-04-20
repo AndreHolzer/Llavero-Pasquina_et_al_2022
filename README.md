@@ -8,4 +8,4 @@ M. Llavero-Pasquina, P. Mehrshahi,  K. Geisler, A. Holzer, M. P. Davey, G. I. Me
 
 See: http://...
 
-In order to run the R and bash commands you need to install and activate the conda environments first and have a up to date version of R and RStudio installed. For the listening examples stored in listening_examples a headphone is needed for correct reproduction. .
+In order to run the R and bash commands an up to date version of R and RStudio needs to be installed. Also make sure to install and activate the conda environments to reproduce all results.
