@@ -1,0 +1,60 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_full-length_rev-compl.hmm
+# target sequence database:        genomes/Pseudo-nitzschia_multiseries_Psemu1/Psemu1_AssemblyScaffolds_Repeatmasked.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_full-length_rev-compl.aligned  [M=115]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    2.4e-22   77.6   0.0    9.8e-22   75.6   0.0    2.1  1  scaffold_99   
+      8e-16   56.7   0.0    3.4e-15   54.7   0.0    2.2  1  scaffold_124  
+
+
+Domain annotation for each sequence (and alignments):
+>> scaffold_99  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.6   0.0     4e-25   9.8e-22       2     112 ..  282603  282713 ..  282602  282716 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 75.6 bits;  conditional E-value: 4e-25
+  2021-01-26_BLASTN_queries_full-length_rev-compl.aligned      2 ttgtttttccctctcgcatgaattaccatgatcaggttcaagcggttttcgatatcaacttgaacatatttgagtgttgttttggttctcagttgagctcccgcaaacaaa 112   
+                                                                 ttgtt ttccctc+cgcatgaattaccatgatcaggttcaagcggttttcga+atca+c+t++a at  t+ga+tg+t+t+ttgg+tctcag+t  gctcccgcaaa+ aa
+                                              scaffold_99 282603 TTGTTCTTCCCTCACGCATGAATTACCATGATCAGGTTCAAGCGGTTTTCGACATCATCCTAGAAATGATAGAATGATATGTTGGATCTCAGCTACGCTCCCGCAAAACAA 282713
+                                                                 68999****************************************************************************************************998776 PP
+
+>> scaffold_124  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.7   0.0   1.4e-18   3.4e-15       2     113 ..  116068  116162 ..  116067  116164 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 54.7 bits;  conditional E-value: 1.4e-18
+  2021-01-26_BLASTN_queries_full-length_rev-compl.aligned      2 ttgtttttccctctcgcatgaattaccatgatcaggttcaagcggttttcgatatcaacttg.aacatatttgagtgttgttttggttctcagttgagctcccgcaaacaaac 113   
+                                                                 ttgtttttccctc+cgcatg+attaccatgatcaggttcaagcggt ttcgata      tg a+c+ a+ t  gt+t+gt           gt  +gctcccgcaaacaaa+
+                                             scaffold_124 116068 TTGTTTTTCCCTCACGCATGCATTACCATGATCAGGTTCAAGCGGTATTCGATAA-----TGaATCTCAGCT--GTATCGT-----------GTGTTGCTCCCGCAAACAAAA 116162
+                                                                 6899************************************************998.....443555566655..7778888...........77788***********99875 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (115 nodes)
+Target sequences:                         4890  (218730801 residues searched)
+Passed MSV filter:                        54  (0.0110429); expected 97.8 (0.02)
+Passed bias filter:                       51  (0.0104294); expected 97.8 (0.02)
+Passed Vit filter:                         2  (0.000408998); expected 4.9 (0.001)
+Passed Fwd filter:                         2  (0.000408998); expected 0.0 (1e-05)
+Initial search space (Z):               4890  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 21.45u 0.38s 00:00:21.83 Elapsed: 00:00:04.75
+# Mc/sec: 5295.59
+//
+[ok]

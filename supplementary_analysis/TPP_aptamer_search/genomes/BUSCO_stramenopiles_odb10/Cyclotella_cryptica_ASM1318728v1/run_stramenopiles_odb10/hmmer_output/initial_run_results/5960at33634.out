@@ -1,0 +1,17 @@
+#                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                    accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#            ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold102_size575664:5634-8107 -            795 5960at33634          -            498  6.6e-219  721.5   5.2   1   4   6.9e-65   1.8e-62  205.5   0.7     1   122    65   198    65   206 0.91 -
+scaffold102_size575664:5634-8107 -            795 5960at33634          -            498  6.6e-219  721.5   5.2   2   4  2.4e-145  6.3e-143  470.9   0.0   126   419   257   586   245   592 0.90 -
+scaffold102_size575664:5634-8107 -            795 5960at33634          -            498  6.6e-219  721.5   5.2   3   4    0.0035      0.91    2.0   0.0   418   441   646   669   638   684 0.78 -
+scaffold102_size575664:5634-8107 -            795 5960at33634          -            498  6.6e-219  721.5   5.2   4   4   6.4e-15   1.7e-12   40.7   0.0   439   498   713   782   694   782 0.78 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/5960at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Cyclotella_cryptica_ASM1318728v1/run_stramenopiles_odb10/metaeuk_output/initial_results/Cyclotella_cryptica.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Cyclotella_cryptica_ASM1318728v1/run_stramenopiles_odb10/hmmer_output/initial_run_results/5960at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/5960at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Cyclotella_cryptica_ASM1318728v1/run_stramenopiles_odb10/metaeuk_output/initial_results/Cyclotella_cryptica.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Fri Apr 16 11:59:50 2021
+# [ok]

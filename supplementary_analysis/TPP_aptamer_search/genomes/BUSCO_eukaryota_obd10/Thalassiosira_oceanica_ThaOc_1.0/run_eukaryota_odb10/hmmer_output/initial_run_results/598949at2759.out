@@ -1,0 +1,24 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+AGNL01017072_1:8288-11569  -           1040 598949at2759         -            402     3e-88  293.5   0.2   1   3   8.9e-86   4.1e-83  276.6   0.0     5   299   124   460   120   466 0.88 -
+AGNL01017072_1:8288-11569  -           1040 598949at2759         -            402     3e-88  293.5   0.2   2   3   1.2e-05    0.0055   12.7   0.0   300   347   485   532   478   536 0.93 -
+AGNL01017072_1:8288-11569  -           1040 598949at2759         -            402     3e-88  293.5   0.2   3   3      0.22     1e+02   -1.4   0.1   337   361   578   602   546   608 0.70 -
+AGNL01010879_1:981-1898    -            306 598949at2759         -            402   3.3e-25   85.9   1.5   1   1   2.3e-27   1.1e-24   84.2   1.5     2   223    45   304    44   306 0.79 -
+AGNL01003196_1:1028-2443   -            472 598949at2759         -            402   1.5e-23   80.5   0.0   1   4   3.1e-07   0.00014   17.9   0.1     7    79    61   139    59   146 0.87 -
+AGNL01003196_1:1028-2443   -            472 598949at2759         -            402   1.5e-23   80.5   0.0   2   4   2.6e-05     0.012   11.6   0.0   109   184   200   291   195   295 0.77 -
+AGNL01003196_1:1028-2443   -            472 598949at2759         -            402   1.5e-23   80.5   0.0   3   4     5e-15   2.3e-12   43.6   0.0   186   275   318   408   316   423 0.85 -
+AGNL01003196_1:1028-2443   -            472 598949at2759         -            402   1.5e-23   80.5   0.0   4   4     0.025        12    1.7   0.0   289   318   442   471   436   472 0.89 -
+AGNL01047422_1:15805-17280 -            492 598949at2759         -            402   1.5e-17   60.6   4.8   1   2   0.00026      0.12    8.3   0.1    35   101   119   188    83   195 0.80 -
+AGNL01047422_1:15805-17280 -            492 598949at2759         -            402   1.5e-17   60.6   4.8   2   2   7.2e-18   3.3e-15   52.9   1.8   168   276   302   413   246   432 0.84 -
+AGNL01022909_1:74-403      -            110 598949at2759         -            402   4.6e-14   49.2   0.0   1   1   1.3e-16   5.9e-14   48.8   0.0   216   299     4   101     2   107 0.85 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/598949at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_oceanica_ThaOc_1.0/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_000296195.2_ThaOc_1.0_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_oceanica_ThaOc_1.0/run_eukaryota_odb10/hmmer_output/initial_run_results/598949at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/598949at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_oceanica_ThaOc_1.0/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_000296195.2_ThaOc_1.0_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 00:35:08 2021
+# [ok]

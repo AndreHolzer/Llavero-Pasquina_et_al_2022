@@ -1,0 +1,21 @@
+#                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold_14309:323-1978   -            444 13819at33634         -            346  6.9e-153  502.5   2.1   1   2  1.9e-142  1.3e-140  462.1   1.2    15   298    57   360    27   376 0.92 -
+scaffold_14309:323-1978   -            444 13819at33634         -            346  6.9e-153  502.5   2.1   2   2   1.9e-13   1.3e-11   37.9   0.0   295   345   381   435   368   436 0.87 -
+scaffold_12960:2-1057     -            352 13819at33634         -            346  6.8e-140  459.7   1.2   1   2    2e-129  1.4e-127  419.3   0.6    49   298     1   268     1   283 0.94 -
+scaffold_12960:2-1057     -            352 13819at33634         -            346  6.8e-140  459.7   1.2   2   2   1.3e-13   8.9e-12   38.4   0.0   295   345   289   343   274   344 0.87 -
+scaffold_4801:17092-19045 -            368 13819at33634         -            346   1.6e-44  146.1   1.2   1   2   7.8e-25   5.3e-23   75.4   0.0    18    78     1    61     1    67 0.95 -
+scaffold_4801:17092-19045 -            368 13819at33634         -            346   1.6e-44  146.1   1.2   2   2   4.8e-23   3.2e-21   69.5   0.2   138   263   107   225   105   240 0.89 -
+scaffold_3950:5694-6434   -            247 13819at33634         -            346   8.6e-27   87.8   0.0   1   2   3.9e-17   2.6e-15   50.0   0.0    16    79     3    71     2    78 0.85 -
+scaffold_3950:5694-6434   -            247 13819at33634         -            346   8.6e-27   87.8   0.0   2   2   1.2e-12   7.8e-11   35.3   0.0    85   188    96   187    93   209 0.88 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/13819at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Cyclotella_cryptica_Cyccr1/run_stramenopiles_odb10/metaeuk_output/initial_results/Cyccr1_AssemblyScaffolds_Repeatmasked.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Cyclotella_cryptica_Cyccr1/run_stramenopiles_odb10/hmmer_output/initial_run_results/13819at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/13819at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Cyclotella_cryptica_Cyccr1/run_stramenopiles_odb10/metaeuk_output/initial_results/Cyccr1_AssemblyScaffolds_Repeatmasked.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Fri Apr 16 10:37:54 2021
+# [ok]

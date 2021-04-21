@@ -1,0 +1,21 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+BLYE01000007_1:363466-366267 -            934 671846at2759         -            450   9.4e-13   43.9   8.2   1   4   1.8e-09   1.2e-06   23.7   0.1    48   141   239   333   213   339 0.76 -
+BLYE01000007_1:363466-366267 -            934 671846at2759         -            450   9.4e-13   43.9   8.2   2   4   0.00038      0.25    6.2   0.1   241   259   531   549   520   556 0.86 -
+BLYE01000007_1:363466-366267 -            934 671846at2759         -            450   9.4e-13   43.9   8.2   3   4   6.8e-07   0.00045   15.2   0.4   260   310   567   621   559   700 0.69 -
+BLYE01000007_1:363466-366267 -            934 671846at2759         -            450   9.4e-13   43.9   8.2   4   4      0.13        83   -2.1   0.0   416   446   889   920   837   923 0.71 -
+BLYE01000116_1:125861-128662 -            934 671846at2759         -            450   1.2e-12   43.6   8.2   1   4   2.3e-09   1.5e-06   23.4   0.1    48   141   239   333   213   339 0.75 -
+BLYE01000116_1:125861-128662 -            934 671846at2759         -            450   1.2e-12   43.6   8.2   2   4   0.00038      0.25    6.2   0.1   241   259   531   549   520   556 0.86 -
+BLYE01000116_1:125861-128662 -            934 671846at2759         -            450   1.2e-12   43.6   8.2   3   4   6.8e-07   0.00045   15.2   0.4   260   310   567   621   559   700 0.69 -
+BLYE01000116_1:125861-128662 -            934 671846at2759         -            450   1.2e-12   43.6   8.2   4   4      0.13        83   -2.1   0.0   416   446   889   920   837   923 0.71 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/671846at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Nitzschia_putrida_Nputr_1.0/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_016586335.1_Nputr_1.0_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Nitzschia_putrida_Nputr_1.0/run_eukaryota_odb10/hmmer_output/initial_run_results/671846at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/671846at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Nitzschia_putrida_Nputr_1.0/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_016586335.1_Nputr_1.0_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sat Apr 17 17:48:58 2021
+# [ok]

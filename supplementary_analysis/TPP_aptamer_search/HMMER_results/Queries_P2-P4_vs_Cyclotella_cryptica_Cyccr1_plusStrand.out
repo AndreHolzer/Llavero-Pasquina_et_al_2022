@@ -1,0 +1,101 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_P2-P4.hmm
+# target sequence database:        genomes/Cyclotella_cryptica_Cyccr1/Cyccr1_AssemblyScaffolds_Repeatmasked.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_P2-P4.aligned  [M=36]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence        Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+    1.7e-05   27.3   0.0    4.4e-05   26.0   0.0    1.8  1  scaffold_4214    
+     0.0035   19.9   0.0     0.0062   19.1   0.0    1.4  1  scaffold_103640  
+  ------ inclusion threshold ------
+       0.93   12.2   0.0    2.3e+02    4.6   0.0    2.7  3  scaffold_103868  
+        1.1   12.0   0.0        3.7   10.3   0.0    2.0  1  scaffold_4249    
+
+
+Domain annotation for each sequence (and alignments):
+>> scaffold_4214  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.0   0.0   1.5e-09   4.4e-05       1      36 []    9255    9290 ..    9255    9290 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 26.0 bits;  conditional E-value: 1.5e-09
+  2021-01-26_BLASTN_queries_P2-P4.aligned    1 CCGcTtGAACcTGatCatGgTAAttCatGCGtgAgG 36  
+                                               CCG+TtGAACcTGatC+tGgTAAttC  GCG gAgG
+                            scaffold_4214 9255 CCGTTTGAACCTGATCGTGGTAATTCGCGCGAGAGG 9290
+                                               79********************************97 PP
+
+>> scaffold_103640  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.1   0.0   2.1e-07    0.0062       7      36 .]       2      30 ..       1      30 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 19.1 bits;  conditional E-value: 2.1e-07
+  2021-01-26_BLASTN_queries_P2-P4.aligned  7 GAACcTGatCatGgTAAttCatGCGtgAgG 36
+                                             GAACcTGatCa G TAAt C tGCG  AgG
+                          scaffold_103640  2 GAACCTGATCAGGCTAATACCTGCG-AAGG 30
+                                             9************************.8876 PP
+
+>> scaffold_103868  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.6   0.0       1.4   4.2e+04      11      18 ..      14      21 ..      14      21 .. 0.85
+   2 ?    4.6   0.0     0.008   2.3e+02      18      34 ..      72      87 ..      71      88 .. 0.88
+   3 ?    4.3   0.0    0.0095   2.8e+02      12      24 ..     108     120 ..     105     122 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -2.6 bits;  conditional E-value: 1.4
+  2021-01-26_BLASTN_queries_P2-P4.aligned 11 cTGatCat 18
+                                             cTGatCat
+                          scaffold_103868 14 CTGATCAT 21
+                                             799**986 PP
+
+  == domain 2  score: 4.6 bits;  conditional E-value: 0.008
+  2021-01-26_BLASTN_queries_P2-P4.aligned 18 tGgTAAttCatGCGtgA 34
+                                             tGgTAA tC  GCG  A
+                          scaffold_103868 72 TGGTAAATCCCGCG-AA 87
+                                             79***********9.55 PP
+
+  == domain 3  score: 4.3 bits;  conditional E-value: 0.0095
+  2021-01-26_BLASTN_queries_P2-P4.aligned  12 TGatCatGgTAAt 24 
+                                              TGatCa GgTAA 
+                          scaffold_103868 108 TGATCAGGGTAAA 120
+                                              89*********96 PP
+
+>> scaffold_4249  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.0   0.00013       3.7       1      36 []    9012    9046 ..    9012    9046 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.00013
+  2021-01-26_BLASTN_queries_P2-P4.aligned    1 CCGcTtGAACcTGatCatGgTAAttCatGCGtgAgG 36  
+                                               CCGcTtGAACcTGatCa  gTAAt+  tGCG  AgG
+                            scaffold_4249 9012 CCGCTTGAACCTGATCAATGTAATGATTGCG-AAGG 9046
+                                               79**********************9999999.7775 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (36 nodes)
+Target sequences:                       116815  (161759242 residues searched)
+Passed MSV filter:                      2247  (0.0192355); expected 2336.3 (0.02)
+Passed bias filter:                     2214  (0.018953); expected 2336.3 (0.02)
+Passed Vit filter:                       132  (0.00112999); expected 116.8 (0.001)
+Passed Fwd filter:                         4  (3.42422e-05); expected 1.2 (1e-05)
+Initial search space (Z):             116815  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 7.88u 0.19s 00:00:08.07 Elapsed: 00:00:02.73
+# Mc/sec: 2133.09
+//
+[ok]

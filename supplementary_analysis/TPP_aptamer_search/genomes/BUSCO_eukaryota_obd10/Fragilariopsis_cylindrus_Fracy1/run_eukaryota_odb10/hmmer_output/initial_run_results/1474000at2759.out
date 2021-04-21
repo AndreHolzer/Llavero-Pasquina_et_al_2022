@@ -1,0 +1,16 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+KV784359_1:497875-499033 -            331 1474000at2759        -            147   4.2e-16   55.5   6.8   1   2     0.084        62   -0.2   0.1    16    37    42    63    36   101 0.65 -
+KV784359_1:497875-499033 -            331 1474000at2759        -            147   4.2e-16   55.5   6.8   2   2   5.7e-19   4.2e-16   55.5   6.8    67   140   134   212   109   218 0.85 -
+KV784413_1:206811-207963 -            307 1474000at2759        -            147   5.3e-15   51.9  11.8   1   1   1.3e-17   9.6e-15   51.1  11.4    67   140   110   188    90   194 0.85 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1474000at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fragilariopsis_cylindrus_Fracy1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_001750085.1_Fracy1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fragilariopsis_cylindrus_Fracy1/run_eukaryota_odb10/hmmer_output/initial_run_results/1474000at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1474000at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fragilariopsis_cylindrus_Fracy1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_001750085.1_Fracy1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sat Apr 17 20:51:51 2021
+# [ok]

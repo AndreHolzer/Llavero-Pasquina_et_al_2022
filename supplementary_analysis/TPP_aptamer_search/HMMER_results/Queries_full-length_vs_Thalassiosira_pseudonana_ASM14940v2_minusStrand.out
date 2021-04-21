@@ -1,0 +1,47 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_full-length_rev-compl.hmm
+# target sequence database:        genomes/Thalassiosira_pseudonana_ASM14940v2/GCA_000149405.2_ASM14940v2_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_full-length_rev-compl.aligned  [M=115]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    5.4e-12   38.4   0.0    2.3e-11   36.3   0.0    2.2  1  CM000638_1  Thalassiosira pseudonana CCMP1335 chromosome 1, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> CM000638_1  Thalassiosira pseudonana CCMP1335 chromosome 1, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.3   0.0   3.6e-13   2.3e-11       4     109 ..  622760  622846 ..  622757  622852 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 36.3 bits;  conditional E-value: 3.6e-13
+  2021-01-26_BLASTN_queries_full-length_rev-compl.aligned      4 gtttttccctctcgcatgaattaccatgatcaggttcaagcggttttcgatatcaacttgaacatatttgagtgttgttttggttctcagttgagctcccgcaaac 109   
+                                                                 g +tttcc tctcgcatga ttaccatg tca gttc+a+cggt ttc  t+tca c+t+a+ ++at ++a+t++                   gc cccgc   c
+                                               CM000638_1 622760 GCCTTTCCTTCTCGCATGATTTACCATGTTCAAGTTCTAACGGTGTTCATTCTCAGCCTAATGTGATAACAATAA-------------------GCACCCGCGGCC 622846
+                                                                 67899****************************************************************999988...................9****9997665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (115 nodes)
+Target sequences:                           64  (32437365 residues searched)
+Passed MSV filter:                         2  (0.03125); expected 1.3 (0.02)
+Passed bias filter:                        1  (0.015625); expected 1.3 (0.02)
+Passed Vit filter:                         1  (0.015625); expected 0.1 (0.001)
+Passed Fwd filter:                         1  (0.015625); expected 0.0 (1e-05)
+Initial search space (Z):                 64  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 14.24u 0.23s 00:00:14.47 Elapsed: 00:00:12.79
+# Mc/sec: 291.66
+//
+[ok]

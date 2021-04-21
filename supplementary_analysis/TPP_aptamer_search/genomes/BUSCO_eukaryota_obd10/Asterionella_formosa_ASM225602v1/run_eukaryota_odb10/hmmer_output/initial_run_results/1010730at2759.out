@@ -1,0 +1,24 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NKIB01005037_1:0-1004      -            335 1010730at2759        -            275   4.3e-85  281.4   0.1   1   2   2.9e-81   3.7e-79  262.0   0.0     5   222     3   246     1   258 0.88 -
+NKIB01005037_1:0-1004      -            335 1010730at2759        -            275   4.3e-85  281.4   0.1   2   2   9.3e-07   0.00012   17.6   0.0   223   242   315   334   313   335 0.90 -
+NKIB01013201_1:39866-40486 -            207 1010730at2759        -            275   9.5e-16   54.0   0.2   1   1   1.2e-17   1.6e-15   53.3   0.2   123   253    68   207    10   207 0.77 -
+NKIB01015177_1:1740-2480   -            247 1010730at2759        -            275   5.7e-12   41.6   0.1   1   1   8.6e-14   1.1e-11   40.7   0.1   223   258    12    47    10    52 0.93 -
+NKIB01015083_1:1823-2533   -            237 1010730at2759        -            275   6.3e-12   41.4   0.1   1   1   8.9e-14   1.1e-11   40.6   0.1   223   258     2    37     1    42 0.93 -
+NKIB01012298_1:6584-7426   -            281 1010730at2759        -            275   2.5e-06   23.1   0.1   1   1   2.9e-08   3.7e-06   22.5   0.1   145   222    52   134    24   157 0.84 -
+NKIB01012161_1:3059-4117   -            353 1010730at2759        -            275   3.8e-06   22.5   0.2   1   1   5.1e-08   6.5e-06   21.7   0.2   144   222    56   139     2   161 0.83 -
+NKIB01000868_1:7704-8150   -            149 1010730at2759        -            275    0.0026   13.2   0.2   1   1   3.6e-05    0.0046   12.4   0.2   141   222    17   112    12   125 0.67 -
+NKIB01001221_1:17758-18570 -            271 1010730at2759        -            275    0.0049   12.3   0.0   1   1   4.5e-05    0.0058   12.0   0.0   178   227    76   127     6   149 0.83 -
+NKIB01012851_1:60816-61349 -            178 1010730at2759        -            275    0.0049   12.3   0.0   1   1   5.4e-05    0.0069   11.8   0.0   188   223    43    78    24    83 0.87 -
+NKIB01006692_1:3210-4028   -            273 1010730at2759        -            275     0.005   12.3   0.0   1   1   4.9e-05    0.0063   11.9   0.0   168   223    73   135    27   163 0.73 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1010730at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionella_formosa_ASM225602v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_002256025.1_ASM225602v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionella_formosa_ASM225602v1/run_eukaryota_odb10/hmmer_output/initial_run_results/1010730at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1010730at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionella_formosa_ASM225602v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_002256025.1_ASM225602v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 04:23:52 2021
+# [ok]

@@ -1,0 +1,15 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CM000623_1:600150-605486 -           1779 625387at2759         -            378   6.1e-36  119.7  13.4   1   2   5.8e-28   5.2e-25   83.7   1.5    53   272   465   733   446   750 0.72 -
+CM000623_1:600150-605486 -           1779 625387at2759         -            378   6.1e-36  119.7  13.4   2   2   2.3e-12   2.1e-09   32.4   4.6   298   355   810   871   759   889 0.76 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/625387at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Phaeodactylum_tricornutum_ASM15095v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_000150955.2_ASM15095v2_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Phaeodactylum_tricornutum_ASM15095v2/run_eukaryota_odb10/hmmer_output/initial_run_results/625387at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/625387at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Phaeodactylum_tricornutum_ASM15095v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_000150955.2_ASM15095v2_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sun Apr 18 13:55:27 2021
+# [ok]

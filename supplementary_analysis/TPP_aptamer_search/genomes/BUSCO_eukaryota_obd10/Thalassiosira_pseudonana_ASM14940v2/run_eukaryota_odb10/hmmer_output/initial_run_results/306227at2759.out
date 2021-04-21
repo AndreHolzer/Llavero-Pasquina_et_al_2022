@@ -1,0 +1,24 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CM000638_1:1687366-1689465 -            700 306227at2759         -            481  1.8e-136  451.4  16.6   1   5   2.6e-80   7.2e-78  258.1   0.0     1   260     9   328     9   331 0.80 -
+CM000638_1:1687366-1689465 -            700 306227at2759         -            481  1.8e-136  451.4  16.6   2   5     3e-08   8.2e-06   20.5   0.6   129   198   326   395   321   406 0.86 -
+CM000638_1:1687366-1689465 -            700 306227at2759         -            481  1.8e-136  451.4  16.6   3   5   9.9e-12   2.8e-09   32.0   0.1   300   354   443   498   437   506 0.89 -
+CM000638_1:1687366-1689465 -            700 306227at2759         -            481  1.8e-136  451.4  16.6   4   5   8.9e-09   2.5e-06   22.2   0.1   352   381   536   565   531   568 0.91 -
+CM000638_1:1687366-1689465 -            700 306227at2759         -            481  1.8e-136  451.4  16.6   5   5   3.3e-38   9.3e-36  119.3   2.0   382   480   593   700   589   700 0.91 -
+CM000639_1:173962-179466   -           1753 306227at2759         -            481   9.5e-53  175.3   5.4   1   2   1.1e-36     3e-34  114.3   0.5     3   205   457   692   455   700 0.80 -
+CM000639_1:173962-179466   -           1753 306227at2759         -            481   9.5e-53  175.3   5.4   2   2   6.4e-21   1.8e-18   62.3   0.4   338   480  1089  1258  1083  1259 0.81 -
+CM000654_1:64495-69424     -           1382 306227at2759         -            481   2.2e-08   29.0   0.0   1   4      0.02       5.7    1.3   0.0    29    81    73   128    63   137 0.77 -
+CM000654_1:64495-69424     -           1382 306227at2759         -            481   2.2e-08   29.0   0.0   2   4     0.001      0.28    5.6   0.0    60   193   186   320   171   326 0.78 -
+CM000654_1:64495-69424     -           1382 306227at2759         -            481   2.2e-08   29.0   0.0   3   4      0.77   2.1e+02   -3.9   0.0    36    79   399   445   385   450 0.70 -
+CM000654_1:64495-69424     -           1382 306227at2759         -            481   2.2e-08   29.0   0.0   4   4   4.9e-07   0.00014   16.5   0.1    49   226   521   699   512   736 0.81 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/306227at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_pseudonana_ASM14940v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_000149405.2_ASM14940v2_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_pseudonana_ASM14940v2/run_eukaryota_odb10/hmmer_output/initial_run_results/306227at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/306227at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_pseudonana_ASM14940v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_000149405.2_ASM14940v2_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 03:20:01 2021
+# [ok]

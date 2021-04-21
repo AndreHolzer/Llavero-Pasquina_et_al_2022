@@ -1,0 +1,24 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+BDSP01000283_1:173426-173995 -            190 1129824at2759        -            141   1.1e-21   72.7   1.8   1   1     3e-23   2.1e-21   71.8   1.8    11   141    48   184    39   184 0.83 -
+BDSP01000076_1:364-864       -            167 1129824at2759        -            141   1.2e-20   69.3   1.2   1   1   3.4e-22   2.4e-20   68.4   1.2    11   141    26   161    17   161 0.82 -
+BDSP01000020_1:64710-65039   -            110 1129824at2759        -            141     2e-08   29.8   0.0   1   1   2.9e-10   2.1e-08   29.7   0.0    11    63    36    88    22   103 0.89 -
+BDSP01000174_1:864-1229      -            122 1129824at2759        -            141   7.1e-08   27.9   0.0   1   1   1.1e-09   7.8e-08   27.8   0.0    11    63    34    86    20   106 0.88 -
+BDSP01000177_1:128559-128882 -            108 1129824at2759        -            141     2e-06   23.2   0.5   1   1   3.6e-08   2.6e-06   22.9   0.5    12    63    54   100    39   104 0.87 -
+BDSP01000061_1:210638-210922 -             95 1129824at2759        -            141   2.9e-06   22.7   0.1   1   1   4.8e-08   3.4e-06   22.5   0.1    12    63    16    62     1    80 0.83 -
+BDSP01000143_1:112251-112535 -             95 1129824at2759        -            141   2.9e-06   22.7   0.1   1   1   4.8e-08   3.4e-06   22.5   0.1    12    63    16    62     1    80 0.83 -
+BDSP01000106_1:38724-39077   -            118 1129824at2759        -            141     3e-06   22.7   0.0   1   1   4.9e-08   3.5e-06   22.5   0.0    10    72    13    74     1    99 0.78 -
+BDSP01000137_1:35942-36295   -            118 1129824at2759        -            141     3e-06   22.7   0.0   1   1   4.9e-08   3.5e-06   22.5   0.0    10    72    13    74     1    99 0.78 -
+BDSP01000007_1:271325-271645 -            107 1129824at2759        -            141   3.5e-05   19.2   0.5   1   1   1.1e-06   7.7e-05   18.1   0.5    12    77    19    74    14    84 0.78 -
+BDSP01000217_1:56551-56862   -            104 1129824at2759        -            141   4.5e-05   18.9   0.6   1   1   1.4e-06    0.0001   17.7   0.5    12    75    17    70    12    81 0.77 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1129824at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fistulifera_solaris_Fsol_1.0/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_002217885.1_Fsol_1.0_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fistulifera_solaris_Fsol_1.0/run_eukaryota_odb10/hmmer_output/rerun_results/1129824at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1129824at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fistulifera_solaris_Fsol_1.0/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_002217885.1_Fsol_1.0_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sun Apr 18 10:08:35 2021
+# [ok]

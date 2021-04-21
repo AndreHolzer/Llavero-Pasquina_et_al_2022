@@ -1,0 +1,18 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+JAACSZ010001864_1:1283-4263   -            966 1248958at2759        -            654  5.3e-150  496.6   0.0   1   1  1.1e-150  4.7e-148  490.1   0.0     9   625    35   843    33   847 0.79 -
+JAACSZ010000835_1:12514-14847 -            778 1248958at2759        -            654   5.9e-16   53.7   6.6   1   4   0.00038      0.17    5.9   0.1     6    28     3    25     1    30 0.86 -
+JAACSZ010000835_1:12514-14847 -            778 1248958at2759        -            654   5.9e-16   53.7   6.6   2   4   2.4e-10   1.1e-07   26.4   0.0    24   100    46   133    40   186 0.75 -
+JAACSZ010000835_1:12514-14847 -            778 1248958at2759        -            654   5.9e-16   53.7   6.6   3   4   1.2e-08   5.1e-06   20.8   0.0   180   298   278   400   267   407 0.74 -
+JAACSZ010000835_1:12514-14847 -            778 1248958at2759        -            654   5.9e-16   53.7   6.6   4   4     0.011       4.8    1.1   0.4   460   511   622   671   620   696 0.88 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1248958at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Bacillariophyta_sp_ASM1036716v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_010367165.1_ASM1036716v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Bacillariophyta_sp_ASM1036716v1/run_eukaryota_odb10/hmmer_output/initial_run_results/1248958at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1248958at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Bacillariophyta_sp_ASM1036716v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_010367165.1_ASM1036716v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 13:26:11 2021
+# [ok]

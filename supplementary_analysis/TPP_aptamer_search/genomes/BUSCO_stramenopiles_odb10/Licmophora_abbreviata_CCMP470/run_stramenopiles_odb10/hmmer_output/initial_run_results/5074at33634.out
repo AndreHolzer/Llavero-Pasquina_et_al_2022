@@ -1,0 +1,17 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+OLMU01000345_1:12331-13935 -            535 5074at33634          -            415  2.1e-169  557.7   3.0   1   2  2.1e-171  2.1e-169  557.7   3.0     1   408     1   495     1   500 0.84 -
+OLMU01000345_1:12331-13935 -            535 5074at33634          -            415  2.1e-169  557.7   3.0   2   2       0.2        20   -2.2   0.7   404   415   514   525   509   525 0.92 -
+OLMU01006477_1:989-1780    -            264 5074at33634          -            415   6.7e-79  259.6   0.4   1   1   8.1e-81   8.1e-79  259.3   0.4   188   405     1   232     1   239 0.91 -
+OLMU01002162_1:402-1664    -            421 5074at33634          -            415   9.3e-24   77.9   0.4   1   1   1.3e-25   1.3e-23   77.4   0.4    29   402     1   409     1   415 0.73 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/5074at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Licmophora_abbreviata_CCMP470/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_900291995.1_CCMP470_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Licmophora_abbreviata_CCMP470/run_stramenopiles_odb10/hmmer_output/initial_run_results/5074at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/5074at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Licmophora_abbreviata_CCMP470/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_900291995.1_CCMP470_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Fri Apr 16 15:51:00 2021
+# [ok]

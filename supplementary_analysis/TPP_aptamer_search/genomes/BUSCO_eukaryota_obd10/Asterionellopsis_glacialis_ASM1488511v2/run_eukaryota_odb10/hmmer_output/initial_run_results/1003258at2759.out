@@ -1,0 +1,18 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WKLE02002894_1:1248-2711 -            488 1003258at2759        -            286   9.4e-59  195.4  39.4   1   5   7.3e-21   8.3e-18   61.0   0.1    17    78    26    95    15   105 0.87 -
+WKLE02002894_1:1248-2711 -            488 1003258at2759        -            286   9.4e-59  195.4  39.4   2   5   4.6e-09   5.2e-06   22.3   0.8    81   116   141   176   131   182 0.87 -
+WKLE02002894_1:1248-2711 -            488 1003258at2759        -            286   9.4e-59  195.4  39.4   3   5   2.9e-08   3.3e-05   19.7   0.8   109   138   206   235   180   239 0.87 -
+WKLE02002894_1:1248-2711 -            488 1003258at2759        -            286   9.4e-59  195.4  39.4   4   5   1.3e-13   1.5e-10   37.2   0.4   126   183   284   338   277   359 0.80 -
+WKLE02002894_1:1248-2711 -            488 1003258at2759        -            286   9.4e-59  195.4  39.4   5   5   7.7e-24   8.7e-21   70.8  14.8   184   285   375   487   366   488 0.83 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1003258at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionellopsis_glacialis_ASM1488511v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_014885115.2_ASM1488511v2_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionellopsis_glacialis_ASM1488511v2/run_eukaryota_odb10/hmmer_output/initial_run_results/1003258at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1003258at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionellopsis_glacialis_ASM1488511v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_014885115.2_ASM1488511v2_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 05:52:12 2021
+# [ok]

@@ -1,0 +1,24 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NKIB01001845_1:17688-24310 -           2182 39650at2759          -           1547         0 1696.7  11.5   1   5         0         0 1608.7   2.6    68  1044    12  1050     3  1056 0.93 -
+NKIB01001845_1:17688-24310 -           2182 39650at2759          -           1547         0 1696.7  11.5   2   5   3.8e-08   1.6e-05   18.6   0.2  1065  1171  1167  1316  1115  1353 0.67 -
+NKIB01001845_1:17688-24310 -           2182 39650at2759          -           1547         0 1696.7  11.5   3   5    0.0047         2    1.7   0.0  1297  1323  1646  1672  1628  1687 0.79 -
+NKIB01001845_1:17688-24310 -           2182 39650at2759          -           1547         0 1696.7  11.5   4   5   6.3e-14   2.7e-11   37.8   0.0  1350  1426  1755  1838  1742  1872 0.79 -
+NKIB01001845_1:17688-24310 -           2182 39650at2759          -           1547         0 1696.7  11.5   5   5   1.8e-11   7.5e-09   29.7   0.0  1454  1521  2000  2070  1993  2075 0.84 -
+NKIB01002942_1:8436-13026  -           1483 39650at2759          -           1547   4.6e-06   20.4   0.7   1   3     9e-06    0.0038   10.8   0.0   229   283   633   687   625   704 0.92 -
+NKIB01002942_1:8436-13026  -           1483 39650at2759          -           1547   4.6e-06   20.4   0.7   2   3    0.0021      0.92    2.9   0.1   646   730   924  1008   916  1021 0.76 -
+NKIB01002942_1:8436-13026  -           1483 39650at2759          -           1547   4.6e-06   20.4   0.7   3   3    0.0012      0.51    3.7   0.2   760   867  1009  1118  1006  1185 0.69 -
+NKIB01012763_1:26076-27935 -            620 39650at2759          -           1547   0.00052   13.6   0.0   1   3   2.4e-05      0.01    9.3   0.0   232   291     2    61     1    69 0.88 -
+NKIB01012763_1:26076-27935 -            620 39650at2759          -           1547   0.00052   13.6   0.0   2   3     0.089        38   -2.5   0.1   504   529   234   259   222   267 0.81 -
+NKIB01012763_1:26076-27935 -            620 39650at2759          -           1547   0.00052   13.6   0.0   3   3    0.0078       3.3    1.0   0.0   666   718   319   371   296   374 0.83 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/39650at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionella_formosa_ASM225602v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_002256025.1_ASM225602v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionella_formosa_ASM225602v1/run_eukaryota_odb10/hmmer_output/initial_run_results/39650at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/39650at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionella_formosa_ASM225602v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_002256025.1_ASM225602v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 04:24:37 2021
+# [ok]

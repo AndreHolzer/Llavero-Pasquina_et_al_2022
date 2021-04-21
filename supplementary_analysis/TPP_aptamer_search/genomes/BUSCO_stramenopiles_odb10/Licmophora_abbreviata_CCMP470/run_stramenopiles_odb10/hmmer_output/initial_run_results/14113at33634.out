@@ -1,0 +1,22 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+OLMU01002475_1:268-1702    -            441 14113at33634         -            336  5.7e-150  493.0   7.9   1   3  4.2e-125  3.1e-123  405.1   0.6    10   216     3   230     1   236 0.91 -
+OLMU01002475_1:268-1702    -            441 14113at33634         -            336  5.7e-150  493.0   7.9   2   3   7.5e-13   5.6e-11   36.1   0.3   212   249   248   286   235   309 0.85 -
+OLMU01002475_1:268-1702    -            441 14113at33634         -            336  5.7e-150  493.0   7.9   3   3   1.3e-18   9.8e-17   55.0   0.1   267   336   360   434   344   434 0.87 -
+OLMU01002625_1:21530-23690 -            574 14113at33634         -            336     4e-47  154.9   0.1   1   2     1e-46   7.6e-45  147.4   0.0    20   213    49   249    38   262 0.89 -
+OLMU01002625_1:21530-23690 -            574 14113at33634         -            336     4e-47  154.9   0.1   2   2    0.0016      0.12    5.4   0.1   299   329   354   384   267   390 0.65 -
+OLMU01000011_1:1965-3265   -            404 14113at33634         -            336   5.3e-41  134.8   0.0   1   2   1.8e-42   1.4e-40  133.4   0.0    18   208    67   263    57   322 0.89 -
+OLMU01000011_1:1965-3265   -            404 14113at33634         -            336   5.3e-41  134.8   0.0   2   2      0.24        18   -1.7   0.0   303   328   378   403   369   404 0.88 -
+OLMU01004053_1:1254-2315   -            354 14113at33634         -            336   1.7e-29   96.9   0.2   1   2     1e-29   7.9e-28   91.5   0.1    22   209     1   214     1   225 0.81 -
+OLMU01004053_1:1254-2315   -            354 14113at33634         -            336   1.7e-29   96.9   0.2   2   2     0.046       3.5    0.6   0.0   305   328   330   353   238   354 0.71 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/14113at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Licmophora_abbreviata_CCMP470/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_900291995.1_CCMP470_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Licmophora_abbreviata_CCMP470/run_stramenopiles_odb10/hmmer_output/initial_run_results/14113at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/14113at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Licmophora_abbreviata_CCMP470/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_900291995.1_CCMP470_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Fri Apr 16 15:50:54 2021
+# [ok]

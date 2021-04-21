@@ -1,0 +1,60 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_P2-P4.hmm
+# target sequence database:        genomes/Bacillariophyta_sp_ASM1036716v1/GCA_010367165.1_ASM1036716v1_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_P2-P4.aligned  [M=36]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+    4.1e-09   33.5   0.0    1.3e-08   31.9   0.0    2.0  1  JAACSZ010000817_1  Bacillariophyta sp_ isolate CG_2015-15_45_16 CG_2015-15_curated_scaffold_1739, whole genome shotgun sequence
+    0.00055   17.1   0.0     0.0015   15.8   0.0    1.8  1  JAACSZ010000334_1  Bacillariophyta sp_ isolate CG_2015-15_45_16 CG_2015-15_curated_scaffold_2741, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> JAACSZ010000817_1  Bacillariophyta sp_ isolate CG_2015-15_45_16 CG_2015-15_curated_scaffold_1739, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.9   0.0     1e-11   1.3e-08       1      36 []   14530   14565 ..   14530   14565 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 31.9 bits;  conditional E-value: 1e-11
+  2021-01-26_BLASTN_queries_P2-P4.aligned     1 CCGcTtGAACcTGatCatGgTAAttCatGCGtgAgG 36   
+                                                CCG+TtGAACcTGa C+tGgTAAt+CatGCGtgAgG
+                        JAACSZ010000817_1 14530 CCGTTTGAACCTGAACGTGGTAATGCATGCGTGAGG 14565
+                                                79********************************97 PP
+
+>> JAACSZ010000334_1  Bacillariophyta sp_ isolate CG_2015-15_45_16 CG_2015-15_curated_scaffold_2741, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.8   0.0   1.2e-06    0.0015       1      36 []     568     603 ..     568     603 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 15.8 bits;  conditional E-value: 1.2e-06
+  2021-01-26_BLASTN_queries_P2-P4.aligned   1 CCGcTtGAACcTGatCa.tGgTAAttCatGCGtgAgG 36 
+                                              CCG+ +GAACcTGatC+ tGgTAAttCa GCG  AgG
+                        JAACSZ010000334_1 568 CCGTCGGAACCTGATCGtTGGTAATTCACGCG-AAGG 603
+                                              688889**********955*************.8876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (36 nodes)
+Target sequences:                         2471  (37632609 residues searched)
+Passed MSV filter:                        42  (0.0169972); expected 49.4 (0.02)
+Passed bias filter:                       42  (0.0169972); expected 49.4 (0.02)
+Passed Vit filter:                         4  (0.00161878); expected 2.5 (0.001)
+Passed Fwd filter:                         2  (0.000809389); expected 0.0 (1e-05)
+Initial search space (Z):               2471  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 1.76u 0.06s 00:00:01.82 Elapsed: 00:00:00.68
+# Mc/sec: 1992.31
+//
+[ok]

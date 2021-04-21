@@ -1,0 +1,17 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+KV784382_1:485684-487405 -            574 12693at33634         -            306   2.7e-64  211.5  29.6   1   4   8.3e-16   3.1e-13   43.8   2.6     1    85    39   148    39   152 0.85 -
+KV784382_1:485684-487405 -            574 12693at33634         -            306   2.7e-64  211.5  29.6   2   4     4e-31   1.5e-28   94.1   2.5    81   183   185   294   174   300 0.83 -
+KV784382_1:485684-487405 -            574 12693at33634         -            306   2.7e-64  211.5  29.6   3   4   1.9e-21   7.1e-19   62.4   1.8   191   253   373   447   366   470 0.85 -
+KV784382_1:485684-487405 -            574 12693at33634         -            306   2.7e-64  211.5  29.6   4   4   5.7e-10   2.1e-07   24.7   0.2   264   303   519   559   513   563 0.90 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/12693at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Fragilariopsis_cylindrus_Fracy1/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_001750085.1_Fracy1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Fragilariopsis_cylindrus_Fracy1/run_stramenopiles_odb10/hmmer_output/initial_run_results/12693at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/12693at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Fragilariopsis_cylindrus_Fracy1/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_001750085.1_Fracy1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Thu Apr 15 12:01:38 2021
+# [ok]

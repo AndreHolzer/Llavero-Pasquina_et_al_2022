@@ -1,0 +1,86 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_full-length_rev-compl.hmm
+# target sequence database:        genomes/Fragilariopsis_cylindrus_Fracy1/GCA_001750085.1_Fracy1_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_full-length_rev-compl.aligned  [M=115]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    7.2e-22   72.0   0.0    2.6e-21   70.3   0.0    2.1  1  KV784451_1  Fragilariopsis cylindrus CCMP1102 unplaced genomic scaffold FRACYscaffold_100, whole genome shotgun sequence
+    7.6e-22   71.9   0.0    4.6e-21   69.5   0.0    2.5  1  KV784371_1  Fragilariopsis cylindrus CCMP1102 unplaced genomic scaffold FRACYscaffold_19, whole genome shotgun sequence
+    2.7e-18   60.5   0.0    1.5e-17   58.2   0.0    2.4  1  KV784391_1  Fragilariopsis cylindrus CCMP1102 unplaced genomic scaffold FRACYscaffold_39, whole genome shotgun sequence
+    9.9e-18   58.8   0.0    8.4e-17   55.8   0.0    2.9  1  KV784358_1  Fragilariopsis cylindrus CCMP1102 unplaced genomic scaffold FRACYscaffold_6, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> KV784451_1  Fragilariopsis cylindrus CCMP1102 unplaced genomic scaffold FRACYscaffold_100, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.3   0.0   3.8e-23   2.6e-21       2     113 ..   88570   88687 ..   88569   88689 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 70.3 bits;  conditional E-value: 3.8e-23
+  2021-01-26_BLASTN_queries_full-length_rev-compl.aligned     2 ttgtttttccctctcgcatgaattaccatgatcaggttcaagcggttttcgatatcaacttg......aacatatttgagtgttgttttggttctcagttgagctcccgcaaacaaac 113  
+                                                                ttgtttttccctc+cgcatg+attaccatgatcaggttcaagcggtt tc atatca+ tt       +  at +t+ a+tg+++ttttg +tctcag++gagctcccgcaaacaaac
+                                               KV784451_1 88570 TTGTTTTTCCCTCACGCATGCATTACCATGATCAGGTTCAAGCGGTTCTCAATATCATTTTTttatacGCGATGGTATAATGACATTTTGAATCTCAGCAGAGCTCCCGCAAACAAAC 88687
+                                                                6899**************************************************999887766666677788899999***********************************99886 PP
+
+>> KV784371_1  Fragilariopsis cylindrus CCMP1102 unplaced genomic scaffold FRACYscaffold_19, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.5   0.0   6.7e-23   4.6e-21       2     113 ..  860058  860170 ..  860057  860172 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 69.5 bits;  conditional E-value: 6.7e-23
+  2021-01-26_BLASTN_queries_full-length_rev-compl.aligned      2 ttgtttttccctctcgcatgaattaccatgatcaggttcaagcggttttcgatatcaacttg.aacatatttgagtgttgttttggttctcagttgagctcccgcaaacaaac 113   
+                                                                 ttgtttttccctc+cgcatg+attaccatgatcaggttcaagcggtt tc atatca+ +t+ +  at +t+ a+tg+++ttttg +tctcag++gagctcccgcaaacaaac
+                                               KV784371_1 860058 TTGTTTTTCCCTCACGCATGCATTACCATGATCAGGTTCAAGCGGTTCTCAATATCACTATAcGCGATGGTATAATGACATTTTGAATCTCAGCAGAGCTCCCGCAAACAAAC 860170
+                                                                 6899******************************************************99999999******************************************99886 PP
+
+>> KV784391_1  Fragilariopsis cylindrus CCMP1102 unplaced genomic scaffold FRACYscaffold_39, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.2   0.0   2.2e-19   1.5e-17       2     113 ..  466354  466455 ..  466353  466457 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 58.2 bits;  conditional E-value: 2.2e-19
+  2021-01-26_BLASTN_queries_full-length_rev-compl.aligned      2 ttgtttttccctctcgcatgaattaccatgatcaggttcaagcggttttcgatatcaacttg.aacatatttgagtgttgttttggttctcagttgagctcccgcaaacaaac 113   
+                                                                 ttgtt ttccctc+cgcatgaattaccatgatcaggttc+agcggttttcg+ta  a+ ttg a+c+ a+ t+ag ++t+t            +t +gctcccgcaaacaaac
+                                               KV784391_1 466354 TTGTTATTCCCTCACGCATGAATTACCATGATCAGGTTCTAGCGGTTTTCGGTAAAATATTGaATCTCAGCTCAGAAATAT-----------CCTTTGCTCCCGCAAACAAAC 466455
+                                                                 68999******************************************************999889999************9...........999*************99886 PP
+
+>> KV784358_1  Fragilariopsis cylindrus CCMP1102 unplaced genomic scaffold FRACYscaffold_6, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.8   0.0   1.2e-18   8.4e-17       2     113 .. 1062978 1063079 .. 1062977 1063081 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 55.8 bits;  conditional E-value: 1.2e-18
+  2021-01-26_BLASTN_queries_full-length_rev-compl.aligned       2 ttgtttttccctctcgcatgaattaccatgatcaggttcaagcggttttcgatatcaacttg.aacatatttgagtgttgttttggttctcagttgagctcccgcaaacaaac 113    
+                                                                  ttgtt ttccctc+cgcatgaattaccatgatcaggttc+agcggttttcg+ta  a+ ttg a+c+ a+ t+ag ++t+t            +t +gctcccgcaaacaaac
+                                               KV784358_1 1062978 TTGTTATTCCCTCACGCATGAATTACCATGATCAGGTTCTAGCGGTTTTCGGTAAAATATTGaATCTCAGCTCAGAAATAT-----------CCTTTGCTCCCGCAAACAAAC 1063079
+                                                                  68999******************************************************999889999************9...........999*************99886 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (115 nodes)
+Target sequences:                          271  (80540407 residues searched)
+Passed MSV filter:                         7  (0.0258303); expected 5.4 (0.02)
+Passed bias filter:                        6  (0.0221402); expected 5.4 (0.02)
+Passed Vit filter:                         4  (0.0147601); expected 0.3 (0.001)
+Passed Fwd filter:                         4  (0.0147601); expected 0.0 (1e-05)
+Initial search space (Z):                271  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 26.77u 0.39s 00:00:27.16 Elapsed: 00:00:14.12
+# Mc/sec: 655.96
+//
+[ok]

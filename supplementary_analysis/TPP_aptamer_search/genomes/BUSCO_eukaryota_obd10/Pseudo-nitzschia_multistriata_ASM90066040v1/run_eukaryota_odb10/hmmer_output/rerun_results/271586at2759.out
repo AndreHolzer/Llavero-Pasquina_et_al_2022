@@ -1,0 +1,30 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAACVS010000042_1:104128-105006 -            293 271586at2759         -            460   8.6e-08   26.5   0.8   1   3      0.18        15   -0.7   0.0   219   256    73   113    55   121 0.65 -
+CAACVS010000042_1:104128-105006 -            293 271586at2759         -            460   8.6e-08   26.5   0.8   2   3     4e-06   0.00032   14.7   0.1    24    74   122   172   102   212 0.80 -
+CAACVS010000042_1:104128-105006 -            293 271586at2759         -            460   8.6e-08   26.5   0.8   3   3   0.00037      0.03    8.2   0.0    24   111   190   282   184   292 0.62 -
+CAACVS010000335_1:298787-299653 -            289 271586at2759         -            460     4e-05   17.7   1.4   1   3   0.00024      0.02    8.8   0.2   204   275    10    86     7    99 0.72 -
+CAACVS010000335_1:298787-299653 -            289 271586at2759         -            460     4e-05   17.7   1.4   2   3    0.0019      0.16    5.9   0.1    27   109   138   226   129   257 0.68 -
+CAACVS010000335_1:298787-299653 -            289 271586at2759         -            460     4e-05   17.7   1.4   3   3     0.011      0.85    3.4   0.0    30    78   210   259   200   275 0.69 -
+CAACVS010000225_1:410395-411042 -            216 271586at2759         -            460   0.00019   15.4   0.5   1   3      0.28        23   -1.3   0.1    14    37    22    45    12    55 0.70 -
+CAACVS010000225_1:410395-411042 -            216 271586at2759         -            460   0.00019   15.4   0.5   2   3    0.0011     0.088    6.7   0.0    41    66   141   166   114   175 0.77 -
+CAACVS010000225_1:410395-411042 -            216 271586at2759         -            460   0.00019   15.4   0.5   3   3    0.0015      0.12    6.3   0.1    43    66   185   209   166   215 0.81 -
+CAACVS010000688_1:51607-51855   -             83 271586at2759         -            460   0.00036   14.6   0.2   1   1   4.7e-06   0.00038   14.5   0.2    10    73    14    77     8    83 0.87 -
+CAACVS010000245_1:3994-4869     -            292 271586at2759         -            460   0.00053   14.0   4.4   1   3   0.00083     0.067    7.1   0.0   409   435    40    66    35    69 0.90 -
+CAACVS010000245_1:3994-4869     -            292 271586at2759         -            460   0.00053   14.0   4.4   2   3    0.0045      0.37    4.6   2.2   290   370   118   198    88   201 0.54 -
+CAACVS010000245_1:3994-4869     -            292 271586at2759         -            460   0.00053   14.0   4.4   3   3       1.4   1.1e+02   -3.5   0.0   203   216   223   236   213   254 0.60 -
+CAACVS010000065_1:78247-78795   -            183 271586at2759         -            460    0.0012   12.8   0.0   1   3    0.0036      0.29    5.0   0.0    43   108     7    77     3    84 0.72 -
+CAACVS010000065_1:78247-78795   -            183 271586at2759         -            460    0.0012   12.8   0.0   2   3     0.012      0.93    3.3   0.0    24    58    90   124    84   128 0.93 -
+CAACVS010000065_1:78247-78795   -            183 271586at2759         -            460    0.0012   12.8   0.0   3   3     0.069       5.6    0.7   0.0   237   262   130   155   125   176 0.69 -
+CAACVS010000197_1:1955-2224     -             90 271586at2759         -            460    0.0025   11.8   0.2   1   1   3.1e-05    0.0025   11.8   0.2    27    64     1    38     1    77 0.91 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/271586at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Pseudo-nitzschia_multistriata_ASM90066040v1/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_900660405.1_ASM90066040v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Pseudo-nitzschia_multistriata_ASM90066040v1/run_eukaryota_odb10/hmmer_output/rerun_results/271586at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/271586at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Pseudo-nitzschia_multistriata_ASM90066040v1/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_900660405.1_ASM90066040v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sun Apr 18 05:05:31 2021
+# [ok]

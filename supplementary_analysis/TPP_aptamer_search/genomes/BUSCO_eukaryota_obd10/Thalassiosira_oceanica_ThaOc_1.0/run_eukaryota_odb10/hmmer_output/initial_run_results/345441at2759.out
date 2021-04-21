@@ -1,0 +1,22 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+AGNL01029595_1:3063-4478 -            472 345441at2759         -            381   7.3e-84  278.8   7.3   1   5     8e-19   6.2e-16   55.2   0.0    24    71     2    49     1    60 0.92 -
+AGNL01029595_1:3063-4478 -            472 345441at2759         -            381   7.3e-84  278.8   7.3   2   5   3.8e-08   2.9e-05   20.1   0.1    75   119    75   124    69   152 0.82 -
+AGNL01029595_1:3063-4478 -            472 345441at2759         -            381   7.3e-84  278.8   7.3   3   5     0.033        25    0.5   0.0   133   148   169   184   165   198 0.87 -
+AGNL01029595_1:3063-4478 -            472 345441at2759         -            381   7.3e-84  278.8   7.3   4   5   4.6e-44   3.5e-41  138.3   0.6   153   269   213   360   198   370 0.81 -
+AGNL01029595_1:3063-4478 -            472 345441at2759         -            381   7.3e-84  278.8   7.3   5   5   6.6e-21   5.1e-18   62.1   0.0   273   341   395   466   390   470 0.95 -
+AGNL01000317_1:3844-4269 -            142 345441at2759         -            381   1.2e-06   24.7   0.0   1   2     0.045        35    0.1   0.0    68    87    25    44     8    86 0.67 -
+AGNL01000317_1:3844-4269 -            142 345441at2759         -            381   1.2e-06   24.7   0.0   2   2   5.4e-09   4.1e-06   22.9   0.0    22    44    87   109    72   128 0.83 -
+AGNL01027065_1:694-1554  -            287 345441at2759         -            381   8.7e-06   21.8   0.0   1   2   0.00022      0.17    7.7   0.0    75   115     3    49     1    55 0.79 -
+AGNL01027065_1:694-1554  -            287 345441at2759         -            381   8.7e-06   21.8   0.0   2   2   1.1e-05    0.0083   12.0   0.0    27    49    57    79    50    94 0.85 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/345441at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_oceanica_ThaOc_1.0/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_000296195.2_ThaOc_1.0_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_oceanica_ThaOc_1.0/run_eukaryota_odb10/hmmer_output/initial_run_results/345441at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/345441at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_oceanica_ThaOc_1.0/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_000296195.2_ThaOc_1.0_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 00:34:59 2021
+# [ok]

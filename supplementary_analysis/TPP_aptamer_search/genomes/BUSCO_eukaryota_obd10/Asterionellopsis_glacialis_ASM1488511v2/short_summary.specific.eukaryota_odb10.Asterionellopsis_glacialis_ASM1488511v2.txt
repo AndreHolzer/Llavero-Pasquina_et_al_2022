@@ -1,0 +1,19 @@
+# BUSCO version is: 5.1.2 
+# The lineage dataset is: eukaryota_odb10 (Creation date: 2020-09-10, number of genomes: 70, number of BUSCOs: 255)
+# Summarized benchmarking in BUSCO notation for file /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/Asterionellopsis_glacialis_ASM1488511v2/GCA_014885115.2_ASM1488511v2_genomic.fna
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:81.6%[S:80.0%,D:1.6%],F:5.9%,M:12.5%,n:255	   
+	208	Complete BUSCOs (C)			   
+	204	Complete and single-copy BUSCOs (S)	   
+	4	Complete and duplicated BUSCOs (D)	   
+	15	Fragmented BUSCOs (F)			   
+	32	Missing BUSCOs (M)			   
+	255	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	metaeuk: 4.a0f584d

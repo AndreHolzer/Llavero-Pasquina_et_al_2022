@@ -1,0 +1,35 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WXVQ01000045_1:12694-14668   -            604 3834at33634          -            493  1.2e-166  548.9  10.1   1   2   8.7e-32   2.6e-30   99.2   4.6    13   157     4   196     1   205 0.76 -
+WXVQ01000045_1:12694-14668   -            604 3834at33634          -            493  1.2e-166  548.9  10.1   2   2  2.3e-137    7e-136  447.5   0.2   156   493   215   603   208   603 0.89 -
+WXVQ01000090_1:69156-70535   -            460 3834at33634          -            493   1.3e-45  149.7   0.0   1   1   5.7e-47   1.7e-45  149.3   0.0   344   493   281   429   255   429 0.89 -
+WXVQ01000018_1:27444-28301   -            286 3834at33634          -            493     2e-11   36.9   0.9   1   3    0.0099       0.3    3.4   0.0    67   102     7    44     2    64 0.76 -
+WXVQ01000018_1:27444-28301   -            286 3834at33634          -            493     2e-11   36.9   0.9   2   3   3.3e-05   0.00099   11.6   0.1    31    92    73   138    68   152 0.79 -
+WXVQ01000018_1:27444-28301   -            286 3834at33634          -            493     2e-11   36.9   0.9   3   3   1.7e-07   5.1e-06   19.1   0.1    26   100   179   252   160   271 0.81 -
+WXVQ01000146_1:34747-35676   -            310 3834at33634          -            493   2.5e-07   23.4   0.0   1   3     0.022      0.65    2.3   0.0    35    52    41    58    27    68 0.80 -
+WXVQ01000146_1:34747-35676   -            310 3834at33634          -            493   2.5e-07   23.4   0.0   2   3   4.9e-05    0.0015   11.0   0.0    37   107   105   178    95   187 0.76 -
+WXVQ01000146_1:34747-35676   -            310 3834at33634          -            493   2.5e-07   23.4   0.0   3   3   0.00096     0.029    6.7   0.0   129   159   174   207   168   216 0.82 -
+WXVQ01000196_1:37833-38825   -            331 3834at33634          -            493   1.6e-06   20.8   0.2   1   4      0.29       8.9   -1.5   0.0    67    94     5    34     2    36 0.80 -
+WXVQ01000196_1:37833-38825   -            331 3834at33634          -            493   1.6e-06   20.8   0.2   2   4      0.31       9.3   -1.5   0.0   181   201   105   125    32   133 0.52 -
+WXVQ01000196_1:37833-38825   -            331 3834at33634          -            493   1.6e-06   20.8   0.2   3   4     0.028      0.84    1.9   0.0    36    76   147   192   132   198 0.70 -
+WXVQ01000196_1:37833-38825   -            331 3834at33634          -            493   1.6e-06   20.8   0.2   4   4   4.5e-06   0.00013   14.4   0.1    27    85   259   322   248   331 0.81 -
+WXVQ01000362_1:9344-10608    -            330 3834at33634          -            493   9.2e-06   18.3   0.0   1   2   7.5e-05    0.0023   10.4   0.0    35    96    62   127    48   140 0.82 -
+WXVQ01000362_1:9344-10608    -            330 3834at33634          -            493   9.2e-06   18.3   0.0   2   2    0.0015     0.046    6.1   0.0    22    98   142   222   124   247 0.69 -
+WXVQ01000012_1:198639-199463 -            275 3834at33634          -            493   0.00012   14.6   0.0   1   2   0.00051     0.015    7.6   0.0    37   101   136   203   102   214 0.80 -
+WXVQ01000012_1:198639-199463 -            275 3834at33634          -            493   0.00012   14.6   0.0   2   2    0.0055      0.17    4.2   0.0    39    85   222   269   210   273 0.88 -
+WXVQ01000003_1:17794-19554   -            587 3834at33634          -            493    0.0007   12.1   0.9   1   5      0.28       8.5   -1.4   0.0   217   256    81   120    74   131 0.64 -
+WXVQ01000003_1:17794-19554   -            587 3834at33634          -            493    0.0007   12.1   0.9   2   5   0.00081     0.025    7.0   0.1    34    97   309   375   297   400 0.78 -
+WXVQ01000003_1:17794-19554   -            587 3834at33634          -            493    0.0007   12.1   0.9   3   5       0.3       9.1   -1.5   0.0    37    86   396   447   388   470 0.66 -
+WXVQ01000003_1:17794-19554   -            587 3834at33634          -            493    0.0007   12.1   0.9   4   5     0.099         3    0.1   0.0    28    82   473   533   465   541 0.77 -
+WXVQ01000003_1:17794-19554   -            587 3834at33634          -            493    0.0007   12.1   0.9   5   5      0.14       4.4   -0.5   0.0    37    67   529   559   510   568 0.86 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/3834at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Nitzschia_sp_Nitz4/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_013372465.1_Nitz4_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Nitzschia_sp_Nitz4/run_stramenopiles_odb10/hmmer_output/initial_run_results/3834at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/3834at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Nitzschia_sp_Nitz4/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_013372465.1_Nitz4_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Thu Apr 15 14:18:56 2021
+# [ok]

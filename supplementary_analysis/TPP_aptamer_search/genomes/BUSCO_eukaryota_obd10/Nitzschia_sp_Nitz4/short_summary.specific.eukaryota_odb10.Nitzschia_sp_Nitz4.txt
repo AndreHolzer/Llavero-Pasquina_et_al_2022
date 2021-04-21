@@ -1,0 +1,19 @@
+# BUSCO version is: 5.1.2 
+# The lineage dataset is: eukaryota_odb10 (Creation date: 2020-09-10, number of genomes: 70, number of BUSCOs: 255)
+# Summarized benchmarking in BUSCO notation for file /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/Nitzschia_sp_Nitz4/GCA_013372465.1_Nitz4_genomic.fna
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:78.0%[S:77.6%,D:0.4%],F:7.1%,M:14.9%,n:255	   
+	199	Complete BUSCOs (C)			   
+	198	Complete and single-copy BUSCOs (S)	   
+	1	Complete and duplicated BUSCOs (D)	   
+	18	Fragmented BUSCOs (F)			   
+	38	Missing BUSCOs (M)			   
+	255	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	metaeuk: 4.a0f584d

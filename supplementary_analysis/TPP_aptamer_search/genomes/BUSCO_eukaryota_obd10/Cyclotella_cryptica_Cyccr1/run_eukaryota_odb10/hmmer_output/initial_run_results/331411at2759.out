@@ -1,0 +1,24 @@
+#                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold_11462:139-2769 -            877 331411at2759         -            419   6.8e-25   83.9  12.5   1   7      0.27   1.5e+02   -2.9   0.0    68    93    25    53    18    56 0.58 -
+scaffold_11462:139-2769 -            877 331411at2759         -            419   6.8e-25   83.9  12.5   2   7   4.5e-13   2.5e-10   35.9   0.1   100   157    85   145    80   151 0.84 -
+scaffold_11462:139-2769 -            877 331411at2759         -            419   6.8e-25   83.9  12.5   3   7   5.2e-06    0.0029   12.7   0.3   165   216   227   284   212   297 0.73 -
+scaffold_11462:139-2769 -            877 331411at2759         -            419   6.8e-25   83.9  12.5   4   7      0.17        95   -2.2   0.0   218   242   336   360   335   365 0.90 -
+scaffold_11462:139-2769 -            877 331411at2759         -            419   6.8e-25   83.9  12.5   5   7   0.00016     0.091    7.7   0.6   256   285   398   428   386   437 0.88 -
+scaffold_11462:139-2769 -            877 331411at2759         -            419   6.8e-25   83.9  12.5   6   7     1e-11   5.9e-09   31.4   0.0   284   346   486   557   484   563 0.83 -
+scaffold_11462:139-2769 -            877 331411at2759         -            419   6.8e-25   83.9  12.5   7   7      0.33   1.9e+02   -3.2   0.0   346   367   577   598   572   609 0.76 -
+scaffold_6040:8738-9883 -            382 331411at2759         -            419   2.2e-06   22.9   0.0   1   4     0.032        18    0.1   0.0   314   362    51   104    22   119 0.57 -
+scaffold_6040:8738-9883 -            382 331411at2759         -            419   2.2e-06   22.9   0.0   2   4      0.08        45   -1.2   0.0    69   113   160   198   137   224 0.53 -
+scaffold_6040:8738-9883 -            382 331411at2759         -            419   2.2e-06   22.9   0.0   3   4   2.4e-05     0.013   10.5   0.0   327   381   228   281   212   302 0.81 -
+scaffold_6040:8738-9883 -            382 331411at2759         -            419   2.2e-06   22.9   0.0   4   4   0.00024      0.13    7.2   0.0   302   369   311   377   307   381 0.86 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/331411at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Cyclotella_cryptica_Cyccr1/run_eukaryota_odb10/metaeuk_output/initial_results/Cyccr1_AssemblyScaffolds_Repeatmasked.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Cyclotella_cryptica_Cyccr1/run_eukaryota_odb10/hmmer_output/initial_run_results/331411at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/331411at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Cyclotella_cryptica_Cyccr1/run_eukaryota_odb10/metaeuk_output/initial_results/Cyccr1_AssemblyScaffolds_Repeatmasked.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sun Apr 18 15:19:05 2021
+# [ok]

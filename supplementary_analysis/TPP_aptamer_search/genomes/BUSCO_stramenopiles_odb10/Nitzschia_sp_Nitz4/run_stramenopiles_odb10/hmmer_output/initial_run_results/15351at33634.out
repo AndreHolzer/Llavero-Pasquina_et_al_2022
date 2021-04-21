@@ -1,0 +1,21 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WXVQ01000005_1:106933-107652 -            240 15351at33634         -            212     4e-89  291.8   0.0   1   1   1.8e-90   5.3e-89  291.4   0.0     2   211     1   237     1   238 0.92 -
+WXVQ01000027_1:101612-102445 -            236 15351at33634         -            212   2.4e-33  109.5   0.0   1   1   9.9e-35     3e-33  109.2   0.0     1   195     6   224     6   229 0.83 -
+WXVQ01000011_1:120710-121477 -            256 15351at33634         -            212   4.5e-28   92.3   0.0   1   1   1.8e-29   5.3e-28   92.0   0.0     2   164     7   183     6   226 0.82 -
+WXVQ01000129_1:37429-37863   -            145 15351at33634         -            212   1.7e-22   74.1   0.0   1   1     6e-24   1.8e-22   74.0   0.0    78   195     2   129     1   145 0.85 -
+WXVQ01000053_1:56264-56990   -            154 15351at33634         -            212   6.2e-21   68.9   0.0   1   1   3.4e-21     1e-19   65.0   0.0     8   157     2   149     1   154 0.81 -
+WXVQ01000023_1:19753-20292   -            180 15351at33634         -            212   9.4e-12   38.9   0.0   1   1   4.3e-13   1.3e-11   38.5   0.0     3   130     1   127     1   133 0.84 -
+WXVQ01000251_1:12839-13324   -            162 15351at33634         -            212   8.3e-10   32.6   0.0   1   1   8.7e-11   2.6e-09   30.9   0.0     9   143    19   162    11   162 0.77 -
+WXVQ01000067_1:11557-12498   -            274 15351at33634         -            212   0.00011   15.8   0.0   1   1   4.7e-06   0.00014   15.5   0.0    35   144    76   184    58   245 0.75 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/15351at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Nitzschia_sp_Nitz4/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_013372465.1_Nitz4_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Nitzschia_sp_Nitz4/run_stramenopiles_odb10/hmmer_output/initial_run_results/15351at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/15351at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Nitzschia_sp_Nitz4/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_013372465.1_Nitz4_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Thu Apr 15 14:18:51 2021
+# [ok]

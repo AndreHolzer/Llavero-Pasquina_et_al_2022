@@ -1,0 +1,15 @@
+#                                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                        accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                              -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QAXC01006017_1       -           2979 2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned -             36    0.0084   14.8   0.0   1   1   9.4e-06     0.031   13.0   0.0    15    36  2365  2386  2361  2386 0.96 Halamphora sp_ AAB scaffold_6017, whole genome shotgun sequence
+QAXC01004479_1       -           1709 2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned -             36     0.061   12.1   0.0   1   1   6.3e-05      0.21   10.4   0.0    13    30  1553  1570  1552  1572 0.94 Halamphora sp_ AAB scaffold_4479, whole genome shotgun sequence
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      queries/2021-01-26_Queries_P2-P4_rev-compl.hmm
+# Target file:     genomes/Halamphora_sp_AAB/GCA_004335955.1_ASM433595v1_genomic.fna
+# Option settings: hmmsearch --domtblout HMMER_results/Queries_P2-P4_vs_Halamphora_sp_AAB_minusStrand_tab.out --notextw queries/2021-01-26_Queries_P2-P4_rev-compl.hmm genomes/Halamphora_sp_AAB/GCA_004335955.1_ASM433595v1_genomic.fna 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 13:47:03 2021
+# [ok]

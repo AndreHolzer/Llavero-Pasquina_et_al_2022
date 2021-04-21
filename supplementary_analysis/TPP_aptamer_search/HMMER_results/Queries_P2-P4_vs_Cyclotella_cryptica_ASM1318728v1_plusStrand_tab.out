@@ -1,0 +1,14 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name                              accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- -----                    -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold66_size693783 -          693847 2021-01-26_BLASTN_queries_P2-P4.aligned -             36   1.2e-06   23.8   0.0   1   1   8.3e-09   5.5e-06   21.7   0.0     1    36 484202 484237 484202 484237 0.97 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      queries/2021-01-26_Queries_P2-P4.hmm
+# Target file:     genomes/Cyclotella_cryptica_ASM1318728v1/Cyclotella_cryptica.fna
+# Option settings: hmmsearch --domtblout HMMER_results/Queries_P2-P4_vs_Cyclotella_cryptica_ASM1318728v1_plusStrand_tab.out --notextw queries/2021-01-26_Queries_P2-P4.hmm genomes/Cyclotella_cryptica_ASM1318728v1/Cyclotella_cryptica.fna 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 13:48:02 2021
+# [ok]

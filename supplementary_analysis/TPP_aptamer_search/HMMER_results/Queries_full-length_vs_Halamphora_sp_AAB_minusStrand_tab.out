@@ -1,0 +1,14 @@
+#                                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                              accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                    -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QAXC01001892_1       -           2267 2021-01-26_BLASTN_queries_full-length_rev-compl.aligned -            115      0.01   15.1   0.0   1   1   4.1e-06     0.027   13.7   0.0    10    49  2165  2204  2159  2229 0.83 Halamphora sp_ AAB scaffold_1892, whole genome shotgun sequence
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      queries/2021-01-26_Queries_full-length_rev-compl.hmm
+# Target file:     genomes/Halamphora_sp_AAB/GCA_004335955.1_ASM433595v1_genomic.fna
+# Option settings: hmmsearch --domtblout HMMER_results/Queries_full-length_vs_Halamphora_sp_AAB_minusStrand_tab.out --notextw queries/2021-01-26_Queries_full-length_rev-compl.hmm genomes/Halamphora_sp_AAB/GCA_004335955.1_ASM433595v1_genomic.fna 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 13:47:00 2021
+# [ok]

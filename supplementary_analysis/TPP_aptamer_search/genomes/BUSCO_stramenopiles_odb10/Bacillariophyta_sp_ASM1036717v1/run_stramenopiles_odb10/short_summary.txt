@@ -1,0 +1,19 @@
+# BUSCO version is: 5.1.2 
+# The lineage dataset is: stramenopiles_odb10 (Creation date: 2020-08-05, number of genomes: 27, number of BUSCOs: 100)
+# Summarized benchmarking in BUSCO notation for file /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/Bacillariophyta_sp_ASM1036717v1/GCA_010367175.1_ASM1036717v1_genomic.fna
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:56.0%[S:55.0%,D:1.0%],F:3.0%,M:41.0%,n:100	   
+	56	Complete BUSCOs (C)			   
+	55	Complete and single-copy BUSCOs (S)	   
+	1	Complete and duplicated BUSCOs (D)	   
+	3	Fragmented BUSCOs (F)			   
+	41	Missing BUSCOs (M)			   
+	100	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	metaeuk: 4.a0f584d

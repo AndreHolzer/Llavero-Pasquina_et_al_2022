@@ -1,0 +1,87 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_full-length.hmm
+# target sequence database:        genomes/Fistulifera_solaris_Fsol_1.0/GCA_002217885.1_Fsol_1.0_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_full-length.aligned  [M=116]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    8.2e-23   75.0   0.2    9.9e-11   36.2   0.0    3.0  2  BDSP01000064_1  Fistulifera solaris DNA, contig: scaffold00064, strain: JPCC DA0580, whole genome shotgun sequence
+    1.4e-10   35.7   0.0    1.4e-09   32.5   0.0    2.8  2  BDSP01000252_1  Fistulifera solaris DNA, contig: scaffold00253, strain: JPCC DA0580, whole genome shotgun sequence
+    1.7e-10   35.5   0.0    6.4e-10   33.6   0.0    2.1  1  BDSP01000147_1  Fistulifera solaris DNA, contig: scaffold00147, strain: JPCC DA0580, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> BDSP01000064_1  Fistulifera solaris DNA, contig: scaffold00064, strain: JPCC DA0580, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.5   0.0   1.7e-12   1.7e-10       7     111 ..    9920   10027 ..    9914   10032 .. 0.68
+   2 !   36.2   0.0     1e-12   9.9e-11       7     111 ..   14495   14601 ..   14489   14606 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 35.5 bits;  conditional E-value: 1.7e-12
+  2021-01-26_BLASTN_queries_full-length.aligned     7 gtttgcgggagctcaac...............tgagaactgaaatataattgtgctaatattcaggttgatatcgaaaaccgcttgaacctgatcatggtaattcatgcgtgagggaaaa 111  
+                                                          gcgggagct +++               tgagaa t aaa            +a +++  + +     t+g + accg+t gaacctga catggtaat+catgcg++agggaa +
+                                 BDSP01000064_1  9920 CACCGCGGGAGCTTTGTgatgtgggtaatggcTGAGAAATTAAA-----------AGAGTCGG-AAGATTCTTTGTTGACCGTTCGAACCTGAACATGGTAATGCATGCGAAAGGGAAGG 10027
+                                                      55679*******99988776655554444444444443333332...........23333322.222223334555789*************************************9976 PP
+
+  == domain 2  score: 36.2 bits;  conditional E-value: 1e-12
+  2021-01-26_BLASTN_queries_full-length.aligned     7 gtttgcgggagctcaac...............tgagaactgaaatataattgtgctaatattcaggttgatatcgaaaaccgcttgaacctgatcatggtaattcatgcgtgagggaaaa 111  
+                                                      +   gcgggagct +++               tgagaa tga         g+g+++a a            t+g + accg+t gaacctga catggtaat+catgcg++agggaa +
+                                 BDSP01000064_1 14495 TGCCGCGGGAGCTTTGTgatgtgggtaatggcTGAGAAATGA-------AAGAGTCGAAAG------ATTCTTTGTTGACCGTTCGAACCTGAACATGGTAATGCATGCGAAAGGGAAGG 14601
+                                                      55679*******999887766666644444444444443333.......333333322222......222334445679*************************************9976 PP
+
+>> BDSP01000252_1  Fistulifera solaris DNA, contig: scaffold00253, strain: JPCC DA0580, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.5   0.0   1.5e-11   1.4e-09       4     111 ..   37865   37978 ..   37862   37983 .. 0.65
+   2 ?   -1.8   0.0      0.72        71      50      93 ..  592474  592517 ..  592448  592537 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 32.5 bits;  conditional E-value: 1.5e-11
+  2021-01-26_BLASTN_queries_full-length.aligned     4 tttgtttgcgggagctcaac............tgagaactg..aaatataattgtgctaatattcaggttgatatcgaaaaccgcttgaacctgatcatggtaattcatgcgtgagggaaaa 111  
+                                                      t+t+t  gcgggagct  a+            tgaga  ++  aaa  ++ tt  g t+     + g tt  t+t     accg+ttgaacctg tcatggtaat+catgcg+ agggaa +
+                                 BDSP01000252_1 37865 TCTTTCCGCGGGAGCTTGATgtgaaaggatgcTGAGAGTAAtcAAAGTCTGTTTGGATG-----TGGCTTTGTGT---CGACCGTTTGAACCTGCTCATGGTAATGCATGCGATAGGGAAGG 37978
+                                                      6788999********98766555555555444444433322002222222222222222.....22222333334...468*************************************9976 PP
+
+  == domain 2  score: -1.8 bits;  conditional E-value: 0.72
+  2021-01-26_BLASTN_queries_full-length.aligned     50 tattcaggttgatatcgaaaaccgcttgaacctgatcatggtaa 93    
+                                                        attc +gttg t  cgaaaaccgct+ga  c gatc  ggta 
+                                 BDSP01000252_1 592474 GATTCCTGTTGGTTGCGAAAACCGCTGGATTCCGATCTGGGTAT 592517
+                                                       3444677888999999************************9984 PP
+
+>> BDSP01000147_1  Fistulifera solaris DNA, contig: scaffold00147, strain: JPCC DA0580, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.6   0.0   6.5e-12   6.4e-10       4     111 ..  105572  105686 ..  105569  105691 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 33.6 bits;  conditional E-value: 6.5e-12
+  2021-01-26_BLASTN_queries_full-length.aligned      4 tttgtttgcgggagctcaac............tgagaactgaaatataattgtgctaatattcaggttgatatcgaaaaccgcttgaacctgatcatggtaattcatgcgtgagggaaaa 111   
+                                                       t+t+t  gcgggagct  a+            tgaga  ++ +a a ++t  t + +at t         t  +g   accg+ttgaacctg tcatggtaat+catgcg+ agggaa +
+                                 BDSP01000147_1 105572 TCTTTCCGCGGGAGCTTGATgtgaaaggatgcTGAGAGTAATCAAAGTCTGTTTTGGATGT--G---GCTTTGTGTCGACCGTTTGAACCTGCTCATGGTAATGCATGCGATAGGGAAGG 105686
+                                                       6788999********9866655555555544444444443333332222222222222222..2...222233344569*************************************9865 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (116 nodes)
+Target sequences:                          295  (49736633 residues searched)
+Passed MSV filter:                         6  (0.020339); expected 5.9 (0.02)
+Passed bias filter:                        6  (0.020339); expected 5.9 (0.02)
+Passed Vit filter:                         3  (0.0101695); expected 0.3 (0.001)
+Passed Fwd filter:                         3  (0.0101695); expected 0.0 (1e-05)
+Initial search space (Z):                295  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 8.84u 0.20s 00:00:09.03 Elapsed: 00:00:04.80
+# Mc/sec: 1199.47
+//
+[ok]

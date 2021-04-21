@@ -1,0 +1,16 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                              accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                    -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WKLE02001293_1       -          22533 2021-01-26_BLASTN_queries_P2-P4.aligned -             36   3.1e-06   25.7   0.0   1   1   4.8e-09   1.7e-05   23.4   0.0     1    36 20302 20336 20302 20336 0.95 Asterionellopsis glacialis strain A3 scaffold25404_cov136, whole genome shotgun sequence
+WKLE02002934_1       -          23886 2021-01-26_BLASTN_queries_P2-P4.aligned -             36   0.00032   19.3   0.0   1   2   8.8e-07    0.0031   16.2   0.0     1    30  2757  2786  2757  2789 0.96 Asterionellopsis glacialis strain A3 scaffold66609_cov134, whole genome shotgun sequence
+WKLE02002934_1       -          23886 2021-01-26_BLASTN_queries_P2-P4.aligned -             36   0.00032   19.3   0.0   2   2      0.46   1.6e+03   -2.0   0.0    12    27 11600 11615 11597 11618 0.86 Asterionellopsis glacialis strain A3 scaffold66609_cov134, whole genome shotgun sequence
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      queries/2021-01-26_Queries_P2-P4.hmm
+# Target file:     genomes/Asterionellopsis_glacialis_ASM1488511v2/GCA_014885115.2_ASM1488511v2_genomic.fna
+# Option settings: hmmsearch --domtblout HMMER_results/Queries_P2-P4_vs_Asterionellopsis_glacialis_ASM1488511v2_plusStrand_tab.out --notextw queries/2021-01-26_Queries_P2-P4.hmm genomes/Asterionellopsis_glacialis_ASM1488511v2/GCA_014885115.2_ASM1488511v2_genomic.fna 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 13:48:55 2021
+# [ok]

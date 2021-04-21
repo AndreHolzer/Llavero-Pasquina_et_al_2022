@@ -1,0 +1,25 @@
+#                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold_8529:359-4775  -           1390 722805at2759         -            447     2e-11   39.4   0.0   1   4     8e-06     0.003   12.4   0.0    26    60   359   395   345   440 0.83 -
+scaffold_8529:359-4775  -           1390 722805at2759         -            447     2e-11   39.4   0.0   2   4       0.7   2.6e+02   -3.8   0.0    96   127   685   716   679   719 0.76 -
+scaffold_8529:359-4775  -           1390 722805at2759         -            447     2e-11   39.4   0.0   3   4     0.037        14    0.4   0.0   117   184   990  1056   983  1069 0.88 -
+scaffold_8529:359-4775  -           1390 722805at2759         -            447     2e-11   39.4   0.0   4   4   3.1e-08   1.2e-05   20.4   0.0   334   432  1244  1361  1236  1374 0.79 -
+scaffold_8745:1519-5935 -           1390 722805at2759         -            447     2e-11   39.4   0.0   1   4     8e-06     0.003   12.4   0.0    26    60   359   395   345   440 0.83 -
+scaffold_8745:1519-5935 -           1390 722805at2759         -            447     2e-11   39.4   0.0   2   4       0.7   2.6e+02   -3.8   0.0    96   127   685   716   679   719 0.76 -
+scaffold_8745:1519-5935 -           1390 722805at2759         -            447     2e-11   39.4   0.0   3   4     0.037        14    0.4   0.0   117   184   990  1056   983  1069 0.88 -
+scaffold_8745:1519-5935 -           1390 722805at2759         -            447     2e-11   39.4   0.0   4   4   3.1e-08   1.2e-05   20.4   0.0   334   432  1244  1361  1236  1374 0.79 -
+scaffold_8854:1333-5749 -           1390 722805at2759         -            447     2e-11   39.4   0.0   1   4     8e-06     0.003   12.4   0.0    26    60   359   395   345   440 0.83 -
+scaffold_8854:1333-5749 -           1390 722805at2759         -            447     2e-11   39.4   0.0   2   4       0.7   2.6e+02   -3.8   0.0    96   127   685   716   679   719 0.76 -
+scaffold_8854:1333-5749 -           1390 722805at2759         -            447     2e-11   39.4   0.0   3   4     0.037        14    0.4   0.0   117   184   990  1056   983  1069 0.88 -
+scaffold_8854:1333-5749 -           1390 722805at2759         -            447     2e-11   39.4   0.0   4   4   3.1e-08   1.2e-05   20.4   0.0   334   432  1244  1361  1236  1374 0.79 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/722805at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Cyclotella_cryptica_Cyccr1/run_eukaryota_odb10/metaeuk_output/initial_results/Cyccr1_AssemblyScaffolds_Repeatmasked.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Cyclotella_cryptica_Cyccr1/run_eukaryota_odb10/hmmer_output/initial_run_results/722805at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/722805at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Cyclotella_cryptica_Cyccr1/run_eukaryota_odb10/metaeuk_output/initial_results/Cyccr1_AssemblyScaffolds_Repeatmasked.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sun Apr 18 15:19:19 2021
+# [ok]

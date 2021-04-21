@@ -1,0 +1,22 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WKLE02000672_1:40926-41642 -            239 1445102at2759        -            192   1.4e-74  246.2   0.2   1   1   1.8e-76   3.5e-74  245.0   0.2     2   191     3   233     2   234 0.87 -
+WKLE02000629_1:4270-5226   -            319 1445102at2759        -            192     4e-08   29.4   2.5   1   3    0.0027      0.52    6.3   0.1     3    19    39    55    37    62 0.88 -
+WKLE02000629_1:4270-5226   -            319 1445102at2759        -            192     4e-08   29.4   2.5   2   3   5.3e-05      0.01   11.9   0.1    25    78    92   155    80   170 0.75 -
+WKLE02000629_1:4270-5226   -            319 1445102at2759        -            192     4e-08   29.4   2.5   3   3   0.00035     0.067    9.2   0.0   102   184   201   291   186   298 0.77 -
+WKLE02001994_1:4477-5476   -            292 1445102at2759        -            192   8.2e-06   21.9   0.2   1   2    0.0023      0.43    6.5   0.1    24    43    58    77    19    86 0.75 -
+WKLE02001994_1:4477-5476   -            292 1445102at2759        -            192   8.2e-06   21.9   0.2   2   2   7.6e-05     0.014   11.3   0.0    34   161    98   244    90   271 0.58 -
+WKLE02004560_1:22744-23337 -            198 1445102at2759        -            192   6.6e-05   19.0   0.0   1   1   7.9e-07   0.00015   17.8   0.0     2    90    49   154    48   185 0.73 -
+WKLE02002253_1:12641-13156 -            172 1445102at2759        -            192   7.4e-05   18.8   0.0   1   1   7.2e-07   0.00014   17.9   0.0     3    78    26   121    24   139 0.66 -
+WKLE02001153_1:56166-56711 -            182 1445102at2759        -            192   0.00019   17.5   0.0   1   1   2.1e-05    0.0039   13.2   0.0    22    44    28    50     1   123 0.80 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1445102at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionellopsis_glacialis_ASM1488511v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_014885115.2_ASM1488511v2_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionellopsis_glacialis_ASM1488511v2/run_eukaryota_odb10/hmmer_output/initial_run_results/1445102at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1445102at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionellopsis_glacialis_ASM1488511v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_014885115.2_ASM1488511v2_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 05:52:39 2021
+# [ok]

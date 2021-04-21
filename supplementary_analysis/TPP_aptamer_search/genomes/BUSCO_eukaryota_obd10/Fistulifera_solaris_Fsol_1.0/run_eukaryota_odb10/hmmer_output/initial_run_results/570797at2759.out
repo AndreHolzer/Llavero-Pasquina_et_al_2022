@@ -1,0 +1,18 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+BDSP01000213_1:212822-214872 -            658 570797at2759         -            548  3.4e-120  398.9   6.6   1   1  7.9e-123  3.4e-120  398.9   6.6    54   546   121   655    81   657 0.79 -
+BDSP01000207_1:167310-169365 -            659 570797at2759         -            548  1.2e-119  397.1   8.2   1   2      0.14        60   -1.3   0.1    13    93    14    93     5   112 0.50 -
+BDSP01000207_1:167310-169365 -            659 570797at2759         -            548  1.2e-119  397.1   8.2   2   2  2.8e-122  1.2e-119  397.1   8.2    35   546   103   656    66   658 0.78 -
+BDSP01000107_1:89052-90113   -            354 570797at2759         -            548   2.9e-20   69.0   0.9   1   1     9e-23   3.8e-20   68.6   0.9   259   433    48   235    40   283 0.83 -
+BDSP01000285_1:321068-322129 -            354 570797at2759         -            548   4.8e-20   68.3   0.8   1   1   1.4e-22   6.1e-20   68.0   0.8   259   432    48   234    40   283 0.84 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/570797at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fistulifera_solaris_Fsol_1.0/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_002217885.1_Fsol_1.0_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fistulifera_solaris_Fsol_1.0/run_eukaryota_odb10/hmmer_output/initial_run_results/570797at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/570797at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fistulifera_solaris_Fsol_1.0/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_002217885.1_Fsol_1.0_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sun Apr 18 09:14:48 2021
+# [ok]

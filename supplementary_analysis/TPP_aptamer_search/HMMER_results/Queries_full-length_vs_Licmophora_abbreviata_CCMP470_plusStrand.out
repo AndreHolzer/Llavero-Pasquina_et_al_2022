@@ -1,0 +1,54 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_full-length.hmm
+# target sequence database:        genomes/Licmophora_abbreviata_CCMP470/GCA_900291995.1_CCMP470_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_full-length.aligned  [M=116]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    6.2e-08   31.8   0.0    2.5e-07   29.9   0.0    2.1  2  OLMU01005381_1  Licmophora abbreviata genome assembly, contig: contig05384, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> OLMU01005381_1  Licmophora abbreviata genome assembly, contig: contig05384, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -4.3   0.0         1   7.7e+03      63     102 ..    3704    3746 ..    3676    3750 .. 0.64
+   2 !   29.9   0.0   3.2e-11   2.5e-07       3     113 ..    7317    7420 ..    7315    7423 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: -4.3 bits;  conditional E-value: 1
+  2021-01-26_BLASTN_queries_full-length.aligned   63 atcgaaaaccgcttgaa.cctgatcatggtaa...ttcatgcgt 102 
+                                                     a cg aaac g t gaa cctga  a ggtaa   t+c tgcgt
+                                 OLMU01005381_1 3704 AACG-AAACTGATCGAAtCCTGAAAACGGTAAagaTGCTTGCGT 3746
+                                                     3333.357888888888788999999999997222567777765 PP
+
+  == domain 2  score: 29.9 bits;  conditional E-value: 3.2e-11
+  2021-01-26_BLASTN_queries_full-length.aligned    3 ttttgtttgcgggagctcaactg.agaactgaaatataattgtgctaatattcaggttgatatcgaaaaccgcttgaacctgatcatggtaattcatgcgtgagggaaaaac 113 
+                                                     +tttgtttgcgggagc c  ct+ +ga  t  +a + +  tg+g  a   +         t  +g +aaccg+ttgaac tgatca g taat c tgcgtga ggaa aac
+                                 OLMU01005381_1 7317 GTTTGTTTGCGGGAGCCCCCCTTaTGAGTTCGCAGGGTGCTGAGAAACCGC--------TTTGTGCTAACCGTTTGAACATGATCAAGTTAATACTTGCGTGATGGAATAAC 7420
+                                                     68999***********77555320222222222222222233222222222........2333344689**************************************99886 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (116 nodes)
+Target sequences:                         7734  (29210371 residues searched)
+Passed MSV filter:                       129  (0.0166796); expected 154.7 (0.02)
+Passed bias filter:                      124  (0.0160331); expected 154.7 (0.02)
+Passed Vit filter:                        13  (0.00168089); expected 7.7 (0.001)
+Passed Fwd filter:                         1  (0.000129299); expected 0.1 (1e-05)
+Initial search space (Z):               7734  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 2.57u 0.07s 00:00:02.63 Elapsed: 00:00:00.72
+# Mc/sec: 4706.12
+//
+[ok]

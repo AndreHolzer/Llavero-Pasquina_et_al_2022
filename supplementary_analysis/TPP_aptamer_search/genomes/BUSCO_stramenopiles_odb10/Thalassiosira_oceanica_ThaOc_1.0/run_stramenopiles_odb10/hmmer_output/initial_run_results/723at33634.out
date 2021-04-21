@@ -1,0 +1,30 @@
+#                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+AGNL01045973_1:6951-10292 -           1012 723at33634           -            789         0 1251.8   5.2   1   2  3.5e-219  1.8e-217  718.1   0.2     1   404     7   447     7   475 0.92 -
+AGNL01045973_1:6951-10292 -           1012 723at33634           -            789         0 1251.8   5.2   2   2  1.4e-162  7.4e-161  530.8   0.9   403   777   487   967   480   984 0.82 -
+AGNL01018371_1:1163-4172  -            934 723at33634           -            789  3.8e-194  640.9   0.1   1   4  5.1e-175  2.6e-173  572.0   0.0     3   519    12   588    10   590 0.88 -
+AGNL01018371_1:1163-4172  -            934 723at33634           -            789  3.8e-194  640.9   0.1   2   4   2.1e-10   1.1e-08   27.6   0.0   555   602   587   634   585   642 0.92 -
+AGNL01018371_1:1163-4172  -            934 723at33634           -            789  3.8e-194  640.9   0.1   3   4     4e-13   2.1e-11   36.6   0.0   605   687   663   758   657   812 0.82 -
+AGNL01018371_1:1163-4172  -            934 723at33634           -            789  3.8e-194  640.9   0.1   4   4     0.035       1.8    0.4   0.0   737   776   870   910   852   916 0.76 -
+AGNL01004654_1:901-3536   -            824 723at33634           -            789   9.3e-40  130.3   0.0   1   4   1.5e-13   7.9e-12   37.9   0.0    21   178    20   179    11   235 0.78 -
+AGNL01004654_1:901-3536   -            824 723at33634           -            789   9.3e-40  130.3   0.0   2   4   5.4e-12   2.8e-10   32.8   0.0   230   401   280   457   273   475 0.75 -
+AGNL01004654_1:901-3536   -            824 723at33634           -            789   9.3e-40  130.3   0.0   3   4   1.1e-13   5.4e-12   38.5   0.0   429   524   510   611   501   618 0.81 -
+AGNL01004654_1:901-3536   -            824 723at33634           -            789   9.3e-40  130.3   0.0   4   4   7.5e-06   0.00039   12.5   0.0   617   686   703   778   692   780 0.82 -
+AGNL01050727_1:592-3906   -           1056 723at33634           -            789   9.5e-32  103.8   2.9   1   2   1.2e-10   6.2e-09   28.4   0.0    22   249    38   268    12   279 0.81 -
+AGNL01050727_1:592-3906   -           1056 723at33634           -            789   9.5e-32  103.8   2.9   2   2   1.7e-22   8.9e-21   67.5   4.2   227   530   301   641   267   805 0.73 -
+AGNL01050720_1:7220-10052 -            730 723at33634           -            789   1.1e-09   30.8   5.0   1   5     0.087       4.5   -0.9   0.2     3    24    33    54    32    58 0.85 -
+AGNL01050720_1:7220-10052 -            730 723at33634           -            789   1.1e-09   30.8   5.0   2   5   0.00053     0.027    6.4   0.0   105   173   170   240   156   250 0.83 -
+AGNL01050720_1:7220-10052 -            730 723at33634           -            789   1.1e-09   30.8   5.0   3   5   8.4e-06   0.00043   12.4   0.0   382   414   318   350   310   370 0.80 -
+AGNL01050720_1:7220-10052 -            730 723at33634           -            789   1.1e-09   30.8   5.0   4   5   3.8e-05     0.002   10.2   0.1   475   520   474   521   445   539 0.73 -
+AGNL01050720_1:7220-10052 -            730 723at33634           -            789   1.1e-09   30.8   5.0   5   5      0.16       8.2   -1.8   0.0   579   604   543   568   521   587 0.71 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/723at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Thalassiosira_oceanica_ThaOc_1.0/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_000296195.2_ThaOc_1.0_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Thalassiosira_oceanica_ThaOc_1.0/run_stramenopiles_odb10/hmmer_output/initial_run_results/723at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/723at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Thalassiosira_oceanica_ThaOc_1.0/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_000296195.2_ThaOc_1.0_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Fri Apr 16 13:14:44 2021
+# [ok]

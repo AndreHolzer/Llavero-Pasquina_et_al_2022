@@ -1,0 +1,31 @@
+#                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                  accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#          ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QAXC01000035_1:205732-206415   -            228 271586at2759         -            460   5.2e-07   24.0   0.1   1   3      0.11        13   -0.4   0.0    26    68     6    48     1    56 0.80 -
+QAXC01000035_1:205732-206415   -            228 271586at2759         -            460   5.2e-07   24.0   0.1   2   3   0.00064     0.075    7.0   0.0    27    62    75   110    70   127 0.84 -
+QAXC01000035_1:205732-206415   -            228 271586at2759         -            460   5.2e-07   24.0   0.1   3   3   6.5e-06   0.00076   13.5   0.0    27   106   143   227   138   228 0.82 -
+QAXC01001909_1:580-882         -            101 271586at2759         -            460   4.1e-06   21.0   0.6   1   2   1.7e-07     2e-05   18.7   0.3    48   108     2    67     1    75 0.87 -
+QAXC01001909_1:580-882         -            101 271586at2759         -            460   4.1e-06   21.0   0.6   2   2     0.054       6.4    0.6   0.0    90   107    84   101    79   101 0.75 -
+QAXC01000027_1:20750-22363     -            538 271586at2759         -            460   2.4e-05   18.5  10.6   1   4   9.8e-05     0.012    9.7   0.2   232   269    17    55     9    68 0.81 -
+QAXC01000027_1:20750-22363     -            538 271586at2759         -            460   2.4e-05   18.5  10.6   2   4     0.012       1.4    2.8   0.1    27    54   188   215   178   226 0.76 -
+QAXC01000027_1:20750-22363     -            538 271586at2759         -            460   2.4e-05   18.5  10.6   3   4   0.00017      0.02    8.9   0.0     9    62   279   332   275   336 0.92 -
+QAXC01000027_1:20750-22363     -            538 271586at2759         -            460   2.4e-05   18.5  10.6   4   4     0.092        11   -0.2   0.6    94   153   407   465   396   522 0.58 -
+QAXC01000003_1:2185158-2186087 -            310 271586at2759         -            460    0.0012   12.9  10.6   1   4      0.13        15   -0.6   0.1    76   111    23    61     3    83 0.67 -
+QAXC01000003_1:2185158-2186087 -            310 271586at2759         -            460    0.0012   12.9  10.6   2   4     0.057       6.7    0.5   0.4   231   277   105   153    93   177 0.74 -
+QAXC01000003_1:2185158-2186087 -            310 271586at2759         -            460    0.0012   12.9  10.6   3   4   8.7e-05      0.01    9.8   0.9    14    72   204   263   190   272 0.77 -
+QAXC01000003_1:2185158-2186087 -            310 271586at2759         -            460    0.0012   12.9  10.6   4   4   0.00073     0.086    6.8   0.0    14    44   272   302   262   306 0.89 -
+QAXC01000034_1:979132-980619   -            496 271586at2759         -            460    0.0016   12.5   6.2   1   5    0.0037      0.43    4.5   0.1    20    62    43    85    25    93 0.75 -
+QAXC01000034_1:979132-980619   -            496 271586at2759         -            460    0.0016   12.5   6.2   2   5     0.023       2.7    1.8   0.0    25    63   116   154   105   160 0.84 -
+QAXC01000034_1:979132-980619   -            496 271586at2759         -            460    0.0016   12.5   6.2   3   5    0.0025      0.29    5.0   0.0    20    68   145   194   128   207 0.68 -
+QAXC01000034_1:979132-980619   -            496 271586at2759         -            460    0.0016   12.5   6.2   4   5      0.15        17   -0.8   0.0    80   106   249   275   228   294 0.81 -
+QAXC01000034_1:979132-980619   -            496 271586at2759         -            460    0.0016   12.5   6.2   5   5     0.017         2    2.3   0.2   220   271   349   403   326   454 0.73 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/271586at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Halamphora_sp_AAB/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_004335955.1_ASM433595v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Halamphora_sp_AAB/run_eukaryota_odb10/hmmer_output/initial_run_results/271586at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/271586at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Halamphora_sp_AAB/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_004335955.1_ASM433595v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sun Apr 18 07:49:39 2021
+# [ok]

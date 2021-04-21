@@ -1,0 +1,161 @@
+DEBUG:busco.run_BUSCO	Command line: /Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/bin/busco -m geno -i genomes/Bacillariophyta_sp_ASM1329908v1/GCA_013299085.1_ASM1329908v1_genomic.fna -o Bacillariophyta_sp_ASM1329908v1 --out_path genomes/BUSCO -l stramenopiles_odb10
+INFO:busco.run_BUSCO	***** Start a BUSCO v5.1.2 analysis, current time: 04/16/2021 17:30:02 *****
+DEBUG:busco.ConfigManager	Getting config file
+INFO:busco.ConfigManager	Configuring BUSCO with local environment
+INFO:busco.BuscoConfig	Mode is genome
+INFO:busco.BuscoDownloadManager	Downloading information on latest versions of BUSCO data...
+DEBUG:busco.BuscoConfig	State of BUSCO config before run:
+DEBUG:busco.BuscoConfig	{'_allow_no_value': False,
+ '_comment_prefixes': ('#', ';'),
+ '_converters': <configparser.ConverterMapping object at 0x10d6a14f0>,
+ '_defaults': {},
+ '_delimiters': ('=', ':'),
+ '_dict': <class 'dict'>,
+ '_empty_lines_in_values': True,
+ '_inline_comment_prefixes': (),
+ '_input_filepath': '/Users/aholzer/ownCloud/PhD/Publications/2021 '
+                    'Liavero-Pasquina et '
+                    'al./analysis/TPP_aptamer_search/genomes/Bacillariophyta_sp_ASM1329908v1/GCA_013299085.1_ASM1329908v1_genomic.fna',
+ '_interpolation': <configparser.BasicInterpolation object at 0x1059ad6a0>,
+ '_mode': 'genome',
+ '_optcre': re.compile('\n        (?P<option>.*?)                    # very permissive!\n        \\s*(?P<vi>=|:)\\s*              # any number of space/tab,\n                                           # followed by any of t, re.VERBOSE),
+ '_proxies': {'DEFAULT': <Section: DEFAULT>,
+              'augustus': <Section: augustus>,
+              'busco_run': <Section: busco_run>,
+              'etraining': <Section: etraining>,
+              'gff2gbSmallDNA.pl': <Section: gff2gbSmallDNA.pl>,
+              'hmmsearch': <Section: hmmsearch>,
+              'makeblastdb': <Section: makeblastdb>,
+              'metaeuk': <Section: metaeuk>,
+              'new_species.pl': <Section: new_species.pl>,
+              'optimize_augustus.pl': <Section: optimize_augustus.pl>,
+              'prodigal': <Section: prodigal>,
+              'sepp': <Section: sepp>,
+              'tblastn': <Section: tblastn>},
+ '_sections': {'augustus': {'command': '', 'path': ''},
+               'busco_run': {'auto-lineage': 'False',
+                             'auto-lineage-euk': 'False',
+                             'auto-lineage-prok': 'False',
+                             'batch_mode': 'False',
+                             'cpu': '1',
+                             'datasets_version': 'odb10',
+                             'download_base_url': 'https://busco-data.ezlab.org/v5/data/',
+                             'download_path': '/Users/aholzer/ownCloud/PhD/Publications/2021 '
+                                              'Liavero-Pasquina et '
+                                              'al./analysis/TPP_aptamer_search/busco_downloads',
+                             'evalue': '0.001',
+                             'force': 'False',
+                             'in': '/Users/aholzer/ownCloud/PhD/Publications/2021 '
+                                   'Liavero-Pasquina et '
+                                   'al./analysis/TPP_aptamer_search/genomes/Bacillariophyta_sp_ASM1329908v1/GCA_013299085.1_ASM1329908v1_genomic.fna',
+                             'limit': '3',
+                             'lineage_dataset': 'stramenopiles_odb10',
+                             'long': 'False',
+                             'main_out': '/Users/aholzer/ownCloud/PhD/Publications/2021 '
+                                         'Liavero-Pasquina et '
+                                         'al./analysis/TPP_aptamer_search/genomes/BUSCO/Bacillariophyta_sp_ASM1329908v1',
+                             'mode': 'genome',
+                             'offline': 'False',
+                             'out': 'Bacillariophyta_sp_ASM1329908v1',
+                             'out_path': '/Users/aholzer/ownCloud/PhD/Publications/2021 '
+                                         'Liavero-Pasquina et '
+                                         'al./analysis/TPP_aptamer_search/genomes/BUSCO',
+                             'quiet': 'False',
+                             'restart': 'False',
+                             'update-data': 'False',
+                             'use_augustus': 'False'},
+               'etraining': {'command': '', 'path': ''},
+               'gff2gbSmallDNA.pl': {'command': '', 'path': ''},
+               'hmmsearch': {'command': '', 'path': ''},
+               'makeblastdb': {'command': '', 'path': ''},
+               'metaeuk': {'command': '', 'path': ''},
+               'new_species.pl': {'command': '', 'path': ''},
+               'optimize_augustus.pl': {'command': '', 'path': ''},
+               'prodigal': {'command': '', 'path': ''},
+               'sepp': {'command': '', 'path': ''},
+               'tblastn': {'command': '', 'path': ''}},
+ '_strict': True,
+ 'conf_file': 'local environment',
+ 'default_section': 'DEFAULT',
+ 'downloader': <busco.BuscoDownloadManager.BuscoDownloadManager object at 0x10d697fa0>,
+ 'main_out': '/Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina '
+             'et '
+             'al./analysis/TPP_aptamer_search/genomes/BUSCO/Bacillariophyta_sp_ASM1329908v1',
+ 'params': {'augustus_parameters': None,
+            'augustus_species': None,
+            'auto-lineage': False,
+            'auto-lineage-euk': False,
+            'auto-lineage-prok': False,
+            'config_file': None,
+            'cpu': None,
+            'datasets_version': None,
+            'download_base_url': None,
+            'download_path': None,
+            'evalue': None,
+            'force': False,
+            'help': '==SUPPRESS==',
+            'in': 'genomes/Bacillariophyta_sp_ASM1329908v1/GCA_013299085.1_ASM1329908v1_genomic.fna',
+            'limit': None,
+            'lineage_dataset': 'stramenopiles_odb10',
+            'list_datasets': '==SUPPRESS==',
+            'long': False,
+            'metaeuk_parameters': None,
+            'metaeuk_rerun_parameters': None,
+            'mode': 'geno',
+            'offline': False,
+            'out': 'Bacillariophyta_sp_ASM1329908v1',
+            'out_path': 'genomes/BUSCO',
+            'quiet': False,
+            'restart': False,
+            'update-data': False,
+            'use_augustus': False,
+            'version': '==SUPPRESS=='}}
+INFO:busco.BuscoRunner	Input file is /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/Bacillariophyta_sp_ASM1329908v1/GCA_013299085.1_ASM1329908v1_genomic.fna
+DEBUG:busco.analysis.BuscoAnalysis	Check all required tools are accessible...
+DEBUG:busco.analysis.BuscoAnalysis	Checking dataset for HMM profiles
+INFO:busco.analysis.BuscoAnalysis	Running BUSCO using lineage dataset stramenopiles_odb10 (eukaryota, 2020-08-05)
+DEBUG:busco.busco_tools.base	Tool: metaeuk
+DEBUG:busco.busco_tools.base	Version: 4.a0f584d
+INFO:busco.busco_tools.Toolset	Running 1 job(s) on metaeuk, starting at 04/16/2021 17:30:02
+INFO:busco.analysis.BuscoAnalysis	***** Run HMMER on gene sequences *****
+DEBUG:busco.busco_tools.base	Tool: hmmsearch
+DEBUG:busco.busco_tools.base	Version: 3.1
+INFO:busco.busco_tools.Toolset	Running 100 job(s) on hmmsearch, starting at 04/16/2021 17:34:32
+DEBUG:busco.busco_tools.hmmer	***** Results: *****
+
+ C:90.0%[S:38.0%,D:52.0%],F:0.0%,M:10.0%,n:100	   
+ 90	Complete BUSCOs (C)			   
+ 38	Complete and single-copy BUSCOs (S)	   
+ 52	Complete and duplicated BUSCOs (D)	   
+ 0	Fragmented BUSCOs (F)			   
+ 10	Missing BUSCOs (M)			   
+ 100	Total BUSCO groups searched		   
+
+DEBUG:busco.busco_tools.base	Tool: metaeuk
+DEBUG:busco.busco_tools.base	Version: 4.a0f584d
+INFO:busco.busco_tools.metaeuk	Extracting missing and fragmented buscos from the file refseq_db.faa...
+INFO:busco.busco_tools.Toolset	Running 1 job(s) on metaeuk, starting at 04/16/2021 17:35:05
+INFO:busco.analysis.BuscoAnalysis	***** Run HMMER on gene sequences *****
+DEBUG:busco.busco_tools.base	Tool: hmmsearch
+DEBUG:busco.busco_tools.base	Version: 3.1
+INFO:busco.busco_tools.Toolset	Running 10 job(s) on hmmsearch, starting at 04/16/2021 17:51:18
+INFO:busco.analysis.GenomeAnalysis	Validating exons and removing overlapping matches
+INFO:busco.busco_tools.hmmer	Results:	C:90.0%[S:38.0%,D:52.0%],F:0.0%,M:10.0%,n:100	   
+
+INFO:busco.BuscoRunner	
+
+	--------------------------------------------------
+	|Results from dataset stramenopiles_odb10         |
+	--------------------------------------------------
+	|C:90.0%[S:38.0%,D:52.0%],F:0.0%,M:10.0%,n:100    |
+	|90	Complete BUSCOs (C)                       |
+	|38	Complete and single-copy BUSCOs (S)       |
+	|52	Complete and duplicated BUSCOs (D)        |
+	|0	Fragmented BUSCOs (F)                     |
+	|10	Missing BUSCOs (M)                        |
+	|100	Total BUSCO groups searched               |
+	--------------------------------------------------
+INFO:busco.BuscoRunner	BUSCO analysis done. Total running time: 1279 seconds
+INFO:busco.BuscoRunner	Results written in /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Bacillariophyta_sp_ASM1329908v1
+INFO:busco.BuscoRunner	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+

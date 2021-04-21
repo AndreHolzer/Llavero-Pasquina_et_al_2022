@@ -1,0 +1,19 @@
+# BUSCO version is: 5.1.2 
+# The lineage dataset is: stramenopiles_odb10 (Creation date: 2020-08-05, number of genomes: 27, number of BUSCOs: 100)
+# Summarized benchmarking in BUSCO notation for file /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/Thalassiosira_pseudonana_ASM14940v2/GCA_000149405.2_ASM14940v2_genomic.fna
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:99.0%[S:98.0%,D:1.0%],F:1.0%,M:0.0%,n:100	   
+	99	Complete BUSCOs (C)			   
+	98	Complete and single-copy BUSCOs (S)	   
+	1	Complete and duplicated BUSCOs (D)	   
+	1	Fragmented BUSCOs (F)			   
+	0	Missing BUSCOs (M)			   
+	100	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	metaeuk: 4.a0f584d

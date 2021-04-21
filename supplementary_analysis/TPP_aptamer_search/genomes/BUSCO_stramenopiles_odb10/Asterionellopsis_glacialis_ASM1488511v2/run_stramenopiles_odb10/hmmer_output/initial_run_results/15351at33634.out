@@ -1,0 +1,25 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WKLE02003425_1:24616-25338 -            241 15351at33634         -            212   2.5e-94  309.1   0.0   1   1   1.1e-95   3.2e-94  308.7   0.0     1   211     1   238     1   239 0.92 -
+WKLE02005659_1:6483-7205   -            211 15351at33634         -            212   1.3e-32  107.4   0.2   1   1   4.9e-34   1.5e-32  107.2   0.2     2   189     5   211     4   211 0.85 -
+WKLE02000153_1:9270-9947   -            176 15351at33634         -            212   6.8e-30   98.5   0.0   1   1   2.5e-31   7.5e-30   98.4   0.0     2   157     6   171     5   176 0.85 -
+WKLE02000206_1:3351-4099   -            178 15351at33634         -            212   1.6e-27   90.8   0.0   1   2   9.5e-22   2.9e-20   67.1   0.0     1    87     6    99     6   103 0.86 -
+WKLE02000206_1:3351-4099   -            178 15351at33634         -            212   1.6e-27   90.8   0.0   2   2   7.2e-10   2.2e-08   28.3   0.0   100   168    85   158    85   177 0.81 -
+WKLE02001775_1:7445-7933   -            163 15351at33634         -            212   1.8e-27   90.7   0.0   1   1   6.4e-29   1.9e-27   90.5   0.0     2   150     3   159     2   163 0.87 -
+WKLE02005197_1:10264-10953 -            230 15351at33634         -            212   1.4e-26   87.7   0.0   1   1   5.2e-28   1.6e-26   87.5   0.0     3   167     1   175     1   216 0.84 -
+WKLE02000150_1:803-1573    -            257 15351at33634         -            212     3e-25   83.3   0.0   1   1   1.2e-26   3.8e-25   83.0   0.0     1   164     6   181     6   217 0.85 -
+WKLE02000450_1:9579-10100  -            174 15351at33634         -            212   1.2e-12   42.2   0.0   1   1   4.7e-14   1.4e-12   41.9   0.0     3   160     1   159     1   170 0.79 -
+WKLE02000683_1:15764-16237 -            158 15351at33634         -            212   8.2e-10   32.9   0.0   1   1     3e-11   9.3e-10   32.7   0.0     2   143     2   158     1   158 0.78 -
+WKLE02001264_1:62666-63181 -            172 15351at33634         -            212   9.2e-07   23.0   0.0   1   2   5.5e-06   0.00017   15.6   0.0     3    28     1    26     1    52 0.91 -
+WKLE02001264_1:62666-63181 -            172 15351at33634         -            212   9.2e-07   23.0   0.0   2   2    0.0052      0.16    5.9   0.0    55   143    83   172    60   172 0.70 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/15351at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Asterionellopsis_glacialis_ASM1488511v2/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_014885115.2_ASM1488511v2_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Asterionellopsis_glacialis_ASM1488511v2/run_stramenopiles_odb10/hmmer_output/initial_run_results/15351at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/15351at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Asterionellopsis_glacialis_ASM1488511v2/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_014885115.2_ASM1488511v2_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Fri Apr 16 14:41:40 2021
+# [ok]

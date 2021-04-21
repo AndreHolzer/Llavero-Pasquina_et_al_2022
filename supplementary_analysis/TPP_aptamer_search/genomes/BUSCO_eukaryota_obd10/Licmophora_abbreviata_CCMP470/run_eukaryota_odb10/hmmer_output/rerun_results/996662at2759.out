@@ -1,0 +1,19 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+OLMU01002723_1:1785-2768 -            328 996662at2759         -            215   5.6e-37  122.1   4.5   1   3   4.7e-07   8.4e-05   17.0   0.1    23    67    66   113    63   118 0.82 -
+OLMU01002723_1:1785-2768 -            328 996662at2759         -            215   5.6e-37  122.1   4.5   2   3   6.3e-31   1.1e-28   95.0   0.2    68   173   138   255   126   263 0.85 -
+OLMU01002723_1:1785-2768 -            328 996662at2759         -            215   5.6e-37  122.1   4.5   3   3   3.7e-05    0.0066   10.8   0.1   161   191   259   291   253   328 0.87 -
+OLMU01000950_1:335-1144  -            270 996662at2759         -            215   7.5e-21   69.4   0.1   1   1   6.6e-23   1.2e-20   68.8   0.1    22   201    50   244    47   256 0.79 -
+OLMU01002686_1:2089-2970 -            294 996662at2759         -            215   4.1e-15   50.7   0.1   1   2   2.2e-15   3.9e-13   44.2   0.1    25   134    61   163    57   169 0.82 -
+OLMU01002686_1:2089-2970 -            294 996662at2759         -            215   4.1e-15   50.7   0.1   2   2    0.0041      0.73    4.1   0.0   165   184   230   249   208   281 0.83 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/996662at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Licmophora_abbreviata_CCMP470/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_900291995.1_CCMP470_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Licmophora_abbreviata_CCMP470/run_eukaryota_odb10/hmmer_output/rerun_results/996662at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/996662at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Licmophora_abbreviata_CCMP470/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_900291995.1_CCMP470_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 10:04:22 2021
+# [ok]

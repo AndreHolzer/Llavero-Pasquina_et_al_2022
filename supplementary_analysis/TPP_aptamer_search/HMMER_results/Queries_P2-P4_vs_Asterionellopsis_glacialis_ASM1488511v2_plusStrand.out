@@ -1,0 +1,67 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_P2-P4.hmm
+# target sequence database:        genomes/Asterionellopsis_glacialis_ASM1488511v2/GCA_014885115.2_ASM1488511v2_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_P2-P4.aligned  [M=36]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    3.1e-06   25.7   0.0    1.7e-05   23.4   0.0    2.4  1  WKLE02001293_1  Asterionellopsis glacialis strain A3 scaffold25404_cov136, whole genome shotgun sequence
+    0.00032   19.3   0.0     0.0031   16.2   0.0    2.8  2  WKLE02002934_1  Asterionellopsis glacialis strain A3 scaffold66609_cov134, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> WKLE02001293_1  Asterionellopsis glacialis strain A3 scaffold25404_cov136, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.4   0.0   4.8e-09   1.7e-05       1      36 []   20302   20336 ..   20302   20336 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 23.4 bits;  conditional E-value: 4.8e-09
+  2021-01-26_BLASTN_queries_P2-P4.aligned     1 CCGcTtGAACcTGatCatGgTAAttCatGCGtgAgG 36   
+                                                CCG+T GAACcTG tC+tGgTAAt+Ca GCG  AgG
+                           WKLE02001293_1 20302 CCGTTCGAACCTGCTCGTGGTAATGCACGCG-AAGG 20336
+                                                79*****************************.8876 PP
+
+>> WKLE02002934_1  Asterionellopsis glacialis strain A3 scaffold66609_cov134, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.2   0.0   8.8e-07    0.0031       1      30 [.    2757    2786 ..    2757    2789 .. 0.96
+   2 ?   -2.0   0.0      0.46   1.6e+03      12      27 ..   11600   11615 ..   11597   11618 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 16.2 bits;  conditional E-value: 8.8e-07
+  2021-01-26_BLASTN_queries_P2-P4.aligned    1 CCGcTtGAACcTGatCatGgTAAttCatGC 30  
+                                               CCG+T GAACcTG  C+tGgTAAt+Ca GC
+                           WKLE02002934_1 2757 CCGTTCGAACCTGCACGTGGTAATGCACGC 2786
+                                               79*************************997 PP
+
+  == domain 2  score: -2.0 bits;  conditional E-value: 0.46
+  2021-01-26_BLASTN_queries_P2-P4.aligned    12 TGatCatGgTAAttCa 27   
+                                                 GatCatG TAA +Ca
+                           WKLE02002934_1 11600 CGATCATGATAAAGCA 11615
+                                                59**********9997 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (36 nodes)
+Target sequences:                         6922  (66879591 residues searched)
+Passed MSV filter:                       179  (0.0258596); expected 138.4 (0.02)
+Passed bias filter:                      178  (0.0257151); expected 138.4 (0.02)
+Passed Vit filter:                         9  (0.0013002); expected 6.9 (0.001)
+Passed Fwd filter:                         2  (0.000288934); expected 0.1 (1e-05)
+Initial search space (Z):               6922  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 3.81u 0.10s 00:00:03.91 Elapsed: 00:00:01.19
+# Mc/sec: 2023.25
+//
+[ok]

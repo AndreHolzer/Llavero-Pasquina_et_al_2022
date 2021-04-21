@@ -1,0 +1,19 @@
+#                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QAXB01022420_1:2-1417   -            472 4406at33634          -            435   5.4e-70  229.6   9.9   1   1   2.3e-69   1.1e-67  222.0   9.0     1   231    31   350    31   357 0.80 -
+QAXB01049101_1:567-1511 -            315 4406at33634          -            435   1.7e-08   26.9   0.0   1   4   3.1e-05    0.0015   10.6   0.0   299   377    68   146    64   149 0.79 -
+QAXB01049101_1:567-1511 -            315 4406at33634          -            435   1.7e-08   26.9   0.0   2   4   0.00044     0.021    6.8   0.0   339   377   150   188   147   193 0.93 -
+QAXB01049101_1:567-1511 -            315 4406at33634          -            435   1.7e-08   26.9   0.0   3   4      0.42        20   -3.0   0.0   358   377   222   241   219   245 0.76 -
+QAXB01049101_1:567-1511 -            315 4406at33634          -            435   1.7e-08   26.9   0.0   4   4     0.002     0.095    4.7   0.0   201   244   257   303   247   309 0.78 -
+QAXB01032525_1:35-523   -            163 4406at33634          -            435   0.00015   13.9   0.0   1   1   3.5e-06   0.00017   13.8   0.0   312   375    99   162    62   163 0.85 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/4406at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Halamphora_sp_MG8b/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_004335815.1_ASM433581v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Halamphora_sp_MG8b/run_stramenopiles_odb10/hmmer_output/initial_run_results/4406at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/4406at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Halamphora_sp_MG8b/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_004335815.1_ASM433581v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Thu Apr 15 15:29:27 2021
+# [ok]

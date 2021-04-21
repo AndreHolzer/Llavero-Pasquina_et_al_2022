@@ -1,0 +1,68 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_P2-P4_rev-compl.hmm
+# target sequence database:        genomes/Thalassiosira_oceanica_ThaOc_1.0/GCA_000296195.2_ThaOc_1.0_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned  [M=36]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+  ------ inclusion threshold ------
+      0.014   16.9   0.0      0.048   15.2   0.0    2.0  1  AGNL01045876_1  Thalassiosira oceanica strain CCMP1005 To_g46509, whole genome shotgun sequence
+       0.13   13.9   0.0       0.55   11.9   0.0    2.1  2  AGNL01015708_1  Thalassiosira oceanica strain CCMP1005 To_g15852, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> AGNL01045876_1  Thalassiosira oceanica strain CCMP1005 To_g46509, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.2   0.0   1.9e-06     0.048       1      31 [.    2122    2151 ..    2122    2156 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 15.2 bits;  conditional E-value: 1.9e-06
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned    1 CcTcaCGCatGaaTTAcCatGatCAgGTTCa 31  
+                                                         CcT+ CGCa G+aTTAcC tG tCAgGTTC 
+                                     AGNL01045876_1 2122 CCTT-CGCACGCATTACCGTGTTCAGGTTCG 2151
+                                                         6788.************************96 PP
+
+>> AGNL01015708_1  Thalassiosira oceanica strain CCMP1005 To_g15852, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   0.0   2.2e-05      0.55      15      33 ..     117     135 ..     113     135 .. 0.90
+   2 ?   -3.2   0.0       1.2     3e+04       3      12 ..     507     516 ..     507     516 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 2.2e-05
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned  15 TAcCatGatCAgGTTCaAg 33 
+                                                        TAcCatGatCA GTTCaAg
+                                     AGNL01015708_1 117 TACCATGATCAAGTTCAAG 135
+                                                        79**************986 PP
+
+  == domain 2  score: -3.2 bits;  conditional E-value: 1.2
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned   3 TcaCGCatGa 12 
+                                                        Tc CGCatGa
+                                     AGNL01015708_1 507 TCTCGCATGA 516
+                                                        6889***996 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (36 nodes)
+Target sequences:                        50892  (92185637 residues searched)
+Passed MSV filter:                       692  (0.0135974); expected 1017.8 (0.02)
+Passed bias filter:                      679  (0.013342); expected 1017.8 (0.02)
+Passed Vit filter:                        29  (0.000569834); expected 50.9 (0.001)
+Passed Fwd filter:                         2  (3.92989e-05); expected 0.5 (1e-05)
+Initial search space (Z):              50892  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 4.09u 0.13s 00:00:04.22 Elapsed: 00:00:01.65
+# Mc/sec: 2011.32
+//
+[ok]

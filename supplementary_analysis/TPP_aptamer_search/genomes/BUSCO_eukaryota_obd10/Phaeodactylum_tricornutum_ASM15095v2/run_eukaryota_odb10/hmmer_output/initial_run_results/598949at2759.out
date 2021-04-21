@@ -1,0 +1,24 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CM000605_1:1863246-1867076 -           1277 598949at2759         -            402     2e-86  286.1   7.5   1   3   4.4e-88   9.8e-86  283.8   2.2     5   302   124   466   120   469 0.88 -
+CM000605_1:1863246-1867076 -           1277 598949at2759         -            402     2e-86  286.1   7.5   2   3      0.06        13    0.2   0.0   300   315   490   505   487   509 0.86 -
+CM000605_1:1863246-1867076 -           1277 598949at2759         -            402     2e-86  286.1   7.5   3   3      0.12        26   -0.8   0.1   324   351   550   577   542   621 0.72 -
+CM000631_1:186328-187353   -            342 598949at2759         -            402   5.4e-27   90.4   3.3   1   1   6.7e-29   1.5e-26   88.9   3.3    10   237    77   341    68   342 0.81 -
+CM000610_1:645138-646835   -            566 598949at2759         -            402   1.3e-21   72.7   5.3   1   3   6.3e-06    0.0014   13.3   0.2    17   100    92   184    79   192 0.72 -
+CM000610_1:645138-646835   -            566 598949at2759         -            402   1.3e-21   72.7   5.3   2   3   3.4e-20   7.5e-18   60.3   0.5   169   279   308   421   252   450 0.86 -
+CM000610_1:645138-646835   -            566 598949at2759         -            402   1.3e-21   72.7   5.3   3   3      0.13        30   -1.0   0.0   342   363   532   553   510   561 0.77 -
+CP001141_1:201010-202443   -            478 598949at2759         -            402   3.9e-20   67.8   1.5   1   4   3.9e-06   0.00087   14.0   0.1     7    78    70   147    67   157 0.83 -
+CP001141_1:201010-202443   -            478 598949at2759         -            402   3.9e-20   67.8   1.5   2   4    0.0021      0.47    5.0   0.0   144   184   248   299   209   311 0.73 -
+CP001141_1:201010-202443   -            478 598949at2759         -            402   3.9e-20   67.8   1.5   3   4   5.4e-15   1.2e-12   43.2   0.1   187   274   320   408   314   424 0.82 -
+CP001141_1:201010-202443   -            478 598949at2759         -            402   3.9e-20   67.8   1.5   4   4     0.023       5.2    1.5   0.0   288   318   442   472   433   475 0.90 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/598949at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Phaeodactylum_tricornutum_ASM15095v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_000150955.2_ASM15095v2_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Phaeodactylum_tricornutum_ASM15095v2/run_eukaryota_odb10/hmmer_output/initial_run_results/598949at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/598949at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Phaeodactylum_tricornutum_ASM15095v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_000150955.2_ASM15095v2_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sun Apr 18 13:55:23 2021
+# [ok]

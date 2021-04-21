@@ -1,0 +1,33 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WKLE02004033_1:2398-4464   -            689 355408at2759         -            555  1.8e-182  603.9  33.6   1   1  5.6e-182  9.1e-180  595.0  33.6     1   554     6   680     6   681 0.84 -
+WKLE02004403_1:16999-18318 -            440 355408at2759         -            555   8.4e-32  106.6   0.0   1   4   1.3e-08   2.1e-06   22.8   0.0    90   170     2    82     1    89 0.95 -
+WKLE02004403_1:16999-18318 -            440 355408at2759         -            555   8.4e-32  106.6   0.0   2   4   1.6e-06   0.00025   15.9   0.0    76   153    93   172    81   183 0.78 -
+WKLE02004403_1:16999-18318 -            440 355408at2759         -            555   8.4e-32  106.6   0.0   3   4   4.5e-16   7.3e-14   47.4   0.0    64   146   230   313   218   324 0.90 -
+WKLE02004403_1:16999-18318 -            440 355408at2759         -            555   8.4e-32  106.6   0.0   4   4   1.6e-06   0.00026   15.8   0.0    88   186   323   422   318   440 0.86 -
+WKLE02003722_1:5262-8162   -            967 355408at2759         -            555   7.2e-27   90.3  23.8   1   6     0.017       2.8    2.5   0.0    87   125   324   362   298   386 0.53 -
+WKLE02003722_1:5262-8162   -            967 355408at2759         -            555   7.2e-27   90.3  23.8   2   6   1.3e-06   0.00021   16.1   4.5   425   549   392   524   386   530 0.66 -
+WKLE02003722_1:5262-8162   -            967 355408at2759         -            555   7.2e-27   90.3  23.8   3   6     6e-17   9.7e-15   50.3   3.2    53   221   554   723   549   727 0.93 -
+WKLE02003722_1:5262-8162   -            967 355408at2759         -            555   7.2e-27   90.3  23.8   4   6    0.0014      0.22    6.2   0.0    96   133   738   775   733   783 0.53 -
+WKLE02003722_1:5262-8162   -            967 355408at2759         -            555   7.2e-27   90.3  23.8   5   6   0.00011     0.018    9.8   0.2    60   119   779   839   773   851 0.90 -
+WKLE02003722_1:5262-8162   -            967 355408at2759         -            555   7.2e-27   90.3  23.8   6   6   1.3e-05    0.0021   12.8   0.0    99   162   883   947   874   964 0.84 -
+WKLE02001310_1:43938-45110 -            391 355408at2759         -            555     5e-15   51.2   6.6   1   3    0.0044      0.71    4.5   0.1   161   230     4    74     1    97 0.74 -
+WKLE02001310_1:43938-45110 -            391 355408at2759         -            555     5e-15   51.2   6.6   2   3   3.4e-12   5.5e-10   34.6   0.0    62   180   196   318   186   325 0.88 -
+WKLE02001310_1:43938-45110 -            391 355408at2759         -            555     5e-15   51.2   6.6   3   3     8e-05     0.013   10.2   0.2    54   107   336   390   332   391 0.79 -
+WKLE02002416_1:735-1517    -            261 355408at2759         -            555   9.4e-15   50.3   0.2   1   1   7.5e-17   1.2e-14   49.9   0.2    62   275    10   251     2   260 0.81 -
+WKLE02001364_1:40203-41282 -            360 355408at2759         -            555   2.1e-13   45.9   0.3   1   3   3.3e-08   5.3e-06   21.4   0.0    91   184     3    97     1   105 0.90 -
+WKLE02001364_1:40203-41282 -            360 355408at2759         -            555   2.1e-13   45.9   0.3   2   3    0.0082       1.3    3.6   0.0   105   162   154   217   109   228 0.78 -
+WKLE02001364_1:40203-41282 -            360 355408at2759         -            555   2.1e-13   45.9   0.3   3   3   6.2e-07    0.0001   17.2   0.0    88   176   263   354   252   359 0.88 -
+WKLE02002992_1:33450-34265 -            272 355408at2759         -            555    0.0036   12.1   0.1   1   2      0.47        77   -2.2   0.0   427   475    71   117    66   149 0.60 -
+WKLE02002992_1:33450-34265 -            272 355408at2759         -            555    0.0036   12.1   0.1   2   2   6.1e-05    0.0099   10.6   0.2    70   143   191   265   185   271 0.80 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/355408at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionellopsis_glacialis_ASM1488511v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_014885115.2_ASM1488511v2_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionellopsis_glacialis_ASM1488511v2/run_eukaryota_odb10/hmmer_output/initial_run_results/355408at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/355408at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionellopsis_glacialis_ASM1488511v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_014885115.2_ASM1488511v2_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 05:52:58 2021
+# [ok]

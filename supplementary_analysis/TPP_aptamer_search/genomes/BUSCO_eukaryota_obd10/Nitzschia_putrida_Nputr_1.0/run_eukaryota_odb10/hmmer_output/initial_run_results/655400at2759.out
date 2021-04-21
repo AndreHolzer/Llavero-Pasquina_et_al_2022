@@ -1,0 +1,24 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+BLYE01000015_1:488563-489993 -            477 655400at2759         -            301   3.2e-50  167.0   0.0   1   3    0.0086       2.3    3.3   0.0    22    59    78   116    74   127 0.83 -
+BLYE01000015_1:488563-489993 -            477 655400at2759         -            301   3.2e-50  167.0   0.0   2   3     2e-23   5.4e-21   71.1   0.0    79   182   177   287   157   295 0.89 -
+BLYE01000015_1:488563-489993 -            477 655400at2759         -            301   3.2e-50  167.0   0.0   3   3     8e-29   2.1e-26   88.8   0.0   182   297   338   468   335   472 0.80 -
+BLYE01000021_1:233857-234981 -            375 655400at2759         -            301   1.3e-10   37.0   0.0   1   2     5e-06    0.0013   14.0   0.0    85   121   189   225   153   231 0.74 -
+BLYE01000021_1:233857-234981 -            375 655400at2759         -            301   1.3e-10   37.0   0.0   2   2   3.7e-08   9.9e-06   21.0   0.0   196   237   333   374   318   375 0.85 -
+BLYE01000005_1:869897-870700 -            268 655400at2759         -            301   2.6e-10   36.0   0.0   1   2   8.8e-06    0.0023   13.2   0.0    79   124    39    86    16    94 0.78 -
+BLYE01000005_1:869897-870700 -            268 655400at2759         -            301   2.6e-10   36.0   0.0   2   2   4.5e-08   1.2e-05   20.7   0.0   206   246   195   235   188   264 0.82 -
+BLYE01000147_1:80129-81289   -            387 655400at2759         -            301     2e-09   33.1   0.0   1   2    0.0013      0.35    6.0   0.0    81   107   179   205   120   214 0.85 -
+BLYE01000147_1:80129-81289   -            387 655400at2759         -            301     2e-09   33.1   0.0   2   2     2e-09   5.3e-07   25.1   0.0   190   243   305   360   276   382 0.76 -
+BLYE01000014_1:712458-713618 -            387 655400at2759         -            301   2.2e-09   33.0   0.0   1   2    0.0014      0.38    5.9   0.0    81   106   179   204   120   214 0.85 -
+BLYE01000014_1:712458-713618 -            387 655400at2759         -            301   2.2e-09   33.0   0.0   2   2     2e-09   5.3e-07   25.1   0.0   190   243   305   360   276   382 0.76 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/655400at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Nitzschia_putrida_Nputr_1.0/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_016586335.1_Nputr_1.0_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Nitzschia_putrida_Nputr_1.0/run_eukaryota_odb10/hmmer_output/initial_run_results/655400at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/655400at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Nitzschia_putrida_Nputr_1.0/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_016586335.1_Nputr_1.0_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sat Apr 17 17:48:57 2021
+# [ok]

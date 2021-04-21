@@ -1,0 +1,24 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QAXC01004036_1:2644-4461     -            606 5960at33634          -            498    5e-185  609.5   1.1   1   3  1.7e-181  7.4e-180  592.4   1.1     1   418     3   447     3   465 0.90 -
+QAXC01004036_1:2644-4461     -            606 5960at33634          -            498    5e-185  609.5   1.1   2   3     0.036       1.5    1.0   0.0   410   461   488   540   482   552 0.80 -
+QAXC01004036_1:2644-4461     -            606 5960at33634          -            498    5e-185  609.5   1.1   3   3     1e-05   0.00044   12.6   0.0   446   493   553   605   540   606 0.83 -
+QAXC01000003_1:45147-46985   -            613 5960at33634          -            498  3.6e-180  593.5   0.1   1   2  3.4e-176  1.4e-174  575.0   0.0     1   420     1   448     1   475 0.91 -
+QAXC01000003_1:45147-46985   -            613 5960at33634          -            498  3.6e-180  593.5   0.1   2   2   5.8e-07   2.5e-05   16.8   0.0   437   495   544   610   528   613 0.73 -
+QAXC01000034_1:853859-855757 -            633 5960at33634          -            498    2e-166  548.1   0.8   1   2  5.7e-163  2.4e-161  531.4   0.1     1   419    17   462    17   487 0.89 -
+QAXC01000034_1:853859-855757 -            633 5960at33634          -            498    2e-166  548.1   0.8   2   2   1.4e-06     6e-05   15.5   0.1   442   494   570   627   542   631 0.72 -
+QAXC01000032_1:665715-667571 -            619 5960at33634          -            498  5.9e-165  543.3   0.2   1   2  7.3e-159  3.1e-157  517.8   0.0     1   420     3   449     3   458 0.89 -
+QAXC01000032_1:665715-667571 -            619 5960at33634          -            498  5.9e-165  543.3   0.2   2   2   4.8e-09     2e-07   23.6   0.0   434   494   547   613   528   617 0.75 -
+QAXC01001606_1:2-1384        -            461 5960at33634          -            498  9.4e-107  351.3   0.0   1   2  1.9e-101  8.1e-100  328.4   0.0   161   420    18   291     6   319 0.89 -
+QAXC01001606_1:2-1384        -            461 5960at33634          -            498  9.4e-107  351.3   0.0   2   2   3.1e-08   1.3e-06   20.9   0.0   433   496   388   457   369   459 0.76 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/5960at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Halamphora_sp_AAB/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_004335955.1_ASM433595v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Halamphora_sp_AAB/run_stramenopiles_odb10/hmmer_output/initial_run_results/5960at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/5960at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Halamphora_sp_AAB/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_004335955.1_ASM433595v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Thu Apr 15 15:56:25 2021
+# [ok]

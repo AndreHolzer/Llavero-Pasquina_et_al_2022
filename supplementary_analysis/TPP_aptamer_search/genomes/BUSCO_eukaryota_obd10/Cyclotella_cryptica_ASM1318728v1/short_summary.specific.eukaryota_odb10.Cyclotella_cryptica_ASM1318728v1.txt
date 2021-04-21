@@ -1,0 +1,19 @@
+# BUSCO version is: 5.1.2 
+# The lineage dataset is: eukaryota_odb10 (Creation date: 2020-09-10, number of genomes: 70, number of BUSCOs: 255)
+# Summarized benchmarking in BUSCO notation for file /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/Cyclotella_cryptica_ASM1318728v1/Cyclotella_cryptica.fna
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:71.8%[S:67.5%,D:4.3%],F:12.2%,M:16.0%,n:255	   
+	183	Complete BUSCOs (C)			   
+	172	Complete and single-copy BUSCOs (S)	   
+	11	Complete and duplicated BUSCOs (D)	   
+	31	Fragmented BUSCOs (F)			   
+	41	Missing BUSCOs (M)			   
+	255	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	metaeuk: 4.a0f584d

@@ -1,0 +1,31 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WXVQ01000077_1:51843-53448   -            471 761109at2759         -            377   3.3e-98  324.9  19.7   1   3   2.8e-05    0.0042   11.9   0.2    58   119     8    98     3   137 0.73 -
+WXVQ01000077_1:51843-53448   -            471 761109at2759         -            377   3.3e-98  324.9  19.7   2   3   2.8e-97   4.3e-95  314.7  13.3   129   353   156   386   144   394 0.95 -
+WXVQ01000077_1:51843-53448   -            471 761109at2759         -            377   3.3e-98  324.9  19.7   3   3      0.78   1.2e+02   -2.7   0.0   328   347   421   440   405   448 0.60 -
+WXVQ01000043_1:50970-51836   -            289 761109at2759         -            377     7e-37  123.1   3.8   1   2   7.3e-38   1.1e-35  119.2   2.8   126   348    23   253     1   262 0.87 -
+WXVQ01000043_1:50970-51836   -            289 761109at2759         -            377     7e-37  123.1   3.8   2   2     0.014       2.1    3.1   0.0   291   318   262   289   257   289 0.89 -
+WXVQ01000022_1:60207-60641   -            145 761109at2759         -            377     4e-10   35.0   1.2   1   2     7e-05     0.011   10.6   0.1   242   272    20    50    12    53 0.85 -
+WXVQ01000022_1:60207-60641   -            145 761109at2759         -            377     4e-10   35.0   1.2   2   2    0.0002     0.031    9.1   0.0   205   235    85   115    81   117 0.93 -
+WXVQ01000954_1:17-532        -            172 761109at2759         -            377   2.9e-09   32.2   0.3   1   1   2.1e-11   3.2e-09   32.1   0.3   128   262     4   142     1   162 0.87 -
+WXVQ01000019_1:142003-143763 -            587 761109at2759         -            377    0.0014   13.5  10.7   1   6       0.6        91   -2.3   0.0   296   325   110   139   108   151 0.81 -
+WXVQ01000019_1:142003-143763 -            587 761109at2759         -            377    0.0014   13.5  10.7   2   6     0.084        13    0.5   0.2   205   227   161   183   154   269 0.82 -
+WXVQ01000019_1:142003-143763 -            587 761109at2759         -            377    0.0014   13.5  10.7   3   6      0.13        20   -0.2   0.1   236   259   328   351   285   360 0.83 -
+WXVQ01000019_1:142003-143763 -            587 761109at2759         -            377    0.0014   13.5  10.7   4   6      0.14        21   -0.2   0.0   329   350   365   386   355   406 0.71 -
+WXVQ01000019_1:142003-143763 -            587 761109at2759         -            377    0.0014   13.5  10.7   5   6     0.019       2.9    2.6   0.0   203   228   498   523   484   528 0.76 -
+WXVQ01000019_1:142003-143763 -            587 761109at2759         -            377    0.0014   13.5  10.7   6   6     9e-05     0.014   10.2   0.0   298   328   535   565   526   570 0.88 -
+WXVQ01000083_1:100575-101738 -            388 761109at2759         -            377    0.0018   13.1   2.9   1   4     0.014       2.2    3.0   0.0   181   228    21    69    15    72 0.77 -
+WXVQ01000083_1:100575-101738 -            388 761109at2759         -            377    0.0018   13.1   2.9   2   4     0.017       2.6    2.7   0.1   305   361    88   146    80   156 0.81 -
+WXVQ01000083_1:100575-101738 -            388 761109at2759         -            377    0.0018   13.1   2.9   3   4      0.12        17    0.0   0.0   195   227   285   317   274   322 0.74 -
+WXVQ01000083_1:100575-101738 -            388 761109at2759         -            377    0.0018   13.1   2.9   4   4    0.0079       1.2    3.9   0.0   298   326   330   358   299   362 0.78 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/761109at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Nitzschia_sp_Nitz4/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_013372465.1_Nitz4_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Nitzschia_sp_Nitz4/run_eukaryota_odb10/hmmer_output/initial_run_results/761109at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/761109at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Nitzschia_sp_Nitz4/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_013372465.1_Nitz4_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sat Apr 17 22:13:11 2021
+# [ok]

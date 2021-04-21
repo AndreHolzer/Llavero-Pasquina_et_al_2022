@@ -1,0 +1,47 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_P2-P4_rev-compl.hmm
+# target sequence database:        genomes/Phaeodactylum_tricornutum_ASM15095v2/GCA_000150955.2_ASM15095v2_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned  [M=36]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    3.5e-08   26.0   0.0    9.6e-08   24.6   0.0    1.8  1  CM000628_1  Phaeodactylum tricornutum CCAP 1055/1 chromosome 26, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> CM000628_1  Phaeodactylum tricornutum CCAP 1055/1 chromosome 26, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.6   0.0   1.1e-09   9.6e-08       1      36 []  137509  137544 ..  137509  137544 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 24.6 bits;  conditional E-value: 1.1e-09
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned      1 CcTcaCGCatGaaTTAcCatGatCAgGTTCaAgCGG 36    
+                                                           CcTcaCGCa G+aTTAcC +GatCAgGTTCaA+CGG
+                                         CM000628_1 137509 CCTCACGCAGGCATTACCCCGATCAGGTTCAAACGG 137544
+                                                           79********************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (36 nodes)
+Target sequences:                           88  (27450724 residues searched)
+Passed MSV filter:                         1  (0.0113636); expected 1.8 (0.02)
+Passed bias filter:                        1  (0.0113636); expected 1.8 (0.02)
+Passed Vit filter:                         1  (0.0113636); expected 0.1 (0.001)
+Passed Fwd filter:                         1  (0.0113636); expected 0.0 (1e-05)
+Initial search space (Z):                 88  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 1.52u 0.06s 00:00:01.58 Elapsed: 00:00:01.07
+# Mc/sec: 923.58
+//
+[ok]

@@ -1,0 +1,34 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+JAACSZ010001835_1:4139-6305   -            691 4406at33634          -            435  7.6e-175  575.8  13.1   1   3     1e-31   3.6e-30   99.1   0.2     1   107    31   165    31   177 0.86 -
+JAACSZ010001835_1:4139-6305   -            691 4406at33634          -            435  7.6e-175  575.8  13.1   2   3   1.3e-35   4.7e-34  111.9   1.4    99   231   183   361   164   368 0.77 -
+JAACSZ010001835_1:4139-6305   -            691 4406at33634          -            435  7.6e-175  575.8  13.1   3   3    1e-113  3.5e-112  369.3   0.9   226   435   477   691   461   691 0.94 -
+JAACSZ010000318_1:663-1457    -            265 4406at33634          -            435   1.1e-16   54.7   0.8   1   3     2e-06   6.9e-05   15.8   0.1   349   432     7    80     3    83 0.75 -
+JAACSZ010000318_1:663-1457    -            265 4406at33634          -            435   1.1e-16   54.7   0.8   2   3   3.6e-07   1.3e-05   18.2   0.2   349   432    49   122    36   125 0.59 -
+JAACSZ010000318_1:663-1457    -            265 4406at33634          -            435   1.1e-16   54.7   0.8   3   3   0.00039     0.014    8.2   0.0   344   377   220   253   213   257 0.90 -
+JAACSZ010001285_1:1704-2444   -            247 4406at33634          -            435   3.4e-07   23.4   0.0   1   3     9e-05    0.0032   10.3   0.0   343   385    48    90    34    94 0.88 -
+JAACSZ010001285_1:1704-2444   -            247 4406at33634          -            435   3.4e-07   23.4   0.0   2   3   0.00017    0.0058    9.4   0.0   322   378   110   165    97   198 0.88 -
+JAACSZ010001285_1:1704-2444   -            247 4406at33634          -            435   3.4e-07   23.4   0.0   3   3      0.12       4.3   -0.0   0.0   296   332   205   241   178   245 0.72 -
+JAACSZ010001880_1:3362-4168   -            269 4406at33634          -            435   2.7e-06   20.4   0.0   1   2     0.058         2    1.1   0.0   345   386    17    58    11    92 0.82 -
+JAACSZ010001880_1:3362-4168   -            269 4406at33634          -            435   2.7e-06   20.4   0.0   2   2   7.8e-07   2.7e-05   17.1   0.0   276   375   168   268   105   269 0.85 -
+JAACSZ010001374_1:7495-8136   -            214 4406at33634          -            435   9.1e-06   18.7   0.0   1   3     0.019      0.65    2.7   0.0   404   433     9    38     3    40 0.70 -
+JAACSZ010001374_1:7495-8136   -            214 4406at33634          -            435   9.1e-06   18.7   0.0   2   3    0.0012     0.042    6.6   0.0   269   340    58   132    53   137 0.83 -
+JAACSZ010001374_1:7495-8136   -            214 4406at33634          -            435   9.1e-06   18.7   0.0   3   3    0.0019     0.067    5.9   0.0   269   304   143   178   128   181 0.85 -
+JAACSZ010001745_1:3236-4057   -            274 4406at33634          -            435   4.9e-05   16.3   0.1   1   4      0.18       6.2   -0.5   0.0   407   433     5    31     2    33 0.84 -
+JAACSZ010001745_1:3236-4057   -            274 4406at33634          -            435   4.9e-05   16.3   0.1   2   4   1.7e-05    0.0006   12.7   0.0   269   377    49   158    39   200 0.82 -
+JAACSZ010001745_1:3236-4057   -            274 4406at33634          -            435   4.9e-05   16.3   0.1   3   4       0.2       7.1   -0.7   0.0   310   340   176   206   159   211 0.77 -
+JAACSZ010001745_1:3236-4057   -            274 4406at33634          -            435   4.9e-05   16.3   0.1   4   4      0.58        20   -2.2   0.0   286   303   256   273   239   274 0.79 -
+JAACSZ010000568_1:10737-11483 -            249 4406at33634          -            435   6.5e-05   15.9   2.5   1   3    0.0093      0.33    3.7   0.0   309   373     7    69     1    77 0.78 -
+JAACSZ010000568_1:10737-11483 -            249 4406at33634          -            435   6.5e-05   15.9   2.5   2   3      0.05       1.8    1.3   0.1   287   358    95   165    85   175 0.69 -
+JAACSZ010000568_1:10737-11483 -            249 4406at33634          -            435   6.5e-05   15.9   2.5   3   3   0.00012    0.0044    9.8   0.0   286   337   194   245   164   248 0.69 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/4406at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Bacillariophyta_sp_ASM1036716v1/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_010367165.1_ASM1036716v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Bacillariophyta_sp_ASM1036716v1/run_stramenopiles_odb10/hmmer_output/initial_run_results/4406at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/4406at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Bacillariophyta_sp_ASM1036716v1/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_010367165.1_ASM1036716v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Fri Apr 16 17:03:20 2021
+# [ok]

@@ -1,0 +1,54 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_P2-P4_rev-compl.hmm
+# target sequence database:        genomes/Bacillariophyta_sp_ASM1036716v1/GCA_010367165.1_ASM1036716v1_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned  [M=36]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+    9.9e-07   25.9   0.0    9.4e-05   19.6   0.0    2.8  2  JAACSZ010001335_1  Bacillariophyta sp_ isolate CG_2015-15_45_16 CG_2015-15_curated_scaffold_5957, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> JAACSZ010001335_1  Bacillariophyta sp_ isolate CG_2015-15_45_16 CG_2015-15_curated_scaffold_5957, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.6   0.0   3.8e-08   9.4e-05       1      36 []    4931    4966 ..    4931    4966 .. 0.96
+   2 !    3.2   0.0    0.0059        14      10      30 ..   10066   10086 ..   10063   10088 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 19.6 bits;  conditional E-value: 3.8e-08
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned    1 CcTcaCGCatGaaTTAcCatGatCAgGTTCaAgCGG 36  
+                                                         CcT+ CGCa GaaTTA C tG tCA GTTCaA+CGG
+                                  JAACSZ010001335_1 4931 CCTTTCGCAAGAATTATCTTGTTCAAGTTCAAACGG 4966
+                                                         68999*****************************97 PP
+
+  == domain 2  score: 3.2 bits;  conditional E-value: 0.0059
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned    10 tGaaTTAcCatGatCAgGTTC 30   
+                                                           GaaTTA CatG tCA GTTC
+                                  JAACSZ010001335_1 10066 GGAATTATCATGGTCATGTTC 10086
+                                                          589*****************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (36 nodes)
+Target sequences:                         2471  (37632609 residues searched)
+Passed MSV filter:                        34  (0.0137596); expected 49.4 (0.02)
+Passed bias filter:                       34  (0.0137596); expected 49.4 (0.02)
+Passed Vit filter:                         4  (0.00161878); expected 2.5 (0.001)
+Passed Fwd filter:                         1  (0.000404694); expected 0.0 (1e-05)
+Initial search space (Z):               2471  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 1.57u 0.06s 00:00:01.63 Elapsed: 00:00:00.64
+# Mc/sec: 2116.83
+//
+[ok]

@@ -1,0 +1,23 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NKIB01004444_1:1369-5133   -           1255 598949at2759         -            402   3.1e-87  289.3   5.5   1   3     5e-88   1.6e-85  283.7   1.6     6   314   120   488   117   497 0.86 -
+NKIB01004444_1:1369-5133   -           1255 598949at2759         -            402   3.1e-87  289.3   5.5   2   3    0.0096       3.1    2.8   0.1   318   346   519   547   509   556 0.86 -
+NKIB01004444_1:1369-5133   -           1255 598949at2759         -            402   3.1e-87  289.3   5.5   3   3      0.13        42   -1.0   0.0   326   366   547   590   538   612 0.66 -
+NKIB01003399_1:15940-17514 -            525 598949at2759         -            402   4.6e-34  114.2   2.0   1   2   1.2e-35   3.8e-33  111.2   0.6    10   275    75   379    70   397 0.83 -
+NKIB01003399_1:15940-17514 -            525 598949at2759         -            402   4.6e-34  114.2   2.0   2   2     0.034        11    1.0   0.0   301   329   434   462   406   493 0.78 -
+NKIB01010224_1:5287-6681   -            465 598949at2759         -            402   1.6e-21   72.9   2.1   1   2   3.1e-07    0.0001   17.6   0.1     7    79    61   139    59   148 0.86 -
+NKIB01010224_1:5287-6681   -            465 598949at2759         -            402   1.6e-21   72.9   2.1   2   2   2.1e-17   6.9e-15   51.0   0.2   143   272   239   394   196   463 0.67 -
+NKIB01013138_1:48238-49932 -            565 598949at2759         -            402   1.3e-20   69.8   7.8   1   3   2.7e-05    0.0086   11.2   0.2     7   101    82   186    79   193 0.77 -
+NKIB01013138_1:48238-49932 -            565 598949at2759         -            402   1.3e-20   69.8   7.8   2   3   2.8e-20   8.9e-18   60.6   1.4   169   277   307   418   249   452 0.86 -
+NKIB01013138_1:48238-49932 -            565 598949at2759         -            402   1.3e-20   69.8   7.8   3   3      0.08        26   -0.2   0.0   344   363   533   552   506   560 0.77 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/598949at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionella_formosa_ASM225602v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_002256025.1_ASM225602v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionella_formosa_ASM225602v1/run_eukaryota_odb10/hmmer_output/initial_run_results/598949at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/598949at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionella_formosa_ASM225602v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_002256025.1_ASM225602v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 04:24:43 2021
+# [ok]

@@ -1,0 +1,75 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_P2-P4_rev-compl.hmm
+# target sequence database:        genomes/Cyclotella_cryptica_Cyccr1/Cyccr1_AssemblyScaffolds_Repeatmasked.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned  [M=36]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence        Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+    0.00048   22.7   0.3         49    6.8   0.0    5.7  3  scaffold_104072  
+  ------ inclusion threshold ------
+        1.1   12.0   0.0          2   11.3   0.0    1.4  1  scaffold_113424  
+
+
+Domain annotation for each sequence (and alignments):
+>> scaffold_104072  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.0   0.0     0.057   3.3e+03      14      25 ..       4      15 ..       2      19 .. 0.83
+   2 !    4.6   0.0    0.0043   2.5e+02      18      18 ..      74      74 ..      47      94 .. 0.64
+   3 !    6.8   0.0   0.00085        49      13      27 ..      99     113 ..      95     130 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 1.0 bits;  conditional E-value: 0.057
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned 14 TTAcCatGatCA 25
+                                                       T A CatGatCA
+                                    scaffold_104072  4 TCATCATGATCA 15
+                                                       56889*****98 PP
+
+  == domain 2  score: 4.6 bits;  conditional E-value: 0.0043
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned 18 C 18
+                                                       C
+                                    scaffold_104072 74 C 74
+                                                       2 PP
+
+  == domain 3  score: 6.8 bits;  conditional E-value: 0.00085
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned  13 aTTAcCatGatCAgG 27 
+                                                        aTTA CatGatCA G
+                                    scaffold_104072  99 ATTATCATGATCATG 113
+                                                        789999999999855 PP
+
+>> scaffold_113424  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.3   0.0   3.3e-05         2      16      33 ..      95     112 ..      83     113 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 3.3e-05
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned  16 AcCatGatCAgGTTCaAg 33 
+                                                        AcCatGatCAgGTT aAg
+                                    scaffold_113424  95 ACCATGATCAGGTTGAAG 112
+                                                        89***********97766 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (36 nodes)
+Target sequences:                       116815  (161759242 residues searched)
+Passed MSV filter:                      1941  (0.016616); expected 2336.3 (0.02)
+Passed bias filter:                     1912  (0.0163678); expected 2336.3 (0.02)
+Passed Vit filter:                       105  (0.000898857); expected 116.8 (0.001)
+Passed Fwd filter:                         2  (1.71211e-05); expected 1.2 (1e-05)
+Initial search space (Z):             116815  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 8.03u 0.21s 00:00:08.24 Elapsed: 00:00:02.85
+# Mc/sec: 2043.27
+//
+[ok]

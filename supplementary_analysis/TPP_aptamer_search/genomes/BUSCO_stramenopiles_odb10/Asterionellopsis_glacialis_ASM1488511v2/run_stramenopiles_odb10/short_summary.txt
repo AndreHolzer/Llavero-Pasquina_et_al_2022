@@ -1,0 +1,19 @@
+# BUSCO version is: 5.1.2 
+# The lineage dataset is: stramenopiles_odb10 (Creation date: 2020-08-05, number of genomes: 27, number of BUSCOs: 100)
+# Summarized benchmarking in BUSCO notation for file /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/Asterionellopsis_glacialis_ASM1488511v2/GCA_014885115.2_ASM1488511v2_genomic.fna
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:95.0%[S:95.0%,D:0.0%],F:2.0%,M:3.0%,n:100	   
+	95	Complete BUSCOs (C)			   
+	95	Complete and single-copy BUSCOs (S)	   
+	0	Complete and duplicated BUSCOs (D)	   
+	2	Fragmented BUSCOs (F)			   
+	3	Missing BUSCOs (M)			   
+	100	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	metaeuk: 4.a0f584d

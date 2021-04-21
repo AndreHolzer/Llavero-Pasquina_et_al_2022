@@ -1,0 +1,67 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_P2-P4_rev-compl.hmm
+# target sequence database:        genomes/Halamphora_sp_MG8b/GCA_004335815.1_ASM433581v1_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned  [M=36]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    2.2e-06   29.1   0.0    4.6e-06   28.1   0.0    1.6  1  QAXB01035708_1  Halamphora sp_ MG8b 273122, whole genome shotgun sequence
+    8.1e-05   24.1   0.0     0.0003   22.3   0.0    2.0  2  QAXB01039623_1  Halamphora sp_ MG8b 279420, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> QAXB01035708_1  Halamphora sp_ MG8b 273122, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.1   0.0   1.7e-10   4.6e-06       1      36 []     552     587 ..     552     587 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 28.1 bits;  conditional E-value: 1.7e-10
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned   1 CcTcaCGCatGaaTTAcCatGatCAgGTTCaAgCGG 36 
+                                                        CcT aCGC  G+aTTAcCa+GatCAgGTTCaA+CGG
+                                     QAXB01035708_1 552 CCTAACGCGCGCATTACCACGATCAGGTTCAAACGG 587
+                                                        67889*****************************97 PP
+
+>> QAXB01039623_1  Halamphora sp_ MG8b 279420, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.3   0.0   1.1e-08    0.0003       2      36 .]     955     989 ..     954     989 .. 0.93
+   2 ?   -2.4   0.0      0.65   1.8e+04      17      30 ..    1256    1268 ..    1256    1270 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 22.3 bits;  conditional E-value: 1.1e-08
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned   2 cTcaCGCatGaaTTAcCatGatCAgGTTCaAgCGG 36 
+                                                        cT  CGCa G+aTTAcCatG tCAgGT CaA+CGG
+                                     QAXB01039623_1 955 CTATCGCACGCATTACCATGTTCAGGTCCAAACGG 989
+                                                        67789****************************97 PP
+
+  == domain 2  score: -2.4 bits;  conditional E-value: 0.65
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned   17 cCatGatCAgGTTC 30  
+                                                         cCa+GatCAg TTC
+                                     QAXB01039623_1 1256 CCACGATCAG-TTC 1268
+                                                         799*****96.665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (36 nodes)
+Target sequences:                        55067  (53206049 residues searched)
+Passed MSV filter:                       971  (0.0176331); expected 1101.3 (0.02)
+Passed bias filter:                      968  (0.0175786); expected 1101.3 (0.02)
+Passed Vit filter:                        59  (0.00107142); expected 55.1 (0.001)
+Passed Fwd filter:                         2  (3.63194e-05); expected 0.6 (1e-05)
+Initial search space (Z):              55067  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 2.97u 0.10s 00:00:03.07 Elapsed: 00:00:01.18
+# Mc/sec: 1623.24
+//
+[ok]

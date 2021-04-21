@@ -1,0 +1,48 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_P2-P4.hmm
+# target sequence database:        genomes/Seminavis_robusta_version1.2/Seminavis_robusta_genomeV1.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_P2-P4.aligned  [M=36]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------      -----------
+  ------ inclusion threshold ------
+      0.035   12.3   0.0       0.14   10.4   0.0    2.1  1  Sro_contig446  
+
+
+Domain annotation for each sequence (and alignments):
+>> Sro_contig446  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   0.0   2.9e-05      0.14       1      35 [.   45111   45145 ..   45111   45146 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 2.9e-05
+  2021-01-26_BLASTN_queries_P2-P4.aligned     1 CCGcTtGAACcTGatCatGgTAAttCatGCGtgAg 35   
+                                                CCG+T GAAC TGa Ca G TAAt+C tGCG  A 
+                            Sro_contig446 45111 CCGTTCGAACTTGAACAAGTTAATGCTTGCGAAAA 45145
+                                                79*****************************8775 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (36 nodes)
+Target sequences:                         4754  (125766861 residues searched)
+Passed MSV filter:                       112  (0.0235591); expected 95.1 (0.02)
+Passed bias filter:                      111  (0.0233488); expected 95.1 (0.02)
+Passed Vit filter:                         9  (0.00189314); expected 4.8 (0.001)
+Passed Fwd filter:                         1  (0.000210349); expected 0.0 (1e-05)
+Initial search space (Z):               4754  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 6.82u 0.18s 00:00:07.00 Elapsed: 00:00:02.35
+# Mc/sec: 1926.64
+//
+[ok]

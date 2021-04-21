@@ -1,0 +1,19 @@
+# BUSCO version is: 5.1.2 
+# The lineage dataset is: eukaryota_odb10 (Creation date: 2020-09-10, number of genomes: 70, number of BUSCOs: 255)
+# Summarized benchmarking in BUSCO notation for file /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/Synedra_acus_sac1/sac.scaffolds.fna
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:75.7%[S:60.4%,D:15.3%],F:7.8%,M:16.5%,n:255	   
+	193	Complete BUSCOs (C)			   
+	154	Complete and single-copy BUSCOs (S)	   
+	39	Complete and duplicated BUSCOs (D)	   
+	20	Fragmented BUSCOs (F)			   
+	42	Missing BUSCOs (M)			   
+	255	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	metaeuk: 4.a0f584d

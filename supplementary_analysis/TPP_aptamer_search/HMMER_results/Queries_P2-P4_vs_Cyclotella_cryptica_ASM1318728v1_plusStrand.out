@@ -1,0 +1,47 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_P2-P4.hmm
+# target sequence database:        genomes/Cyclotella_cryptica_ASM1318728v1/Cyclotella_cryptica.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_P2-P4.aligned  [M=36]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    1.2e-06   23.8   0.0    5.5e-06   21.7   0.0    2.3  1  scaffold66_size693783  
+
+
+Domain annotation for each sequence (and alignments):
+>> scaffold66_size693783  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.7   0.0   8.3e-09   5.5e-06       1      36 []  484202  484237 ..  484202  484237 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 21.7 bits;  conditional E-value: 8.3e-09
+  2021-01-26_BLASTN_queries_P2-P4.aligned      1 CCGcTtGAACcTGatCatGgTAAttCatGCGtgAgG 36    
+                                                 CCG+TtGAACcTGatC+tGgTAAttC  GCG gAgG
+                    scaffold66_size693783 484202 CCGTTTGAACCTGATCGTGGTAATTCGCGCGAGAGG 484237
+                                                 79********************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (36 nodes)
+Target sequences:                          662  (171139483 residues searched)
+Passed MSV filter:                         9  (0.0135952); expected 13.2 (0.02)
+Passed bias filter:                        9  (0.0135952); expected 13.2 (0.02)
+Passed Vit filter:                         3  (0.00453172); expected 0.7 (0.001)
+Passed Fwd filter:                         1  (0.00151057); expected 0.0 (1e-05)
+Initial search space (Z):                662  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 11.70u 0.32s 00:00:12.02 Elapsed: 00:00:03.17
+# Mc/sec: 1943.54
+//
+[ok]

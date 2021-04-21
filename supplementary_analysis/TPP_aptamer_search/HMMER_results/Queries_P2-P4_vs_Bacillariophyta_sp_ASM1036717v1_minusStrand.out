@@ -1,0 +1,47 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_P2-P4_rev-compl.hmm
+# target sequence database:        genomes/Bacillariophyta_sp_ASM1036717v1/GCA_010367175.1_ASM1036717v1_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned  [M=36]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+    1.6e-05   22.5   0.0      5e-05   20.9   0.0    2.0  1  JAACPG010000494_1  Bacillariophyta sp_ isolate CG_2015-02_45_7 CG_2015-02_curated_scaffold_26009, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> JAACPG010000494_1  Bacillariophyta sp_ isolate CG_2015-02_45_7 CG_2015-02_curated_scaffold_26009, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.9   0.0   1.5e-08     5e-05       1      36 []    2238    2273 ..    2238    2273 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 20.9 bits;  conditional E-value: 1.5e-08
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned    1 CcTcaCGCatGaaTTAcCatGatCAgGTTCaAgCGG 36  
+                                                         CcT+ CGCa GaaTTA C tG tCA GTTCaA+CGG
+                                  JAACPG010000494_1 2238 CCTTTCGCAAGAATTATCTTGTTCAAGTTCAAACGG 2273
+                                                         68999*****************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (36 nodes)
+Target sequences:                         3283  (21036362 residues searched)
+Passed MSV filter:                        60  (0.018276); expected 65.7 (0.02)
+Passed bias filter:                       60  (0.018276); expected 65.7 (0.02)
+Passed Vit filter:                         4  (0.0012184); expected 3.3 (0.001)
+Passed Fwd filter:                         1  (0.000304599); expected 0.0 (1e-05)
+Initial search space (Z):               3283  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.94u 0.04s 00:00:00.98 Elapsed: 00:00:00.38
+# Mc/sec: 1992.92
+//
+[ok]

@@ -1,0 +1,27 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+OLMU01005093_1:2720-8447   -           1633 1102at33634          -           1214         0 1381.0  19.6   1   9   8.6e-35   8.6e-33  107.1   0.0    16   134     1   133     1   154 0.83 -
+OLMU01005093_1:2720-8447   -           1633 1102at33634          -           1214         0 1381.0  19.6   2   9   2.6e-10   2.6e-08   26.0   0.1   120   176   174   229   164   253 0.70 -
+OLMU01005093_1:2720-8447   -           1633 1102at33634          -           1214         0 1381.0  19.6   3   9    1e-100     1e-98  325.4   0.0   171   421   280   572   271   577 0.86 -
+OLMU01005093_1:2720-8447   -           1633 1102at33634          -           1214         0 1381.0  19.6   4   9   1.8e-49   1.8e-47  155.7   0.1   509   643   580   734   572   746 0.87 -
+OLMU01005093_1:2720-8447   -           1633 1102at33634          -           1214         0 1381.0  19.6   5   9  1.5e-116  1.5e-114  377.9   0.1   637   828   778   973   763  1002 0.92 -
+OLMU01005093_1:2720-8447   -           1633 1102at33634          -           1214         0 1381.0  19.6   6   9   9.2e-49   9.2e-47  153.3   0.2   877   980  1131  1239  1117  1253 0.91 -
+OLMU01005093_1:2720-8447   -           1633 1102at33634          -           1214         0 1381.0  19.6   7   9   5.3e-06   0.00053   11.7   0.0   979  1045  1271  1342  1250  1350 0.79 -
+OLMU01005093_1:2720-8447   -           1633 1102at33634          -           1214         0 1381.0  19.6   8   9     0.058       5.8   -1.7   1.6  1009  1045  1351  1391  1345  1398 0.76 -
+OLMU01005093_1:2720-8447   -           1633 1102at33634          -           1214         0 1381.0  19.6   9   9   8.5e-72   8.5e-70  229.6   0.0  1044  1212  1446  1632  1411  1633 0.84 -
+OLMU01004415_1:8384-12686  -           1407 1102at33634          -           1214  7.9e-198  653.7   4.0   1   3    3e-150    3e-148  489.5   0.1    42   803     1   809     1   836 0.79 -
+OLMU01004415_1:8384-12686  -           1407 1102at33634          -           1214  7.9e-198  653.7   4.0   2   3     5e-29     5e-27   88.0   0.0   888   974   993  1078   954  1127 0.82 -
+OLMU01004415_1:8384-12686  -           1407 1102at33634          -           1214  7.9e-198  653.7   4.0   3   3   3.2e-25   3.2e-23   75.4   0.5   971  1211  1148  1407  1128  1407 0.71 -
+OLMU01001691_1:23045-25901 -            887 1102at33634          -           1214  9.1e-150  494.5   0.7   1   2   2.5e-20   2.5e-18   59.1   3.0     9   160     2   159     1   201 0.82 -
+OLMU01001691_1:23045-25901 -            887 1102at33634          -           1214  9.1e-150  494.5   0.7   2   2  1.1e-132  1.1e-130  431.3   0.0   208   799   243   886   196   887 0.84 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/1102at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Licmophora_abbreviata_CCMP470/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_900291995.1_CCMP470_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Licmophora_abbreviata_CCMP470/run_stramenopiles_odb10/hmmer_output/initial_run_results/1102at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/1102at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Licmophora_abbreviata_CCMP470/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_900291995.1_CCMP470_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Fri Apr 16 15:50:50 2021
+# [ok]

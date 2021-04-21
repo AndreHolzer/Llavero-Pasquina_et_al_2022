@@ -1,0 +1,31 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WKLE02000181_1:50083-51753 -            508 671536at2759         -            369  1.8e-125  414.8  12.0   1   2   6.5e-17   5.3e-15   51.3   4.7     5    98    31   143    28   153 0.81 -
+WKLE02000181_1:50083-51753 -            508 671536at2759         -            369  1.8e-125  414.8  12.0   2   2  6.2e-112    5e-110  364.0   0.7   106   368   191   502   185   503 0.88 -
+WKLE02001742_1:37362-38447 -            305 671536at2759         -            369   7.3e-69  228.5   0.0   1   1   1.2e-70   9.4e-69  228.2   0.0   131   353    50   283    33   289 0.90 -
+WKLE02001329_1:73678-74580 -            301 671536at2759         -            369   7.5e-69  228.5   0.0   1   1   1.2e-70   9.7e-69  228.1   0.0   134   354    35   266    23   272 0.91 -
+WKLE02003493_1:9672-10556  -            295 671536at2759         -            369   1.4e-68  227.6   0.0   1   1   2.2e-70   1.7e-68  227.3   0.0   139   355    37   265    17   274 0.88 -
+WKLE02000013_1:709-1473    -            255 671536at2759         -            369   7.5e-68  225.2   0.0   1   1   1.2e-69   9.6e-68  224.8   0.0   140   355    17   244     6   251 0.89 -
+WKLE02006692_1:24980-26154 -            312 671536at2759         -            369     7e-67  222.0   0.0   1   1   1.1e-68   9.1e-67  221.6   0.0   140   354    53   279    35   286 0.90 -
+WKLE02001150_1:13383-14232 -            248 671536at2759         -            369   1.1e-66  221.4   0.0   1   1   1.5e-68   1.2e-66  221.2   0.0   139   354    18   245     3   248 0.89 -
+WKLE02004818_1:19287-20057 -            257 671536at2759         -            369   5.6e-64  212.5   0.0   1   1   8.3e-66   6.7e-64  212.2   0.0   143   355     1   225     1   232 0.90 -
+WKLE02003588_1:17168-18170 -            282 671536at2759         -            369     1e-55  185.3   0.0   1   1   3.2e-57   2.6e-55  184.0   0.0   140   354    42   279    31   282 0.87 -
+WKLE02001572_1:11433-12728 -            432 671536at2759         -            369     1e-35  119.4   0.2   1   3     6e-34   4.8e-32  107.4   0.0   138   272    81   227    55   234 0.85 -
+WKLE02001572_1:11433-12728 -            432 671536at2759         -            369     1e-35  119.4   0.2   2   3      0.53        43   -1.0   0.0   272   285   281   294   277   298 0.79 -
+WKLE02001572_1:11433-12728 -            432 671536at2759         -            369     1e-35  119.4   0.2   3   3   0.00088     0.071    8.1   0.0   290   357   325   409   319   420 0.67 -
+WKLE02000296_1:13294-14142 -            283 671536at2759         -            369   7.1e-21   70.6   0.2   1   2   2.1e-18   1.7e-16   56.2   0.1   142   251    27   157     9   167 0.80 -
+WKLE02000296_1:13294-14142 -            283 671536at2759         -            369   7.1e-21   70.6   0.2   2   2   5.1e-05    0.0041   12.2   0.0   282   324   239   283   213   283 0.82 -
+WKLE02001268_1:3890-4144   -             85 671536at2759         -            369   1.7e-06   23.3   0.2   1   1   2.3e-08   1.9e-06   23.2   0.2     5    56    22    84    14    85 0.79 -
+WKLE02000281_1:90840-91061 -             74 671536at2759         -            369   3.1e-06   22.5   0.5   1   1     4e-08   3.2e-06   22.4   0.5     8    62     1    66     1    73 0.76 -
+WKLE02005974_1:3747-4034   -             96 671536at2759         -            369   0.00023   16.3   0.3   1   1   3.2e-06   0.00026   16.2   0.3    11    61    31    86     7    95 0.75 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/671536at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionellopsis_glacialis_ASM1488511v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_014885115.2_ASM1488511v2_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionellopsis_glacialis_ASM1488511v2/run_eukaryota_odb10/hmmer_output/initial_run_results/671536at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/671536at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionellopsis_glacialis_ASM1488511v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_014885115.2_ASM1488511v2_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 05:53:16 2021
+# [ok]

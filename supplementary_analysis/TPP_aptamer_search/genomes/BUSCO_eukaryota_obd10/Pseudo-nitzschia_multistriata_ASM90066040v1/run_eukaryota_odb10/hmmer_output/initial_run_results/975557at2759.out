@@ -1,0 +1,25 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAACVS010000413_1:16678-19200   -            841 975557at2759         -            466  9.5e-115  380.2  48.3   1   5  3.6e-110  4.5e-108  358.2  27.0     2   266     4   293     3   309 0.80 -
+CAACVS010000413_1:16678-19200   -            841 975557at2759         -            466  9.5e-115  380.2  48.3   2   5   0.00042     0.053    8.5   0.1   233   261   313   341   301   362 0.80 -
+CAACVS010000413_1:16678-19200   -            841 975557at2759         -            466  9.5e-115  380.2  48.3   3   5   0.00021     0.026    9.5   0.0   270   302   386   418   359   462 0.73 -
+CAACVS010000413_1:16678-19200   -            841 975557at2759         -            466  9.5e-115  380.2  48.3   4   5    0.0046      0.57    5.1   3.1   321   376   500   553   473   683 0.75 -
+CAACVS010000413_1:16678-19200   -            841 975557at2759         -            466  9.5e-115  380.2  48.3   5   5   0.00072      0.09    7.7   0.3   395   461   754   826   727   831 0.72 -
+CAACVS010000231_1:36424-36666   -             81 975557at2759         -            466   6.5e-18   60.9   0.4   1   1   5.4e-20   6.8e-18   60.9   0.4     6    83     4    80     1    81 0.94 -
+CAACVS010000236_1:10531-10815   -             95 975557at2759         -            466   1.1e-15   53.6   0.1   1   1   3.5e-17   4.3e-15   51.6   0.1     9   101     1    95     1    95 0.93 -
+CAACVS010000406_1:84139-84375   -             79 975557at2759         -            466   2.5e-15   52.4   0.3   1   1   2.1e-17   2.6e-15   52.3   0.3     7    85     1    77     1    79 0.95 -
+CAACVS010000582_1:140428-140691 -             88 975557at2759         -            466   1.2e-12   43.6   0.1   1   1     1e-14   1.3e-12   43.5   0.1     3    83     4    87     2    88 0.90 -
+CAACVS010000449_1:126662-126865 -             68 975557at2759         -            466   1.3e-12   43.4   0.5   1   1   1.1e-14   1.4e-12   43.3   0.5    25    90     1    68     1    68 0.93 -
+CAACVS010000335_1:318514-318816 -            101 975557at2759         -            466   5.8e-09   31.4   0.0   1   1   5.1e-11   6.3e-09   31.3   0.0    11    66    36    98    29   101 0.84 -
+CAACVS010000052_1:91607-91792   -             62 975557at2759         -            466   1.9e-07   26.4   0.0   1   1   1.6e-09     2e-07   26.4   0.0    39    98     2    62     1    62 0.90 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/975557at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Pseudo-nitzschia_multistriata_ASM90066040v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_900660405.1_ASM90066040v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Pseudo-nitzschia_multistriata_ASM90066040v1/run_eukaryota_odb10/hmmer_output/initial_run_results/975557at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/975557at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Pseudo-nitzschia_multistriata_ASM90066040v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_900660405.1_ASM90066040v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sun Apr 18 04:09:13 2021
+# [ok]

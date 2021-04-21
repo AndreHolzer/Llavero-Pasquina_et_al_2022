@@ -1,0 +1,23 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+OLMU01001370_1:44-2241   -            701 674160at2759         -           1184     1e-51  170.8  15.0   1   5   6.5e-08   8.7e-06   18.6   0.2   746   818    95   183    80   188 0.76 -
+OLMU01001370_1:44-2241   -            701 674160at2759         -           1184     1e-51  170.8  15.0   2   5   2.2e-40   2.9e-38  126.2   0.2   819  1009   206   408   202   421 0.88 -
+OLMU01001370_1:44-2241   -            701 674160at2759         -           1184     1e-51  170.8  15.0   3   5   1.9e-05    0.0025   10.5   0.0  1011  1040   457   486   441   498 0.86 -
+OLMU01001370_1:44-2241   -            701 674160at2759         -           1184     1e-51  170.8  15.0   4   5     0.011       1.5    1.3   0.0  1074  1104   563   595   536   617 0.86 -
+OLMU01001370_1:44-2241   -            701 674160at2759         -           1184     1e-51  170.8  15.0   5   5   4.3e-08   5.8e-06   19.2   2.3  1119  1175   642   700   635   701 0.88 -
+OLMU01001369_1:2-1984    -            661 674160at2759         -           1184   1.7e-43  143.5   9.0   1   3   1.9e-06   0.00026   13.8   0.0   305   373   125   193    91   199 0.75 -
+OLMU01001369_1:2-1984    -            661 674160at2759         -           1184   1.7e-43  143.5   9.0   2   3   9.4e-16   1.3e-13   44.6   0.1   418   515   321   439   291   443 0.73 -
+OLMU01001369_1:2-1984    -            661 674160at2759         -           1184   1.7e-43  143.5   9.0   3   3   1.8e-28   2.4e-26   86.7   2.8   525   670   493   660   491   661 0.91 -
+OLMU01001367_1:6434-6769 -            112 674160at2759         -           1184   2.6e-14   46.9   0.1   1   1   2.2e-16     3e-14   46.7   0.1   101   170     5    79     1    87 0.90 -
+OLMU01001367_1:5581-5853 -             91 674160at2759         -           1184    0.0003   13.5   0.0   1   1   2.5e-06   0.00033   13.4   0.0    25    52    46    73    38    87 0.84 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/674160at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Licmophora_abbreviata_CCMP470/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_900291995.1_CCMP470_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Licmophora_abbreviata_CCMP470/run_eukaryota_odb10/hmmer_output/rerun_results/674160at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/674160at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Licmophora_abbreviata_CCMP470/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_900291995.1_CCMP470_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 10:04:35 2021
+# [ok]

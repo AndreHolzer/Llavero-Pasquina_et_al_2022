@@ -1,0 +1,25 @@
+#                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                  accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#          ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+BLYE01000009_1:90-2366         -            759 2880at33634          -            582  8.3e-215  709.1  11.5   1   4  6.4e-204    3e-202  667.7   9.1    40   482     1   493     1   513 0.92 -
+BLYE01000009_1:90-2366         -            759 2880at33634          -            582  8.3e-215  709.1  11.5   2   4   1.5e-05   0.00073   12.6   0.0   481   508   527   554   519   560 0.90 -
+BLYE01000009_1:90-2366         -            759 2880at33634          -            582  8.3e-215  709.1  11.5   3   4     0.018      0.87    2.5   0.0   514   543   638   667   636   672 0.89 -
+BLYE01000009_1:90-2366         -            759 2880at33634          -            582  8.3e-215  709.1  11.5   4   4   5.6e-07   2.6e-05   17.4   0.0   537   573   686   722   675   728 0.80 -
+BLYE01000011_1:726506-728329   -            608 2880at33634          -            582  9.9e-124  408.4  15.3   1   2  8.5e-124    4e-122  403.1  14.7     1   490     8   540     8   551 0.89 -
+BLYE01000011_1:726506-728329   -            608 2880at33634          -            582  9.9e-124  408.4  15.3   2   2      0.18       8.5   -0.8   0.0   483   503   565   585   560   588 0.87 -
+BLYE01000002_1:742957-745932   -            905 2880at33634          -            582   4.7e-12   39.6   0.7   1   2   9.9e-14   4.7e-12   39.6   0.7    81   347    68   334    60   405 0.83 -
+BLYE01000002_1:742957-745932   -            905 2880at33634          -            582   4.7e-12   39.6   0.7   2   2      0.48        23   -2.2   0.1   492   540   762   811   760   824 0.75 -
+BLYE01000012_1:733834-736800   -            989 2880at33634          -            582   2.3e-06   20.9   0.0   1   1   1.1e-07   5.1e-06   19.7   0.0    99   365   122   403    37   413 0.72 -
+BLYE01000003_1:1594731-1595063 -            111 2880at33634          -            582   2.3e-06   20.8   0.1   1   1   5.5e-08   2.6e-06   20.7   0.1    62   141    23   102    10   108 0.88 -
+BLYE01000127_1:5339-6295       -            319 2880at33634          -            582    0.0018   11.3   0.0   1   1   5.3e-05    0.0025   10.8   0.0    42    95    35    88    27    97 0.90 -
+BLYE01000010_1:421850-422806   -            319 2880at33634          -            582    0.0018   11.3   0.0   1   1   5.3e-05    0.0025   10.8   0.0    42    95    35    88    27    97 0.90 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/2880at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Nitzschia_putrida_Nputr_1.0/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_016586335.1_Nputr_1.0_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Nitzschia_putrida_Nputr_1.0/run_stramenopiles_odb10/hmmer_output/initial_run_results/2880at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/2880at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Nitzschia_putrida_Nputr_1.0/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_016586335.1_Nputr_1.0_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Thu Apr 15 13:53:09 2021
+# [ok]

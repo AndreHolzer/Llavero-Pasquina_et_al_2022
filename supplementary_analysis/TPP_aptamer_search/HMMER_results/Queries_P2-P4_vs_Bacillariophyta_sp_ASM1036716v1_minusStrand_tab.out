@@ -1,0 +1,15 @@
+#                                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                        accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                              -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+JAACSZ010001335_1    -          10394 2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned -             36   9.9e-07   25.9   0.0   1   2   3.8e-08   9.4e-05   19.6   0.0     1    36  4931  4966  4931  4966 0.96 Bacillariophyta sp_ isolate CG_2015-15_45_16 CG_2015-15_curated_scaffold_5957, whole genome shotgun sequence
+JAACSZ010001335_1    -          10394 2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned -             36   9.9e-07   25.9   0.0   2   2    0.0059        14    3.2   0.0    10    30 10066 10086 10063 10088 0.90 Bacillariophyta sp_ isolate CG_2015-15_45_16 CG_2015-15_curated_scaffold_5957, whole genome shotgun sequence
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      queries/2021-01-26_Queries_P2-P4_rev-compl.hmm
+# Target file:     genomes/Bacillariophyta_sp_ASM1036716v1/GCA_010367165.1_ASM1036716v1_genomic.fna
+# Option settings: hmmsearch --domtblout HMMER_results/Queries_P2-P4_vs_Bacillariophyta_sp_ASM1036716v1_minusStrand_tab.out --notextw queries/2021-01-26_Queries_P2-P4_rev-compl.hmm genomes/Bacillariophyta_sp_ASM1036716v1/GCA_010367165.1_ASM1036716v1_genomic.fna 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 13:49:20 2021
+# [ok]

@@ -1,0 +1,60 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_full-length_rev-compl.hmm
+# target sequence database:        genomes/Pseudo-nitzschia_multistriata_ASM90066040v1/GCA_900660405.1_ASM90066040v1_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_full-length_rev-compl.aligned  [M=115]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+    6.5e-20   67.1   0.0    3.1e-19   64.9   0.0    2.3  1  CAACVS010000021_1  Pseudo-nitzschia multistriata strain B856 genome assembly, contig: contig21, whole genome shotgun sequence
+    2.6e-13   45.9   0.0    9.7e-13   44.1   0.0    2.1  1  CAACVS010000170_1  Pseudo-nitzschia multistriata strain B856 genome assembly, contig: contig170, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> CAACVS010000021_1  Pseudo-nitzschia multistriata strain B856 genome assembly, contig: contig21, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.9   0.0   8.9e-22   3.1e-19       2     113 ..   51092   51212 ..   51091   51214 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 64.9 bits;  conditional E-value: 8.9e-22
+  2021-01-26_BLASTN_queries_full-length_rev-compl.aligned     2 ttgtttttccctctcgcatgaattaccatgatcaggttcaagcggttttcgatatcaacttg....aacatatttgagtgt.....tgttttggttctcagttgagctcccgcaaacaaac 113  
+                                                                ttgtt ttccctc+cgcatgaattaccatgatcaggttcaagcggttttc ata +a+ tt+    a+ca    ++ag gt       t ttgg+tctcag+tg gctcccgcaaacaaac
+                                        CAACVS010000021_1 51092 TTGTTCTTCCCTCACGCATGAATTACCATGATCAGGTTCAAGCGGTTTTCCATAATATTTTAcaacATCACGAGACAGAGTtgcatATTATTGGATCTCAGCTGCGCTCCCGCAAACAAAC 51212
+                                                                68999**********************************************99998887777665533333333334433322221668889************************99886 PP
+
+>> CAACVS010000170_1  Pseudo-nitzschia multistriata strain B856 genome assembly, contig: contig170, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.1   0.0   2.8e-15   9.7e-13       2     113 ..   15613   15707 ..   15612   15709 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 44.1 bits;  conditional E-value: 2.8e-15
+  2021-01-26_BLASTN_queries_full-length_rev-compl.aligned     2 ttgtttttccctctcgcatgaattaccatgatcaggttcaagcggttttcgatatcaacttgaacatatttgagtgttgttttggttctcagttgagctcccgcaaacaaac 113  
+                                                                ttgtt ttccctc+cgcatg+att ccatgatcaggttcaagcggt ttcgata + a t   a  t ttt+   g                   +gctcccgcaaacaaa+
+                                        CAACVS010000170_1 15613 TTGTTGTTCCCTCACGCATGCATTGCCATGATCAGGTTCAAGCGGTATTCGATAATGAATCTCAGCTGTTTCTTCG-----------------GTTGCTCCCGCAAACAAAA 15707
+                                                                68999***********************************************998544443333333333332222.................256***********99876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (115 nodes)
+Target sequences:                          700  (56765209 residues searched)
+Passed MSV filter:                        17  (0.0242857); expected 14.0 (0.02)
+Passed bias filter:                       17  (0.0242857); expected 14.0 (0.02)
+Passed Vit filter:                         3  (0.00428571); expected 0.7 (0.001)
+Passed Fwd filter:                         2  (0.00285714); expected 0.0 (1e-05)
+Initial search space (Z):                700  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 8.90u 0.19s 00:00:09.09 Elapsed: 00:00:02.50
+# Mc/sec: 2600.80
+//
+[ok]

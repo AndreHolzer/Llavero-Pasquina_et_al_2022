@@ -1,0 +1,18 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WXVQ01000015_1:23362-26541 -           1060 296129at2759         -            713  5.7e-265  876.4   6.6   1   5   1.5e-85   1.4e-82  273.5   0.9     1   197     3   225     3   235 0.88 -
+WXVQ01000015_1:23362-26541 -           1060 296129at2759         -            713  5.7e-265  876.4   6.6   2   5   5.3e-71   4.8e-68  225.4   0.1   183   378   236   446   233   456 0.90 -
+WXVQ01000015_1:23362-26541 -           1060 296129at2759         -            713  5.7e-265  876.4   6.6   3   5   1.9e-81   1.7e-78  260.0   0.0   379   566   497   709   493   712 0.92 -
+WXVQ01000015_1:23362-26541 -           1060 296129at2759         -            713  5.7e-265  876.4   6.6   4   5   2.2e-17     2e-14   48.2   0.0   551   613   740   804   732   808 0.91 -
+WXVQ01000015_1:23362-26541 -           1060 296129at2759         -            713  5.7e-265  876.4   6.6   5   5   6.1e-23   5.5e-20   66.6   0.0   620   710   872   968   845   971 0.86 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/296129at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Nitzschia_sp_Nitz4/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_013372465.1_Nitz4_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Nitzschia_sp_Nitz4/run_eukaryota_odb10/hmmer_output/initial_run_results/296129at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/296129at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Nitzschia_sp_Nitz4/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_013372465.1_Nitz4_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sat Apr 17 22:12:51 2021
+# [ok]

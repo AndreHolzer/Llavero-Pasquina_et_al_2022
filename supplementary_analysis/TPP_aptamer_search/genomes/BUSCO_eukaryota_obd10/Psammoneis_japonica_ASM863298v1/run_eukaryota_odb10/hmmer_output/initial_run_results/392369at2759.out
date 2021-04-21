@@ -1,0 +1,18 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QPGO01000007_1:393797-395596 -            538 392369at2759         -            352  8.9e-117  386.0   0.0   1   3   4.8e-15   2.6e-12   42.4   0.0     5    48    59   108    57   115 0.85 -
+QPGO01000007_1:393797-395596 -            538 392369at2759         -            352  8.9e-117  386.0   0.0   2   3     9e-83     5e-80  265.2   0.0    51   278   145   427   131   446 0.83 -
+QPGO01000007_1:393797-395596 -            538 392369at2759         -            352  8.9e-117  386.0   0.0   3   3   4.7e-23   2.6e-20   68.8   0.0   280   352   455   538   452   538 0.90 -
+QPGO01000008_1:391885-392667 -            261 392369at2759         -            352    0.0014   13.7   0.0   1   2     0.027        15    0.5   0.0    36    48    75    87    50    95 0.89 -
+QPGO01000008_1:391885-392667 -            261 392369at2759         -            352    0.0014   13.7   0.0   2   2   2.2e-05     0.012   10.6   0.0    75   105   149   179   143   195 0.79 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/392369at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Psammoneis_japonica_ASM863298v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_008632985.1_ASM863298v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Psammoneis_japonica_ASM863298v1/run_eukaryota_odb10/hmmer_output/initial_run_results/392369at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/392369at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Psammoneis_japonica_ASM863298v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_008632985.1_ASM863298v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 10:52:02 2021
+# [ok]

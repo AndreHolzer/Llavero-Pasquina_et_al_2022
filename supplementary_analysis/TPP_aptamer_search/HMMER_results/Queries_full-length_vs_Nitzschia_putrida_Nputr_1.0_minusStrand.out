@@ -1,0 +1,47 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_full-length_rev-compl.hmm
+# target sequence database:        genomes/Nitzschia_putrida_Nputr_1.0/GCA_016586335.1_Nputr_1.0_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_full-length_rev-compl.aligned  [M=115]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+     0.0007   14.2   0.0      0.003   12.1   0.0    2.1  1  BLYE01000093_1  Nitzschia putrida NIES-4239 DNA, 000000F_006, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> BLYE01000093_1  Nitzschia putrida NIES-4239 DNA, 000000F_006, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.1   0.0   1.3e-05     0.003       7     110 ..   91876   92065 ..   91871   92070 .. 0.58
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 1.3e-05
+  2021-01-26_BLASTN_queries_full-length_rev-compl.aligned     7 tttccctctcgcatgaattacc..atgatcaggttcaagcggttttcgatatcaacttg...............aacatatttgagtgttgttttggttctca.....................................................................gttgagctcccgcaaaca 110  
+                                                                t+t+cc++ cgc t aattac   a+gatcaggttc a+cggttt c  +  ++ c+                  aca a  + ag ++ +t  t+gt c+ a                                                                      t+ agctcccgcaaaca
+                                           BLYE01000093_1 91876 TGTTCCCTCCGCGTCAATTACGaaACGATCAGGTTCGAACGGTTTCCATCGGTTGCAACactcccacatagtcaCACACAACAAAGCAAGATCATTGTGCAGAatacgcaaaagtgattgtccgactttcacatctcagctacaaatcttcccagcataaacgaagatttgtTTACAGCTCCCGCAAACA 92065
+                                                                678899999***********963369*****************875443322211111100011111111121112222223333333333333333333333555555566666666666666666666666666777777777777777777777777777777776666666677777777777665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (115 nodes)
+Target sequences:                          234  (47133574 residues searched)
+Passed MSV filter:                         4  (0.017094); expected 4.7 (0.02)
+Passed bias filter:                        3  (0.0128205); expected 4.7 (0.02)
+Passed Vit filter:                         2  (0.00854701); expected 0.2 (0.001)
+Passed Fwd filter:                         1  (0.0042735); expected 0.0 (1e-05)
+Initial search space (Z):                234  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 3.30u 0.08s 00:00:03.38 Elapsed: 00:00:01.23
+# Mc/sec: 4406.80
+//
+[ok]

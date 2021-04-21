@@ -1,0 +1,60 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_full-length_rev-compl.hmm
+# target sequence database:        genomes/Psammoneis_japonica_ASM863298v1/GCA_008632985.1_ASM863298v1_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_full-length_rev-compl.aligned  [M=115]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    3.8e-05   19.5   0.0    0.00014   17.7   0.0    2.0  1  QPGO01000179_1  Psammoneis japonica isolate ECT2AJA-110 000183F, whole genome shotgun sequence
+    3.9e-05   19.5   0.0    0.00015   17.6   0.0    2.0  1  QPGO01000065_1  Psammoneis japonica isolate ECT2AJA-110 000065F, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> QPGO01000179_1  Psammoneis japonica isolate ECT2AJA-110 000183F, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.7   0.0   4.8e-07   0.00014       7     108 ..   77049   77136 ..   77045   77142 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 17.7 bits;  conditional E-value: 4.8e-07
+  2021-01-26_BLASTN_queries_full-length_rev-compl.aligned     7 tttccctctcgcatgaattaccatgatcaggttcaagcggttttcgatatcaacttgaacatatttgagtgttgttttggttctcagttgagctcccgcaaa 108  
+                                                                t+t+cc+++cgca gaa tacc tg tcaggttca +cggt t   at+tca c   a++ tatt g +t+tt            a t g+gc cccg a+a
+                                           QPGO01000179_1 77049 TGTTCCCTACGCACGAACTACCGTGTTCAGGTTCAGACGGTAT--AATCTCAGCGCCATTCTATT-GTATATT-----------GAATGGTGCACCCGTACA 77136
+                                                                57999***********************************976..33333333333333333322.1222222...........236667799999987765 PP
+
+>> QPGO01000065_1  Psammoneis japonica isolate ECT2AJA-110 000065F, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.6   0.0   5.2e-07   0.00015       7     108 ..  257012  257097 ..  257008  257103 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 17.6 bits;  conditional E-value: 5.2e-07
+  2021-01-26_BLASTN_queries_full-length_rev-compl.aligned      7 tttccctctcgcatgaattaccatgatcaggttcaagcggttttcgatatcaacttgaacatatttgagtgttgttttggttctcagttgagctcccgcaaa 108   
+                                                                 t+t+cc+++cgca gaa tacc tg tcaggttca +cggt t   at+tca ct  a++ tatt  a tg+               t g+gc cccg a+a
+                                           QPGO01000065_1 257012 TGTTCCCTACGCACGAACTACCGTGTTCAGGTTCAGACGGTAT--AATCTCAGCTCCATTCTATTGTATTGA--------------ATGGTGCACCCGTACA 257097
+                                                                 57999***********************************986..667777777777777777766666666..............6678899999998766 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (115 nodes)
+Target sequences:                          597  (91430650 residues searched)
+Passed MSV filter:                         6  (0.0100503); expected 11.9 (0.02)
+Passed bias filter:                        6  (0.0100503); expected 11.9 (0.02)
+Passed Vit filter:                         2  (0.00335008); expected 0.6 (0.001)
+Passed Fwd filter:                         2  (0.00335008); expected 0.0 (1e-05)
+Initial search space (Z):                597  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 9.58u 0.21s 00:00:09.79 Elapsed: 00:00:03.29
+# Mc/sec: 3195.90
+//
+[ok]

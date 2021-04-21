@@ -1,0 +1,82 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_full-length.hmm
+# target sequence database:        genomes/Thalassiosira_oceanica_ThaOc_1.0/GCA_000296195.2_ThaOc_1.0_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_full-length.aligned  [M=116]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    1.9e-08   36.1   0.0    6.2e-08   34.4   0.0    1.8  1  AGNL01045717_1  Thalassiosira oceanica strain CCMP1005 To_g46340, whole genome shotgun sequence
+  ------ inclusion threshold ------
+       0.35   12.8   1.0    1.6e+02    4.3   0.0    3.3  4  AGNL01015534_1  Thalassiosira oceanica strain CCMP1005 To_g15677, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> AGNL01045717_1  Thalassiosira oceanica strain CCMP1005 To_g46340, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.4   0.0   2.5e-12   6.2e-08       9     109 ..    7300    7375 ..    7290    7380 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 34.4 bits;  conditional E-value: 2.5e-12
+  2021-01-26_BLASTN_queries_full-length.aligned    9 ttgcgggagctcaactgagaactgaaatataattgtgctaatattcaggttgatatcgaaaaccgcttgaacctgatcatggtaattcatgcgtgagggaa 109 
+                                                     ttgcggg gct +a                 at g+   +a         t  + t + a accg+ttgaacctga catggtaat+catgcg+++gg+aa
+                                 AGNL01045717_1 7300 TTGCGGGTGCTTTA-----------------ATGGCTGAGAG--------TTGGTTGAGACACCGTTTGAACCTGAACATGGTAATGCATGCGAAGGGAAA 7375
+                                                     67888888886532.................22222222222........222333344679********************************9999886 PP
+
+>> AGNL01015534_1  Thalassiosira oceanica strain CCMP1005 To_g15677, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.3   0.0    0.0063   1.6e+02      76     112 ..      36      72 ..       3      76 .. 0.81
+   2 ?    3.4   0.0     0.012     3e+02      76     113 ..     103     140 ..      82     143 .. 0.89
+   3 ?    3.3   0.0     0.013   3.3e+02      77     113 ..     137     173 ..     133     176 .. 0.91
+   4 ?    0.5   0.0     0.091   2.3e+03      76     114 ..     169     207 ..     163     209 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 4.3 bits;  conditional E-value: 0.0063
+  2021-01-26_BLASTN_queries_full-length.aligned  76 tgaacctgatcatggtaattcatgcgtgagggaaaaa 112
+                                                     gaacctga  a gg  a tc t cg+ + ggaa aa
+                                 AGNL01015534_1  36 AGAACCTGAAGAGGGCGACTCTTACGATGAGGAAGAA 72 
+                                                    699***********************99999998876 PP
+
+  == domain 2  score: 3.4 bits;  conditional E-value: 0.012
+  2021-01-26_BLASTN_queries_full-length.aligned  76 tgaacctgatcatggtaattcatgcgtgagggaaaaac 113
+                                                     gaacctga  a gg  a tc t cg+ + ggaa aac
+                                 AGNL01015534_1 103 AGAACCTGAAGAGGGCGACTCTTACGACGAGGAAGAAC 140
+                                                    599************************99999998775 PP
+
+  == domain 3  score: 3.3 bits;  conditional E-value: 0.013
+  2021-01-26_BLASTN_queries_full-length.aligned  77 gaacctgatcatggtaattcatgcgtgagggaaaaac 113
+                                                    gaacctga  a gg  a tc t cg+ + ggaa aac
+                                 AGNL01015534_1 137 GAACCTGAAGAGGGCGACTCTTACGATGAGGAAGAAC 173
+                                                    89************************99999998875 PP
+
+  == domain 4  score: 0.5 bits;  conditional E-value: 0.091
+  2021-01-26_BLASTN_queries_full-length.aligned  76 tgaacctgatcatggtaattcatgcgtgagggaaaaaca 114
+                                                     gaacctga  a gg  a tc t  g+ + ggaa aaca
+                                 AGNL01015534_1 169 AGAACCTGAAGAGGGCGACTCTTATGACGAGGAAGAACA 207
+                                                    589******999999999999999999999998888776 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (116 nodes)
+Target sequences:                        50892  (92185637 residues searched)
+Passed MSV filter:                       824  (0.0161911); expected 1017.8 (0.02)
+Passed bias filter:                      794  (0.0156017); expected 1017.8 (0.02)
+Passed Vit filter:                        74  (0.00145406); expected 50.9 (0.001)
+Passed Fwd filter:                         2  (3.92989e-05); expected 0.5 (1e-05)
+Initial search space (Z):              50892  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 8.61u 0.20s 00:00:08.80 Elapsed: 00:00:02.12
+# Mc/sec: 5044.12
+//
+[ok]

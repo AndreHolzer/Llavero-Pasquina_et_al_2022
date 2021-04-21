@@ -1,0 +1,23 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+DS999280_1:9516-13404 -           1269 176625at2759         -            497   3.5e-46  153.4   9.7   1  10   7.1e-08   6.4e-05   17.3   0.0    20    61   138   179   130   197 0.88 -
+DS999280_1:9516-13404 -           1269 176625at2759         -            497   3.5e-46  153.4   9.7   2  10   0.00033      0.29    5.2   0.0    99   123   286   310   244   356 0.90 -
+DS999280_1:9516-13404 -           1269 176625at2759         -            497   3.5e-46  153.4   9.7   3  10     0.027        24   -1.1   0.0   165   190   530   555   528   559 0.86 -
+DS999280_1:9516-13404 -           1269 176625at2759         -            497   3.5e-46  153.4   9.7   4  10   8.6e-13   7.7e-10   33.5   0.0   188   237   599   657   582   663 0.84 -
+DS999280_1:9516-13404 -           1269 176625at2759         -            497   3.5e-46  153.4   9.7   5  10    0.0085       7.6    0.5   0.0   236   267   683   714   678   758 0.81 -
+DS999280_1:9516-13404 -           1269 176625at2759         -            497   3.5e-46  153.4   9.7   6  10   2.8e-06    0.0025   12.0   0.0   266   294   770   798   763   802 0.92 -
+DS999280_1:9516-13404 -           1269 176625at2759         -            497   3.5e-46  153.4   9.7   7  10   7.2e-09   6.4e-06   20.6   0.0   283   328   809   854   804   863 0.89 -
+DS999280_1:9516-13404 -           1269 176625at2759         -            497   3.5e-46  153.4   9.7   8  10     0.041        37   -1.7   0.0   331   361   883   913   878   925 0.75 -
+DS999280_1:9516-13404 -           1269 176625at2759         -            497   3.5e-46  153.4   9.7   9  10   1.6e-19   1.5e-16   55.7   0.5   355   431   928  1014   916  1019 0.89 -
+DS999280_1:9516-13404 -           1269 176625at2759         -            497   3.5e-46  153.4   9.7  10  10    0.0029       2.6    2.1   0.0   429   469  1036  1075  1034  1082 0.85 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/176625at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Phaeodactylum_tricornutum_ASM15095v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_000150955.2_ASM15095v2_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Phaeodactylum_tricornutum_ASM15095v2/run_eukaryota_odb10/hmmer_output/initial_run_results/176625at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/176625at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Phaeodactylum_tricornutum_ASM15095v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_000150955.2_ASM15095v2_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sun Apr 18 13:55:04 2021
+# [ok]

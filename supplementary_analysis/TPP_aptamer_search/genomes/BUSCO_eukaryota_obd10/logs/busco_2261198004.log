@@ -1,0 +1,79 @@
+DEBUG:busco.run_BUSCO	Command line: /Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/bin/busco -m geno -i genomes/Asterionella_formosa_ASM225602v1/GCA_002256025.1_ASM225602v1_genomic.fna -o Asterionella_formosa_ASM225602v1 --out_path genomes/BUSCO_eukaryota_obd10 -l eukaryota_odb10
+INFO:busco.run_BUSCO	***** Start a BUSCO v5.1.2 analysis, current time: 04/17/2021 18:44:26 *****
+DEBUG:busco.ConfigManager	Getting config file
+INFO:busco.ConfigManager	Configuring BUSCO with local environment
+INFO:busco.BuscoConfig	Mode is genome
+INFO:busco.BuscoDownloadManager	Downloading information on latest versions of BUSCO data...
+ERROR:busco.BuscoRunner	Cannot reach https://busco-data.ezlab.org/v5/data/file_versions.tsv
+DEBUG:busco.BuscoRunner	Cannot reach https://busco-data.ezlab.org/v5/data/file_versions.tsv
+Traceback (most recent call last):
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/http/client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/http/client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/http/client.py", line 950, in send
+    self.connect()
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/http/client.py", line 1417, in connect
+    super().connect()
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/site-packages/busco/BuscoDownloadManager.py", line 91, in _obtain_versions_file
+    urllib.request.urlretrieve(remote_filepath, local_filepath)
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/urllib/request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/site-packages/busco/run_BUSCO.py", line 98, in run
+    self.load_config()
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/site-packages/busco/run_BUSCO.py", line 89, in load_config
+    self.config_manager.load_busco_config_main(sys.argv)
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/site-packages/busco/BuscoLogger.py", line 66, in wrapped_func
+    self.retval = func(*args, **kwargs)
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/site-packages/busco/ConfigManager.py", line 58, in load_busco_config_main
+    self.config_main.validate()
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/site-packages/busco/BuscoConfig.py", line 397, in validate
+    self._init_downloader()
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/site-packages/busco/BuscoConfig.py", line 95, in _init_downloader
+    self.downloader = BuscoDownloadManager(self)
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/site-packages/busco/BuscoDownloadManager.py", line 51, in __init__
+    self._load_versions()
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/site-packages/busco/BuscoDownloadManager.py", line 60, in _load_versions
+    versions_file = self._obtain_versions_file()
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/site-packages/busco/BuscoLogger.py", line 66, in wrapped_func
+    self.retval = func(*args, **kwargs)
+  File "/Users/aholzer/anaconda3/envs/Liavero-Pasquina_2021_2/lib/python3.9/site-packages/busco/BuscoDownloadManager.py", line 93, in _obtain_versions_file
+    raise BatchFatalError("Cannot reach {}".format(remote_filepath))
+busco.Exceptions.BatchFatalError: Cannot reach https://busco-data.ezlab.org/v5/data/file_versions.tsv
+ERROR:busco.BuscoRunner	BUSCO analysis failed !
+ERROR:busco.BuscoRunner	Check the logs, read the user guide (https://busco.ezlab.org/busco_userguide.html), and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues
+

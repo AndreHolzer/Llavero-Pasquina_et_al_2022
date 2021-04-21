@@ -1,0 +1,19 @@
+# BUSCO version is: 5.1.2 
+# The lineage dataset is: eukaryota_odb10 (Creation date: 2020-09-10, number of genomes: 70, number of BUSCOs: 255)
+# Summarized benchmarking in BUSCO notation for file /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/Fragilariopsis_cylindrus_Fracy1/GCA_001750085.1_Fracy1_genomic.fna
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:76.4%[S:42.7%,D:33.7%],F:7.8%,M:15.8%,n:255	   
+	195	Complete BUSCOs (C)			   
+	109	Complete and single-copy BUSCOs (S)	   
+	86	Complete and duplicated BUSCOs (D)	   
+	20	Fragmented BUSCOs (F)			   
+	40	Missing BUSCOs (M)			   
+	255	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	metaeuk: 4.a0f584d

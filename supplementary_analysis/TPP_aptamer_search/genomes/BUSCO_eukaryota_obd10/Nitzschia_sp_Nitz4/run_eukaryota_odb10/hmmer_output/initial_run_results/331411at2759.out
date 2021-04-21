@@ -1,0 +1,24 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WXVQ01000078_1:64806-67514 -            903 331411at2759         -            419   4.8e-40  133.5   8.8   1   2   1.8e-31   5.3e-29   97.1  10.0    61   284   205   479   175   489 0.77 -
+WXVQ01000078_1:64806-67514 -            903 331411at2759         -            419   4.8e-40  133.5   8.8   2   2     2e-11     6e-09   31.1   0.0   284   362   560   649   558   682 0.76 -
+WXVQ01000151_1:5001-6167   -            389 331411at2759         -            419   6.6e-07   24.3   0.0   1   3   0.00044      0.13    6.9   0.0   314   374    24    81    14    86 0.79 -
+WXVQ01000151_1:5001-6167   -            389 331411at2759         -            419   6.6e-07   24.3   0.0   2   3   7.5e-05     0.023    9.4   0.1   285   369    58   149    53   161 0.75 -
+WXVQ01000151_1:5001-6167   -            389 331411at2759         -            419   6.6e-07   24.3   0.0   3   3   8.1e-05     0.024    9.3   0.0   277   371   130   226   126   237 0.77 -
+WXVQ01000257_1:42742-45543 -            934 331411at2759         -            419   1.2e-05   20.2   4.3   1   6    0.0045       1.4    3.5   0.0   207   248   323   367   306   378 0.85 -
+WXVQ01000257_1:42742-45543 -            934 331411at2759         -            419   1.2e-05   20.2   4.3   2   6    0.0024      0.74    4.4   0.3   165   246   377   457   364   477 0.75 -
+WXVQ01000257_1:42742-45543 -            934 331411at2759         -            419   1.2e-05   20.2   4.3   3   6      0.08        24   -0.6   0.0   330   392   540   599   535   620 0.75 -
+WXVQ01000257_1:42742-45543 -            934 331411at2759         -            419   1.2e-05   20.2   4.3   4   6     0.044        13    0.3   0.1   263   296   631   670   606   694 0.51 -
+WXVQ01000257_1:42742-45543 -            934 331411at2759         -            419   1.2e-05   20.2   4.3   5   6       0.2        59   -1.9   0.0   102   232   712   730   704   747 0.52 -
+WXVQ01000257_1:42742-45543 -            934 331411at2759         -            419   1.2e-05   20.2   4.3   6   6   0.00024     0.072    7.7   0.0   327   377   856   903   841   915 0.85 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/331411at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Nitzschia_sp_Nitz4/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_013372465.1_Nitz4_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Nitzschia_sp_Nitz4/run_eukaryota_odb10/hmmer_output/initial_run_results/331411at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/331411at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Nitzschia_sp_Nitz4/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_013372465.1_Nitz4_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sat Apr 17 22:12:54 2021
+# [ok]

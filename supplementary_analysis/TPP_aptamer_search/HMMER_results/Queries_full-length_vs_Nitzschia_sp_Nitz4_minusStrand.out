@@ -1,0 +1,47 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_full-length_rev-compl.hmm
+# target sequence database:        genomes/Nitzschia_sp_Nitz4/GCA_013372465.1_Nitz4_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_full-length_rev-compl.aligned  [M=115]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    0.00011   18.7   0.0    0.00038   17.0   0.0    1.9  1  WXVQ01000253_1  Nitzschia sp_ Nitz4 scaffold273_size25297, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> WXVQ01000253_1  Nitzschia sp_ Nitz4 scaffold273_size25297, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.0   0.0   3.8e-07   0.00038       7     112 ..    5360    5527 ..    5355    5530 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 17.0 bits;  conditional E-value: 3.8e-07
+  2021-01-26_BLASTN_queries_full-length_rev-compl.aligned    7 tttccctctcgcatgaattacc..atgatcaggttcaagcggttt...tcgatatcaacttg.......aacatatttgagtgt................tgttttggttctca..................................gttgagctcccgcaaacaaa 112 
+                                                               t+t+cc++ cgc t aatta    a+gatcaggttc a+cggttt   tcg+t  caac+ +       a c  a t+gag +t                + ttt++ +tctca                                   t+ agctcccgcaaaca a
+                                           WXVQ01000253_1 5360 TGTTCCCTCCGCGTCAATTATGaaACGATCAGGTTCGAACGGTTTccaTCGGTTGCAACCCAtacacatACCCCACTAGAGCATacaatagattgtccgaCTTTTCACATCTCAgctacaaatctttcaacaaacaacaaagatttgtTTACAGCTCCCGCAAACACA 5527
+                                                               678899999***********962269*****************872223333332222222222222222233333333332221111111110112222455566666666669999999********************999998888999*********998876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (115 nodes)
+Target sequences:                          992  (27229399 residues searched)
+Passed MSV filter:                        11  (0.0110887); expected 19.8 (0.02)
+Passed bias filter:                       11  (0.0110887); expected 19.8 (0.02)
+Passed Vit filter:                         2  (0.00201613); expected 1.0 (0.001)
+Passed Fwd filter:                         1  (0.00100806); expected 0.0 (1e-05)
+Initial search space (Z):                992  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 2.04u 0.05s 00:00:02.09 Elapsed: 00:00:00.61
+# Mc/sec: 5133.41
+//
+[ok]

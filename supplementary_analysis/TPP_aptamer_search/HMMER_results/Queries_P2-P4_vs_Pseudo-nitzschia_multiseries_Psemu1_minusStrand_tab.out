@@ -1,0 +1,16 @@
+#                                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                        accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                              -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold_99          -          324430 2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned -             36   6.8e-09   33.7   0.0   1   1   9.1e-12   2.2e-08   32.1   0.0     1    36 282612 282647 282612 282647 0.98 -
+scaffold_124         -          283777 2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned -             36   7.2e-09   33.7   0.0   1   2         1   2.5e+03   -3.0   0.0     4    30  4143  4164  4142  4167 0.86 -
+scaffold_124         -          283777 2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned -             36   7.2e-09   33.7   0.0   2   2   1.4e-11   3.3e-08   31.6   0.0     1    36 116077 116112 116077 116112 0.98 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      queries/2021-01-26_Queries_P2-P4_rev-compl.hmm
+# Target file:     genomes/Pseudo-nitzschia_multiseries_Psemu1/Psemu1_AssemblyScaffolds_Repeatmasked.fna
+# Option settings: hmmsearch --domtblout HMMER_results/Queries_P2-P4_vs_Pseudo-nitzschia_multiseries_Psemu1_minusStrand_tab.out --notextw queries/2021-01-26_Queries_P2-P4_rev-compl.hmm genomes/Pseudo-nitzschia_multiseries_Psemu1/Psemu1_AssemblyScaffolds_Repeatmasked.fna 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 13:46:42 2021
+# [ok]

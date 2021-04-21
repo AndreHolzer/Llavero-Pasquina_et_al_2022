@@ -1,0 +1,19 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold_1522:8428-9741  -            438 919955at2759         -            267   1.3e-41  140.2   8.5   1   4   0.00015      0.13    9.2   0.1     2    22    29    49    28    59 0.80 -
+scaffold_1522:8428-9741  -            438 919955at2759         -            267   1.3e-41  140.2   8.5   2   4    0.0013       1.1    6.1   0.1    28    56    84   112    79   130 0.84 -
+scaffold_1522:8428-9741  -            438 919955at2759         -            267   1.3e-41  140.2   8.5   3   4   4.2e-17   3.5e-14   50.3   0.0   100   189   202   311   170   314 0.79 -
+scaffold_1522:8428-9741  -            438 919955at2759         -            267   1.3e-41  140.2   8.5   4   4   4.8e-25   3.9e-22   76.4   0.2   185   266   328   412   320   413 0.92 -
+scaffold_193:73713-74798 -            312 919955at2759         -            267   5.9e-07   26.7   0.8   1   1     1e-08   8.3e-06   22.9   0.8   190   266   206   281   153   282 0.91 -
+scaffold_2481:9766-11043 -            426 919955at2759         -            267    0.0063   13.4   0.1   1   1   0.00028      0.23    8.3   0.1   197   246   364   414   312   417 0.65 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/919955at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Pseudo-nitzschia_multiseries_Psemu1/run_eukaryota_odb10/metaeuk_output/initial_results/Psemu1_AssemblyScaffolds_Repeatmasked.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Pseudo-nitzschia_multiseries_Psemu1/run_eukaryota_odb10/hmmer_output/initial_run_results/919955at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/919955at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Pseudo-nitzschia_multiseries_Psemu1/run_eukaryota_odb10/metaeuk_output/initial_results/Psemu1_AssemblyScaffolds_Repeatmasked.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sun Apr 18 00:11:15 2021
+# [ok]

@@ -1,0 +1,34 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+OLMU01000857_1:5631-9050   -           1140 693at33634           -            925         0 1518.8  12.9   1   3   2.1e-89   1.3e-87  288.8   1.4     1   212    10   262    10   266 0.85 -
+OLMU01000857_1:5631-9050   -           1140 693at33634           -            925         0 1518.8  12.9   2   3  8.1e-233  4.8e-231  763.4   1.0   209   669   290   834   281   838 0.89 -
+OLMU01000857_1:5631-9050   -           1140 693at33634           -            925         0 1518.8  12.9   3   3  3.5e-144  2.1e-142  470.1   0.1   674   925   870  1138   848  1138 0.94 -
+OLMU01001691_1:2476-6129   -           1189 693at33634           -            925  3.3e-196  648.1  10.5   1   5   4.9e-24   2.9e-22   72.5   0.1    23   150    49   202     4   225 0.76 -
+OLMU01001691_1:2476-6129   -           1189 693at33634           -            925  3.3e-196  648.1  10.5   2   5   0.00035     0.021    6.7   0.0   172   199   250   277   234   284 0.88 -
+OLMU01001691_1:2476-6129   -           1189 693at33634           -            925  3.3e-196  648.1  10.5   3   5   1.2e-11   7.2e-10   31.5   0.0   216   305   342   437   315   445 0.81 -
+OLMU01001691_1:2476-6129   -           1189 693at33634           -            925  3.3e-196  648.1  10.5   4   5   3.8e-37   2.3e-35  115.8   0.0   315   476   476   648   471   657 0.88 -
+OLMU01001691_1:2476-6129   -           1189 693at33634           -            925  3.3e-196  648.1  10.5   5   5  1.4e-129  8.7e-128  421.7   1.2   475   922   672  1188   666  1189 0.83 -
+OLMU01004474_1:16426-18142 -            485 693at33634           -            925   7.4e-92  302.8   1.7   1   4   1.1e-37   6.8e-36  117.6   0.0   502   622     2   122     1   151 0.97 -
+OLMU01004474_1:16426-18142 -            485 693at33634           -            925   7.4e-92  302.8   1.7   2   4   5.4e-23   3.2e-21   69.0   0.0   686   757   220   298   214   301 0.90 -
+OLMU01004474_1:16426-18142 -            485 693at33634           -            925   7.4e-92  302.8   1.7   3   4   9.5e-36   5.7e-34  111.2   0.5   781   882   300   401   297   419 0.95 -
+OLMU01004474_1:16426-18142 -            485 693at33634           -            925   7.4e-92  302.8   1.7   4   4      0.01      0.63    1.9   0.0   892   923   451   482   425   484 0.86 -
+OLMU01005528_1:947-3214    -            756 693at33634           -            925   1.5e-55  182.6   0.1   1   4   7.2e-10   4.3e-08   25.6   0.0   232   385    10   150     4   164 0.83 -
+OLMU01005528_1:947-3214    -            756 693at33634           -            925   1.5e-55  182.6   0.1   2   4     2e-05    0.0012   10.8   0.0   493   541   212   260   199   267 0.92 -
+OLMU01005528_1:947-3214    -            756 693at33634           -            925   1.5e-55  182.6   0.1   3   4   1.2e-07   7.3e-06   18.2   0.0   578   664   355   450   350   463 0.79 -
+OLMU01005528_1:947-3214    -            756 693at33634           -            925   1.5e-55  182.6   0.1   4   4   1.3e-38   7.7e-37  120.7   0.0   686   917   509   754   491   756 0.83 -
+OLMU01004743_1:15-2396     -            794 693at33634           -            925   3.3e-43  141.8   0.0   1   5   5.3e-08   3.2e-06   19.4   0.0   351   411    34    96    15   128 0.86 -
+OLMU01004743_1:15-2396     -            794 693at33634           -            925   3.3e-43  141.8   0.0   2   5    0.0033       0.2    3.5   0.0   499   544   134   179   107   183 0.88 -
+OLMU01004743_1:15-2396     -            794 693at33634           -            925   3.3e-43  141.8   0.0   3   5    0.0001    0.0061    8.5   0.0   579   667   278   375   267   388 0.77 -
+OLMU01004743_1:15-2396     -            794 693at33634           -            925   3.3e-43  141.8   0.0   4   5   6.9e-12   4.2e-10   32.2   0.1   686   751   547   619   540   634 0.88 -
+OLMU01004743_1:15-2396     -            794 693at33634           -            925   3.3e-43  141.8   0.0   5   5   1.3e-23   7.9e-22   71.0   0.0   768   876   686   794   671   794 0.96 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/693at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Licmophora_abbreviata_CCMP470/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_900291995.1_CCMP470_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Licmophora_abbreviata_CCMP470/run_stramenopiles_odb10/hmmer_output/initial_run_results/693at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/693at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Licmophora_abbreviata_CCMP470/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_900291995.1_CCMP470_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Fri Apr 16 15:51:03 2021
+# [ok]

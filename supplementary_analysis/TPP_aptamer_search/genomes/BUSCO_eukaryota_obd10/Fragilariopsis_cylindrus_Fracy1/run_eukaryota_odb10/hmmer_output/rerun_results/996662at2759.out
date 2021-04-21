@@ -1,0 +1,23 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+KV784358_1:2176651-2177703 -            351 996662at2759         -            215   1.7e-31  104.7   3.0   1   2     9e-07   0.00014   16.8   0.0    26    63    89   128    75   133 0.87 -
+KV784358_1:2176651-2177703 -            351 996662at2759         -            215   1.7e-31  104.7   3.0   2   2   5.9e-25   9.2e-23   76.2   2.2    68   191   158   314   139   342 0.78 -
+KV784398_1:388612-389664   -            351 996662at2759         -            215   1.7e-31  104.7   3.0   1   2     9e-07   0.00014   16.8   0.0    26    63    89   128    75   133 0.87 -
+KV784398_1:388612-389664   -            351 996662at2759         -            215   1.7e-31  104.7   3.0   2   2   5.9e-25   9.2e-23   76.2   2.2    68   191   158   314   139   342 0.78 -
+KV784358_1:2241764-2242522 -            253 996662at2759         -            215   2.4e-13   45.4   0.1   1   2   6.1e-14   9.5e-12   40.2   0.0    24   136    50   158    47   162 0.83 -
+KV784358_1:2241764-2242522 -            253 996662at2759         -            215   2.4e-13   45.4   0.1   2   2     0.013         2    3.2   0.0   165   186   206   227   169   247 0.68 -
+KV784398_1:456235-456999   -            255 996662at2759         -            215     3e-13   45.1   0.1   1   2   6.2e-14   9.7e-12   40.2   0.0    24   136    53   161    50   165 0.83 -
+KV784398_1:456235-456999   -            255 996662at2759         -            215     3e-13   45.1   0.1   2   2     0.017       2.6    2.8   0.0   165   183   209   227   172   249 0.70 -
+KV784365_1:1006200-1006928 -            243 996662at2759         -            215   1.3e-09   33.2   0.0   1   2   3.6e-11   5.7e-09   31.1   0.0    25   132     1   114     1   119 0.76 -
+KV784365_1:1006200-1006928 -            243 996662at2759         -            215   1.3e-09   33.2   0.0   2   2      0.19        30   -0.7   0.0   165   179   181   195   175   210 0.77 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/996662at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fragilariopsis_cylindrus_Fracy1/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_001750085.1_Fracy1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fragilariopsis_cylindrus_Fracy1/run_eukaryota_odb10/hmmer_output/rerun_results/996662at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/996662at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fragilariopsis_cylindrus_Fracy1/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_001750085.1_Fracy1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sat Apr 17 21:57:30 2021
+# [ok]

@@ -1,0 +1,19 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+BDSP01000201_1:178486-179412 -            309 21875at33634         -            221   1.3e-75  248.5   2.7   1   2   6.9e-69   8.9e-67  219.6   0.4     1   192     1   244     1   249 0.85 -
+BDSP01000201_1:178486-179412 -            309 21875at33634         -            221   1.3e-75  248.5   2.7   2   2   4.5e-09   5.8e-07   24.0   0.1   192   214   265   287   260   292 0.92 -
+BDSP01000055_1:11896-12813   -            306 21875at33634         -            221   2.7e-75  247.5   0.8   1   2   2.3e-68   2.9e-66  217.9   0.1     1   192     2   245     2   251 0.85 -
+BDSP01000055_1:11896-12813   -            306 21875at33634         -            221   2.7e-75  247.5   0.8   2   2   9.4e-09   1.2e-06   23.0   0.0   192   214   266   288   261   293 0.92 -
+BDSP01000223_1:216871-217533 -            221 21875at33634         -            221   2.4e-16   54.7   0.0   1   1   2.8e-18   3.6e-16   54.1   0.0    30   186    28   219    22   221 0.67 -
+BDSP01000111_1:530506-531060 -            185 21875at33634         -            221   8.4e-16   52.9   0.0   1   1     9e-18   1.2e-15   52.5   0.0    54   185    26   183     5   185 0.67 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/21875at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Fistulifera_solaris_Fsol_1.0/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_002217885.1_Fsol_1.0_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Fistulifera_solaris_Fsol_1.0/run_stramenopiles_odb10/hmmer_output/initial_run_results/21875at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/21875at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Fistulifera_solaris_Fsol_1.0/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_002217885.1_Fsol_1.0_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Thu Apr 15 16:14:15 2021
+# [ok]

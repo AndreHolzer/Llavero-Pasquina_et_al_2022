@@ -1,0 +1,24 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+OLMU01000632_1:3312-5286 -            538 392369at2759         -            352  2.1e-115  381.4   0.0   1   3   2.3e-14   4.7e-12   41.5   0.0     6    49    60   109    57   117 0.86 -
+OLMU01000632_1:3312-5286 -            538 392369at2759         -            352  2.1e-115  381.4   0.0   2   3   1.6e-81   3.2e-79  262.4   0.0    50   278   144   427   138   445 0.82 -
+OLMU01000632_1:3312-5286 -            538 392369at2759         -            352  2.1e-115  381.4   0.0   3   3   1.8e-22   3.7e-20   68.1   0.0   280   352   455   538   453   538 0.90 -
+OLMU01002218_1:1984-3150 -            389 392369at2759         -            352   1.8e-91  302.6   0.0   1   2   3.7e-71   7.4e-69  228.3   0.0    53   276     3   276     1   291 0.83 -
+OLMU01002218_1:1984-3150 -            389 392369at2759         -            352   1.8e-91  302.6   0.0   2   2     7e-23   1.4e-20   69.5   0.0   280   352   306   389   299   389 0.89 -
+OLMU01005001_1:2607-3014 -            136 392369at2759         -            352   0.00051   15.0   0.2   1   2   0.00064      0.13    7.1   0.0    34    53     8    27     3    37 0.85 -
+OLMU01005001_1:2607-3014 -            136 392369at2759         -            352   0.00051   15.0   0.2   2   2    0.0011      0.22    6.4   0.0    80   102   110   135    73   136 0.68 -
+OLMU01003567_1:1629-2411 -            261 392369at2759         -            352   0.00062   14.8   0.1   1   2     0.056        11    0.8   0.0    36    48    75    87    52    95 0.86 -
+OLMU01003567_1:1629-2411 -            261 392369at2759         -            352   0.00062   14.8   0.1   2   2   3.3e-05    0.0067   11.4   0.0    75   111   149   186   140   217 0.83 -
+OLMU01003659_1:8033-8587 -            185 392369at2759         -            352    0.0011   13.9   0.0   1   2     0.027       5.3    1.8   0.0    30    47    69    86    39    92 0.78 -
+OLMU01003659_1:8033-8587 -            185 392369at2759         -            352    0.0011   13.9   0.0   2   2   8.9e-05     0.018    9.9   0.0    74   106   148   180   139   183 0.88 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/392369at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Licmophora_abbreviata_CCMP470/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_900291995.1_CCMP470_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Licmophora_abbreviata_CCMP470/run_eukaryota_odb10/hmmer_output/initial_run_results/392369at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/392369at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Licmophora_abbreviata_CCMP470/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_900291995.1_CCMP470_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 09:19:25 2021
+# [ok]

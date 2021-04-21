@@ -1,0 +1,13 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                              accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                    -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      queries/2021-01-26_Queries_P2-P4.hmm
+# Target file:     genomes/Bacillariophyta_sp_ASM1036717v1/GCA_010367175.1_ASM1036717v1_genomic.fna
+# Option settings: hmmsearch --domtblout HMMER_results/Queries_P2-P4_vs_Bacillariophyta_sp_ASM1036717v1_plusStrand_tab.out --notextw queries/2021-01-26_Queries_P2-P4.hmm genomes/Bacillariophyta_sp_ASM1036717v1/GCA_010367175.1_ASM1036717v1_genomic.fna 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 13:49:22 2021
+# [ok]

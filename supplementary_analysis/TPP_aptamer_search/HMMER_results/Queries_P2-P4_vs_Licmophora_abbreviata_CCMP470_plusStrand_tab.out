@@ -1,0 +1,15 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                              accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                    -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+OLMU01005381_1       -           8473 2021-01-26_BLASTN_queries_P2-P4.aligned -             36    0.0065   15.3   0.0   1   2      0.63   4.9e+03   -3.4   0.0     5    16  4143  4154  4142  4155 0.81 Licmophora abbreviata genome assembly, contig: contig05384, whole genome shotgun sequence
+OLMU01005381_1       -           8473 2021-01-26_BLASTN_queries_P2-P4.aligned -             36    0.0065   15.3   0.0   2   2   3.2e-06     0.025   13.5   0.0     1    34  7378  7411  7378  7413 0.96 Licmophora abbreviata genome assembly, contig: contig05384, whole genome shotgun sequence
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      queries/2021-01-26_Queries_P2-P4.hmm
+# Target file:     genomes/Licmophora_abbreviata_CCMP470/GCA_900291995.1_CCMP470_genomic.fna
+# Option settings: hmmsearch --domtblout HMMER_results/Queries_P2-P4_vs_Licmophora_abbreviata_CCMP470_plusStrand_tab.out --notextw queries/2021-01-26_Queries_P2-P4.hmm genomes/Licmophora_abbreviata_CCMP470/GCA_900291995.1_CCMP470_genomic.fna 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 13:49:07 2021
+# [ok]

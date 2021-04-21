@@ -1,0 +1,47 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_full-length.hmm
+# target sequence database:        genomes/Phaeodactylum_tricornutum_ASM15095v2/GCA_000150955.2_ASM15095v2_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_full-length.aligned  [M=116]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+      3e-17   55.4   0.0    1.2e-16   53.6   0.0    2.1  1  CM000617_1  Phaeodactylum tricornutum CCAP 1055/1 chromosome 15, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> CM000617_1  Phaeodactylum tricornutum CCAP 1055/1 chromosome 15, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.6   0.0   1.3e-18   1.2e-16       3     114 ..   31336   31466 ..   31334   31468 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 53.6 bits;  conditional E-value: 1.3e-18
+  2021-01-26_BLASTN_queries_full-length.aligned     3 ttttgtttgcgggagctcaac.................tgagaactgaaatataattgtgctaatatt..caggttgatatcgaaaaccgcttgaacctgatcatggtaattcatgcgtgagggaaaaaca 114  
+                                                      +t+++t+tgcgggagctcaac                 t++g+ac+ a+a+a+a+ ++++c aatat+  c +gt +a+++c aa accg+t+gaacctgatc+tg taattca gcg+++gg+a+aaa a
+                                     CM000617_1 31336 GTCATTGTGCGGGAGCTCAACattcgttgtagctgagaTTTGGACACACACACACACACACAAATATGttCGTGTAAAGGCCCAAGACCGTTGGAACCTGATCGTGATAATTCACGCGAAGGGAACAAAGA 31466
+                                                      577899**************9999*********9999988999999999998888888888877777665999999*************************************************999876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (116 nodes)
+Target sequences:                           88  (27450724 residues searched)
+Passed MSV filter:                         2  (0.0227273); expected 1.8 (0.02)
+Passed bias filter:                        2  (0.0227273); expected 1.8 (0.02)
+Passed Vit filter:                         1  (0.0113636); expected 0.1 (0.001)
+Passed Fwd filter:                         1  (0.0113636); expected 0.0 (1e-05)
+Initial search space (Z):                 88  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 6.13u 0.13s 00:00:06.26 Elapsed: 00:00:04.71
+# Mc/sec: 676.07
+//
+[ok]

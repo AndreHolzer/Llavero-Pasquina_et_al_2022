@@ -1,0 +1,22 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QAXC01000032_1:222845-224332 -            496 5074at33634          -            415  2.1e-159  524.2   6.0   1   1  9.2e-161  2.8e-159  523.8   6.0     1   407     2   462     2   467 0.88 -
+QAXC01005290_1:467-1948      -            494 5074at33634          -            415  3.3e-156  513.7   0.8   1   2  1.1e-157  3.3e-156  513.7   0.8     1   406     3   461     3   465 0.88 -
+QAXC01005290_1:467-1948      -            494 5074at33634          -            415  3.3e-156  513.7   0.8   2   2     0.061       1.9    0.7   0.1   403   415   480   492   472   492 0.87 -
+QAXC01000035_1:686681-688165 -            495 5074at33634          -            415  9.6e-151  495.7   2.4   1   2  3.2e-152  9.6e-151  495.7   2.4     1   405     2   460     2   468 0.87 -
+QAXC01000035_1:686681-688165 -            495 5074at33634          -            415  9.6e-151  495.7   2.4   2   2         1        30   -3.3   0.1   397   415   473   491   471   491 0.84 -
+QAXC01000003_1:430754-432220 -            489 5074at33634          -            415  7.9e-134  440.0   0.2   1   1    4e-135  1.2e-133  439.4   0.2     1   405     2   461     2   466 0.86 -
+QAXC01001759_1:1115-2290     -            392 5074at33634          -            415  6.4e-119  390.9   0.0   1   1  2.6e-120  7.8e-119  390.6   0.0     3   342     2   392     1   392 0.87 -
+QAXC01006335_1:4219-5688     -            490 5074at33634          -            415  8.8e-112  367.4   0.0   1   1  4.2e-113  1.3e-111  366.9   0.0     1   408     1   464     1   469 0.87 -
+QAXC01000033_1:252867-254339 -            491 5074at33634          -            415   1.1e-12   41.0   0.1   1   1   1.4e-13   4.4e-12   39.0   0.1    29   401    40   456    32   465 0.68 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/5074at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Halamphora_sp_AAB/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_004335955.1_ASM433595v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Halamphora_sp_AAB/run_stramenopiles_odb10/hmmer_output/initial_run_results/5074at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/5074at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Halamphora_sp_AAB/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_004335955.1_ASM433595v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Thu Apr 15 15:56:24 2021
+# [ok]

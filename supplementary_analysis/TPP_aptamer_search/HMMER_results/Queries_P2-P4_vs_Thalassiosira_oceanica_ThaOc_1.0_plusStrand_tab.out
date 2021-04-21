@@ -1,0 +1,14 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                              accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                    -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+AGNL01045717_1       -           8381 2021-01-26_BLASTN_queries_P2-P4.aligned -             36   2.8e-07   31.8   0.0   1   1   1.9e-11   9.5e-07   30.1   0.0     1    36  7337  7371  7337  7371 0.95 Thalassiosira oceanica strain CCMP1005 To_g46340, whole genome shotgun sequence
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      queries/2021-01-26_Queries_P2-P4.hmm
+# Target file:     genomes/Thalassiosira_oceanica_ThaOc_1.0/GCA_000296195.2_ThaOc_1.0_genomic.fna
+# Option settings: hmmsearch --domtblout HMMER_results/Queries_P2-P4_vs_Thalassiosira_oceanica_ThaOc_1.0_plusStrand_tab.out --notextw queries/2021-01-26_Queries_P2-P4.hmm genomes/Thalassiosira_oceanica_ThaOc_1.0/GCA_000296195.2_ThaOc_1.0_genomic.fna 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 13:48:12 2021
+# [ok]

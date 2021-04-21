@@ -1,0 +1,27 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QAXB01047361_1:1586-1957 -            124 1545004at2759        -             78   1.9e-25   84.1   0.6   1   1   4.1e-27   2.5e-25   83.8   0.6     6    69    39   104    34   111 0.92 -
+QAXB01050457_1:262-435   -             58 1545004at2759        -             78   6.4e-12   40.8   0.0   1   1   1.2e-13   7.5e-12   40.6   0.0    22    69     1    53     1    57 0.83 -
+QAXB01005652_1:161-385   -             75 1545004at2759        -             78   3.1e-11   38.6   0.1   1   1   2.3e-12   1.4e-10   36.5   0.1     6    60    12    75     6    75 0.81 -
+QAXB01043507_1:990-1214  -             75 1545004at2759        -             78   3.1e-11   38.6   0.1   1   1   2.3e-12   1.4e-10   36.5   0.1     6    60    12    75     6    75 0.81 -
+QAXB01038687_1:5-157     -             51 1545004at2759        -             78   4.9e-07   25.1   0.0   1   1   8.4e-09   5.1e-07   25.1   0.0     8    38    16    46     8    49 0.86 -
+QAXB01053619_1:1566-1718 -             51 1545004at2759        -             78   4.9e-07   25.1   0.0   1   1   8.4e-09   5.1e-07   25.1   0.0     8    38    16    46     8    49 0.86 -
+QAXB01052071_1:1202-1405 -             68 1545004at2759        -             78   3.2e-06   22.5   0.3   1   1     1e-07   6.1e-06   21.6   0.3    10    60    24    68    18    68 0.79 -
+QAXB01051876_1:1069-1326 -             86 1545004at2759        -             78   7.6e-06   21.3   0.0   1   2   0.00013    0.0081   11.6   0.0    17    38     4    25     3    33 0.87 -
+QAXB01051876_1:1069-1326 -             86 1545004at2759        -             78   7.6e-06   21.3   0.0   2   2     0.002      0.12    7.8   0.0    47    63    64    80    52    86 0.84 -
+QAXB01049885_1:597-1103  -             88 1545004at2759        -             78   4.8e-05   18.8   0.6   1   1   3.2e-06    0.0002   16.8   0.6     7    45    15    53    10    84 0.74 -
+QAXB01054549_1:597-1103  -             88 1545004at2759        -             78   4.8e-05   18.8   0.6   1   1   3.2e-06    0.0002   16.8   0.6     7    45    15    53    10    84 0.74 -
+QAXB01040506_1:34-291    -             86 1545004at2759        -             78   0.00065   15.1   0.0   1   1   1.3e-05   0.00078   14.9   0.0     8    64    15    69     8    78 0.84 -
+QAXB01054085_1:1453-1710 -             86 1545004at2759        -             78   0.00065   15.1   0.0   1   1   1.3e-05   0.00078   14.9   0.0     8    64    15    69     8    78 0.84 -
+QAXB01005354_1:45-254    -             70 1545004at2759        -             78     0.005   12.3   0.0   1   1   0.00013    0.0079   11.7   0.0    13    63     4    59     1    67 0.80 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1545004at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Halamphora_sp_MG8b/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_004335815.1_ASM433581v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Halamphora_sp_MG8b/run_eukaryota_odb10/hmmer_output/initial_run_results/1545004at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1545004at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Halamphora_sp_MG8b/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_004335815.1_ASM433581v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sun Apr 18 05:28:21 2021
+# [ok]

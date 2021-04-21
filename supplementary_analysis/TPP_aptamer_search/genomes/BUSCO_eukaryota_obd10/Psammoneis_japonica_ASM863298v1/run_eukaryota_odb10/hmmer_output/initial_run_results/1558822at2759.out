@@ -1,0 +1,22 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QPGO01000017_1:584181-584553 -             95 1558822at2759        -             67   2.1e-26   88.4   0.6   1   1   2.8e-27   4.4e-25   84.2   0.6     2    67     4    83     3    83 0.80 -
+QPGO01000003_1:680951-681178 -             76 1558822at2759        -             67   3.8e-09   33.2   0.5   1   1   4.2e-11   6.6e-09   32.4   0.5    24    63    31    76    11    76 0.81 -
+QPGO01000415_1:17437-17918   -             88 1558822at2759        -             67   1.9e-07   27.7   0.0   1   2   4.1e-09   6.5e-07   26.0   0.0     5    49     4    50     3    55 0.91 -
+QPGO01000415_1:17437-17918   -             88 1558822at2759        -             67   1.9e-07   27.7   0.0   2   2         1   1.6e+02   -0.8   0.0    47    62    66    80    58    84 0.42 -
+QPGO01000075_1:256762-256923 -             54 1558822at2759        -             67   6.1e-07   26.1   0.0   1   1     4e-09   6.3e-07   26.1   0.0    17    48    17    48     3    53 0.79 -
+QPGO01000007_1:622731-622877 -             49 1558822at2759        -             67   5.5e-06   23.0   0.2   1   1   4.3e-08   6.8e-06   22.7   0.2    26    60    13    49     1    49 0.73 -
+QPGO01000050_1:252000-252221 -             74 1558822at2759        -             67   0.00012   18.7   0.0   1   2   1.4e-06   0.00022   17.9   0.0    13    48     7    44     3    48 0.88 -
+QPGO01000050_1:252000-252221 -             74 1558822at2759        -             67   0.00012   18.7   0.0   2   2       3.3   5.2e+02   -2.5   0.0    50    60    63    73    53    74 0.63 -
+QPGO01000119_1:56843-57028   -             62 1558822at2759        -             67   0.00015   18.4   0.0   1   1   1.3e-06   0.00021   18.0   0.0    28    48     1    21     1    37 0.91 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1558822at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Psammoneis_japonica_ASM863298v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_008632985.1_ASM863298v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Psammoneis_japonica_ASM863298v1/run_eukaryota_odb10/hmmer_output/initial_run_results/1558822at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1558822at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Psammoneis_japonica_ASM863298v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_008632985.1_ASM863298v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 10:51:43 2021
+# [ok]

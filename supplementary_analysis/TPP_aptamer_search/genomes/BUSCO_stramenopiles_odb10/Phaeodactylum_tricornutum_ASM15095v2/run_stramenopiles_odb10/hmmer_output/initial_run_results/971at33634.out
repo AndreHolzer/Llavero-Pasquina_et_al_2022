@@ -1,0 +1,24 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CM000621_1:136518-140138   -           1162 971at33634           -            855         0 1388.9   7.8   1   2         0         0 1327.9   5.8     9   785    25   937    10   960 0.88 -
+CM000621_1:136518-140138   -           1162 971at33634           -            855         0 1388.9   7.8   2   2   1.3e-17   6.5e-16   51.5   0.0   785   855   965  1039   943  1039 0.86 -
+CM000605_1:168237-170892   -            816 971at33634           -            855     8e-99  325.8   0.0   1   1  2.2e-100   1.2e-98  325.2   0.0    11   718    26   797    16   807 0.78 -
+CM000615_1:255556-258402   -            927 971at33634           -            855   4.2e-54  177.8   0.0   1   2   1.7e-15   8.9e-14   44.4   0.0     8   213    38   241    31   251 0.88 -
+CM000615_1:255556-258402   -            927 971at33634           -            855   4.2e-54  177.8   0.0   2   2   2.2e-41   1.1e-39  130.1   0.0   250   711   254   752   242   766 0.74 -
+CM000605_1:1801811-1805386 -           1066 971at33634           -            855   6.1e-48  157.4   0.6   1   3   4.8e-17   2.5e-15   49.6   0.0    14   167   120   273   113   281 0.96 -
+CM000605_1:1801811-1805386 -           1066 971at33634           -            855   6.1e-48  157.4   0.6   2   3   4.4e-32   2.2e-30   99.3   0.0   260   550   363   668   345   678 0.81 -
+CM000605_1:1801811-1805386 -           1066 971at33634           -            855   6.1e-48  157.4   0.6   3   3    0.0013     0.069    5.1   0.1   548   695   703   870   682   878 0.67 -
+CM000618_1:355071-357671   -            867 971at33634           -            855   2.1e-22   73.0   5.1   1   3   9.2e-08   4.7e-06   18.8   0.6    18   167    78   211    58   224 0.79 -
+CM000618_1:355071-357671   -            867 971at33634           -            855   2.1e-22   73.0   5.1   2   3   6.6e-06   0.00034   12.7   0.2   389   411   458   480   452   485 0.86 -
+CM000618_1:355071-357671   -            867 971at33634           -            855   2.1e-22   73.0   5.1   3   3   1.7e-13   8.9e-12   37.8   0.0   498   583   608   691   561   811 0.77 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/971at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Phaeodactylum_tricornutum_ASM15095v2/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_000150955.2_ASM15095v2_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Phaeodactylum_tricornutum_ASM15095v2/run_stramenopiles_odb10/hmmer_output/initial_run_results/971at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/971at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Phaeodactylum_tricornutum_ASM15095v2/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_000150955.2_ASM15095v2_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Fri Apr 16 10:09:27 2021
+# [ok]

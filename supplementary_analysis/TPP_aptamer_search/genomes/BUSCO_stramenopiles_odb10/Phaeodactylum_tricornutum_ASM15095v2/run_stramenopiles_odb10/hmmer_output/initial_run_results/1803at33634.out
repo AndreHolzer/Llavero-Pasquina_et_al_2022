@@ -1,0 +1,35 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CM000618_1:355071-357671   -            867 1803at33634          -            592  8.7e-219  721.6  13.6   1   3  3.9e-157    2e-155  512.4   0.2     9   362    68   481    47   489 0.88 -
+CM000618_1:355071-357671   -            867 1803at33634          -            592  8.7e-219  721.6  13.6   2   3   3.1e-63   1.6e-61  202.3   2.1   357   559   504   787   498   804 0.79 -
+CM000618_1:355071-357671   -            867 1803at33634          -            592  8.7e-219  721.6  13.6   3   3   0.00052     0.027    6.7   0.6   549   576   805   832   801   864 0.67 -
+CM000615_1:255556-258402   -            927 1803at33634          -            592   1.1e-33  110.4   1.1   1   4   7.8e-15     4e-13   42.5   0.0    14   146    42   197    30   213 0.74 -
+CM000615_1:255556-258402   -            927 1803at33634          -            592   1.1e-33  110.4   1.1   2   4   2.6e-09   1.4e-07   24.2   0.0   208   331   217   334   211   339 0.80 -
+CM000615_1:255556-258402   -            927 1803at33634          -            592   1.1e-33  110.4   1.1   3   4    0.0012     0.062    5.5   0.0   149   198   350   401   339   404 0.77 -
+CM000615_1:255556-258402   -            927 1803at33634          -            592   1.1e-33  110.4   1.1   4   4   7.7e-11     4e-09   29.3   0.3   338   477   405   570   400   590 0.74 -
+CM000605_1:168237-170892   -            816 1803at33634          -            592   2.7e-24   79.4   2.3   1   5   2.5e-10   1.3e-08   27.6   0.0    13   146    27   180    15   193 0.70 -
+CM000605_1:168237-170892   -            816 1803at33634          -            592   2.7e-24   79.4   2.3   2   5   0.00012    0.0063    8.8   0.0   258   300   288   331   279   368 0.83 -
+CM000605_1:168237-170892   -            816 1803at33634          -            592   2.7e-24   79.4   2.3   3   5      0.19       9.9   -1.8   0.0   151   187   390   423   385   440 0.78 -
+CM000605_1:168237-170892   -            816 1803at33634          -            592   2.7e-24   79.4   2.3   4   5   1.2e-05    0.0006   12.2   0.7   340   356   441   457   414   467 0.85 -
+CM000605_1:168237-170892   -            816 1803at33634          -            592   2.7e-24   79.4   2.3   5   5   2.2e-09   1.1e-07   24.5   0.0   380   468   506   599   495   619 0.79 -
+CM000605_1:1801811-1805386 -           1066 1803at33634          -            592   6.3e-24   78.1   3.5   1   5   4.2e-09   2.2e-07   23.5   0.0    21   146   126   274   110   287 0.71 -
+CM000605_1:1801811-1805386 -           1066 1803at33634          -            592   6.3e-24   78.1   3.5   2   5   1.2e-06   5.9e-05   15.5   0.0   257   336   351   439   315   444 0.71 -
+CM000605_1:1801811-1805386 -           1066 1803at33634          -            592   6.3e-24   78.1   3.5   3   5      0.14         7   -1.2   0.0   149   196   450   499   444   505 0.77 -
+CM000605_1:1801811-1805386 -           1066 1803at33634          -            592   6.3e-24   78.1   3.5   4   5   0.00039      0.02    7.1   1.7   337   355   504   522   481   528 0.86 -
+CM000605_1:1801811-1805386 -           1066 1803at33634          -            592   6.3e-24   78.1   3.5   5   5     1e-08   5.4e-07   22.2   0.0   373   468   560   665   542   680 0.75 -
+CM000621_1:136518-140138   -           1162 1803at33634          -            592   4.1e-20   65.6  16.3   1   5     2e-09     1e-07   24.6   0.9    22   144    37   182    22   200 0.65 -
+CM000621_1:136518-140138   -           1162 1803at33634          -            592   4.1e-20   65.6  16.3   2   5     0.046       2.4    0.3   0.0   271   300   312   341   301   348 0.82 -
+CM000621_1:136518-140138   -           1162 1803at33634          -            592   4.1e-20   65.6  16.3   3   5    0.0053      0.27    3.4   0.1   151   194   403   446   397   455 0.85 -
+CM000621_1:136518-140138   -           1162 1803at33634          -            592   4.1e-20   65.6  16.3   4   5   4.9e-07   2.5e-05   16.7   0.6   339   356   456   473   453   481 0.91 -
+CM000621_1:136518-140138   -           1162 1803at33634          -            592   4.1e-20   65.6  16.3   5   5   1.5e-09   7.9e-08   25.0   0.0   431   482   580   635   572   676 0.75 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/1803at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Phaeodactylum_tricornutum_ASM15095v2/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_000150955.2_ASM15095v2_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Phaeodactylum_tricornutum_ASM15095v2/run_stramenopiles_odb10/hmmer_output/initial_run_results/1803at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/1803at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Phaeodactylum_tricornutum_ASM15095v2/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_000150955.2_ASM15095v2_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Fri Apr 16 10:09:16 2021
+# [ok]

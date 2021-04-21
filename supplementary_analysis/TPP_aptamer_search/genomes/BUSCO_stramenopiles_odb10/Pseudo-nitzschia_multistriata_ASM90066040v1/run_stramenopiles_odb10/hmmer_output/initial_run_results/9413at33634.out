@@ -1,0 +1,18 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAACVS010000026_1:182914-184852 -            547 9413at33634          -            327  9.4e-106  347.7   6.5   1   5   2.1e-07   5.6e-05   16.5   0.3     1    25    43    68    43    90 0.87 -
+CAACVS010000026_1:182914-184852 -            547 9413at33634          -            327  9.4e-106  347.7   6.5   2   5   3.3e-71   8.9e-69  226.2   0.0    22   202    90   281    78   287 0.85 -
+CAACVS010000026_1:182914-184852 -            547 9413at33634          -            327  9.4e-106  347.7   6.5   3   5     0.035       9.6   -0.7   0.0   221   243   335   357   300   359 0.71 -
+CAACVS010000026_1:182914-184852 -            547 9413at33634          -            327  9.4e-106  347.7   6.5   4   5   1.1e-32   2.9e-30   99.6   0.0   233   306   400   479   370   486 0.86 -
+CAACVS010000026_1:182914-184852 -            547 9413at33634          -            327  9.4e-106  347.7   6.5   5   5    0.0013      0.34    4.1   0.0   296   319   506   529   496   536 0.82 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/9413at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Pseudo-nitzschia_multistriata_ASM90066040v1/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_900660405.1_ASM90066040v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Pseudo-nitzschia_multistriata_ASM90066040v1/run_stramenopiles_odb10/hmmer_output/initial_run_results/9413at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/9413at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Pseudo-nitzschia_multistriata_ASM90066040v1/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_900660405.1_ASM90066040v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Thu Apr 15 15:03:06 2021
+# [ok]

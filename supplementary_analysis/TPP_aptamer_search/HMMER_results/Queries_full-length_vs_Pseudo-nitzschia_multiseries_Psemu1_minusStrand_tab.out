@@ -1,0 +1,15 @@
+#                                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                              accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                    -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold_99          -          324430 2021-01-26_BLASTN_queries_full-length_rev-compl.aligned -            115   2.4e-22   77.6   0.0   1   1     4e-25   9.8e-22   75.6   0.0     2   112 282603 282713 282602 282716 0.97 -
+scaffold_124         -          283777 2021-01-26_BLASTN_queries_full-length_rev-compl.aligned -            115     8e-16   56.7   0.0   1   1   1.4e-18   3.4e-15   54.7   0.0     2   113 116068 116162 116067 116164 0.87 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      queries/2021-01-26_Queries_full-length_rev-compl.hmm
+# Target file:     genomes/Pseudo-nitzschia_multiseries_Psemu1/Psemu1_AssemblyScaffolds_Repeatmasked.fna
+# Option settings: hmmsearch --domtblout HMMER_results/Queries_full-length_vs_Pseudo-nitzschia_multiseries_Psemu1_minusStrand_tab.out --notextw queries/2021-01-26_Queries_full-length_rev-compl.hmm genomes/Pseudo-nitzschia_multiseries_Psemu1/Psemu1_AssemblyScaffolds_Repeatmasked.fna 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 13:46:35 2021
+# [ok]

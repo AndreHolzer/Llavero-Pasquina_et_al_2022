@@ -1,0 +1,18 @@
+#                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+AGNL01044862_1:127-2432 -            728 1309031at2759        -            391   1.8e-21   73.5   0.4   1   5   3.8e-09   8.4e-06   21.9   0.0    11    53    43    86    40    94 0.92 -
+AGNL01044862_1:127-2432 -            728 1309031at2759        -            391   1.8e-21   73.5   0.4   2   5    0.0066        15    1.4   0.0    53    71   127   145   120   151 0.84 -
+AGNL01044862_1:127-2432 -            728 1309031at2759        -            391   1.8e-21   73.5   0.4   3   5   1.8e-07    0.0004   16.4   0.0    72   108   164   200   159   220 0.76 -
+AGNL01044862_1:127-2432 -            728 1309031at2759        -            391   1.8e-21   73.5   0.4   4   5   6.6e-09   1.4e-05   21.2   0.0   121   161   350   391   329   395 0.80 -
+AGNL01044862_1:127-2432 -            728 1309031at2759        -            391   1.8e-21   73.5   0.4   5   5   0.00035      0.77    5.6   0.0   249   271   575   597   570   602 0.88 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1309031at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_oceanica_ThaOc_1.0/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_000296195.2_ThaOc_1.0_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_oceanica_ThaOc_1.0/run_eukaryota_odb10/hmmer_output/rerun_results/1309031at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1309031at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_oceanica_ThaOc_1.0/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_000296195.2_ThaOc_1.0_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 03:05:16 2021
+# [ok]

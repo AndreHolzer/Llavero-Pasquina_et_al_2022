@@ -1,0 +1,24 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+KV784365_1:1111599-1112600 -            176 1355894at2759        -            142   1.5e-55  183.6   0.5   1   1     1e-57   1.7e-55  183.4   0.5     1   142     1   161     1   161 0.89 -
+KV784364_1:1020975-1021873 -            153 1355894at2759        -            142     4e-26   88.2   1.2   1   1   2.7e-28   4.5e-26   88.0   1.2     7   132    10   150     1   153 0.85 -
+KV784353_1:1757573-1758133 -            187 1355894at2759        -            142   3.6e-23   78.6   0.1   1   3   4.3e-08   7.1e-06   22.5   0.0     6    47     6    47     2    54 0.91 -
+KV784353_1:1757573-1758133 -            187 1355894at2759        -            142   3.6e-23   78.6   0.1   2   3     0.063        10    2.5   0.0    45    59    76    90    69    92 0.85 -
+KV784353_1:1757573-1758133 -            187 1355894at2759        -            142   3.6e-23   78.6   0.1   3   3   1.6e-16   2.6e-14   49.9   0.1    62   132   110   187   104   187 0.88 -
+KV784419_1:224783-224986   -             68 1355894at2759        -            142   1.4e-11   41.0   0.1   1   1     9e-14   1.5e-11   40.9   0.1     7    59    10    63     1    66 0.88 -
+KV784358_1:727330-727620   -             97 1355894at2759        -            142   9.2e-08   28.6   0.0   1   1   6.9e-10   1.1e-07   28.3   0.0    65   114    42    97    31    97 0.84 -
+KV784365_1:1328669-1329052 -            128 1355894at2759        -            142   1.6e-05   21.4   0.1   1   1   1.2e-07     2e-05   21.1   0.1    63   113    73   128    53   128 0.88 -
+KV784375_1:434183-434437   -             85 1355894at2759        -            142   3.8e-05   20.2   0.0   1   1   2.9e-07   4.7e-05   19.9   0.0    67   115    19    73    14    84 0.83 -
+KV784489_1:13095-13478     -            128 1355894at2759        -            142   7.7e-05   19.2   0.0   1   1   6.2e-07    0.0001   18.8   0.0    61   129    47   123    30   126 0.81 -
+KV784360_1:1656725-1657108 -            128 1355894at2759        -            142   7.9e-05   19.1   0.0   1   1   6.5e-07   0.00011   18.7   0.0    61   129    47   123    32   126 0.81 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1355894at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fragilariopsis_cylindrus_Fracy1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_001750085.1_Fracy1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fragilariopsis_cylindrus_Fracy1/run_eukaryota_odb10/hmmer_output/initial_run_results/1355894at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1355894at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fragilariopsis_cylindrus_Fracy1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_001750085.1_Fracy1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sat Apr 17 20:51:47 2021
+# [ok]

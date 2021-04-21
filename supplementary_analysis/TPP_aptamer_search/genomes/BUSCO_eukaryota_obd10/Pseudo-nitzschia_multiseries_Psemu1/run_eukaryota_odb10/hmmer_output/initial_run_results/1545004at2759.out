@@ -1,0 +1,24 @@
+#                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold_21:317657-317911 -             85 1545004at2759        -             78   2.2e-23   79.1   0.1   1   1   9.8e-26   2.4e-23   79.0   0.1     7    69     2    66     1    76 0.92 -
+scaffold_588:26614-27161  -             82 1545004at2759        -             78     4e-12   43.0   1.0   1   2   1.3e-08   3.1e-06   24.1   0.1     4    44     7    44     4    50 0.87 -
+scaffold_588:26614-27161  -             82 1545004at2759        -             78     4e-12   43.0   1.0   2   2     1e-06   0.00025   18.0   0.1    46    66    62    82    58    82 0.91 -
+scaffold_796:60142-60360  -             73 1545004at2759        -             78   1.4e-11   41.3   0.1   1   1   2.5e-13   6.1e-11   39.2   0.1     6    61     9    73     3    73 0.79 -
+scaffold_318:78024-78254  -             77 1545004at2759        -             78   2.1e-09   34.3   0.2   1   1   1.4e-11   3.3e-09   33.7   0.2     7    63    13    75     6    77 0.78 -
+scaffold_67:40261-40542   -             94 1545004at2759        -             78   1.1e-06   25.6   0.0   1   1   5.8e-09   1.4e-06   25.2   0.0     6    38    17    49    13    79 0.88 -
+scaffold_357:15555-16080  -             89 1545004at2759        -             78     4e-06   23.8   1.8   1   1   4.9e-07   0.00012   19.1   1.8     7    63    15    82    10    84 0.75 -
+scaffold_14:584262-584411 -             50 1545004at2759        -             78   4.1e-05   20.5   0.2   1   1   4.7e-07   0.00012   19.1   0.2    15    57    11    47     3    50 0.75 -
+scaffold_7:645757-645927  -             57 1545004at2759        -             78   0.00011   19.2   0.1   1   1   5.4e-07   0.00013   18.9   0.1    14    63    11    57     2    57 0.83 -
+scaffold_990:11779-11949  -             57 1545004at2759        -             78    0.0007   16.6   0.1   1   1   3.2e-06    0.0008   16.4   0.1    17    41    24    47     8    56 0.82 -
+scaffold_8:212392-212604  -             71 1545004at2759        -             78    0.0045   14.0   0.0   1   1     2e-05    0.0048   13.9   0.0    13    63    20    68     7    70 0.82 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1545004at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Pseudo-nitzschia_multiseries_Psemu1/run_eukaryota_odb10/metaeuk_output/initial_results/Psemu1_AssemblyScaffolds_Repeatmasked.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Pseudo-nitzschia_multiseries_Psemu1/run_eukaryota_odb10/hmmer_output/initial_run_results/1545004at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1545004at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Pseudo-nitzschia_multiseries_Psemu1/run_eukaryota_odb10/metaeuk_output/initial_results/Psemu1_AssemblyScaffolds_Repeatmasked.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sun Apr 18 00:10:36 2021
+# [ok]

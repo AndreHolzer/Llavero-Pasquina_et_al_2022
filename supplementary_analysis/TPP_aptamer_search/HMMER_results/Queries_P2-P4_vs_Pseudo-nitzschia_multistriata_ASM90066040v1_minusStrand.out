@@ -1,0 +1,60 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_P2-P4_rev-compl.hmm
+# target sequence database:        genomes/Pseudo-nitzschia_multistriata_ASM90066040v1/GCA_900660405.1_ASM90066040v1_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned  [M=36]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+    4.7e-10   34.8   0.0    1.4e-09   33.2   0.0    1.9  1  CAACVS010000021_1  Pseudo-nitzschia multistriata strain B856 genome assembly, contig: contig21, whole genome shotgun sequence
+    1.4e-07   26.9   0.0    4.3e-07   25.3   0.0    2.0  1  CAACVS010000170_1  Pseudo-nitzschia multistriata strain B856 genome assembly, contig: contig170, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> CAACVS010000021_1  Pseudo-nitzschia multistriata strain B856 genome assembly, contig: contig21, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.2   0.0     4e-12   1.4e-09       1      36 []   51101   51136 ..   51101   51136 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 33.2 bits;  conditional E-value: 4e-12
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned     1 CcTcaCGCatGaaTTAcCatGatCAgGTTCaAgCGG 36   
+                                                          CcTcaCGCatGaaTTAcCatGatCAgGTTCaAgCGG
+                                  CAACVS010000021_1 51101 CCTCACGCATGAATTACCATGATCAGGTTCAAGCGG 51136
+                                                          79********************************97 PP
+
+>> CAACVS010000170_1  Pseudo-nitzschia multistriata strain B856 genome assembly, contig: contig170, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.3   0.0   1.2e-09   4.3e-07       1      36 []   15622   15657 ..   15622   15657 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 25.3 bits;  conditional E-value: 1.2e-09
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned     1 CcTcaCGCatGaaTTAcCatGatCAgGTTCaAgCGG 36   
+                                                          CcTcaCGCatG+aTT cCatGatCAgGTTCaAgCGG
+                                  CAACVS010000170_1 15622 CCTCACGCATGCATTGCCATGATCAGGTTCAAGCGG 15657
+                                                          79********************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (36 nodes)
+Target sequences:                          700  (56765209 residues searched)
+Passed MSV filter:                         7  (0.01); expected 14.0 (0.02)
+Passed bias filter:                        7  (0.01); expected 14.0 (0.02)
+Passed Vit filter:                         3  (0.00428571); expected 0.7 (0.001)
+Passed Fwd filter:                         2  (0.00285714); expected 0.0 (1e-05)
+Initial search space (Z):                700  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 4.15u 0.18s 00:00:04.33 Elapsed: 00:00:01.36
+# Mc/sec: 1502.61
+//
+[ok]

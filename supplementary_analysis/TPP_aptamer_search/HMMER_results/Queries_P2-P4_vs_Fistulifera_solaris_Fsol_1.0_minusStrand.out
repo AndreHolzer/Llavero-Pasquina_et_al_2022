@@ -1,0 +1,115 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_P2-P4_rev-compl.hmm
+# target sequence database:        genomes/Fistulifera_solaris_Fsol_1.0/GCA_002217885.1_Fsol_1.0_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned  [M=36]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    6.3e-25   80.8   0.0    2.4e-07   25.0   0.0    4.6  4  BDSP01000097_1  Fistulifera solaris DNA, contig: scaffold00097, strain: JPCC DA0580, whole genome shotgun sequence
+      1e-23   76.9   0.0    4.3e-07   24.2   0.0    3.9  3  BDSP01000251_1  Fistulifera solaris DNA, contig: scaffold00252, strain: JPCC DA0580, whole genome shotgun sequence
+    6.5e-16   52.2   0.0    3.2e-07   24.5   0.0    3.0  2  BDSP01000147_1  Fistulifera solaris DNA, contig: scaffold00147, strain: JPCC DA0580, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> BDSP01000097_1  Fistulifera solaris DNA, contig: scaffold00097, strain: JPCC DA0580, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.2   0.0      0.43        42      14      35 ..   44583   44604 ..   44581   44604 .. 0.87
+   2 !   25.0   0.0   2.4e-09   2.4e-07       1      36 []   59218   59253 ..   59218   59253 .. 0.96
+   3 !   25.0   0.0   2.4e-09   2.4e-07       1      36 []   60845   60880 ..   60845   60880 .. 0.96
+   4 !   25.0   0.0   2.4e-09   2.4e-07       1      36 []   62346   62381 ..   62346   62381 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: -1.2 bits;  conditional E-value: 0.43
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned    14 TTAcCatGatCAgGTTCaAgCG 35   
+                                                          TT  CatGatCAg TTC+A+CG
+                                     BDSP01000097_1 44583 TTCTCATGATCAGATTCTAACG 44604
+                                                          55579**************997 PP
+
+  == domain 2  score: 25.0 bits;  conditional E-value: 2.4e-09
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned     1 CcTcaCGCatGaaTTAcCatGatCAgGTTCaAgCGG 36   
+                                                          CcT+ CGCatG+aTTAcCatGa CAgGTTC A+CGG
+                                     BDSP01000097_1 59218 CCTTTCGCATGCATTACCATGAGCAGGTTCGAACGG 59253
+                                                          68999*****************************97 PP
+
+  == domain 3  score: 25.0 bits;  conditional E-value: 2.4e-09
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned     1 CcTcaCGCatGaaTTAcCatGatCAgGTTCaAgCGG 36   
+                                                          CcT+ CGCatG+aTTAcCatGa CAgGTTC A+CGG
+                                     BDSP01000097_1 60845 CCTTTCGCATGCATTACCATGAGCAGGTTCGAACGG 60880
+                                                          68999*****************************97 PP
+
+  == domain 4  score: 25.0 bits;  conditional E-value: 2.4e-09
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned     1 CcTcaCGCatGaaTTAcCatGatCAgGTTCaAgCGG 36   
+                                                          CcT+ CGCatG+aTTAcCatGa CAgGTTC A+CGG
+                                     BDSP01000097_1 62346 CCTTTCGCATGCATTACCATGAGCAGGTTCGAACGG 62381
+                                                          68999*****************************97 PP
+
+>> BDSP01000251_1  Fistulifera solaris DNA, contig: scaffold00252, strain: JPCC DA0580, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.2   0.0   4.3e-09   4.3e-07       1      36 []   36490   36525 ..   36490   36525 .. 0.96
+   2 !   24.2   0.0   4.3e-09   4.3e-07       1      36 []   38115   38150 ..   38115   38150 .. 0.96
+   3 !   24.2   0.0   4.3e-09   4.3e-07       1      36 []   39628   39663 ..   39628   39663 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 24.2 bits;  conditional E-value: 4.3e-09
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned     1 CcTcaCGCatGaaTTAcCatGatCAgGTTCaAgCGG 36   
+                                                          CcT+ CGCatG+aTTAcCatGa CAgGTTC A+CGG
+                                     BDSP01000251_1 36490 CCTTTCGCATGCATTACCATGAGCAGGTTCGAACGG 36525
+                                                          68999*****************************97 PP
+
+  == domain 2  score: 24.2 bits;  conditional E-value: 4.3e-09
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned     1 CcTcaCGCatGaaTTAcCatGatCAgGTTCaAgCGG 36   
+                                                          CcT+ CGCatG+aTTAcCatGa CAgGTTC A+CGG
+                                     BDSP01000251_1 38115 CCTTTCGCATGCATTACCATGAGCAGGTTCGAACGG 38150
+                                                          68999*****************************97 PP
+
+  == domain 3  score: 24.2 bits;  conditional E-value: 4.3e-09
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned     1 CcTcaCGCatGaaTTAcCatGatCAgGTTCaAgCGG 36   
+                                                          CcT+ CGCatG+aTTAcCatGa CAgGTTC A+CGG
+                                     BDSP01000251_1 39628 CCTTTCGCATGCATTACCATGAGCAGGTTCGAACGG 39663
+                                                          68999*****************************97 PP
+
+>> BDSP01000147_1  Fistulifera solaris DNA, contig: scaffold00147, strain: JPCC DA0580, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.5   0.0   3.3e-09   3.2e-07       1      36 []   43424   43459 ..   43424   43459 .. 0.96
+   2 !   24.5   0.0   3.3e-09   3.2e-07       1      36 []   49658   49693 ..   49658   49693 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 24.5 bits;  conditional E-value: 3.3e-09
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned     1 CcTcaCGCatGaaTTAcCatGatCAgGTTCaAgCGG 36   
+                                                          CcT+ CGCatG+aTTAcCatG tCAgGTTC A+CGG
+                                     BDSP01000147_1 43424 CCTTTCGCATGCATTACCATGTTCAGGTTCGAACGG 43459
+                                                          68999*****************************97 PP
+
+  == domain 2  score: 24.5 bits;  conditional E-value: 3.3e-09
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned     1 CcTcaCGCatGaaTTAcCatGatCAgGTTCaAgCGG 36   
+                                                          CcT+ CGCatG+aTTAcCatG tCAgGTTC A+CGG
+                                     BDSP01000147_1 49658 CCTTTCGCATGCATTACCATGTTCAGGTTCGAACGG 49693
+                                                          68999*****************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (36 nodes)
+Target sequences:                          295  (49736633 residues searched)
+Passed MSV filter:                         5  (0.0169492); expected 5.9 (0.02)
+Passed bias filter:                        5  (0.0169492); expected 5.9 (0.02)
+Passed Vit filter:                         3  (0.0101695); expected 0.3 (0.001)
+Passed Fwd filter:                         3  (0.0101695); expected 0.0 (1e-05)
+Initial search space (Z):                295  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 3.69u 0.14s 00:00:03.83 Elapsed: 00:00:01.05
+# Mc/sec: 1705.26
+//
+[ok]

@@ -1,0 +1,16 @@
+#                                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                        accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                              -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QAXB01035708_1       -            801 2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned -             36   2.2e-06   29.1   0.0   1   1   1.7e-10   4.6e-06   28.1   0.0     1    36   552   587   552   587 0.95 Halamphora sp_ MG8b 273122, whole genome shotgun sequence
+QAXB01039623_1       -           1574 2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned -             36   8.1e-05   24.1   0.0   1   2   1.1e-08    0.0003   22.3   0.0     2    36   955   989   954   989 0.93 Halamphora sp_ MG8b 279420, whole genome shotgun sequence
+QAXB01039623_1       -           1574 2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned -             36   8.1e-05   24.1   0.0   2   2      0.65   1.8e+04   -2.4   0.0    17    30  1256  1268  1256  1270 0.78 Halamphora sp_ MG8b 279420, whole genome shotgun sequence
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      queries/2021-01-26_Queries_P2-P4_rev-compl.hmm
+# Target file:     genomes/Halamphora_sp_MG8b/GCA_004335815.1_ASM433581v1_genomic.fna
+# Option settings: hmmsearch --domtblout HMMER_results/Queries_P2-P4_vs_Halamphora_sp_MG8b_minusStrand_tab.out --notextw queries/2021-01-26_Queries_P2-P4_rev-compl.hmm genomes/Halamphora_sp_MG8b/GCA_004335815.1_ASM433581v1_genomic.fna 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 13:46:51 2021
+# [ok]

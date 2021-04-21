@@ -1,0 +1,34 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+KV784354_1:2469677-2471469 -            506 671536at2759         -            369  2.4e-123  408.2   6.9   1   2   4.2e-18   3.5e-16   55.6   0.3     4   105    31   151    28   158 0.83 -
+KV784354_1:2469677-2471469 -            506 671536at2759         -            369  2.4e-123  408.2   6.9   2   2  2.1e-108  1.8e-106  352.7   1.5   106   368   192   500   183   501 0.88 -
+KV784359_1:1233339-1234248 -            246 671536at2759         -            369     7e-69  229.0   0.0   1   1   1.1e-70   8.8e-69  228.7   0.0   136   354    15   241     3   245 0.89 -
+KV784363_1:804026-804922   -            299 671536at2759         -            369   1.4e-68  228.0   0.0   1   1   2.2e-70   1.8e-68  227.6   0.0   131   354    32   266    22   272 0.90 -
+KV784361_1:1670766-1671587 -            274 671536at2759         -            369   2.5e-68  227.1   0.1   1   1   3.8e-70   3.1e-68  226.9   0.1   141   356    18   245     7   255 0.89 -
+KV784363_1:103693-104514   -            274 671536at2759         -            369   2.5e-68  227.1   0.1   1   1   3.8e-70   3.1e-68  226.9   0.1   141   356    18   245     7   255 0.89 -
+KV784356_1:1866830-1868111 -            308 671536at2759         -            369   9.5e-68  225.3   0.0   1   1   1.5e-69   1.2e-67  224.9   0.0   133   354    44   276    31   283 0.90 -
+KV784362_1:911005-912262   -            308 671536at2759         -            369   2.3e-67  224.0   0.0   1   1   3.7e-69     3e-67  223.6   0.0   133   354    44   276    31   283 0.90 -
+KV784353_1:1313521-1314964 -            326 671536at2759         -            369   7.4e-65  215.7   0.1   1   2   9.4e-11   7.7e-09   31.4   0.1   124   196    33   100    22   104 0.85 -
+KV784353_1:1313521-1314964 -            326 671536at2759         -            369   7.4e-65  215.7   0.1   2   2   1.2e-56     1e-54  182.4   0.0   174   354   111   299   105   304 0.90 -
+KV784361_1:905086-905871   -            262 671536at2759         -            369   1.3e-64  214.9   0.0   1   1   1.9e-66   1.5e-64  214.7   0.0   140   355     3   230     1   237 0.89 -
+KV784415_1:158037-158822   -            262 671536at2759         -            369     2e-64  214.3   0.0   1   1   3.1e-66   2.6e-64  214.0   0.0   142   355     5   230     2   237 0.90 -
+KV784354_1:1836484-1837218 -            191 671536at2759         -            369   5.2e-41  137.3   0.0   1   1     7e-43   5.7e-41  137.1   0.0   180   354     2   190     1   191 0.87 -
+KV784426_1:41229-41963     -            191 671536at2759         -            369   5.2e-41  137.3   0.0   1   1     7e-43   5.7e-41  137.1   0.0   180   354     2   190     1   191 0.87 -
+KV784361_1:2315448-2315983 -            174 671536at2759         -            369   6.9e-33  110.5   0.0   1   1     1e-34   8.4e-33  110.2   0.0   141   267    41   169    22   172 0.86 -
+KV784380_1:136640-137533   -            298 671536at2759         -            369   5.3e-25   84.6   0.2   1   1   4.7e-26   3.9e-24   81.7   0.2   141   341    16   270     7   280 0.75 -
+KV784356_1:1187415-1187624 -             70 671536at2759         -            369   5.2e-07   25.4   0.1   1   1   6.6e-09   5.4e-07   25.3   0.1     7    61     4    69     1    70 0.80 -
+KV784354_1:3413875-3414243 -            123 671536at2759         -            369   3.2e-05   19.5   0.0   1   1   4.3e-07   3.5e-05   19.4   0.0    16    63    44    96    17   118 0.82 -
+KV784372_1:10489-10947     -            153 671536at2759         -            369   0.00096   14.6   1.2   1   2      0.14        12    1.2   0.0    58    99    15    56     3    61 0.80 -
+KV784372_1:10489-10947     -            153 671536at2759         -            369   0.00096   14.6   1.2   2   2   2.5e-05     0.002   13.6   1.0     5    86    47   139    43   147 0.70 -
+KV784353_1:4232020-4232298 -             93 671536at2759         -            369    0.0019   13.7   0.3   1   1   2.8e-05    0.0023   13.4   0.3     4    62    16    85    13    92 0.63 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/671536at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fragilariopsis_cylindrus_Fracy1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_001750085.1_Fracy1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fragilariopsis_cylindrus_Fracy1/run_eukaryota_odb10/hmmer_output/initial_run_results/671536at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/671536at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fragilariopsis_cylindrus_Fracy1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_001750085.1_Fracy1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sat Apr 17 20:52:28 2021
+# [ok]

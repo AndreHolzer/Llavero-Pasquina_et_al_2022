@@ -1,0 +1,94 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_full-length.hmm
+# target sequence database:        genomes/Halamphora_sp_MG8b/GCA_004335815.1_ASM433581v1_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_full-length.aligned  [M=116]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+      5e-09   38.1   0.0    6.7e-08   34.4   0.0    2.7  1  QAXB01039522_1  Halamphora sp_ MG8b 279301, whole genome shotgun sequence
+    7.1e-09   37.6   0.0    8.5e-08   34.1   0.0    2.7  1  QAXB01050104_1  Halamphora sp_ MG8b 292115, whole genome shotgun sequence
+  ------ inclusion threshold ------
+      0.029   16.3   0.0      0.072   15.1   0.0    1.6  1  QAXB01038645_1  Halamphora sp_ MG8b 278230, whole genome shotgun sequence
+       0.13   14.3   0.1         29    6.7   0.0    2.6  2  QAXB01045500_1  Halamphora sp_ MG8b 286551, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> QAXB01039522_1  Halamphora sp_ MG8b 279301, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.4   0.0   4.9e-12   6.7e-08       3     114 ..     718     895 ..     716     897 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 34.4 bits;  conditional E-value: 4.9e-12
+  2021-01-26_BLASTN_queries_full-length.aligned   3 ttttgtttgcgggagctcaac................................................................tgagaactgaaat.ataattgtgctaatatt.caggttgatatcgaaaaccgcttgaacctgatcatggtaattcatgcgtgagggaaaaaca 114
+                                                    +t+tgtttgcgggagct + +                                                                t++g+a  +  at a+ a  ++g+++at+ t   + + g   t+  ++accg+ttg acctga catggtaat+c tgcg+ agggaaaaaca
+                                 QAXB01039522_1 718 GTCTGTTTGCGGGAGCTTTTTtttctttgctgagagttatacaaagatttgtctgtttttgattggcgtgtttgttgtcgcctctTTTGGAGGATTATgACGACAACGTCGATTGTtGGACGAGTCTTTTTTTACCGTTTGGACCTGAACATGGTAATGCGTGCGATAGGGAAAAACA 895
+                                                    57889999*******9998888899999999999999999999999999999999999999999999999999999999999988444443333333333333334444444333212222333444455578****************************************99976 PP
+
+>> QAXB01050104_1  Halamphora sp_ MG8b 292115, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.1   0.0   6.2e-12   8.5e-08       3     114 ..    1000    1177 ..     998    1179 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 34.1 bits;  conditional E-value: 6.2e-12
+  2021-01-26_BLASTN_queries_full-length.aligned    3 ttttgtttgcgggagctcaac................................................................tgagaactgaaat.ataattgtgctaatatt.caggttgatatcgaaaaccgcttgaacctgatcatggtaattcatgcgtgagggaaaaaca 114 
+                                                     +t+tgtttgcgggagct + +                                                                t++g+a  +  at a+ a  ++g+++at+ t   + + g   t+  ++accg+ttg acctga catggtaat+c tgcg+ agggaaaaaca
+                                 QAXB01050104_1 1000 GTCTGTTTGCGGGAGCTTTTTtttctttgctgagagttatacaaagatttgtctgtttttgattggcgtgtttgttgtcgcctctTTTGGAGGATTATgACGACAACGTCGATTGTtGGACGAGTCTTTTTTTACCGTTTGGACCTGAACATGGTAATGCGTGCGATAGGGAAAAACA 1177
+                                                     57889999*******9998888899999999999999999999999999999999999999999999999999999999999988444443333333333333334444444333212222333444455578****************************************99976 PP
+
+>> QAXB01038645_1  Halamphora sp_ MG8b 278230, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.1   0.0   5.2e-06     0.072       3      95 ..     462     553 ..     460     558 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 15.1 bits;  conditional E-value: 5.2e-06
+  2021-01-26_BLASTN_queries_full-length.aligned   3 ttttgtttgcgggagctcaactgagaactgaaatataattgtgctaatattcaggttgatatcgaaaaccgcttgaacctgatcatggtaatt 95 
+                                                     tttgtttgcg g g t + +t++g +  +a a+a +a ++t +t +t+  +++ tt+ ta +ga aaccgct+gaa  tg  c tggt att
+                                 QAXB01038645_1 462 CTTTGTTTGCGTGTGTTTTCTTTTGTTGGAATACAACAGCATCTTTTTTA-TTTTTTACTAGTGAGAACCGCTGGAAAGTGCCCTTGGTGATT 553
+                                                    578999*********99999999988888877775555444433333322.666778889999************************998876 PP
+
+>> QAXB01045500_1  Halamphora sp_ MG8b 286551, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.7   0.0    0.0089   1.2e+02      50      98 ..     302     347 ..     251     354 .. 0.74
+   2 ?    6.7   0.0    0.0021        29      17      91 ..     421     493 ..     411     506 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 4.7 bits;  conditional E-value: 0.0089
+  2021-01-26_BLASTN_queries_full-length.aligned  50 tattcaggttgatatcgaaaaccgcttgaacctgatcatggtaattcat 98 
+                                                     a+   +   +at+ ++aa+ ccg+t+gaa  tg  c+ ggtaat+ a 
+                                 QAXB01045500_1 302 GAC--GTAAGAATGATAAATCCCGTTGGAA-TTGTACGGGGTAATGTAA 347
+                                                    333..3334556677788888********9.79***********98665 PP
+
+  == domain 2  score: 6.7 bits;  conditional E-value: 0.0021
+  2021-01-26_BLASTN_queries_full-length.aligned  17 gctcaactgagaactgaaatataattgtgctaatattcaggttgatatcgaaaaccgcttgaacctgatcatggt 91 
+                                                    gc  +a+t +g act+a+ata a+tt t+ t at t+  +   g tat+g a a cg+t+g a ctga catg t
+                                 QAXB01045500_1 421 GCCATATTCTGTACTAACATAAACTTCTAATCATGTG--AAAAGGTATTGCACATCGTTGGGAACTGACCATGAT 493
+                                                    566778899999********99999999998888876..4446667777888999****************9975 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (116 nodes)
+Target sequences:                        55067  (53206049 residues searched)
+Passed MSV filter:                      1058  (0.019213); expected 1101.3 (0.02)
+Passed bias filter:                      983  (0.017851); expected 1101.3 (0.02)
+Passed Vit filter:                        56  (0.00101694); expected 55.1 (0.001)
+Passed Fwd filter:                         4  (7.26388e-05); expected 0.6 (1e-05)
+Initial search space (Z):              55067  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 5.87u 0.13s 00:00:06.00 Elapsed: 00:00:01.55
+# Mc/sec: 3981.87
+//
+[ok]

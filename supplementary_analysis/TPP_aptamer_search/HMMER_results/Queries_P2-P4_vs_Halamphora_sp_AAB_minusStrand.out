@@ -1,0 +1,61 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_P2-P4_rev-compl.hmm
+# target sequence database:        genomes/Halamphora_sp_AAB/GCA_004335955.1_ASM433595v1_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned  [M=36]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+     0.0084   14.8   0.0      0.031   13.0   0.0    2.0  1  QAXC01006017_1  Halamphora sp_ AAB scaffold_6017, whole genome shotgun sequence
+  ------ inclusion threshold ------
+      0.061   12.1   0.0       0.21   10.4   0.0    1.9  1  QAXC01004479_1  Halamphora sp_ AAB scaffold_4479, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> QAXC01006017_1  Halamphora sp_ AAB scaffold_6017, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.0   0.0   9.4e-06     0.031      15      36 .]    2365    2386 ..    2361    2386 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 9.4e-06
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned   15 TAcCatGatCAgGTTCaAgCGG 36  
+                                                         TAcC +GatCAgGTTC+AgCGG
+                                     QAXC01006017_1 2365 TACCCCGATCAGGTTCCAGCGG 2386
+                                                         89******************97 PP
+
+>> QAXC01004479_1  Halamphora sp_ AAB scaffold_4479, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   0.0   6.3e-05      0.21      13      30 ..    1553    1570 ..    1552    1572 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 6.3e-05
+  2021-01-26_BLASTN_queries_P2-P4_rev-compl.aligned   13 aTTAcCatGatCAgGTTC 30  
+                                                         aTTA CatGatCAgGTTC
+                                     QAXC01004479_1 1553 ATTATCATGATCAGGTTC 1570
+                                                         69***************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (36 nodes)
+Target sequences:                         6590  (29554481 residues searched)
+Passed MSV filter:                       174  (0.0264036); expected 131.8 (0.02)
+Passed bias filter:                      170  (0.0257967); expected 131.8 (0.02)
+Passed Vit filter:                        17  (0.00257967); expected 6.6 (0.001)
+Passed Fwd filter:                         2  (0.00030349); expected 0.1 (1e-05)
+Initial search space (Z):               6590  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 4.10u 0.14s 00:00:04.23 Elapsed: 00:00:03.10
+# Mc/sec: 343.21
+//
+[ok]

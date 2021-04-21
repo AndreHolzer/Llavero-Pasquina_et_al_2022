@@ -1,0 +1,20 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CM000654_1:379882-384827 -           1614 176625at2759         -            497   3.7e-40  132.5   3.0   1   7     0.091        41   -2.9   0.0    23    46   222   245   218   330 0.74 -
+CM000654_1:379882-384827 -           1614 176625at2759         -            497   3.7e-40  132.5   3.0   2   7   0.00016     0.074    6.2   0.0   100   135   480   515   450   552 0.77 -
+CM000654_1:379882-384827 -           1614 176625at2759         -            497   3.7e-40  132.5   3.0   3   7     0.039        18   -1.7   0.0   169   191   757   779   753   796 0.82 -
+CM000654_1:379882-384827 -           1614 176625at2759         -            497   3.7e-40  132.5   3.0   4   7     6e-12   2.7e-09   30.7   0.0   188   237   844   902   841   905 0.83 -
+CM000654_1:379882-384827 -           1614 176625at2759         -            497   3.7e-40  132.5   3.0   5   7   2.1e-06   0.00096   12.4   0.0   264   293  1016  1045  1007  1048 0.92 -
+CM000654_1:379882-384827 -           1614 176625at2759         -            497   3.7e-40  132.5   3.0   6   7   1.9e-07   8.8e-05   15.8   0.0   291   327  1066  1102  1053  1109 0.86 -
+CM000654_1:379882-384827 -           1614 176625at2759         -            497   3.7e-40  132.5   3.0   7   7   1.4e-20   6.1e-18   59.2   0.1   353   434  1178  1277  1135  1281 0.87 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/176625at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_pseudonana_ASM14940v2/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_000149405.2_ASM14940v2_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_pseudonana_ASM14940v2/run_eukaryota_odb10/hmmer_output/rerun_results/176625at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/176625at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_pseudonana_ASM14940v2/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_000149405.2_ASM14940v2_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 03:57:34 2021
+# [ok]

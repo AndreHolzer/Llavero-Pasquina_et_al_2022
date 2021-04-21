@@ -1,0 +1,23 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+JAACSZ010001525_1:5316-14384 -           3023 674160at2759         -           1184  6.8e-106  350.9  33.9   1  10   1.3e-05     0.012    9.0   0.0    21    56   964   999   946  1012 0.82 -
+JAACSZ010001525_1:5316-14384 -           3023 674160at2759         -           1184  6.8e-106  350.9  33.9   2  10   7.4e-20   6.5e-17   56.2   0.0    66   176  1144  1261  1137  1263 0.88 -
+JAACSZ010001525_1:5316-14384 -           3023 674160at2759         -           1184  6.8e-106  350.9  33.9   3  10     0.082        73   -3.6   0.0   333   365  1686  1719  1676  1721 0.73 -
+JAACSZ010001525_1:5316-14384 -           3023 674160at2759         -           1184  6.8e-106  350.9  33.9   4  10   9.5e-17   8.4e-14   45.9   0.0   407   505  1844  1963  1821  1980 0.73 -
+JAACSZ010001525_1:5316-14384 -           3023 674160at2759         -           1184  6.8e-106  350.9  33.9   5  10   2.2e-30   1.9e-27   91.1   0.4   526   722  2027  2266  2025  2278 0.82 -
+JAACSZ010001525_1:5316-14384 -           3023 674160at2759         -           1184  6.8e-106  350.9  33.9   6  10   1.8e-05     0.016    8.5   0.6   748   814  2407  2489  2362  2500 0.73 -
+JAACSZ010001525_1:5316-14384 -           3023 674160at2759         -           1184  6.8e-106  350.9  33.9   7  10   6.1e-46   5.3e-43  142.6   2.9   815  1018  2516  2731  2503  2782 0.89 -
+JAACSZ010001525_1:5316-14384 -           3023 674160at2759         -           1184  6.8e-106  350.9  33.9   8  10     0.034        30   -2.3   0.0  1011  1039  2773  2801  2766  2803 0.87 -
+JAACSZ010001525_1:5316-14384 -           3023 674160at2759         -           1184  6.8e-106  350.9  33.9   9  10      0.12     1e+02   -4.1   0.0  1073  1104  2883  2916  2878  2917 0.83 -
+JAACSZ010001525_1:5316-14384 -           3023 674160at2759         -           1184  6.8e-106  350.9  33.9  10  10   8.8e-07   0.00078   12.9   0.5  1121  1168  2975  3023  2971  3023 0.93 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/674160at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Bacillariophyta_sp_ASM1036716v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_010367165.1_ASM1036716v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Bacillariophyta_sp_ASM1036716v1/run_eukaryota_odb10/hmmer_output/initial_run_results/674160at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/674160at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Bacillariophyta_sp_ASM1036716v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_010367165.1_ASM1036716v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 13:26:43 2021
+# [ok]

@@ -1,0 +1,32 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+AGNL01009466_1:502-1572  -            357 655400at2759         -            301   6.3e-46  153.7   0.2   1   3     5e-29   1.1e-26   90.5   0.0    74   187    10   136     7   138 0.86 -
+AGNL01009466_1:502-1572  -            357 655400at2759         -            301   6.3e-46  153.7   0.2   2   3   6.4e-19   1.4e-16   57.3   0.3   208   251   223   267   181   301 0.87 -
+AGNL01009466_1:502-1572  -            357 655400at2759         -            301   6.3e-46  153.7   0.2   3   3     0.039       8.6    2.2   0.0   276   300   328   352   323   353 0.85 -
+AGNL01026885_1:1889-2689 -            267 655400at2759         -            301   4.3e-12   42.6   0.0   1   2   8.1e-05     0.018   11.0   0.0    81   107    12    40     4    47 0.79 -
+AGNL01026885_1:1889-2689 -            267 655400at2759         -            301   4.3e-12   42.6   0.0   2   2   1.9e-10   4.1e-08   29.5   0.0   208   246   173   211   165   223 0.90 -
+AGNL01037922_1:574-1488  -            305 655400at2759         -            301   8.2e-10   35.1   0.1   1   2   0.00048      0.11    8.5   0.0    79   111    53    85    49   105 0.88 -
+AGNL01037922_1:574-1488  -            305 655400at2759         -            301   8.2e-10   35.1   0.1   2   2   5.9e-09   1.3e-06   24.6   0.1   208   248   227   267   220   289 0.91 -
+AGNL01044003_1:855-1499  -            215 655400at2759         -            301   1.8e-09   33.9   0.2   1   2    0.0038      0.83    5.5   0.0    89   111     2    24     1    30 0.84 -
+AGNL01044003_1:855-1499  -            215 655400at2759         -            301   1.8e-09   33.9   0.2   2   2   1.3e-09   2.9e-07   26.7   0.0   207   246   161   200   127   209 0.90 -
+AGNL01009506_1:549-1361  -            271 655400at2759         -            301   2.7e-09   33.4   0.0   1   2   2.3e-06   0.00051   16.1   0.0    72   108    20    58    12    62 0.77 -
+AGNL01009506_1:549-1361  -            271 655400at2759         -            301   2.7e-09   33.4   0.0   2   2   3.8e-06   0.00084   15.4   0.0   204   243   207   246   167   262 0.80 -
+AGNL01017588_1:1364-2290 -            309 655400at2759         -            301   4.2e-09   32.7   0.1   1   2   3.4e-05    0.0074   12.2   0.0    87   110    99   122    55   126 0.85 -
+AGNL01017588_1:1364-2290 -            309 655400at2759         -            301   4.2e-09   32.7   0.1   2   2     4e-07   8.7e-05   18.6   0.1   207   241   275   309   248   309 0.89 -
+AGNL01001020_1:1086-1337 -             84 655400at2759         -            301   5.9e-08   29.0   0.0   1   1   2.7e-10   5.9e-08   29.0   0.0   208   250     1    43     1    81 0.87 -
+AGNL01030768_1:1253-2476 -            408 655400at2759         -            301   1.1e-07   28.1   0.0   1   2   0.00014      0.03   10.3   0.0    66   108   150   195   135   205 0.74 -
+AGNL01030768_1:1253-2476 -            408 655400at2759         -            301   1.1e-07   28.1   0.0   2   2   2.9e-06   0.00063   15.8   0.0   208   268   338   403   318   407 0.76 -
+AGNL01044203_1:1591-1830 -             80 655400at2759         -            301   1.2e-06   24.7   0.0   1   1   5.5e-09   1.2e-06   24.7   0.0   186   236    28    79     4    80 0.77 -
+AGNL01022305_1:6573-7637 -            355 655400at2759         -            301   0.00014   17.9   0.0   1   2     0.013       2.9    3.7   0.0    89   109   163   183   151   192 0.79 -
+AGNL01022305_1:6573-7637 -            355 655400at2759         -            301   0.00014   17.9   0.0   2   2   3.6e-05     0.008   12.1   0.0   207   226   336   355   288   355 0.90 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/655400at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_oceanica_ThaOc_1.0/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_000296195.2_ThaOc_1.0_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_oceanica_ThaOc_1.0/run_eukaryota_odb10/hmmer_output/rerun_results/655400at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/655400at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Thalassiosira_oceanica_ThaOc_1.0/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_000296195.2_ThaOc_1.0_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 03:05:37 2021
+# [ok]

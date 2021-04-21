@@ -1,0 +1,19 @@
+# BUSCO version is: 5.1.2 
+# The lineage dataset is: stramenopiles_odb10 (Creation date: 2020-08-05, number of genomes: 27, number of BUSCOs: 100)
+# Summarized benchmarking in BUSCO notation for file /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/Nitzschia_putrida_Nputr_1.0/GCA_016586335.1_Nputr_1.0_genomic.fna
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:98.0%[S:59.0%,D:39.0%],F:0.0%,M:2.0%,n:100	   
+	98	Complete BUSCOs (C)			   
+	59	Complete and single-copy BUSCOs (S)	   
+	39	Complete and duplicated BUSCOs (D)	   
+	0	Fragmented BUSCOs (F)			   
+	2	Missing BUSCOs (M)			   
+	100	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	metaeuk: 4.a0f584d

@@ -1,0 +1,24 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QPGO01000030_1:817-4208      -           1093 679187at2759         -            423   7.8e-68  225.4  14.2   1   6     0.088        48   -1.3   0.0     2    27   324   349   323   356 0.90 -
+QPGO01000030_1:817-4208      -           1093 679187at2759         -            423   7.8e-68  225.4  14.2   2   6   2.6e-27   1.4e-24   82.8   0.0    27   209   375   603   369   609 0.79 -
+QPGO01000030_1:817-4208      -           1093 679187at2759         -            423   7.8e-68  225.4  14.2   3   6   2.3e-15   1.3e-12   43.4   0.4   210   268   647   706   642   713 0.93 -
+QPGO01000030_1:817-4208      -           1093 679187at2759         -            423   7.8e-68  225.4  14.2   4   6   3.4e-17   1.9e-14   49.5   0.0   300   363   800   865   795   868 0.89 -
+QPGO01000030_1:817-4208      -           1093 679187at2759         -            423   7.8e-68  225.4  14.2   5   6   8.5e-11   4.7e-08   28.4   0.2   348   375   871   898   869   901 0.94 -
+QPGO01000030_1:817-4208      -           1093 679187at2759         -            423   7.8e-68  225.4  14.2   6   6   4.3e-10   2.4e-07   26.1   0.3   376   421   923   968   919   970 0.93 -
+QPGO01000005_1:329025-331367 -            781 679187at2759         -            423   5.4e-41  136.9   8.7   1   5    0.0092       5.1    1.9   0.0     5    30     3    28     1    36 0.85 -
+QPGO01000005_1:329025-331367 -            781 679187at2759         -            423   5.4e-41  136.9   8.7   2   5   4.6e-20   2.5e-17   58.9   0.0    56   187   114   253   104   283 0.77 -
+QPGO01000005_1:329025-331367 -            781 679187at2759         -            423   5.4e-41  136.9   8.7   3   5   8.2e-09   4.5e-06   21.9   0.2   215   266   343   394   336   435 0.89 -
+QPGO01000005_1:329025-331367 -            781 679187at2759         -            423   5.4e-41  136.9   8.7   4   5   5.3e-10   2.9e-07   25.8   0.1   302   353   461   512   456   534 0.87 -
+QPGO01000005_1:329025-331367 -            781 679187at2759         -            423   5.4e-41  136.9   8.7   5   5   4.4e-11   2.4e-08   29.4   0.2   348   407   547   614   538   623 0.87 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/679187at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Psammoneis_japonica_ASM863298v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_008632985.1_ASM863298v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Psammoneis_japonica_ASM863298v1/run_eukaryota_odb10/hmmer_output/initial_run_results/679187at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/679187at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Psammoneis_japonica_ASM863298v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_008632985.1_ASM863298v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 10:52:14 2021
+# [ok]

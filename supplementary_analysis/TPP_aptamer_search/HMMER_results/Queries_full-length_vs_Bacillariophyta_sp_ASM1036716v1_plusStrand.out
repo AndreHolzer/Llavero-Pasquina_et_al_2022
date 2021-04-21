@@ -1,0 +1,60 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_full-length.hmm
+# target sequence database:        genomes/Bacillariophyta_sp_ASM1036716v1/GCA_010367165.1_ASM1036716v1_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_full-length.aligned  [M=116]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+    7.2e-10   36.4   0.0    2.7e-09   34.6   0.0    2.1  1  JAACSZ010000817_1  Bacillariophyta sp_ isolate CG_2015-15_45_16 CG_2015-15_curated_scaffold_1739, whole genome shotgun sequence
+    5.9e-06   23.9   0.0    2.1e-05   22.1   0.0    2.0  1  JAACSZ010000334_1  Bacillariophyta sp_ isolate CG_2015-15_45_16 CG_2015-15_curated_scaffold_2741, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> JAACSZ010000817_1  Bacillariophyta sp_ isolate CG_2015-15_45_16 CG_2015-15_curated_scaffold_1739, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.6   0.0   2.2e-12   2.7e-09       8     113 ..   14442   14572 ..   14435   14575 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 34.6 bits;  conditional E-value: 2.2e-12
+  2021-01-26_BLASTN_queries_full-length.aligned     8 tttgcgggagctcaac.......................tgagaactgaaatataattgtgctaatattcaggttgatatcga.....aaaccgcttgaacctgatcatggtaattcatgcgtgagggaaaaac 113  
+                                                       t gcgggagc  a c                       tgaga   +a  t t attg+ c aa   + a   tg ta + a     ++accg+ttgaacctga c+tggtaat+catgcgtgagggaa a c
+                              JAACSZ010000817_1 14442 CTGGCGGGAGCAAATCgtgcaatttagttgcatggatgcTGAGAGTGAAGGTTTGATTGACCAAAGCAGAA---TGGTAGTCAacttcTTACCGTTTGAACCTGAACGTGGTAATGCATGCGTGAGGGAACAGC 14572
+                                                      55678888888776666666777677777766666666655555555555555555555444444333222...2222222221222268***************************************98765 PP
+
+>> JAACSZ010000334_1  Bacillariophyta sp_ isolate CG_2015-15_45_16 CG_2015-15_curated_scaffold_2741, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.1   0.0   1.7e-08   2.1e-05      56     109 ..     553     607 ..     387     613 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 22.1 bits;  conditional E-value: 1.7e-08
+  2021-01-26_BLASTN_queries_full-length.aligned  56 ggttgatatcgaaaaccgcttgaacctgatca.tggtaattcatgcgtgagggaa 109
+                                                    +   g   t+ aaaaccg+ +gaacctgatc+ tggtaattca gcg+++g +a+
+                              JAACSZ010000334_1 553 AAAAGGACTTCAAAACCGTCGGAACCTGATCGtTGGTAATTCACGCGAAGGAAAC 607
+                                                    3334445567899******************846*************97665544 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (116 nodes)
+Target sequences:                         2471  (37632609 residues searched)
+Passed MSV filter:                        46  (0.0186159); expected 49.4 (0.02)
+Passed bias filter:                       42  (0.0169972); expected 49.4 (0.02)
+Passed Vit filter:                         3  (0.00121408); expected 2.5 (0.001)
+Passed Fwd filter:                         2  (0.000809389); expected 0.0 (1e-05)
+Initial search space (Z):               2471  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 3.52u 0.07s 00:00:03.59 Elapsed: 00:00:00.83
+# Mc/sec: 5259.50
+//
+[ok]

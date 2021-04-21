@@ -1,0 +1,29 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAACVS010000037_1:268029-271330 -           1058 723at33634           -            789         0 1234.6   7.2   1   1         0         0 1225.4   7.2     1   788    77  1030    77  1031 0.88 -
+CAACVS010000060_1:80439-83526   -            888 723at33634           -            789  4.2e-195  644.2   1.2   1   4  1.1e-179  5.9e-178  587.4   0.0    11   531     1   550     1   555 0.89 -
+CAACVS010000060_1:80439-83526   -            888 723at33634           -            789  4.2e-195  644.2   1.2   2   4   1.5e-09     8e-08   24.8   0.0   556   603   538   591   535   602 0.79 -
+CAACVS010000060_1:80439-83526   -            888 723at33634           -            789  4.2e-195  644.2   1.2   3   4   2.7e-11   1.5e-09   30.5   0.0   623   686   651   721   641   777 0.81 -
+CAACVS010000060_1:80439-83526   -            888 723at33634           -            789  4.2e-195  644.2   1.2   4   4     0.059       3.2   -0.4   0.0   726   776   823   874   816   882 0.74 -
+CAACVS010000236_1:218518-221213 -            775 723at33634           -            789   3.9e-43  141.6   0.0   1   3   3.1e-16   1.7e-14   46.8   0.0     5   224    14   250    10   266 0.74 -
+CAACVS010000236_1:218518-221213 -            775 723at33634           -            789   3.9e-43  141.6   0.0   2   3   1.1e-26   5.7e-25   81.5   0.1   200   525   261   608   251   612 0.73 -
+CAACVS010000236_1:218518-221213 -            775 723at33634           -            789   3.9e-43  141.6   0.0   3   3    0.0021      0.11    4.4   0.0   618   683   704   775   682   775 0.78 -
+CAACVS010000079_1:76555-80261   -           1157 723at33634           -            789   1.1e-32  106.9   5.1   1   3   8.5e-13   4.6e-11   35.5   0.0     9   171     6   175     2   238 0.89 -
+CAACVS010000079_1:76555-80261   -           1157 723at33634           -            789   1.1e-32  106.9   5.1   2   3     6e-23   3.2e-21   69.1   2.0   245   526   302   621   293   641 0.77 -
+CAACVS010000079_1:76555-80261   -           1157 723at33634           -            789   1.1e-32  106.9   5.1   3   3     0.044       2.4    0.1   0.0   555   607   613   667   612   670 0.84 -
+CAACVS010000086_1:90571-93409   -            866 723at33634           -            789   2.6e-24   79.3   1.2   1   5   2.8e-06   0.00015   14.0   0.2     3   173    48   212    46   221 0.73 -
+CAACVS010000086_1:90571-93409   -            866 723at33634           -            789   2.6e-24   79.3   1.2   2   5      0.05       2.7   -0.1   0.0   197   226   279   308   264   319 0.77 -
+CAACVS010000086_1:90571-93409   -            866 723at33634           -            789   2.6e-24   79.3   1.2   3   5   1.5e-10   8.3e-09   28.0   0.0   230   294   346   411   325   417 0.86 -
+CAACVS010000086_1:90571-93409   -            866 723at33634           -            789   2.6e-24   79.3   1.2   4   5   1.2e-05   0.00063   11.9   0.0   380   406   455   481   417   505 0.80 -
+CAACVS010000086_1:90571-93409   -            866 723at33634           -            789   2.6e-24   79.3   1.2   5   5   1.8e-06   9.6e-05   14.6   0.0   485   520   624   659   585   679 0.79 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/723at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Pseudo-nitzschia_multistriata_ASM90066040v1/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_900660405.1_ASM90066040v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Pseudo-nitzschia_multistriata_ASM90066040v1/run_stramenopiles_odb10/hmmer_output/initial_run_results/723at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/723at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Pseudo-nitzschia_multistriata_ASM90066040v1/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_900660405.1_ASM90066040v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Thu Apr 15 15:03:04 2021
+# [ok]

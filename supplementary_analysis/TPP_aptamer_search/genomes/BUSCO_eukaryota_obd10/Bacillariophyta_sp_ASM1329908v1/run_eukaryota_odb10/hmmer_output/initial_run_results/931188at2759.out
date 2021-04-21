@@ -1,0 +1,32 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+JAAFKC010000516_1:2046-3674   -            543 931188at2759         -            347   5.1e-91  301.7   9.1   1   4   1.1e-53   1.9e-51  171.5   0.1     1   139     3   154     3   164 0.90 -
+JAAFKC010000516_1:2046-3674   -            543 931188at2759         -            347   5.1e-91  301.7   9.1   2   4   8.3e-17   1.5e-14   50.2   0.0   140   202   174   237   169   250 0.88 -
+JAAFKC010000516_1:2046-3674   -            543 931188at2759         -            347   5.1e-91  301.7   9.1   3   4   1.4e-11   2.6e-09   33.0   0.0   209   257   334   382   321   387 0.82 -
+JAAFKC010000516_1:2046-3674   -            543 931188at2759         -            347   5.1e-91  301.7   9.1   4   4   2.9e-15   5.3e-13   45.1   1.4   256   346   400   535   394   536 0.70 -
+JAAFKC010000080_1:9576-10616  -            347 931188at2759         -            347   2.1e-14   49.7   0.0   1   3   6.2e-13   1.1e-10   37.5   0.2   104   205     1   116     1   124 0.77 -
+JAAFKC010000080_1:9576-10616  -            347 931188at2759         -            347   2.1e-14   49.7   0.0   2   3   0.00091      0.16    7.3   0.0   262   300   230   275   223   280 0.78 -
+JAAFKC010000080_1:9576-10616  -            347 931188at2759         -            347   2.1e-14   49.7   0.0   3   3       1.6   2.9e+02   -3.3   0.0   317   345   315   343   307   345 0.78 -
+JAAFKC010001034_1:3346-3708   -            121 931188at2759         -            347   7.8e-11   38.0   0.0   1   2   7.8e-06    0.0014   14.1   0.0   105   139     5    39     1    48 0.90 -
+JAAFKC010001034_1:3346-3708   -            121 931188at2759         -            347   7.8e-11   38.0   0.0   2   2   2.5e-08   4.6e-06   22.3   0.0   139   203    57   119    54   121 0.89 -
+JAAFKC010005331_1:4-987       -            328 931188at2759         -            347   2.6e-07   26.4   0.0   1   2   3.3e-06    0.0006   15.4   0.0   142   205    34    95    30   106 0.82 -
+JAAFKC010005331_1:4-987       -            328 931188at2759         -            347   2.6e-07   26.4   0.0   2   2   0.00038     0.068    8.6   0.0   262   300   209   254   200   258 0.76 -
+JAAFKC010000059_1:12641-13582 -            314 931188at2759         -            347   5.7e-06   22.0   0.0   1   3    0.0083       1.5    4.2   0.0   104   126     1    23     1    69 0.87 -
+JAAFKC010000059_1:12641-13582 -            314 931188at2759         -            347   5.7e-06   22.0   0.0   2   3   5.1e-05    0.0092   11.4   0.0   165   203   107   146   102   156 0.79 -
+JAAFKC010000059_1:12641-13582 -            314 931188at2759         -            347   5.7e-06   22.0   0.0   3   3     0.025       4.5    2.6   0.0   257   277   266   286   259   292 0.85 -
+JAAFKC010000132_1:7237-7881   -            215 931188at2759         -            347   3.3e-05   19.5   0.1   1   2     2e-06   0.00036   16.1   0.0   253   301    79   126    75   129 0.88 -
+JAAFKC010000132_1:7237-7881   -            215 931188at2759         -            347   3.3e-05   19.5   0.1   2   2     0.056        10    1.4   0.1   296   344   149   209   132   212 0.61 -
+JAAFKC010004745_1:1114-1671   -            186 931188at2759         -            347   8.7e-05   18.1   0.0   1   1   6.7e-07   0.00012   17.6   0.0   257   301    37    83    27   115 0.80 -
+JAAFKC010000282_1:6490-6663   -             58 931188at2759         -            347    0.0073   11.8   0.0   1   1     4e-05    0.0073   11.8   0.0   273   301     1    30     1    53 0.82 -
+JAAFKC010001034_1:5759-5932   -             58 931188at2759         -            347    0.0073   11.8   0.0   1   1     4e-05    0.0073   11.8   0.0   273   301     1    30     1    53 0.82 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/931188at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Bacillariophyta_sp_ASM1329908v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_013299085.1_ASM1329908v1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Bacillariophyta_sp_ASM1329908v1/run_eukaryota_odb10/hmmer_output/initial_run_results/931188at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/931188at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Bacillariophyta_sp_ASM1329908v1/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_013299085.1_ASM1329908v1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 15:41:26 2021
+# [ok]

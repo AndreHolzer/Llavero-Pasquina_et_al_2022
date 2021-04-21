@@ -1,0 +1,60 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_full-length.hmm
+# target sequence database:        genomes/Cyclotella_cryptica_ASM1318728v1/Cyclotella_cryptica.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_full-length.aligned  [M=116]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    9.3e-10   34.2   0.0    5.4e-09   31.8   0.0    2.4  1  scaffold66_size693783   
+    1.7e-07   26.9   0.0      9e-07   24.7   0.0    2.3  1  scaffold23_size1082546  
+
+
+Domain annotation for each sequence (and alignments):
+>> scaffold66_size693783  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.8   0.0   1.6e-11   5.4e-09       9     113 ..  484162  484244 ..  484156  484247 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 31.8 bits;  conditional E-value: 1.6e-11
+  2021-01-26_BLASTN_queries_full-length.aligned      9 ttgcgggagctcaactgagaactgaaatataattgtgctaatattcaggttgatatcgaaaaccgcttgaacctgatcatggtaattcatgcgtgagggaaaaac 113   
+                                                       ttgcggg gc c                    tt  g+t +ta t+agg tga+a ++ aaaccg+ttgaacctgatc+tggtaattc  gcg+gagggaa a c
+                          scaffold66_size693783 484162 TTGCGGGTGCCC--------------------TT--GTTTTTAATTAGGCTGAGAGTATAAACCGTTTGAACCTGATCGTGGTAATTCGCGCGAGAGGGAACAGC 484244
+                                                       678888888843....................22..2223333337778888888888899***************************************98876 PP
+
+>> scaffold23_size1082546  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.7   0.0   2.7e-09     9e-07       6     112 ..  321711  321817 ..  321706  321820 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 24.7 bits;  conditional E-value: 2.7e-09
+  2021-01-26_BLASTN_queries_full-length.aligned      6 tgtttgcgggagctcaac....tgagaactgaaatataattgtgctaatatt.....caggttgatatcgaaaaccgcttgaacctgatcatggtaattcatgcgtgagggaaaaa 112   
+                                                       t t+tgcgggagc  +      t        aa  at+  tg+g ta  ++       ag + + t    aaaaccgcttgaacctgatca  gtaat+  tgcg+++gg+a+a+a
+                         scaffold23_size1082546 321711 TCTGTGCGGGAGCGTTTGtcttT-------TAA--ATTGCTGAGATACCTCAttgacAAGAGGAGTTAACAAAACCGCTTGAACCTGATCAATGTAATGATTGCGAAGGGAACAGA 321817
+                                                       6789*********7755422221.......222..22222222222222221112323334445556677999**************************************99887 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (116 nodes)
+Target sequences:                          662  (171139483 residues searched)
+Passed MSV filter:                         9  (0.0135952); expected 13.2 (0.02)
+Passed bias filter:                        7  (0.010574); expected 13.2 (0.02)
+Passed Vit filter:                         3  (0.00453172); expected 0.7 (0.001)
+Passed Fwd filter:                         2  (0.00302115); expected 0.0 (1e-05)
+Initial search space (Z):                662  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 33.61u 0.46s 00:00:34.07 Elapsed: 00:00:08.13
+# Mc/sec: 2441.84
+//
+[ok]

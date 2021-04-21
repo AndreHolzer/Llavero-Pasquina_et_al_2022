@@ -1,0 +1,24 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WKLE02004475_1:13446-15582 -            672 901894at2759         -            339   7.4e-24   80.3  41.2   1   8     0.014       8.1    1.3   0.5    25    46     2    32     1    35 0.69 -
+WKLE02004475_1:13446-15582 -            672 901894at2759         -            339   7.4e-24   80.3  41.2   2   8    0.0016      0.89    4.4   0.9    48   103    59   117    50   122 0.81 -
+WKLE02004475_1:13446-15582 -            672 901894at2759         -            339   7.4e-24   80.3  41.2   3   8     9e-06    0.0051   11.8   0.1    90   123   150   183   136   188 0.77 -
+WKLE02004475_1:13446-15582 -            672 901894at2759         -            339   7.4e-24   80.3  41.2   4   8     0.027        15    0.4   0.1   127   153   210   236   205   244 0.83 -
+WKLE02004475_1:13446-15582 -            672 901894at2759         -            339   7.4e-24   80.3  41.2   5   8   2.2e-14   1.3e-11   40.1   5.4   142   210   260   332   257   336 0.92 -
+WKLE02004475_1:13446-15582 -            672 901894at2759         -            339   7.4e-24   80.3  41.2   6   8   1.2e-08   6.6e-06   21.3   0.2   215   253   369   407   361   411 0.84 -
+WKLE02004475_1:13446-15582 -            672 901894at2759         -            339   7.4e-24   80.3  41.2   7   8   0.00015     0.083    7.8   0.0   250   278   431   459   425   465 0.87 -
+WKLE02004475_1:13446-15582 -            672 901894at2759         -            339   7.4e-24   80.3  41.2   8   8   1.9e-06    0.0011   14.0   0.3   280   325   486   546   473   554 0.74 -
+WKLE02001096_1:16199-17800 -            534 901894at2759         -            339   1.4e-10   36.7  13.2   1   3      0.21   1.2e+02   -2.6   2.3    53   125    97   170    92   213 0.66 -
+WKLE02001096_1:16199-17800 -            534 901894at2759         -            339   1.4e-10   36.7  13.2   2   3   4.9e-09   2.8e-06   22.5   0.8   149   210   221   288   215   297 0.74 -
+WKLE02001096_1:16199-17800 -            534 901894at2759         -            339   1.4e-10   36.7  13.2   3   3   6.4e-09   3.6e-06   22.2   0.1   198   252   314   363   310   374 0.77 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/901894at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionellopsis_glacialis_ASM1488511v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_014885115.2_ASM1488511v2_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionellopsis_glacialis_ASM1488511v2/run_eukaryota_odb10/hmmer_output/initial_run_results/901894at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/901894at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Asterionellopsis_glacialis_ASM1488511v2/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_014885115.2_ASM1488511v2_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 05:53:29 2021
+# [ok]

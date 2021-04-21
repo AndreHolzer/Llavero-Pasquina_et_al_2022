@@ -1,0 +1,34 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CM000618_1:314372-316523 -            636 3834at33634          -            493  1.9e-172  568.1   1.5   1   3   1.6e-31   4.5e-30   98.6   0.1    14   157     2   189     1   193 0.73 -
+CM000618_1:314372-316523 -            636 3834at33634          -            493  1.9e-172  568.1   1.5   2   3   4.5e-20   1.3e-18   60.7   0.0   158   240   226   317   222   337 0.85 -
+CM000618_1:314372-316523 -            636 3834at33634          -            493  1.9e-172  568.1   1.5   3   3  3.2e-124  9.2e-123  404.3   0.1   239   493   341   636   335   636 0.90 -
+CM000611_1:461593-462933 -            447 3834at33634          -            493   6.8e-44  144.1   0.1   1   1   3.2e-45   9.2e-44  143.7   0.1   343   493   262   411   222   411 0.89 -
+CM000605_1:515420-516202 -            261 3834at33634          -            493   2.6e-10   33.4   0.3   1   3     6e-05    0.0017   10.9   0.0    49   102    12    68     9    78 0.83 -
+CM000605_1:515420-516202 -            261 3834at33634          -            493   2.6e-10   33.4   0.3   2   3   0.00028     0.008    8.7   0.0    31   103    98   171    94   189 0.78 -
+CM000605_1:515420-516202 -            261 3834at33634          -            493   2.6e-10   33.4   0.3   3   3   6.9e-05     0.002   10.7   0.0    32    84   201   254   191   260 0.88 -
+CM000622_1:79542-80321   -            260 3834at33634          -            493   1.4e-07   24.4   0.5   1   3     0.007       0.2    4.1   0.1    40    92     2    56     1    57 0.66 -
+CM000622_1:79542-80321   -            260 3834at33634          -            493   1.4e-07   24.4   0.5   2   3    0.0038      0.11    4.9   0.0    34    76    37    80    25    85 0.82 -
+CM000622_1:79542-80321   -            260 3834at33634          -            493   1.4e-07   24.4   0.5   3   3   3.3e-06   9.6e-05   15.0   0.0    27    85   147   210   135   260 0.86 -
+CM000612_1:659427-660122 -            232 3834at33634          -            493   4.6e-07   22.6   0.0   1   2   1.4e-05   0.00039   13.0   0.0    37    99    20    84     6   135 0.84 -
+CM000612_1:659427-660122 -            232 3834at33634          -            493   4.6e-07   22.6   0.0   2   2   0.00052     0.015    7.8   0.1    38    85   176   223   163   231 0.88 -
+CM000615_1:627030-628832 -            601 3834at33634          -            493   8.9e-05   15.1   0.3   1   3     0.083       2.4    0.5   0.0   240   327    59   151    42   166 0.75 -
+CM000615_1:627030-628832 -            601 3834at33634          -            493   8.9e-05   15.1   0.3   2   3   0.00017    0.0049    9.4   0.1    27   102   316   394   310   449 0.75 -
+CM000615_1:627030-628832 -            601 3834at33634          -            493   8.9e-05   15.1   0.3   3   3       0.1         3    0.2   0.0    37    66   543   572   487   586 0.72 -
+CP001141_1:785384-786100 -            239 3834at33634          -            493   0.00012   14.7   0.6   1   2   1.3e-05   0.00037   13.1   0.3    31    85    51   105    33   130 0.82 -
+CP001141_1:785384-786100 -            239 3834at33634          -            493   0.00012   14.7   0.6   2   2      0.51        15   -2.1   0.0    39    92   151   207   140   211 0.57 -
+CM000617_1:300556-301203 -            216 3834at33634          -            493   0.00013   14.5   0.0   1   1   1.8e-05   0.00053   12.6   0.0    38    85   120   168    85   200 0.77 -
+CM000610_1:474062-474778 -            239 3834at33634          -            493   0.00022   13.8   0.0   1   3      0.13       3.7   -0.1   0.0    39    84    15    60    10    75 0.70 -
+CM000610_1:474062-474778 -            239 3834at33634          -            493   0.00022   13.8   0.0   2   3     0.023      0.67    2.3   0.0    42    94   102   157    93   180 0.79 -
+CM000610_1:474062-474778 -            239 3834at33634          -            493   0.00022   13.8   0.0   3   3   0.00055     0.016    7.7   0.0    38    82   193   238   185   239 0.89 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/3834at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Phaeodactylum_tricornutum_ASM15095v2/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_000150955.2_ASM15095v2_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Phaeodactylum_tricornutum_ASM15095v2/run_stramenopiles_odb10/hmmer_output/initial_run_results/3834at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/3834at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Phaeodactylum_tricornutum_ASM15095v2/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_000150955.2_ASM15095v2_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Fri Apr 16 10:09:20 2021
+# [ok]

@@ -1,0 +1,48 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_full-length_rev-compl.hmm
+# target sequence database:        genomes/Licmophora_abbreviata_CCMP470/GCA_900291995.1_CCMP470_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_full-length_rev-compl.aligned  [M=115]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+  ------ inclusion threshold ------
+      0.051   13.0   0.0       0.14   11.7   0.0    1.6  1  OLMU01005068_1  Licmophora abbreviata genome assembly, contig: contig05071, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> OLMU01005068_1  Licmophora abbreviata genome assembly, contig: contig05071, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.0   1.8e-05      0.14       5      48 ..    1639    1682 ..    1636    1708 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 1.8e-05
+  2021-01-26_BLASTN_queries_full-length_rev-compl.aligned    5 tttttccctctcgcatgaattaccatgatcaggttcaagcggtt 48  
+                                                               t+ +t+cc+++cgc  g+att  c  gatcaggttc a  ggtt
+                                           OLMU01005068_1 1639 TCCGTTCCCTACGCCGGCATTGTCCGGATCAGGTTCGATGGGTT 1682
+                                                               67899*******************************99888876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (115 nodes)
+Target sequences:                         7734  (29210371 residues searched)
+Passed MSV filter:                        84  (0.0108611); expected 154.7 (0.02)
+Passed bias filter:                       82  (0.0106025); expected 154.7 (0.02)
+Passed Vit filter:                         5  (0.000646496); expected 7.7 (0.001)
+Passed Fwd filter:                         1  (0.000129299); expected 0.1 (1e-05)
+Initial search space (Z):               7734  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 2.34u 0.06s 00:00:02.40 Elapsed: 00:00:00.63
+# Mc/sec: 5332.05
+//
+[ok]

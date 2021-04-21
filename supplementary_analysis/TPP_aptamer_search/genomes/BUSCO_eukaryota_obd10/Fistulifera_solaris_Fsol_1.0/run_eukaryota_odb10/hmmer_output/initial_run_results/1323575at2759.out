@@ -1,0 +1,33 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+BDSP01000016_1:33497-34098   -            179 1323575at2759        -            114   8.5e-35  116.1   1.2   1   2   1.8e-13   1.9e-11   40.9   0.0     2    32    35    65    34    84 0.87 -
+BDSP01000016_1:33497-34098   -            179 1323575at2759        -            114   8.5e-35  116.1   1.2   2   2   8.5e-24     9e-22   74.1   0.5    40   114    95   177    90   177 0.90 -
+BDSP01000102_1:258914-259530 -            184 1323575at2759        -            114     1e-34  115.8   1.1   1   2     2e-13   2.1e-11   40.7   0.0     2    32    40    70    39    88 0.88 -
+BDSP01000102_1:258914-259530 -            184 1323575at2759        -            114     1e-34  115.8   1.1   2   2   1.2e-23   1.3e-21   73.7   0.7    40   114   100   182    95   182 0.91 -
+BDSP01000125_1:72239-72775   -            147 1323575at2759        -            114   8.4e-11   38.8   0.3   1   1   1.1e-12   1.2e-10   38.3   0.3     7   112    20   146    16   147 0.80 -
+BDSP01000172_1:11823-12368   -            147 1323575at2759        -            114   8.8e-11   38.7   0.3   1   1   1.2e-12   1.2e-10   38.3   0.3     7   112    20   146    16   147 0.80 -
+BDSP01000286_1:12057-12605   -            183 1323575at2759        -            114   4.9e-07   26.7   0.1   1   2     0.012       1.3    6.0   0.0     6    31    19    44    16    47 0.90 -
+BDSP01000286_1:12057-12605   -            183 1323575at2759        -            114   4.9e-07   26.7   0.1   2   2   1.5e-06   0.00015   18.6   0.0    41   112    99   179    89   181 0.80 -
+BDSP01000228_1:10126-10674   -            183 1323575at2759        -            114   5.6e-07   26.5   0.1   1   2     0.012       1.3    6.0   0.0     6    31    19    44    16    47 0.90 -
+BDSP01000228_1:10126-10674   -            183 1323575at2759        -            114   5.6e-07   26.5   0.1   2   2   1.7e-06   0.00018   18.4   0.0    41   112    99   179    90   181 0.81 -
+BDSP01000202_1:244924-245238 -            105 1323575at2759        -            114   4.7e-06   23.5   0.0   1   1   5.1e-08   5.4e-06   23.3   0.0    45   104    29    94     6   105 0.72 -
+BDSP01000048_1:300452-301222 -            176 1323575at2759        -            114   1.2e-05   22.2   1.3   1   1     2e-07   2.2e-05   21.4   1.3     7   103    23   135    17   141 0.81 -
+BDSP01000187_1:131081-131464 -            128 1323575at2759        -            114   3.6e-05   20.7   0.1   1   1   6.1e-07   6.5e-05   19.8   0.0    52   104    20    78     4    87 0.80 -
+BDSP01000136_1:163562-163954 -            131 1323575at2759        -            114   5.3e-05   20.1   0.1   1   1   8.8e-07   9.4e-05   19.3   0.1    52   104    20    78     4    89 0.80 -
+BDSP01000199_1:29573-29782   -             70 1323575at2759        -            114   0.00028   17.8   0.0   1   1   2.9e-06   0.00031   17.6   0.0    52    94    23    69     5    70 0.74 -
+BDSP01000289_1:583778-584089 -            104 1323575at2759        -            114   0.00042   17.2   0.0   1   1   5.4e-06   0.00058   16.8   0.0    51    93    58   104    15   104 0.71 -
+BDSP01000017_1:7957-8166     -             70 1323575at2759        -            114   0.00057   16.8   0.1   1   1   5.9e-06   0.00063   16.6   0.1    52    94    23    69     5    70 0.74 -
+BDSP01000240_1:142300-142611 -            104 1323575at2759        -            114   0.00059   16.7   0.0   1   1   6.5e-06    0.0007   16.5   0.0    51    93    58   104    19   104 0.79 -
+BDSP01000133_1:102105-102838 -            220 1323575at2759        -            114    0.0037   14.2   0.3   1   1   8.9e-05    0.0094   12.9   0.1    43   103   111   179    94   185 0.72 -
+BDSP01000036_1:80777-81088   -            104 1323575at2759        -            114    0.0041   14.0   0.0   1   1   5.3e-05    0.0057   13.6   0.0    50    93    56   104    45   104 0.81 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1323575at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fistulifera_solaris_Fsol_1.0/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_002217885.1_Fsol_1.0_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fistulifera_solaris_Fsol_1.0/run_eukaryota_odb10/hmmer_output/initial_run_results/1323575at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/1323575at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fistulifera_solaris_Fsol_1.0/run_eukaryota_odb10/metaeuk_output/initial_results/GCA_002217885.1_Fsol_1.0_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sun Apr 18 09:14:01 2021
+# [ok]

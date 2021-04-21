@@ -1,0 +1,14 @@
+#                                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                              accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                    -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WKLE02001293_1       -          22533 2021-01-26_BLASTN_queries_full-length_rev-compl.aligned -            115   7.9e-09   34.7   0.0   1   1     5e-12   3.4e-08   32.7   0.0     5   109 15783 15875 15779 15881 0.75 Asterionellopsis glacialis strain A3 scaffold25404_cov136, whole genome shotgun sequence
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      queries/2021-01-26_Queries_full-length_rev-compl.hmm
+# Target file:     genomes/Asterionellopsis_glacialis_ASM1488511v2/GCA_014885115.2_ASM1488511v2_genomic.fna
+# Option settings: hmmsearch --domtblout HMMER_results/Queries_full-length_vs_Asterionellopsis_glacialis_ASM1488511v2_minusStrand_tab.out --notextw queries/2021-01-26_Queries_full-length_rev-compl.hmm genomes/Asterionellopsis_glacialis_ASM1488511v2/GCA_014885115.2_ASM1488511v2_genomic.fna 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 13:48:54 2021
+# [ok]

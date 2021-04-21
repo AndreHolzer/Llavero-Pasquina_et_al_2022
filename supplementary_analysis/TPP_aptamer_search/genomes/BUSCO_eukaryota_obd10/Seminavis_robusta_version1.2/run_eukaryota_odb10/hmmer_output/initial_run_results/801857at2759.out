@@ -1,0 +1,33 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Sro_contig1543:17186-18403 -            406 801857at2759         -            224   2.1e-52  174.3   0.3   1   4   4.1e-15   5.6e-13   45.4   0.0     6    42    15    51    11    83 0.86 -
+Sro_contig1543:17186-18403 -            406 801857at2759         -            224   2.1e-52  174.3   0.3   2   4   9.5e-38   1.3e-35  119.4   0.0    48   157    91   205    76   212 0.90 -
+Sro_contig1543:17186-18403 -            406 801857at2759         -            224   2.1e-52  174.3   0.3   3   4      0.89   1.2e+02   -1.5   0.0   174   191   256   274   254   281 0.82 -
+Sro_contig1543:17186-18403 -            406 801857at2759         -            224   2.1e-52  174.3   0.3   4   4    0.0097       1.3    4.9   0.1   189   218   299   331   287   335 0.77 -
+Sro_contig2255:15468-16228 -            241 801857at2759         -            224   4.8e-22   75.0   0.0   1   2   1.5e-23     2e-21   73.0   0.0     2   160     6   158     5   164 0.90 -
+Sro_contig2255:15468-16228 -            241 801857at2759         -            224   4.8e-22   75.0   0.0   2   2      0.94   1.3e+02   -1.5   0.0   141   153   201   213   196   220 0.80 -
+Sro_contig1286:21848-22597 -            250 801857at2759         -            224   2.9e-21   72.5   0.0   1   1   4.6e-23   6.2e-21   71.4   0.0    57   159    32   139    25   176 0.91 -
+Sro_contig767:44013-44913  -            270 801857at2759         -            224   8.7e-20   67.7   0.0   1   2   4.5e-21   6.1e-19   64.9   0.0     1   159     3   173     3   179 0.84 -
+Sro_contig767:44013-44913  -            270 801857at2759         -            224   8.7e-20   67.7   0.0   2   2      0.21        29    0.5   0.0   164   202   198   240   192   254 0.73 -
+Sro_contig995:19484-20461  -            326 801857at2759         -            224   4.6e-19   65.3   0.1   1   3     0.006      0.82    5.6   0.0    10    41     1    32     1    40 0.88 -
+Sro_contig995:19484-20461  -            326 801857at2759         -            224   4.6e-19   65.3   0.1   2   3   2.7e-18   3.7e-16   55.8   0.1    57   184    83   224    77   262 0.78 -
+Sro_contig995:19484-20461  -            326 801857at2759         -            224   4.6e-19   65.3   0.1   3   3      0.45        61   -0.5   0.0   179   206   271   298   240   300 0.75 -
+Sro_contig1256:9636-10262  -            209 801857at2759         -            224   7.4e-18   61.4   0.1   1   2   1.5e-18   2.1e-16   56.6   0.0    64   158    37   140    20   142 0.83 -
+Sro_contig1256:9636-10262  -            209 801857at2759         -            224   7.4e-18   61.4   0.1   2   2     0.046       6.2    2.7   0.0   160   175   165   180   159   194 0.83 -
+Sro_contig1445:28403-29032 -            210 801857at2759         -            224   1.1e-17   60.8   0.0   1   2   2.6e-18   3.5e-16   55.9   0.0    64   158    38   141    21   143 0.83 -
+Sro_contig1445:28403-29032 -            210 801857at2759         -            224   1.1e-17   60.8   0.0   2   2      0.04       5.4    2.9   0.0   160   175   166   181   160   195 0.82 -
+Sro_contig1438:28115-28879 -            255 801857at2759         -            224   6.1e-15   51.8   0.7   1   1   1.5e-16     2e-14   50.1   0.7    60   167     3   133     1   151 0.72 -
+Sro_contig522:1651-2418    -            256 801857at2759         -            224   3.1e-14   49.5   0.8   1   1   1.3e-15   1.8e-13   47.0   0.7    68   168    19   135     2   153 0.74 -
+Sro_contig1921:7259-7924   -            222 801857at2759         -            224     2e-07   27.2   0.0   1   1   2.4e-09   3.3e-07   26.5   0.0    59   158     1   120     1   125 0.72 -
+Sro_contig1697:15606-16328 -            241 801857at2759         -            224   2.3e-07   27.0   0.0   1   1   2.5e-09   3.5e-07   26.5   0.0    59   158     1   121     1   126 0.71 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/801857at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Seminavis_robusta_version1.2/run_eukaryota_odb10/metaeuk_output/initial_results/Seminavis_robusta_genomeV1.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Seminavis_robusta_version1.2/run_eukaryota_odb10/hmmer_output/initial_run_results/801857at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/801857at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Seminavis_robusta_version1.2/run_eukaryota_odb10/metaeuk_output/initial_results/Seminavis_robusta_genomeV1.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sun Apr 18 11:12:08 2021
+# [ok]

@@ -1,0 +1,15 @@
+#                                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                              accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                    -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CAACVS010000021_1    -          148845 2021-01-26_BLASTN_queries_full-length_rev-compl.aligned -            115   6.5e-20   67.1   0.0   1   1   8.9e-22   3.1e-19   64.9   0.0     2   113 51092 51212 51091 51214 0.82 Pseudo-nitzschia multistriata strain B856 genome assembly, contig: contig21, whole genome shotgun sequence
+CAACVS010000170_1    -          267851 2021-01-26_BLASTN_queries_full-length_rev-compl.aligned -            115   2.6e-13   45.9   0.0   1   1   2.8e-15   9.7e-13   44.1   0.0     2   113 15613 15707 15612 15709 0.80 Pseudo-nitzschia multistriata strain B856 genome assembly, contig: contig170, whole genome shotgun sequence
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      queries/2021-01-26_Queries_full-length_rev-compl.hmm
+# Target file:     genomes/Pseudo-nitzschia_multistriata_ASM90066040v1/GCA_900660405.1_ASM90066040v1_genomic.fna
+# Option settings: hmmsearch --domtblout HMMER_results/Queries_full-length_vs_Pseudo-nitzschia_multistriata_ASM90066040v1_minusStrand_tab.out --notextw queries/2021-01-26_Queries_full-length_rev-compl.hmm genomes/Pseudo-nitzschia_multistriata_ASM90066040v1/GCA_900660405.1_ASM90066040v1_genomic.fna 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 13:46:45 2021
+# [ok]

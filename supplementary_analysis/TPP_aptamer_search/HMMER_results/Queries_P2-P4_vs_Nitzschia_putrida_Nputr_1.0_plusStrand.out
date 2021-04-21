@@ -1,0 +1,47 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_P2-P4.hmm
+# target sequence database:        genomes/Nitzschia_putrida_Nputr_1.0/GCA_016586335.1_Nputr_1.0_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_P2-P4.aligned  [M=36]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    3.4e-07   24.1   0.0    1.2e-06   22.4   0.0    2.1  1  BLYE01000002_1  Nitzschia putrida NIES-4239 DNA, 000001F, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> BLYE01000002_1  Nitzschia putrida NIES-4239 DNA, 000001F, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.4   0.0     5e-09   1.2e-06       1      36 [] 1399321 1399356 .. 1399321 1399356 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 22.4 bits;  conditional E-value: 5e-09
+  2021-01-26_BLASTN_queries_P2-P4.aligned       1 CCGcTtGAACcTGatCatGgTAAttCatGCGtgAgG 36     
+                                                  CCG+TtGAACcTGat +tGgTAAt+CatGCGtgAgG
+                           BLYE01000002_1 1399321 CCGTTTGAACCTGATTGTGGTAATGCATGCGTGAGG 1399356
+                                                  79********************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (36 nodes)
+Target sequences:                          234  (47133574 residues searched)
+Passed MSV filter:                         5  (0.0213675); expected 4.7 (0.02)
+Passed bias filter:                        5  (0.0213675); expected 4.7 (0.02)
+Passed Vit filter:                         1  (0.0042735); expected 0.2 (0.001)
+Passed Fwd filter:                         1  (0.0042735); expected 0.0 (1e-05)
+Initial search space (Z):                234  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 4.53u 0.13s 00:00:04.66 Elapsed: 00:00:03.29
+# Mc/sec: 515.75
+//
+[ok]

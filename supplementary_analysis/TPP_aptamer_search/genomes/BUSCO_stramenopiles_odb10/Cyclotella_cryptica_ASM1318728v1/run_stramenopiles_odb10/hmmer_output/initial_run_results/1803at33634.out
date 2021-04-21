@@ -1,0 +1,34 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold63_size1124630:653123-655822 -            863 1803at33634          -            592  1.2e-210  694.8  16.6   1   4  1.1e-155  5.7e-154  507.6   0.2     9   368    38   458    32   474 0.87 -
+scaffold63_size1124630:653123-655822 -            863 1803at33634          -            592  1.2e-210  694.8  16.6   2   4   1.7e-36   8.9e-35  114.0   0.1   357   456   475   615   468   624 0.84 -
+scaffold63_size1124630:653123-655822 -            863 1803at33634          -            592  1.2e-210  694.8  16.6   3   4   5.3e-21   2.8e-19   62.8   1.3   454   550   637   774   628   780 0.76 -
+scaffold63_size1124630:653123-655822 -            863 1803at33634          -            592  1.2e-210  694.8  16.6   4   4   0.00027     0.014    7.7   0.7   549   581   801   837   795   854 0.64 -
+scaffold253_size408994:261642-264783 -            899 1803at33634          -            592   2.1e-36  119.3   0.1   1   4   3.5e-17   1.8e-15   50.2   0.0     9   146    30   175    24   190 0.80 -
+scaffold253_size408994:261642-264783 -            899 1803at33634          -            592   2.1e-36  119.3   0.1   2   4   7.9e-10   4.1e-08   25.9   0.0   207   332   199   326   187   333 0.80 -
+scaffold253_size408994:261642-264783 -            899 1803at33634          -            592   2.1e-36  119.3   0.1   3   4    0.0021      0.11    4.7   0.0   149   183   341   375   328   395 0.82 -
+scaffold253_size408994:261642-264783 -            899 1803at33634          -            592   2.1e-36  119.3   0.1   4   4   6.5e-12   3.4e-10   32.8   0.3   338   477   396   561   383   586 0.68 -
+scaffold95_size415656:121028-124653  -           1056 1803at33634          -            592   4.3e-25   82.0   6.4   1   4   1.8e-10   9.4e-09   28.1   0.1    22   163    48   212    34   215 0.69 -
+scaffold95_size415656:121028-124653  -           1056 1803at33634          -            592   4.3e-25   82.0   6.4   2   4   0.00081     0.042    6.1   0.0   249   300   300   351   286   369 0.87 -
+scaffold95_size415656:121028-124653  -           1056 1803at33634          -            592   4.3e-25   82.0   6.4   3   4   2.4e-07   1.3e-05   17.7   0.3   338   356   468   486   423   497 0.92 -
+scaffold95_size415656:121028-124653  -           1056 1803at33634          -            592   4.3e-25   82.0   6.4   4   4   2.1e-10   1.1e-08   27.9   0.0   431   498   593   670   585   690 0.77 -
+scaffold263_size151949:125832-128300 -            778 1803at33634          -            592   1.8e-24   80.0   0.2   1   4   8.6e-12   4.5e-10   32.4   0.0    16   146    35   185    22   202 0.75 -
+scaffold263_size151949:125832-128300 -            778 1803at33634          -            592   1.8e-24   80.0   0.2   2   4   0.00071     0.037    6.3   0.0   258   300   288   331   273   355 0.79 -
+scaffold263_size151949:125832-128300 -            778 1803at33634          -            592   1.8e-24   80.0   0.2   3   4   7.1e-06   0.00037   12.9   0.1   339   356   442   459   426   469 0.88 -
+scaffold263_size151949:125832-128300 -            778 1803at33634          -            592   1.8e-24   80.0   0.2   4   4   1.4e-08   7.3e-07   21.8   0.0   381   468   510   607   497   627 0.75 -
+scaffold432_size142671:111556-115171 -            988 1803at33634          -            592   5.9e-24   78.3   3.1   1   5   9.2e-08   4.8e-06   19.1   0.0    21   146    46   194    31   208 0.71 -
+scaffold432_size142671:111556-115171 -            988 1803at33634          -            592   5.9e-24   78.3   3.1   2   5   1.6e-07   8.3e-06   18.3   0.0   255   333   269   356   235   363 0.73 -
+scaffold432_size142671:111556-115171 -            988 1803at33634          -            592   5.9e-24   78.3   3.1   3   5      0.15       7.6   -1.4   0.0   149   197   370   420   359   424 0.77 -
+scaffold432_size142671:111556-115171 -            988 1803at33634          -            592   5.9e-24   78.3   3.1   4   5   1.4e-05   0.00073   11.9   0.6   337   357   424   444   401   459 0.83 -
+scaffold432_size142671:111556-115171 -            988 1803at33634          -            592   5.9e-24   78.3   3.1   5   5   2.7e-08   1.4e-06   20.9   0.0   378   468   485   586   465   601 0.73 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/1803at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Cyclotella_cryptica_ASM1318728v1/run_stramenopiles_odb10/metaeuk_output/initial_results/Cyclotella_cryptica.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Cyclotella_cryptica_ASM1318728v1/run_stramenopiles_odb10/hmmer_output/initial_run_results/1803at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/1803at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Cyclotella_cryptica_ASM1318728v1/run_stramenopiles_odb10/metaeuk_output/initial_results/Cyclotella_cryptica.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Fri Apr 16 11:59:45 2021
+# [ok]

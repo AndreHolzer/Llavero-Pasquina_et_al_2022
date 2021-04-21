@@ -1,0 +1,25 @@
+#                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold00054:68699-73771 -           1691 39650at2759          -           1547         0 1020.2  12.7   1   6  2.6e-282  1.3e-279  927.3   3.8   484  1047     2   585     1   598 0.95 -
+scaffold00054:68699-73771 -           1691 39650at2759          -           1547         0 1020.2  12.7   2   6   3.4e-08   1.7e-05   18.8   0.1  1017  1173   645   844   634   858 0.70 -
+scaffold00054:68699-73771 -           1691 39650at2759          -           1547         0 1020.2  12.7   3   6     0.041        20   -1.4   0.0  1238  1273  1067  1110  1060  1133 0.67 -
+scaffold00054:68699-73771 -           1691 39650at2759          -           1547         0 1020.2  12.7   4   6    0.0001     0.049    7.3   0.0  1279  1322  1166  1206  1162  1212 0.82 -
+scaffold00054:68699-73771 -           1691 39650at2759          -           1547         0 1020.2  12.7   5   6   7.5e-14   3.6e-11   37.5   0.0  1350  1445  1270  1380  1253  1389 0.80 -
+scaffold00054:68699-73771 -           1691 39650at2759          -           1547         0 1020.2  12.7   6   6   2.1e-11     1e-08   29.4   0.0  1455  1513  1511  1573  1498  1588 0.83 -
+scaffold00537:14677-19199 -           1454 39650at2759          -           1547    0.0003   14.6   0.0   1   3   0.00023      0.11    6.1   0.0   229   284   616   671   609   861 0.61 -
+scaffold00537:14677-19199 -           1454 39650at2759          -           1547    0.0003   14.6   0.0   2   3    0.0035       1.7    2.2   0.0   671   742   929  1002   899  1016 0.77 -
+scaffold00537:14677-19199 -           1454 39650at2759          -           1547    0.0003   14.6   0.0   3   3    0.0015      0.71    3.4   0.0   760   939   991  1164   986  1182 0.66 -
+scaffold00265:15423-17279 -            619 39650at2759          -           1547    0.0045   10.7   0.2   1   3   0.00015     0.074    6.7   0.0   231   272     2    43     1    71 0.82 -
+scaffold00265:15423-17279 -            619 39650at2759          -           1547    0.0045   10.7   0.2   2   3     0.055        27   -1.8   0.1   498   529   236   266   227   272 0.78 -
+scaffold00265:15423-17279 -            619 39650at2759          -           1547    0.0045   10.7   0.2   3   3     0.012       5.7    0.4   0.0   647   717   312   377   302   380 0.77 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/39650at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Synedra_acus_sac1/run_eukaryota_odb10/metaeuk_output/initial_results/sac.scaffolds.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Synedra_acus_sac1/run_eukaryota_odb10/hmmer_output/initial_run_results/39650at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/39650at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Synedra_acus_sac1/run_eukaryota_odb10/metaeuk_output/initial_results/sac.scaffolds.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 07:21:58 2021
+# [ok]

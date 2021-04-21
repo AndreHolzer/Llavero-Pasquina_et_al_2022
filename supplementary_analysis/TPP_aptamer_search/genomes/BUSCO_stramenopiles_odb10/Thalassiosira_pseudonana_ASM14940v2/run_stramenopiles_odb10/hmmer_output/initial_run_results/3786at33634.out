@@ -1,0 +1,31 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CP001160_1:843646-845811   -            670 3786at33634          -            530    6e-306 1008.5  16.2   1   1  2.5e-307    6e-306 1008.5  16.2     1   524    41   598    41   605 0.96 -
+CM000640_1:2132325-2134188 -            590 3786at33634          -            530  3.6e-188  619.8   9.8   1   1  1.9e-189  4.6e-188  619.5   9.8     2   515    23   575    22   586 0.91 -
+CM000644_1:828930-830820   -            571 3786at33634          -            530  9.6e-180  592.0   9.7   1   1  2.9e-180  7.1e-179  589.2   9.7     7   518     1   558     1   571 0.89 -
+CM000643_1:1187304-1189317 -            608 3786at33634          -            530  1.2e-177  585.1   6.9   1   1  1.3e-178  3.1e-177  583.8   6.9     2   515     3   553     2   568 0.88 -
+CM000653_1:385721-387577   -            619 3786at33634          -            530  1.7e-157  518.6   8.9   1   1  1.7e-158  4.3e-157  517.3   8.9     1   519     1   564     1   570 0.90 -
+CM000642_1:277888-280025   -            582 3786at33634          -            530  9.8e-131  430.3   8.8   1   2   5.6e-16   1.4e-14   47.0   0.1     1    66     5    80     5    90 0.81 -
+CM000642_1:277888-280025   -            582 3786at33634          -            530  9.8e-131  430.3   8.8   2   2  2.5e-118    6e-117  384.8   5.3    80   512   116   580   103   582 0.87 -
+CM000639_1:577701-578993   -            431 3786at33634          -            530   8.4e-48  156.6   0.0   1   3   5.7e-07   1.4e-05   17.3   0.0    31    71    30    70    17    90 0.83 -
+CM000639_1:577701-578993   -            431 3786at33634          -            530   8.4e-48  156.6   0.0   2   3   1.4e-34   3.4e-33  108.4   0.0    81   214   114   251    95   274 0.90 -
+CM000639_1:577701-578993   -            431 3786at33634          -            530   8.4e-48  156.6   0.0   3   3   5.1e-10   1.2e-08   27.4   0.0   266   336   356   431   346   431 0.86 -
+CM000648_1:986922-988190   -            380 3786at33634          -            530   2.8e-36  118.6   3.1   1   3   5.9e-06   0.00014   13.9   0.1     2    35    42    82    41    91 0.87 -
+CM000648_1:986922-988190   -            380 3786at33634          -            530   2.8e-36  118.6   3.1   2   3      0.26       6.3   -1.4   0.0    38    63   115   140   111   162 0.74 -
+CM000648_1:986922-988190   -            380 3786at33634          -            530   2.8e-36  118.6   3.1   3   3   4.2e-33     1e-31  103.5   0.4   103   205   265   380   225   380 0.84 -
+CM000638_1:1208694-1210643 -            650 3786at33634          -            530     3e-34  111.9   4.0   1   3     0.017      0.41    2.6   0.0    37    66     2    31     1    47 0.90 -
+CM000638_1:1208694-1210643 -            650 3786at33634          -            530     3e-34  111.9   4.0   2   3   1.2e-32     3e-31  102.0   0.0   108   347   109   371    70   397 0.79 -
+CM000638_1:1208694-1210643 -            650 3786at33634          -            530     3e-34  111.9   4.0   3   3   0.00081      0.02    6.9   0.7   467   509   537   580   507   587 0.83 -
+CM000648_1:294357-295760   -            468 3786at33634          -            530   1.2e-29   96.7   0.0   1   2   1.3e-28   3.1e-27   88.7   0.0    69   361    12   349     5   357 0.73 -
+CM000648_1:294357-295760   -            468 3786at33634          -            530   1.2e-29   96.7   0.0   2   2    0.0016      0.04    5.9   0.0   365   447   381   465   372   468 0.80 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/3786at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Thalassiosira_pseudonana_ASM14940v2/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_000149405.2_ASM14940v2_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Thalassiosira_pseudonana_ASM14940v2/run_stramenopiles_odb10/hmmer_output/initial_run_results/3786at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/3786at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Thalassiosira_pseudonana_ASM14940v2/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_000149405.2_ASM14940v2_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Fri Apr 16 13:50:01 2021
+# [ok]

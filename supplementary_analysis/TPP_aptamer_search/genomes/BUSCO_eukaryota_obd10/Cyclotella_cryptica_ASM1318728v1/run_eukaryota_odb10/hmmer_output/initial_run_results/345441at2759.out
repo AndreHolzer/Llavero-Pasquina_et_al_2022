@@ -1,0 +1,19 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold34_size735826:244066-246023  -            581 345441at2759         -            381  5.8e-104  344.1   7.5   1   5   1.7e-22   1.1e-19   66.8   0.0     2    70     9    90     8    98 0.82 -
+scaffold34_size735826:244066-246023  -            581 345441at2759         -            381  5.8e-104  344.1   7.5   2   5   2.2e-09   1.4e-06   23.6   0.0    70   149   115   212   106   223 0.70 -
+scaffold34_size735826:244066-246023  -            581 345441at2759         -            381  5.8e-104  344.1   7.5   3   5    0.0019       1.2    4.0   0.0   127   158   209   241   207   247 0.79 -
+scaffold34_size735826:244066-246023  -            581 345441at2759         -            381  5.8e-104  344.1   7.5   4   5   1.7e-44   1.1e-41  139.1   1.7   152   269   258   407   239   418 0.78 -
+scaffold34_size735826:244066-246023  -            581 345441at2759         -            381  5.8e-104  344.1   7.5   5   5   1.8e-35   1.1e-32  109.4   0.1   273   378   442   563   437   566 0.84 -
+scaffold40_size1212554:172593-172997 -            135 345441at2759         -            381   5.6e-08   28.2   0.0   1   1   1.3e-10   8.1e-08   27.6   0.0    14    48    78   111    65   133 0.77 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/345441at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Cyclotella_cryptica_ASM1318728v1/run_eukaryota_odb10/metaeuk_output/initial_results/Cyclotella_cryptica.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Cyclotella_cryptica_ASM1318728v1/run_eukaryota_odb10/hmmer_output/initial_run_results/345441at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/345441at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Cyclotella_cryptica_ASM1318728v1/run_eukaryota_odb10/metaeuk_output/initial_results/Cyclotella_cryptica.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sun Apr 18 20:29:14 2021
+# [ok]

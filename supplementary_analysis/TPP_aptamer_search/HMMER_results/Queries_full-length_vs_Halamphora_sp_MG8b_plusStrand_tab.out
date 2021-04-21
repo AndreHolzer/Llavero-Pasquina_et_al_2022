@@ -1,0 +1,18 @@
+#                                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                    accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                          -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+QAXB01039522_1       -           1495 2021-01-26_BLASTN_queries_full-length.aligned -            116     5e-09   38.1   0.0   1   1   4.9e-12   6.7e-08   34.4   0.0     3   114   718   895   716   897 0.77 Halamphora sp_ MG8b 279301, whole genome shotgun sequence
+QAXB01050104_1       -           1777 2021-01-26_BLASTN_queries_full-length.aligned -            116   7.1e-09   37.6   0.0   1   1   6.2e-12   8.5e-08   34.1   0.0     3   114  1000  1177   998  1179 0.77 Halamphora sp_ MG8b 292115, whole genome shotgun sequence
+QAXB01038645_1       -            643 2021-01-26_BLASTN_queries_full-length.aligned -            116     0.029   16.3   0.0   1   1   5.2e-06     0.072   15.1   0.0     3    95   462   553   460   558 0.79 Halamphora sp_ MG8b 278230, whole genome shotgun sequence
+QAXB01045500_1       -            863 2021-01-26_BLASTN_queries_full-length.aligned -            116      0.13   14.3   0.1   1   2    0.0089   1.2e+02    4.7   0.0    50    98   302   347   251   354 0.74 Halamphora sp_ MG8b 286551, whole genome shotgun sequence
+QAXB01045500_1       -            863 2021-01-26_BLASTN_queries_full-length.aligned -            116      0.13   14.3   0.1   2   2    0.0021        29    6.7   0.0    17    91   421   493   411   506 0.84 Halamphora sp_ MG8b 286551, whole genome shotgun sequence
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      queries/2021-01-26_Queries_full-length.hmm
+# Target file:     genomes/Halamphora_sp_MG8b/GCA_004335815.1_ASM433581v1_genomic.fna
+# Option settings: hmmsearch --domtblout HMMER_results/Queries_full-length_vs_Halamphora_sp_MG8b_plusStrand_tab.out --notextw queries/2021-01-26_Queries_full-length.hmm genomes/Halamphora_sp_MG8b/GCA_004335815.1_ASM433581v1_genomic.fna 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Mon Apr 19 13:46:48 2021
+# [ok]

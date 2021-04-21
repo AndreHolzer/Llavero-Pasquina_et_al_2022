@@ -1,0 +1,74 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  queries/2021-01-26_Queries_full-length.hmm
+# target sequence database:        genomes/Asterionellopsis_glacialis_ASM1488511v2/GCA_014885115.2_ASM1488511v2_genomic.fna
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       2021-01-26_BLASTN_queries_full-length.aligned  [M=116]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    8.3e-09   34.5   0.0    7.2e-08   31.5   0.0    2.7  2  WKLE02001293_1  Asterionellopsis glacialis strain A3 scaffold25404_cov136, whole genome shotgun sequence
+    0.00065   18.8   0.0     0.0057   15.7   0.0    2.7  2  WKLE02002934_1  Asterionellopsis glacialis strain A3 scaffold66609_cov134, whole genome shotgun sequence
+
+
+Domain annotation for each sequence (and alignments):
+>> WKLE02001293_1  Asterionellopsis glacialis strain A3 scaffold25404_cov136, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.1   0.0       1.3   4.3e+03      14      86 ..   19750   19810 ..   19743   19814 .. 0.69
+   2 !   31.5   0.0   2.1e-11   7.2e-08       6     110 ..   20250   20341 ..   20245   20346 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: -3.1 bits;  conditional E-value: 1.3
+  2021-01-26_BLASTN_queries_full-length.aligned    14 ggagctcaactgagaactgaaat.ataattgtgctaatattcaggttgatatcgaaaaccgcttgaacctgatc 86   
+                                                      ggagctca+            at ++ at +tgct + ++  agg    t t+gaa+ ccg+t+gaa  tgatc
+                                 WKLE02001293_1 19750 GGAGCTCAGG-----------ATcGCGATGATGCTTTGTCCAAGGCACGTTTTGAATTCCGTTGGAA--TGATC 19810
+                                                      5677766554...........3333444444444444444477888899999**************9..67766 PP
+
+  == domain 2  score: 31.5 bits;  conditional E-value: 2.1e-11
+  2021-01-26_BLASTN_queries_full-length.aligned     6 tgtttgcgggagctcaactgagaactgaaatataattgtgctaatattcaggttgatatcga.aaaccgcttgaacctgatcatggtaattcatgcgtgagggaaa 110  
+                                                        t t cggg gc c              at+ +at gtgct+a a  + + t gatat+ga +aaccg+t gaacctg tc+tggtaat+ca gcg+++gg+a a
+                                 WKLE02001293_1 20250 GCTATACGGGGGCCC--------------ATGATATGGTGCTGAGAACTCAATGGATATTGAgTAACCGTTCGAACCTGCTCGTGGTAATGCACGCGAAGGGAATA 20341
+                                                      556677888888877..............5556666666666666655555556666666662579********************************99988755 PP
+
+>> WKLE02002934_1  Asterionellopsis glacialis strain A3 scaffold66609_cov134, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.7   0.0   1.6e-06    0.0057      68     100 ..    2754    2786 ..    2712    2799 .. 0.81
+   2 ?   -3.5   0.0       1.7   5.7e+03      64      98 ..   12894   12932 ..   12865   12937 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 15.7 bits;  conditional E-value: 1.6e-06
+  2021-01-26_BLASTN_queries_full-length.aligned   68 aaaccgcttgaacctgatcatggtaattcatgc 100 
+                                                     +aaccg+t gaacctg  c+tggtaat+ca gc
+                                 WKLE02002934_1 2754 TAACCGTTCGAACCTGCACGTGGTAATGCACGC 2786
+                                                     579***************************998 PP
+
+  == domain 2  score: -3.5 bits;  conditional E-value: 1.7
+  2021-01-26_BLASTN_queries_full-length.aligned    64 tcgaaaaccgcttgaacctgatcatgg....taattcat 98   
+                                                        +aaa  cgcttgaa  tgatc  g     taattca 
+                                 WKLE02002934_1 12894 GGAAAAGTCGCTTGAATTTGATCTGGCgcccTAATTCAC 12932
+                                                      334445579*************96652444477777765 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (116 nodes)
+Target sequences:                         6922  (66879591 residues searched)
+Passed MSV filter:                       194  (0.0280266); expected 138.4 (0.02)
+Passed bias filter:                      153  (0.0221034); expected 138.4 (0.02)
+Passed Vit filter:                         5  (0.000722335); expected 6.9 (0.001)
+Passed Fwd filter:                         2  (0.000288934); expected 0.1 (1e-05)
+Initial search space (Z):               6922  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 6.76u 0.12s 00:00:06.88 Elapsed: 00:00:01.51
+# Mc/sec: 5137.77
+//
+[ok]

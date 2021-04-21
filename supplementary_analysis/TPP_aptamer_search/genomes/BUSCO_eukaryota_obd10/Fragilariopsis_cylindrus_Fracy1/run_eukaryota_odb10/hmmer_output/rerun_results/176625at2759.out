@@ -1,0 +1,24 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+KV784358_1:402455-406456 -           1224 176625at2759         -            497   2.7e-46  153.6   9.1   1   5   7.2e-09   2.8e-06   21.6   0.1    19    52   117   150   109   159 0.87 -
+KV784358_1:402455-406456 -           1224 176625at2759         -            497   2.7e-46  153.6   9.1   2   5    0.0072       2.8    1.8   0.1    98   123   279   304   271   329 0.83 -
+KV784358_1:402455-406456 -           1224 176625at2759         -            497   2.7e-46  153.6   9.1   3   5   6.2e-13   2.4e-10   35.0   0.0   191   236   595   648   588   648 0.83 -
+KV784358_1:402455-406456 -           1224 176625at2759         -            497   2.7e-46  153.6   9.1   4   5   7.3e-11   2.8e-08   28.1   0.2   267   328   746   828   740   837 0.79 -
+KV784358_1:402455-406456 -           1224 176625at2759         -            497   2.7e-46  153.6   9.1   5   5   7.3e-21   2.8e-18   61.1   0.0   353   432   894   983   849   986 0.90 -
+KV784367_1:761956-764937 -            928 176625at2759         -            497   7.8e-43  142.1  11.0   1   6   5.2e-09   2.1e-06   22.0   0.1    19    52    70   103    62   112 0.87 -
+KV784367_1:761956-764937 -            928 176625at2759         -            497   7.8e-43  142.1  11.0   2   6    0.0051         2    2.3   0.1    97   123   231   257   222   282 0.83 -
+KV784367_1:761956-764937 -            928 176625at2759         -            497   7.8e-43  142.1  11.0   3   6   4.5e-13   1.7e-10   35.4   0.0   191   236   548   601   541   601 0.83 -
+KV784367_1:761956-764937 -            928 176625at2759         -            497   7.8e-43  142.1  11.0   4   6   5.1e-11     2e-08   28.6   0.2   267   328   699   781   693   790 0.79 -
+KV784367_1:761956-764937 -            928 176625at2759         -            497   7.8e-43  142.1  11.0   5   6      0.19        73   -2.9   0.0   332   363   805   836   802   847 0.73 -
+KV784367_1:761956-764937 -            928 176625at2759         -            497   7.8e-43  142.1  11.0   6   6   2.6e-17     1e-14   49.4   0.1   354   422   848   926   836   928 0.88 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/176625at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fragilariopsis_cylindrus_Fracy1/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_001750085.1_Fracy1_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fragilariopsis_cylindrus_Fracy1/run_eukaryota_odb10/hmmer_output/rerun_results/176625at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/176625at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Fragilariopsis_cylindrus_Fracy1/run_eukaryota_odb10/metaeuk_output/rerun_results/GCA_001750085.1_Fracy1_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sat Apr 17 21:57:45 2021
+# [ok]

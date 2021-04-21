@@ -1,0 +1,18 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Sro_contig1263:28081-29163 -            361 944899at2759         -            232  1.8e-104  344.6   3.2   1   2  3.6e-107  1.8e-104  344.6   3.2     1   225    41   287    41   296 0.90 -
+Sro_contig1263:28081-29163 -            361 944899at2759         -            232  1.8e-104  344.6   3.2   2   2      0.17        85   -1.2   1.2   171   204   307   340   287   344 0.55 -
+Sro_contig203:88218-89160  -            200 944899at2759         -            232   2.1e-07   26.9   0.0   1   1   5.2e-10   2.6e-07   26.6   0.0    12   148    29   176    24   197 0.81 -
+Sro_contig1730:11361-11891 -            177 944899at2759         -            232    0.0069   12.1   0.0   1   2   9.7e-05     0.048    9.4   0.0    93   127    32    66    21    95 0.84 -
+Sro_contig1730:11361-11891 -            177 944899at2759         -            232    0.0069   12.1   0.0   2   2     0.044        22    0.7   0.0   116   141   121   146   109   153 0.76 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/944899at2759.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Seminavis_robusta_version1.2/run_eukaryota_odb10/metaeuk_output/initial_results/Seminavis_robusta_genomeV1.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Seminavis_robusta_version1.2/run_eukaryota_odb10/hmmer_output/initial_run_results/944899at2759.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/eukaryota_odb10/hmms/944899at2759.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO_eukaryota_obd10/Seminavis_robusta_version1.2/run_eukaryota_odb10/metaeuk_output/initial_results/Seminavis_robusta_genomeV1.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Sun Apr 18 11:12:18 2021
+# [ok]

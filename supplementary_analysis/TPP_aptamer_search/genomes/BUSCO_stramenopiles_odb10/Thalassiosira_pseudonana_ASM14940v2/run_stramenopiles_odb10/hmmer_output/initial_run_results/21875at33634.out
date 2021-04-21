@@ -1,0 +1,18 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CP001160_1:1795443-1796396 -            318 21875at33634         -            221   9.2e-77  251.2   2.3   1   4   6.6e-21   8.1e-19   61.8   0.0     1    73     4    94     4   106 0.86 -
+CP001160_1:1795443-1796396 -            318 21875at33634         -            221   9.2e-77  251.2   2.3   2   4   1.1e-22   1.3e-20   67.6   0.0    68   134   111   183   101   197 0.84 -
+CP001160_1:1795443-1796396 -            318 21875at33634         -            221   9.2e-77  251.2   2.3   3   4     2e-31   2.5e-29   96.1   0.0   132   193   202   266   194   272 0.92 -
+CP001160_1:1795443-1796396 -            318 21875at33634         -            221   9.2e-77  251.2   2.3   4   4     1e-08   1.2e-06   21.9   0.1   192   214   290   312   283   317 0.89 -
+CM000653_1:877936-878505   -            190 21875at33634         -            221   2.4e-14   47.2   0.0   1   1   1.4e-14   1.7e-12   41.1   0.0    54   183    22   190     6   190 0.68 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/21875at33634.hmm
+# Target file:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Thalassiosira_pseudonana_ASM14940v2/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_000149405.2_ASM14940v2_genomic.fna.modified.fas
+# Option settings: hmmsearch --domtblout /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Thalassiosira_pseudonana_ASM14940v2/run_stramenopiles_odb10/hmmer_output/initial_run_results/21875at33634.out --cpu 1 /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/busco_downloads/lineages/stramenopiles_odb10/hmms/21875at33634.hmm /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search/genomes/BUSCO/Thalassiosira_pseudonana_ASM14940v2/run_stramenopiles_odb10/metaeuk_output/initial_results/GCA_000149405.2_ASM14940v2_genomic.fna.modified.fas 
+# Current dir:     /Users/aholzer/ownCloud/PhD/Publications/2021 Liavero-Pasquina et al./analysis/TPP_aptamer_search
+# Date:            Fri Apr 16 13:49:58 2021
+# [ok]
