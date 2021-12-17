@@ -2,7 +2,7 @@
 
 This page contains supplementary material for the following paper:
 
-**M. Llavero-Pasquina, P. Mehrshahi,  K. Geisler, A. Holzer, M. P. Davey, G. I. Mendoza-Ochoa, Thiamine metabolism genes in diatoms are not regulated by thiamine despite the presence of predicted riboswitches, 2021.**
+**M. Llavero-Pasquina, K. Geisler, A. Holzer, P. Mehrshahi, S. Newsad, G. I. Mendoza-Ochoa, M. P. Davey, A. G. Smith. Thiamine metabolism genes in diatoms are not regulated by thiamine despite the presence of predicted riboswitches, 2021.**
 
 > see: http://...
 
