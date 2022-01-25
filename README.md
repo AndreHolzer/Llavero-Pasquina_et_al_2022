@@ -1,4 +1,4 @@
-![Type: Supplementary Data](https://img.shields.io/badge/Type-Supplementary_data-blue.svg) ![DOI](https://img.shields.io/badge/DOI-...-green.svg) ![Scripting](https://img.shields.io/badge/Language-R-red.svg) [![License: REASEARCH ONLY](https://img.shields.io/badge/License-RESEARCH-yellow.svg)](LICENSE)
+![Type: Supplementary Data](https://img.shields.io/badge/Type-Supplementary_data-blue.svg) [![DOI](https://img.shields.io/badge/DOI-10.1101/2022.01.04.474978-green.svg)](https://doi.org/10.1101/2022.01.04.474978) ![Scripting](https://img.shields.io/badge/Language-R-red.svg) [![License: REASEARCH ONLY](https://img.shields.io/badge/License-RESEARCH-yellow.svg)](LICENSE)
 
 This page contains supplementary material and raw data for the following paper:
 
